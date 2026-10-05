@@ -69,6 +69,20 @@ class VoyagePreviewRequest(BaseModel):
 
 
 # ---------------------------------------------------------------------------
+from fastapi.middleware.cors import CORSMiddleware
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "https://mris-maritime-regulatory-intelligen.vercel.app",
+        "https://mris-maritime-regulatory-intelligence.vercel.app",
+        "http://localhost:8000"
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 # health / corpus
 # ---------------------------------------------------------------------------
 

@@ -1,3 +1,4 @@
+const API_BASE = window.location.hostname.includes('vercel.app') ? 'https://mris-maritime-regulatory-intelligence.onrender.com' : '';
 /* ============================================================
    MRIS — Premium UI application (vanilla JS SPA, zero deps)
    Live API first; falls back to demo_data.json (real engine output
@@ -20,7 +21,7 @@ const API = {
     try {
       const ctrl = new AbortController();
       const t = setTimeout(() => ctrl.abort(), 3500);
-      const r = await fetch(path, { signal: ctrl.signal });
+      const r = await fetch(API_BASE + path, { signal: ctrl.signal });
       clearTimeout(t);
       if (!r.ok) throw new Error(r.status);
       return await r.json();
@@ -33,7 +34,7 @@ const API = {
     try {
       const ctrl = new AbortController();
       const t = setTimeout(() => ctrl.abort(), 4500);
-      const r = await fetch(path, {
+      const r = await fetch(API_BASE + path, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(body),
