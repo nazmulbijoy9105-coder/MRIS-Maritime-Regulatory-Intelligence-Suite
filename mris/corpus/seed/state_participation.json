@@ -1,0 +1,164 @@
+{
+  "_note": "State participation (Blueprint Part 6.5). Convention-level entry-into-force dates are solid knowledge; per-state acceptance dates carry date_precision=YEAR and verification_status=EXTRACTED_BY_AI — they must be closed against the IMO Status Books / ILO before production (open-items register). The resolver never applies future amendments early (Principle 6).",
+  "convention_eif": {
+    "IMO-CONV-SOLAS-1974": "1980-05-25",
+    "IMO-CONV-MARPOL-73-78": "1983-10-02",
+    "IMO-CONV-MARPOL-73-78-AN6": "2005-05-19",
+    "IMO-CONV-STCW-1978": "1984-04-28",
+    "ILO-CONV-MLC-2006": "2013-08-20",
+    "UNCLOS-1982": "1994-11-16"
+  },
+  "states": [
+    {
+      "instrument_id": "IMO-CONV-SOLAS-1974", "jurisdiction_id": "BD",
+      "acceptance_date": "1982-01-01", "date_precision": "YEAR",
+      "entry_into_force_for_state": "1982-01-01",
+      "verification_status": "EXTRACTED_BY_AI", "source_url": "https://www.imo.org/en/about/conventions/pages/statusofconventions.aspx"
+    },
+    {
+      "instrument_id": "IMO-CONV-MARPOL-73-78", "jurisdiction_id": "BD",
+      "acceptance_date": "1994-01-01", "date_precision": "YEAR",
+      "entry_into_force_for_state": "1994-01-01",
+      "annexes": {
+        "I": {"accepted": "1994-01-01", "eif": "1994-01-01"},
+        "II": {"accepted": "1994-01-01", "eif": "1994-01-01"},
+        "III": {"accepted": "1994-01-01", "eif": "1994-01-01"},
+        "IV": {"accepted": "2010-01-01", "eif": "2010-01-01"},
+        "V": {"accepted": "1994-01-01", "eif": "1994-01-01"},
+        "VI": {"accepted": "2005-01-01", "eif": "2005-05-19"}
+      },
+      "verification_status": "EXTRACTED_BY_AI", "source_url": "https://www.imo.org/en/about/conventions/pages/statusofconventions.aspx"
+    },
+    {
+      "instrument_id": "IMO-CONV-STCW-1978", "jurisdiction_id": "BD",
+      "acceptance_date": "1998-01-01", "date_precision": "YEAR",
+      "entry_into_force_for_state": "1998-01-01",
+      "verification_status": "EXTRACTED_BY_AI", "source_url": "https://www.imo.org/en/about/conventions/pages/statusofconventions.aspx"
+    },
+    {
+      "instrument_id": "ILO-CONV-MLC-2006", "jurisdiction_id": "BD",
+      "acceptance_date": "2013-01-01", "date_precision": "YEAR",
+      "entry_into_force_for_state": "2013-08-20",
+      "verification_status": "EXTRACTED_BY_AI", "source_url": "https://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:11300:0"
+    },
+    {
+      "instrument_id": "IMO-CONV-SOLAS-1974", "jurisdiction_id": "PA",
+      "acceptance_date": "1982-01-01", "date_precision": "YEAR",
+      "entry_into_force_for_state": "1982-01-01",
+      "verification_status": "EXTRACTED_BY_AI", "source_url": "https://www.imo.org/en/about/conventions/pages/statusofconventions.aspx"
+    },
+    {
+      "instrument_id": "IMO-CONV-MARPOL-73-78", "jurisdiction_id": "PA",
+      "acceptance_date": "1998-01-01", "date_precision": "YEAR",
+      "entry_into_force_for_state": "1998-01-01",
+      "annexes": {
+        "I": {"accepted": "1998-01-01", "eif": "1998-01-01"},
+        "II": {"accepted": "1998-01-01", "eif": "1998-01-01"},
+        "III": {"accepted": "1998-01-01", "eif": "1998-01-01"},
+        "IV": {"accepted": "2010-01-01", "eif": "2010-01-01"},
+        "V": {"accepted": "1998-01-01", "eif": "1998-01-01"},
+        "VI": {"accepted": "2005-01-01", "eif": "2005-05-19"}
+      },
+      "verification_status": "EXTRACTED_BY_AI", "source_url": "https://www.imo.org/en/about/conventions/pages/statusofconventions.aspx"
+    },
+    {
+      "instrument_id": "IMO-CONV-STCW-1978", "jurisdiction_id": "PA",
+      "acceptance_date": "1982-01-01", "date_precision": "YEAR",
+      "entry_into_force_for_state": "1982-01-01",
+      "verification_status": "EXTRACTED_BY_AI", "source_url": "https://www.imo.org/en/about/conventions/pages/statusofconventions.aspx"
+    },
+    {
+      "instrument_id": "ILO-CONV-MLC-2006", "jurisdiction_id": "PA",
+      "acceptance_date": "2009-01-01", "date_precision": "YEAR",
+      "entry_into_force_for_state": "2013-08-20",
+      "verification_status": "EXTRACTED_BY_AI", "source_url": "https://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:11300:0"
+    },
+    {
+      "instrument_id": "IMO-CONV-SOLAS-1974", "jurisdiction_id": "LR",
+      "acceptance_date": "1977-01-01", "date_precision": "YEAR",
+      "entry_into_force_for_state": "1980-05-25",
+      "verification_status": "EXTRACTED_BY_AI", "source_url": "https://www.imo.org/en/about/conventions/pages/statusofconventions.aspx"
+    },
+    {
+      "instrument_id": "IMO-CONV-MARPOL-73-78", "jurisdiction_id": "LR",
+      "acceptance_date": "1982-01-01", "date_precision": "YEAR",
+      "entry_into_force_for_state": "1983-10-02",
+      "annexes": {
+        "I": {"accepted": "1982-01-01", "eif": "1983-10-02"},
+        "II": {"accepted": "1982-01-01", "eif": "1983-10-02"},
+        "III": {"accepted": "1982-01-01", "eif": "1983-10-02"},
+        "IV": {"accepted": "2010-01-01", "eif": "2010-01-01"},
+        "V": {"accepted": "1982-01-01", "eif": "1983-10-02"},
+        "VI": {"accepted": "2005-01-01", "eif": "2005-05-19"}
+      },
+      "verification_status": "EXTRACTED_BY_AI", "source_url": "https://www.imo.org/en/about/conventions/pages/statusofconventions.aspx"
+    },
+    {
+      "instrument_id": "ILO-CONV-MLC-2006", "jurisdiction_id": "LR",
+      "acceptance_date": "2009-01-01", "date_precision": "YEAR",
+      "entry_into_force_for_state": "2013-08-20",
+      "verification_status": "EXTRACTED_BY_AI", "source_url": "https://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:11300:0"
+    },
+    {
+      "instrument_id": "IMO-CONV-SOLAS-1974", "jurisdiction_id": "MH",
+      "acceptance_date": "1988-01-01", "date_precision": "YEAR",
+      "entry_into_force_for_state": "1988-01-01",
+      "verification_status": "EXTRACTED_BY_AI", "source_url": "https://www.imo.org/en/about/conventions/pages/statusofconventions.aspx"
+    },
+    {
+      "instrument_id": "IMO-CONV-MARPOL-73-78", "jurisdiction_id": "MH",
+      "acceptance_date": "2001-01-01", "date_precision": "YEAR",
+      "entry_into_force_for_state": "2001-01-01",
+      "annexes": {
+        "I": {"accepted": "2001-01-01", "eif": "2001-01-01"},
+        "II": {"accepted": "2001-01-01", "eif": "2001-01-01"},
+        "III": {"accepted": "2001-01-01", "eif": "2001-01-01"},
+        "IV": {"accepted": "2010-01-01", "eif": "2010-01-01"},
+        "V": {"accepted": "2001-01-01", "eif": "2001-01-01"},
+        "VI": {"accepted": "2005-01-01", "eif": "2005-05-19"}
+      },
+      "verification_status": "EXTRACTED_BY_AI", "source_url": "https://www.imo.org/en/about/conventions/pages/statusofconventions.aspx"
+    },
+    {
+      "instrument_id": "ILO-CONV-MLC-2006", "jurisdiction_id": "MH",
+      "acceptance_date": "2011-01-01", "date_precision": "YEAR",
+      "entry_into_force_for_state": "2013-08-20",
+      "verification_status": "EXTRACTED_BY_AI", "source_url": "https://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:11300:0"
+    },
+    {
+      "instrument_id": "IMO-CONV-SOLAS-1974", "jurisdiction_id": "SG",
+      "acceptance_date": "1986-01-01", "date_precision": "YEAR",
+      "entry_into_force_for_state": "1986-01-01",
+      "verification_status": "EXTRACTED_BY_AI", "source_url": "https://www.imo.org/en/about/conventions/pages/statusofconventions.aspx"
+    },
+    {
+      "instrument_id": "IMO-CONV-MARPOL-73-78", "jurisdiction_id": "SG",
+      "acceptance_date": "1990-01-01", "date_precision": "YEAR",
+      "entry_into_force_for_state": "1990-01-01",
+      "annexes": {
+        "I": {"accepted": "1990-01-01", "eif": "1990-01-01"},
+        "II": {"accepted": "1990-01-01", "eif": "1990-01-01"},
+        "III": {"accepted": "1990-01-01", "eif": "1990-01-01"},
+        "IV": {"accepted": "2010-01-01", "eif": "2010-01-01"},
+        "V": {"accepted": "1990-01-01", "eif": "1990-01-01"},
+        "VI": {"accepted": "2005-01-01", "eif": "2005-05-19"}
+      },
+      "verification_status": "EXTRACTED_BY_AI", "source_url": "https://www.imo.org/en/about/conventions/pages/statusofconventions.aspx"
+    },
+    {
+      "instrument_id": "ILO-CONV-MLC-2006", "jurisdiction_id": "SG",
+      "acceptance_date": "2011-01-01", "date_precision": "YEAR",
+      "entry_into_force_for_state": "2013-08-20",
+      "verification_status": "EXTRACTED_BY_AI", "source_url": "https://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:11300:0"
+    }
+  ],
+  "future_amendments": [
+    {
+      "amendment_id": "ILO-CONV-MLC-2006-AMEND-2025",
+      "instrument_id": "ILO-CONV-MLC-2006",
+      "entry_into_force": "2027-12-23",
+      "status": "FUTURE_EFFECTIVE",
+      "note": "stored but inactive until effective — never applied early (Principle 6); confirmed vs ILO official"
+    }
+  ]
+}

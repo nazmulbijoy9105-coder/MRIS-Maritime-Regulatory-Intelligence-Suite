@@ -1,0 +1,40 @@
+# IMO-CONV-MARPOL-73-78-ANVI-REG6-R001 — IAPP certificate (Annex VI)
+rule_id: IMO-CONV-MARPOL-73-78-ANVI-REG6-R001
+rule_version: 1
+domain: MARPOL
+obligation_dimension: marpol_annex_vi_air
+
+legal_source:
+  provision_id: IMO-CONV-MARPOL-73-78-ANVI-REG6
+  legal_version_id: lv-MARPOL-73-78-ANVI-current
+  instrument_id: IMO-CONV-MARPOL-73-78
+  locator: Annex VI Regulation 6
+
+applicability:
+  all:
+    - annex_ratified_for_flag: [VI]
+    - operation: [SEA_VOYAGE, PORT_CALL]
+    - gt_min: 400
+
+condition:
+  type: MANDATORY
+  expression: |
+    EXISTS e IN evidence :
+      e.evidence_type = "IAPP_CERTIFICATE"
+      AND verified(e)
+      AND NOT expired(e, at: eval_date)
+
+outcome:
+  compliant_if: valid International Air Pollution Prevention Certificate on board
+  non_compliant_if: IAPP missing, unverified or expired
+  contract_requirement: "Ships of 400 GT and above must hold a valid IAPP Certificate (MARPOL Annex VI)."
+
+evidence_required:
+  - IAPP_CERTIFICATE
+
+status_ladder:
+  BLACK: 'NOT (EXISTS e IN evidence : e.evidence_type = "IAPP_CERTIFICATE")'
+  RED: 'EXISTS e IN evidence : e.evidence_type = "IAPP_CERTIFICATE" AND expired(e, at: eval_date)'
+  YELLOW: 'EXISTS e IN evidence : e.evidence_type = "IAPP_CERTIFICATE" AND expires_within(e, 60)'
+
+consequence_of_non_correction: "Detention risk; air-pollution offences carry company and master penalty exposure."

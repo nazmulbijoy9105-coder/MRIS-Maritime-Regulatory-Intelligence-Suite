@@ -1,0 +1,38 @@
+# BD-ORD-MERCHANT-SHIPPING-1983-S350-R001 — Unseaworthy ships
+rule_id: BD-ORD-MERCHANT-SHIPPING-1983-S350-R001
+rule_version: 1
+domain: UNSEAWORTHY
+obligation_dimension: seaworthiness
+
+legal_source:
+  provision_id: BD-ORD-MERCHANT-SHIPPING-1983-S350
+  legal_version_id: lv-BD-ORD-MERCHANT-SHIPPING-1983-v2
+  instrument_id: BD-ORD-MERCHANT-SHIPPING-1983
+  locator: Section 350
+
+applicability:
+  all:
+    - flag: [BD]
+    - operation: [SEA_VOYAGE, PORT_CALL]
+
+condition:
+  type: MANDATORY
+  expression: |
+    (EXISTS e IN evidence : e.evidence_type = "CLASS_CERTIFICATE" AND verified(e))
+    AND (EXISTS e IN evidence : e.evidence_type = "SAFETY_EQUIPMENT_CERTIFICATE" AND NOT expired(e, at: eval_date))
+
+outcome:
+  compliant_if: valid class + safety equipment certificates verified on file
+  non_compliant_if: any missing/expired/unverified
+  contract_requirement: "Ship must be seaworthy: valid class certificate and safety equipment certificate must be on board and not expired."
+
+evidence_required:
+  - CLASS_CERTIFICATE
+  - SAFETY_EQUIPMENT_CERTIFICATE
+
+status_ladder:
+  BLACK: 'NOT (EXISTS e IN evidence : e.evidence_type = "CLASS_CERTIFICATE")'
+  RED: 'EXISTS e IN evidence : e.evidence_type = "SAFETY_EQUIPMENT_CERTIFICATE" AND expired(e, at: eval_date)'
+  YELLOW: 'EXISTS e IN evidence : e.evidence_type = "CLASS_CERTIFICATE" AND NOT verified(e)'
+
+consequence_of_non_correction: "Detention and liability exposure; sending an unseaworthy ship to sea is an offence (S351)."

@@ -1,0 +1,46 @@
+# BD-ORD-MERCHANT-SHIPPING-1983-S082-R001 — Manning of ships
+# Blueprint v2.0 Part 9.2 canonical example, executable against ILRMF-DSL.
+#
+# Verification gate: the provision backing this rule must reach
+# VERIFIED_AGAINST_GAZETTE before the rule may go ACTIVE (Principle 12).
+rule_id: BD-ORD-MERCHANT-SHIPPING-1983-S082-R001
+rule_version: 1
+domain: MANNING
+obligation_dimension: manning_level
+
+legal_source:
+  provision_id: BD-ORD-MERCHANT-SHIPPING-1983-S082
+  legal_version_id: lv-BD-ORD-MERCHANT-SHIPPING-1983-v2
+  instrument_id: BD-ORD-MERCHANT-SHIPPING-1983
+  locator: Section 82
+
+applicability:
+  all:
+    - flag: [BD]
+    - operation: [SEA_VOYAGE]
+    - ship_type: [CARGO, TANKER, PASSENGER]
+
+condition:
+  type: MANDATORY
+  expression: |
+    (EXISTS e IN evidence : e.evidence_type = "SAFE_MANNING_DOCUMENT")
+    AND (FORALL crew_member IN current_crew :
+           crew_member.coc_valid(at: eval_date)
+           AND crew_member.rank IN required_ranks)
+
+outcome:
+  compliant_if: condition true
+  non_compliant_if: any part false
+  contract_requirement: "Ship must carry the safe manning document and every crew member must hold a valid Certificate of Competency for their rank."
+
+evidence_required:
+  - SAFE_MANNING_DOCUMENT
+  - CREW_LIST
+  - COC_PER_CREW_MEMBER
+
+status_ladder:
+  BLACK: 'NOT (EXISTS e IN evidence : e.evidence_type = "SAFE_MANNING_DOCUMENT")'
+  RED: 'EXISTS c IN current_crew : NOT c.coc_valid(at: eval_date)'
+  YELLOW: 'EXISTS e IN evidence : expires_within(e, 60)'
+
+consequence_of_non_correction: "Detention risk under port-State control; licence-to-sail exposure (S66)."

@@ -1,0 +1,41 @@
+# IMO-CONV-MARPOL-73-78-ANV-REG10-R001 — Garbage management plan + record book (Annex V)
+rule_id: IMO-CONV-MARPOL-73-78-ANV-REG10-R001
+rule_version: 1
+domain: MARPOL
+obligation_dimension: marpol_annex_v_garbage
+
+legal_source:
+  provision_id: IMO-CONV-MARPOL-73-78-ANV-REG10
+  legal_version_id: lv-MARPOL-73-78-ANV-current
+  instrument_id: IMO-CONV-MARPOL-73-78
+  locator: Annex V Regulation 10
+
+applicability:
+  all:
+    - annex_ratified_for_flag: [V]
+    - operation: [SEA_VOYAGE, PORT_CALL]
+    - gt_min: 100
+
+condition:
+  type: MANDATORY
+  expression: |
+    (EXISTS e IN evidence : e.evidence_type = "GARBAGE_MANAGEMENT_PLAN" AND verified(e))
+    AND (EXISTS e IN evidence :
+           e.evidence_type = "GARBAGE_RECORD_BOOK"
+           AND NOT expired(e, at: eval_date))
+
+outcome:
+  compliant_if: garbage management plan + garbage record book on board
+  non_compliant_if: either document missing or record book expired
+  contract_requirement: "Ships of 100 GT and above must carry a garbage management plan and garbage record book (MARPOL Annex V)."
+
+evidence_required:
+  - GARBAGE_MANAGEMENT_PLAN
+  - GARBAGE_RECORD_BOOK
+
+status_ladder:
+  BLACK: 'NOT (EXISTS e IN evidence : e.evidence_type = "GARBAGE_MANAGEMENT_PLAN")'
+  RED: 'EXISTS e IN evidence : e.evidence_type = "GARBAGE_RECORD_BOOK" AND expired(e, at: eval_date)'
+  YELLOW: 'EXISTS e IN evidence : expires_within(e, 60)'
+
+consequence_of_non_correction: "PSC deficiency and detention risk; garbage-record offences attract penalties."
