@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+mris-dev.db
+
+# Node / build (none required, but safe)
+node_modules/
+
+# Vercel
+.vercel/
+
+# OS
+.DS_Store
+
+# Generated corpus tree (rebuild: python3 scripts/build_corpus_tree.py)
+corpus/
