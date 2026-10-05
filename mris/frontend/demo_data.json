@@ -1,0 +1,3217 @@
+{
+  "generated_at": "2026-10-06",
+  "as_of_date": "2026-10-06",
+  "fleet": {
+    "as_of_date": "2026-10-06",
+    "fleet_status_counts": {
+      "GREEN": 1,
+      "YELLOW": 1,
+      "RED": 1,
+      "BLACK": 1
+    },
+    "vessels": [
+      {
+        "company": "Bay Bengal Shipping Ltd.",
+        "vessel_id": "v-demo-001",
+        "name": "MV PADMA STAR",
+        "imo_number": "9521457",
+        "flag": "BD",
+        "ship_type": "CARGO",
+        "gross_tonnage": 24500.0,
+        "build_date": "2011-06-01",
+        "class_society": "BKI",
+        "status": "RED",
+        "counts": {
+          "GREEN": 1,
+          "YELLOW": 2,
+          "RED": 4,
+          "BLACK": 0
+        },
+        "lawyer_review_queue": [],
+        "as_of_date": "2026-10-06"
+      },
+      {
+        "company": "Meghna Marine Ltd.",
+        "vessel_id": "v-demo-002",
+        "name": "MV MEGHNA TRADER",
+        "imo_number": "9612345",
+        "flag": "BD",
+        "ship_type": "TANKER",
+        "gross_tonnage": 31200.0,
+        "build_date": "2016-08-11",
+        "class_society": "BKI",
+        "status": "GREEN",
+        "counts": {
+          "GREEN": 7,
+          "YELLOW": 0,
+          "RED": 0,
+          "BLACK": 0
+        },
+        "lawyer_review_queue": [],
+        "as_of_date": "2026-10-06"
+      },
+      {
+        "company": "Karnaphuli Carriers Ltd.",
+        "vessel_id": "v-demo-003",
+        "name": "MV KARNAPHULI",
+        "imo_number": "9445678",
+        "flag": "BD",
+        "ship_type": "CARGO",
+        "gross_tonnage": 18900.0,
+        "build_date": "2009-12-15",
+        "class_society": "BKI",
+        "status": "YELLOW",
+        "counts": {
+          "GREEN": 4,
+          "YELLOW": 3,
+          "RED": 0,
+          "BLACK": 0
+        },
+        "lawyer_review_queue": [],
+        "as_of_date": "2026-10-06"
+      },
+      {
+        "company": "Shitalakkhya Shipping Ltd.",
+        "vessel_id": "v-demo-004",
+        "name": "MV SHITALAKSHYA",
+        "imo_number": "9337890",
+        "flag": "BD",
+        "ship_type": "CARGO",
+        "gross_tonnage": 12800.0,
+        "build_date": "2007-05-30",
+        "class_society": "BKI",
+        "status": "BLACK",
+        "counts": {
+          "GREEN": 5,
+          "YELLOW": 0,
+          "RED": 0,
+          "BLACK": 2
+        },
+        "lawyer_review_queue": [
+          "BD-ORD-MERCHANT-SHIPPING-1983-S082-R001:BD-ORD-MERCHANT-SHIPPING-1983-S082",
+          "IMO-CONV-MARPOL-73-78-ANI-REG36-R001:IMO-CONV-MARPOL-73-78-ANI-REG36"
+        ],
+        "as_of_date": "2026-10-06"
+      }
+    ],
+    "note": "demo fleet; statuses computed by ILRMF-DSL rules over demo evidence"
+  },
+  "compliance": {
+    "9521457": {
+      "company_id": "co-demo-001",
+      "entity_type": "VESSEL",
+      "entity_id": "v-demo-001",
+      "as_of_date": "2026-10-06",
+      "overall_status": "RED",
+      "law_versions_used": {
+        "BD-ORD-MERCHANT-SHIPPING-1983-S066": "lv-BD-ORD-MERCHANT-SHIPPING-1983-v2",
+        "BD-ORD-MERCHANT-SHIPPING-1983-S082": "lv-BD-ORD-MERCHANT-SHIPPING-1983-v2",
+        "BD-ORD-MERCHANT-SHIPPING-1983-S335": "lv-BD-ORD-MERCHANT-SHIPPING-1983-v2",
+        "BD-ORD-MERCHANT-SHIPPING-1983-S350": "lv-BD-ORD-MERCHANT-SHIPPING-1983-v2",
+        "IMO-CONV-MARPOL-73-78-ANI-REG36": "lv-MARPOL-73-78-ANI-current",
+        "IMO-CONV-MARPOL-73-78-ANV-REG10": "lv-MARPOL-73-78-ANV-current",
+        "IMO-CONV-MARPOL-73-78-ANVI-REG6": "lv-MARPOL-73-78-ANVI-current"
+      },
+      "rule_versions_used": {
+        "BD-ORD-MERCHANT-SHIPPING-1983-S066-R001": "v1",
+        "BD-ORD-MERCHANT-SHIPPING-1983-S082-R001": "v1",
+        "BD-ORD-MERCHANT-SHIPPING-1983-S335-R001": "v1",
+        "BD-ORD-MERCHANT-SHIPPING-1983-S350-R001": "v1",
+        "IMO-CONV-MARPOL-73-78-ANI-REG36-R001": "v1",
+        "IMO-CONV-MARPOL-73-78-ANV-REG10-R001": "v1",
+        "IMO-CONV-MARPOL-73-78-ANVI-REG6-R001": "v1"
+      },
+      "computed_at": "2026-10-05T22:02:09.779753+00:00",
+      "items": [
+        {
+          "obligation_id": "BD-ORD-MERCHANT-SHIPPING-1983-S066-R001:BD-ORD-MERCHANT-SHIPPING-1983-S066",
+          "status": "RED",
+          "layer": "L2_FLAG",
+          "provision": "BD-ORD-MERCHANT-SHIPPING-1983-S066",
+          "provision_id": "BD-ORD-MERCHANT-SHIPPING-1983-S066",
+          "rule_version_id": "BD-ORD-MERCHANT-SHIPPING-1983-S066-R001-v1",
+          "advisory": false,
+          "reason": "BD-ORD-MERCHANT-SHIPPING-1983-S066-R001 [MANDATORY] over BD-ORD-MERCHANT-SHIPPING-1983-S066 @ 2026-10-06: condition=FALSE => RED | unknowns: missing expiry_date",
+          "requirement": "Ship must hold a valid licence for taking the ship to sea (Section 66).",
+          "why_applicable": "flag=BD, ship_type=CARGO, GT=24500.0, operation=SEA_VOYAGE on 2026-10-06 matches applicability predicate",
+          "source_law": "BD-ORD-MERCHANT-SHIPPING-1983-S066",
+          "legal_version": "lv-BD-ORD-MERCHANT-SHIPPING-1983-v2",
+          "amended": true,
+          "in_force_on_date": true,
+          "evidence": [
+            "LICENSE_TO_SAIL"
+          ],
+          "rule_executed": "BD-ORD-MERCHANT-SHIPPING-1983-S066-R001@BD-ORD-MERCHANT-SHIPPING-1983-S066-R001-v1",
+          "facts_used": {
+            "flag": "BD",
+            "operation": "SEA_VOYAGE",
+            "ship_type": "CARGO",
+            "zone_type": "TERRITORIAL",
+            "coastal_state": "BD",
+            "port": "CHITTAGONG",
+            "gross_tonnage": 24500.0,
+            "annex_ratified_for_flag": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI"
+            ]
+          },
+          "result": "RED",
+          "missing": [
+            "missing expiry_date"
+          ],
+          "required_action": "resolve RED item",
+          "deadline": null,
+          "consequence": "operation may be unlawful; enforcement/penalty exposure",
+          "lawyer_review_needed": false
+        },
+        {
+          "obligation_id": "BD-ORD-MERCHANT-SHIPPING-1983-S082-R001:BD-ORD-MERCHANT-SHIPPING-1983-S082",
+          "status": "RED",
+          "layer": "L2_FLAG",
+          "provision": "BD-ORD-MERCHANT-SHIPPING-1983-S082",
+          "provision_id": "BD-ORD-MERCHANT-SHIPPING-1983-S082",
+          "rule_version_id": "BD-ORD-MERCHANT-SHIPPING-1983-S082-R001-v1",
+          "advisory": false,
+          "reason": "BD-ORD-MERCHANT-SHIPPING-1983-S082-R001 [MANDATORY] over BD-ORD-MERCHANT-SHIPPING-1983-S082 @ 2026-10-06: condition=FALSE => RED",
+          "requirement": "Ship must carry the safe manning document and every crew member must hold a valid Certificate of Competency for their rank.",
+          "why_applicable": "flag=BD, ship_type=CARGO, GT=24500.0, operation=SEA_VOYAGE on 2026-10-06 matches applicability predicate",
+          "source_law": "Bangladesh Merchant Shipping Ordinance, 1983 (Ord. XXVI of 1983), Section 82",
+          "legal_version": "lv-BD-ORD-MERCHANT-SHIPPING-1983-v2",
+          "amended": true,
+          "in_force_on_date": true,
+          "evidence": [
+            "SAFE_MANNING_DOCUMENT",
+            "CREW_LIST",
+            "COC_PER_CREW_MEMBER"
+          ],
+          "rule_executed": "BD-ORD-MERCHANT-SHIPPING-1983-S082-R001@BD-ORD-MERCHANT-SHIPPING-1983-S082-R001-v1",
+          "facts_used": {
+            "flag": "BD",
+            "operation": "SEA_VOYAGE",
+            "ship_type": "CARGO",
+            "zone_type": "TERRITORIAL",
+            "coastal_state": "BD",
+            "port": "CHITTAGONG",
+            "gross_tonnage": 24500.0,
+            "annex_ratified_for_flag": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI"
+            ]
+          },
+          "result": "RED",
+          "missing": [],
+          "required_action": "resolve RED item",
+          "deadline": null,
+          "consequence": "operation may be unlawful; enforcement/penalty exposure",
+          "lawyer_review_needed": false
+        },
+        {
+          "obligation_id": "BD-ORD-MERCHANT-SHIPPING-1983-S335-R001:BD-ORD-MERCHANT-SHIPPING-1983-S335",
+          "status": "YELLOW",
+          "layer": "L2_FLAG",
+          "provision": "BD-ORD-MERCHANT-SHIPPING-1983-S335",
+          "provision_id": "BD-ORD-MERCHANT-SHIPPING-1983-S335",
+          "rule_version_id": "BD-ORD-MERCHANT-SHIPPING-1983-S335-R001-v1",
+          "advisory": false,
+          "reason": "BD-ORD-MERCHANT-SHIPPING-1983-S335-R001 [MANDATORY] over BD-ORD-MERCHANT-SHIPPING-1983-S335 @ 2026-10-06: condition=TRUE => YELLOW | unknowns: missing expiry_date",
+          "requirement": "Ship must hold a valid Load Line Certificate on board at all times while at sea or in port.",
+          "why_applicable": "flag=BD, ship_type=CARGO, GT=24500.0, operation=SEA_VOYAGE on 2026-10-06 matches applicability predicate",
+          "source_law": "Bangladesh Merchant Shipping Ordinance, 1983 (Ord. XXVI of 1983), Section 335",
+          "legal_version": "lv-BD-ORD-MERCHANT-SHIPPING-1983-v2",
+          "amended": true,
+          "in_force_on_date": true,
+          "evidence": [
+            "LOAD_LINE_CERTIFICATE"
+          ],
+          "rule_executed": "BD-ORD-MERCHANT-SHIPPING-1983-S335-R001@BD-ORD-MERCHANT-SHIPPING-1983-S335-R001-v1",
+          "facts_used": {
+            "flag": "BD",
+            "operation": "SEA_VOYAGE",
+            "ship_type": "CARGO",
+            "zone_type": "TERRITORIAL",
+            "coastal_state": "BD",
+            "port": "CHITTAGONG",
+            "gross_tonnage": 24500.0,
+            "annex_ratified_for_flag": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI"
+            ]
+          },
+          "result": "YELLOW",
+          "missing": [
+            "missing expiry_date"
+          ],
+          "required_action": "resolve YELLOW item",
+          "deadline": null,
+          "consequence": "monitoring; scheduled action may be required",
+          "lawyer_review_needed": false
+        },
+        {
+          "obligation_id": "BD-ORD-MERCHANT-SHIPPING-1983-S350-R001:BD-ORD-MERCHANT-SHIPPING-1983-S350",
+          "status": "RED",
+          "layer": "L2_FLAG",
+          "provision": "BD-ORD-MERCHANT-SHIPPING-1983-S350",
+          "provision_id": "BD-ORD-MERCHANT-SHIPPING-1983-S350",
+          "rule_version_id": "BD-ORD-MERCHANT-SHIPPING-1983-S350-R001-v1",
+          "advisory": false,
+          "reason": "BD-ORD-MERCHANT-SHIPPING-1983-S350-R001 [MANDATORY] over BD-ORD-MERCHANT-SHIPPING-1983-S350 @ 2026-10-06: condition=FALSE => RED | unknowns: missing expiry_date",
+          "requirement": "Ship must be seaworthy: valid class certificate and safety equipment certificate must be on board and not expired.",
+          "why_applicable": "flag=BD, ship_type=CARGO, GT=24500.0, operation=SEA_VOYAGE on 2026-10-06 matches applicability predicate",
+          "source_law": "Bangladesh Merchant Shipping Ordinance, 1983 (Ord. XXVI of 1983), Section 350",
+          "legal_version": "lv-BD-ORD-MERCHANT-SHIPPING-1983-v2",
+          "amended": true,
+          "in_force_on_date": true,
+          "evidence": [
+            "CLASS_CERTIFICATE",
+            "SAFETY_EQUIPMENT_CERTIFICATE"
+          ],
+          "rule_executed": "BD-ORD-MERCHANT-SHIPPING-1983-S350-R001@BD-ORD-MERCHANT-SHIPPING-1983-S350-R001-v1",
+          "facts_used": {
+            "flag": "BD",
+            "operation": "SEA_VOYAGE",
+            "ship_type": "CARGO",
+            "zone_type": "TERRITORIAL",
+            "coastal_state": "BD",
+            "port": "CHITTAGONG",
+            "gross_tonnage": 24500.0,
+            "annex_ratified_for_flag": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI"
+            ]
+          },
+          "result": "RED",
+          "missing": [
+            "missing expiry_date"
+          ],
+          "required_action": "resolve RED item",
+          "deadline": null,
+          "consequence": "operation may be unlawful; enforcement/penalty exposure",
+          "lawyer_review_needed": false
+        },
+        {
+          "obligation_id": "IMO-CONV-MARPOL-73-78-ANI-REG36-R001:IMO-CONV-MARPOL-73-78-ANI-REG36",
+          "status": "GREEN",
+          "layer": "L2_FLAG",
+          "provision": "IMO-CONV-MARPOL-73-78-ANI-REG36",
+          "provision_id": "IMO-CONV-MARPOL-73-78-ANI-REG36",
+          "rule_version_id": "IMO-CONV-MARPOL-73-78-ANI-REG36-R001-v1",
+          "advisory": false,
+          "reason": "IMO-CONV-MARPOL-73-78-ANI-REG36-R001 [MANDATORY] over IMO-CONV-MARPOL-73-78-ANI-REG36 @ 2026-10-06: condition=TRUE => GREEN | unknowns: missing expiry_date",
+          "requirement": "Ships of 400 GT and above must carry a valid Oil Record Book (MARPOL Annex I).",
+          "why_applicable": "flag=BD, ship_type=CARGO, GT=24500.0, operation=SEA_VOYAGE on 2026-10-06 matches applicability predicate",
+          "source_law": "IMO-CONV-MARPOL-73-78-ANI-REG36",
+          "legal_version": "lv-MARPOL-73-78-ANI-current",
+          "amended": true,
+          "in_force_on_date": true,
+          "evidence": [
+            "OIL_RECORD_BOOK"
+          ],
+          "rule_executed": "IMO-CONV-MARPOL-73-78-ANI-REG36-R001@IMO-CONV-MARPOL-73-78-ANI-REG36-R001-v1",
+          "facts_used": {
+            "flag": "BD",
+            "operation": "SEA_VOYAGE",
+            "ship_type": "CARGO",
+            "zone_type": "TERRITORIAL",
+            "coastal_state": "BD",
+            "port": "CHITTAGONG",
+            "gross_tonnage": 24500.0,
+            "annex_ratified_for_flag": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI"
+            ]
+          },
+          "result": "GREEN",
+          "missing": [
+            "missing expiry_date"
+          ],
+          "required_action": null,
+          "deadline": null,
+          "consequence": "none",
+          "lawyer_review_needed": false
+        },
+        {
+          "obligation_id": "IMO-CONV-MARPOL-73-78-ANV-REG10-R001:IMO-CONV-MARPOL-73-78-ANV-REG10",
+          "status": "YELLOW",
+          "layer": "L2_FLAG",
+          "provision": "IMO-CONV-MARPOL-73-78-ANV-REG10",
+          "provision_id": "IMO-CONV-MARPOL-73-78-ANV-REG10",
+          "rule_version_id": "IMO-CONV-MARPOL-73-78-ANV-REG10-R001-v1",
+          "advisory": false,
+          "reason": "IMO-CONV-MARPOL-73-78-ANV-REG10-R001 [MANDATORY] over IMO-CONV-MARPOL-73-78-ANV-REG10 @ 2026-10-06: condition=TRUE => YELLOW | unknowns: missing expiry_date",
+          "requirement": "Ships of 100 GT and above must carry a garbage management plan and garbage record book (MARPOL Annex V).",
+          "why_applicable": "flag=BD, ship_type=CARGO, GT=24500.0, operation=SEA_VOYAGE on 2026-10-06 matches applicability predicate",
+          "source_law": "IMO-CONV-MARPOL-73-78-ANV-REG10",
+          "legal_version": "lv-MARPOL-73-78-ANV-current",
+          "amended": true,
+          "in_force_on_date": true,
+          "evidence": [
+            "GARBAGE_MANAGEMENT_PLAN",
+            "GARBAGE_RECORD_BOOK"
+          ],
+          "rule_executed": "IMO-CONV-MARPOL-73-78-ANV-REG10-R001@IMO-CONV-MARPOL-73-78-ANV-REG10-R001-v1",
+          "facts_used": {
+            "flag": "BD",
+            "operation": "SEA_VOYAGE",
+            "ship_type": "CARGO",
+            "zone_type": "TERRITORIAL",
+            "coastal_state": "BD",
+            "port": "CHITTAGONG",
+            "gross_tonnage": 24500.0,
+            "annex_ratified_for_flag": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI"
+            ]
+          },
+          "result": "YELLOW",
+          "missing": [
+            "missing expiry_date"
+          ],
+          "required_action": "resolve YELLOW item",
+          "deadline": null,
+          "consequence": "monitoring; scheduled action may be required",
+          "lawyer_review_needed": false
+        },
+        {
+          "obligation_id": "IMO-CONV-MARPOL-73-78-ANVI-REG6-R001:IMO-CONV-MARPOL-73-78-ANVI-REG6",
+          "status": "RED",
+          "layer": "L2_FLAG",
+          "provision": "IMO-CONV-MARPOL-73-78-ANVI-REG6",
+          "provision_id": "IMO-CONV-MARPOL-73-78-ANVI-REG6",
+          "rule_version_id": "IMO-CONV-MARPOL-73-78-ANVI-REG6-R001-v1",
+          "advisory": false,
+          "reason": "IMO-CONV-MARPOL-73-78-ANVI-REG6-R001 [MANDATORY] over IMO-CONV-MARPOL-73-78-ANVI-REG6 @ 2026-10-06: condition=FALSE => RED | unknowns: missing expiry_date",
+          "requirement": "Ships of 400 GT and above must hold a valid IAPP Certificate (MARPOL Annex VI).",
+          "why_applicable": "flag=BD, ship_type=CARGO, GT=24500.0, operation=SEA_VOYAGE on 2026-10-06 matches applicability predicate",
+          "source_law": "IMO-CONV-MARPOL-73-78-ANVI-REG6",
+          "legal_version": "lv-MARPOL-73-78-ANVI-current",
+          "amended": true,
+          "in_force_on_date": true,
+          "evidence": [
+            "IAPP_CERTIFICATE"
+          ],
+          "rule_executed": "IMO-CONV-MARPOL-73-78-ANVI-REG6-R001@IMO-CONV-MARPOL-73-78-ANVI-REG6-R001-v1",
+          "facts_used": {
+            "flag": "BD",
+            "operation": "SEA_VOYAGE",
+            "ship_type": "CARGO",
+            "zone_type": "TERRITORIAL",
+            "coastal_state": "BD",
+            "port": "CHITTAGONG",
+            "gross_tonnage": 24500.0,
+            "annex_ratified_for_flag": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI"
+            ]
+          },
+          "result": "RED",
+          "missing": [
+            "missing expiry_date"
+          ],
+          "required_action": "resolve RED item",
+          "deadline": null,
+          "consequence": "operation may be unlawful; enforcement/penalty exposure",
+          "lawyer_review_needed": false
+        }
+      ],
+      "lawyer_review_queue": []
+    },
+    "9612345": {
+      "company_id": "co-demo-002",
+      "entity_type": "VESSEL",
+      "entity_id": "v-demo-002",
+      "as_of_date": "2026-10-06",
+      "overall_status": "GREEN",
+      "law_versions_used": {
+        "BD-ORD-MERCHANT-SHIPPING-1983-S066": "lv-BD-ORD-MERCHANT-SHIPPING-1983-v2",
+        "BD-ORD-MERCHANT-SHIPPING-1983-S082": "lv-BD-ORD-MERCHANT-SHIPPING-1983-v2",
+        "BD-ORD-MERCHANT-SHIPPING-1983-S335": "lv-BD-ORD-MERCHANT-SHIPPING-1983-v2",
+        "BD-ORD-MERCHANT-SHIPPING-1983-S350": "lv-BD-ORD-MERCHANT-SHIPPING-1983-v2",
+        "IMO-CONV-MARPOL-73-78-ANI-REG36": "lv-MARPOL-73-78-ANI-current",
+        "IMO-CONV-MARPOL-73-78-ANV-REG10": "lv-MARPOL-73-78-ANV-current",
+        "IMO-CONV-MARPOL-73-78-ANVI-REG6": "lv-MARPOL-73-78-ANVI-current"
+      },
+      "rule_versions_used": {
+        "BD-ORD-MERCHANT-SHIPPING-1983-S066-R001": "v1",
+        "BD-ORD-MERCHANT-SHIPPING-1983-S082-R001": "v1",
+        "BD-ORD-MERCHANT-SHIPPING-1983-S335-R001": "v1",
+        "BD-ORD-MERCHANT-SHIPPING-1983-S350-R001": "v1",
+        "IMO-CONV-MARPOL-73-78-ANI-REG36-R001": "v1",
+        "IMO-CONV-MARPOL-73-78-ANV-REG10-R001": "v1",
+        "IMO-CONV-MARPOL-73-78-ANVI-REG6-R001": "v1"
+      },
+      "computed_at": "2026-10-05T22:02:09.797349+00:00",
+      "items": [
+        {
+          "obligation_id": "BD-ORD-MERCHANT-SHIPPING-1983-S066-R001:BD-ORD-MERCHANT-SHIPPING-1983-S066",
+          "status": "GREEN",
+          "layer": "L2_FLAG",
+          "provision": "BD-ORD-MERCHANT-SHIPPING-1983-S066",
+          "provision_id": "BD-ORD-MERCHANT-SHIPPING-1983-S066",
+          "rule_version_id": "BD-ORD-MERCHANT-SHIPPING-1983-S066-R001-v1",
+          "advisory": false,
+          "reason": "BD-ORD-MERCHANT-SHIPPING-1983-S066-R001 [MANDATORY] over BD-ORD-MERCHANT-SHIPPING-1983-S066 @ 2026-10-06: condition=TRUE => GREEN | unknowns: missing expiry_date",
+          "requirement": "Ship must hold a valid licence for taking the ship to sea (Section 66).",
+          "why_applicable": "flag=BD, ship_type=TANKER, GT=31200.0, operation=SEA_VOYAGE on 2026-10-06 matches applicability predicate",
+          "source_law": "BD-ORD-MERCHANT-SHIPPING-1983-S066",
+          "legal_version": "lv-BD-ORD-MERCHANT-SHIPPING-1983-v2",
+          "amended": true,
+          "in_force_on_date": true,
+          "evidence": [
+            "LICENSE_TO_SAIL"
+          ],
+          "rule_executed": "BD-ORD-MERCHANT-SHIPPING-1983-S066-R001@BD-ORD-MERCHANT-SHIPPING-1983-S066-R001-v1",
+          "facts_used": {
+            "flag": "BD",
+            "operation": "SEA_VOYAGE",
+            "ship_type": "TANKER",
+            "zone_type": "TERRITORIAL",
+            "coastal_state": "BD",
+            "port": "CHITTAGONG",
+            "gross_tonnage": 31200.0,
+            "annex_ratified_for_flag": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI"
+            ]
+          },
+          "result": "GREEN",
+          "missing": [
+            "missing expiry_date"
+          ],
+          "required_action": null,
+          "deadline": null,
+          "consequence": "none",
+          "lawyer_review_needed": false
+        },
+        {
+          "obligation_id": "BD-ORD-MERCHANT-SHIPPING-1983-S082-R001:BD-ORD-MERCHANT-SHIPPING-1983-S082",
+          "status": "GREEN",
+          "layer": "L2_FLAG",
+          "provision": "BD-ORD-MERCHANT-SHIPPING-1983-S082",
+          "provision_id": "BD-ORD-MERCHANT-SHIPPING-1983-S082",
+          "rule_version_id": "BD-ORD-MERCHANT-SHIPPING-1983-S082-R001-v1",
+          "advisory": false,
+          "reason": "BD-ORD-MERCHANT-SHIPPING-1983-S082-R001 [MANDATORY] over BD-ORD-MERCHANT-SHIPPING-1983-S082 @ 2026-10-06: condition=TRUE => GREEN",
+          "requirement": "Ship must carry the safe manning document and every crew member must hold a valid Certificate of Competency for their rank.",
+          "why_applicable": "flag=BD, ship_type=TANKER, GT=31200.0, operation=SEA_VOYAGE on 2026-10-06 matches applicability predicate",
+          "source_law": "Bangladesh Merchant Shipping Ordinance, 1983 (Ord. XXVI of 1983), Section 82",
+          "legal_version": "lv-BD-ORD-MERCHANT-SHIPPING-1983-v2",
+          "amended": true,
+          "in_force_on_date": true,
+          "evidence": [
+            "SAFE_MANNING_DOCUMENT",
+            "CREW_LIST",
+            "COC_PER_CREW_MEMBER"
+          ],
+          "rule_executed": "BD-ORD-MERCHANT-SHIPPING-1983-S082-R001@BD-ORD-MERCHANT-SHIPPING-1983-S082-R001-v1",
+          "facts_used": {
+            "flag": "BD",
+            "operation": "SEA_VOYAGE",
+            "ship_type": "TANKER",
+            "zone_type": "TERRITORIAL",
+            "coastal_state": "BD",
+            "port": "CHITTAGONG",
+            "gross_tonnage": 31200.0,
+            "annex_ratified_for_flag": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI"
+            ]
+          },
+          "result": "GREEN",
+          "missing": [],
+          "required_action": null,
+          "deadline": null,
+          "consequence": "none",
+          "lawyer_review_needed": false
+        },
+        {
+          "obligation_id": "BD-ORD-MERCHANT-SHIPPING-1983-S335-R001:BD-ORD-MERCHANT-SHIPPING-1983-S335",
+          "status": "GREEN",
+          "layer": "L2_FLAG",
+          "provision": "BD-ORD-MERCHANT-SHIPPING-1983-S335",
+          "provision_id": "BD-ORD-MERCHANT-SHIPPING-1983-S335",
+          "rule_version_id": "BD-ORD-MERCHANT-SHIPPING-1983-S335-R001-v1",
+          "advisory": false,
+          "reason": "BD-ORD-MERCHANT-SHIPPING-1983-S335-R001 [MANDATORY] over BD-ORD-MERCHANT-SHIPPING-1983-S335 @ 2026-10-06: condition=TRUE => GREEN | unknowns: missing expiry_date",
+          "requirement": "Ship must hold a valid Load Line Certificate on board at all times while at sea or in port.",
+          "why_applicable": "flag=BD, ship_type=TANKER, GT=31200.0, operation=SEA_VOYAGE on 2026-10-06 matches applicability predicate",
+          "source_law": "Bangladesh Merchant Shipping Ordinance, 1983 (Ord. XXVI of 1983), Section 335",
+          "legal_version": "lv-BD-ORD-MERCHANT-SHIPPING-1983-v2",
+          "amended": true,
+          "in_force_on_date": true,
+          "evidence": [
+            "LOAD_LINE_CERTIFICATE"
+          ],
+          "rule_executed": "BD-ORD-MERCHANT-SHIPPING-1983-S335-R001@BD-ORD-MERCHANT-SHIPPING-1983-S335-R001-v1",
+          "facts_used": {
+            "flag": "BD",
+            "operation": "SEA_VOYAGE",
+            "ship_type": "TANKER",
+            "zone_type": "TERRITORIAL",
+            "coastal_state": "BD",
+            "port": "CHITTAGONG",
+            "gross_tonnage": 31200.0,
+            "annex_ratified_for_flag": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI"
+            ]
+          },
+          "result": "GREEN",
+          "missing": [
+            "missing expiry_date"
+          ],
+          "required_action": null,
+          "deadline": null,
+          "consequence": "none",
+          "lawyer_review_needed": false
+        },
+        {
+          "obligation_id": "BD-ORD-MERCHANT-SHIPPING-1983-S350-R001:BD-ORD-MERCHANT-SHIPPING-1983-S350",
+          "status": "GREEN",
+          "layer": "L2_FLAG",
+          "provision": "BD-ORD-MERCHANT-SHIPPING-1983-S350",
+          "provision_id": "BD-ORD-MERCHANT-SHIPPING-1983-S350",
+          "rule_version_id": "BD-ORD-MERCHANT-SHIPPING-1983-S350-R001-v1",
+          "advisory": false,
+          "reason": "BD-ORD-MERCHANT-SHIPPING-1983-S350-R001 [MANDATORY] over BD-ORD-MERCHANT-SHIPPING-1983-S350 @ 2026-10-06: condition=TRUE => GREEN | unknowns: missing expiry_date",
+          "requirement": "Ship must be seaworthy: valid class certificate and safety equipment certificate must be on board and not expired.",
+          "why_applicable": "flag=BD, ship_type=TANKER, GT=31200.0, operation=SEA_VOYAGE on 2026-10-06 matches applicability predicate",
+          "source_law": "Bangladesh Merchant Shipping Ordinance, 1983 (Ord. XXVI of 1983), Section 350",
+          "legal_version": "lv-BD-ORD-MERCHANT-SHIPPING-1983-v2",
+          "amended": true,
+          "in_force_on_date": true,
+          "evidence": [
+            "CLASS_CERTIFICATE",
+            "SAFETY_EQUIPMENT_CERTIFICATE"
+          ],
+          "rule_executed": "BD-ORD-MERCHANT-SHIPPING-1983-S350-R001@BD-ORD-MERCHANT-SHIPPING-1983-S350-R001-v1",
+          "facts_used": {
+            "flag": "BD",
+            "operation": "SEA_VOYAGE",
+            "ship_type": "TANKER",
+            "zone_type": "TERRITORIAL",
+            "coastal_state": "BD",
+            "port": "CHITTAGONG",
+            "gross_tonnage": 31200.0,
+            "annex_ratified_for_flag": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI"
+            ]
+          },
+          "result": "GREEN",
+          "missing": [
+            "missing expiry_date"
+          ],
+          "required_action": null,
+          "deadline": null,
+          "consequence": "none",
+          "lawyer_review_needed": false
+        },
+        {
+          "obligation_id": "IMO-CONV-MARPOL-73-78-ANI-REG36-R001:IMO-CONV-MARPOL-73-78-ANI-REG36",
+          "status": "GREEN",
+          "layer": "L2_FLAG",
+          "provision": "IMO-CONV-MARPOL-73-78-ANI-REG36",
+          "provision_id": "IMO-CONV-MARPOL-73-78-ANI-REG36",
+          "rule_version_id": "IMO-CONV-MARPOL-73-78-ANI-REG36-R001-v1",
+          "advisory": false,
+          "reason": "IMO-CONV-MARPOL-73-78-ANI-REG36-R001 [MANDATORY] over IMO-CONV-MARPOL-73-78-ANI-REG36 @ 2026-10-06: condition=TRUE => GREEN | unknowns: missing expiry_date",
+          "requirement": "Ships of 400 GT and above must carry a valid Oil Record Book (MARPOL Annex I).",
+          "why_applicable": "flag=BD, ship_type=TANKER, GT=31200.0, operation=SEA_VOYAGE on 2026-10-06 matches applicability predicate",
+          "source_law": "IMO-CONV-MARPOL-73-78-ANI-REG36",
+          "legal_version": "lv-MARPOL-73-78-ANI-current",
+          "amended": true,
+          "in_force_on_date": true,
+          "evidence": [
+            "OIL_RECORD_BOOK"
+          ],
+          "rule_executed": "IMO-CONV-MARPOL-73-78-ANI-REG36-R001@IMO-CONV-MARPOL-73-78-ANI-REG36-R001-v1",
+          "facts_used": {
+            "flag": "BD",
+            "operation": "SEA_VOYAGE",
+            "ship_type": "TANKER",
+            "zone_type": "TERRITORIAL",
+            "coastal_state": "BD",
+            "port": "CHITTAGONG",
+            "gross_tonnage": 31200.0,
+            "annex_ratified_for_flag": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI"
+            ]
+          },
+          "result": "GREEN",
+          "missing": [
+            "missing expiry_date"
+          ],
+          "required_action": null,
+          "deadline": null,
+          "consequence": "none",
+          "lawyer_review_needed": false
+        },
+        {
+          "obligation_id": "IMO-CONV-MARPOL-73-78-ANV-REG10-R001:IMO-CONV-MARPOL-73-78-ANV-REG10",
+          "status": "GREEN",
+          "layer": "L2_FLAG",
+          "provision": "IMO-CONV-MARPOL-73-78-ANV-REG10",
+          "provision_id": "IMO-CONV-MARPOL-73-78-ANV-REG10",
+          "rule_version_id": "IMO-CONV-MARPOL-73-78-ANV-REG10-R001-v1",
+          "advisory": false,
+          "reason": "IMO-CONV-MARPOL-73-78-ANV-REG10-R001 [MANDATORY] over IMO-CONV-MARPOL-73-78-ANV-REG10 @ 2026-10-06: condition=TRUE => GREEN | unknowns: missing expiry_date",
+          "requirement": "Ships of 100 GT and above must carry a garbage management plan and garbage record book (MARPOL Annex V).",
+          "why_applicable": "flag=BD, ship_type=TANKER, GT=31200.0, operation=SEA_VOYAGE on 2026-10-06 matches applicability predicate",
+          "source_law": "IMO-CONV-MARPOL-73-78-ANV-REG10",
+          "legal_version": "lv-MARPOL-73-78-ANV-current",
+          "amended": true,
+          "in_force_on_date": true,
+          "evidence": [
+            "GARBAGE_MANAGEMENT_PLAN",
+            "GARBAGE_RECORD_BOOK"
+          ],
+          "rule_executed": "IMO-CONV-MARPOL-73-78-ANV-REG10-R001@IMO-CONV-MARPOL-73-78-ANV-REG10-R001-v1",
+          "facts_used": {
+            "flag": "BD",
+            "operation": "SEA_VOYAGE",
+            "ship_type": "TANKER",
+            "zone_type": "TERRITORIAL",
+            "coastal_state": "BD",
+            "port": "CHITTAGONG",
+            "gross_tonnage": 31200.0,
+            "annex_ratified_for_flag": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI"
+            ]
+          },
+          "result": "GREEN",
+          "missing": [
+            "missing expiry_date"
+          ],
+          "required_action": null,
+          "deadline": null,
+          "consequence": "none",
+          "lawyer_review_needed": false
+        },
+        {
+          "obligation_id": "IMO-CONV-MARPOL-73-78-ANVI-REG6-R001:IMO-CONV-MARPOL-73-78-ANVI-REG6",
+          "status": "GREEN",
+          "layer": "L2_FLAG",
+          "provision": "IMO-CONV-MARPOL-73-78-ANVI-REG6",
+          "provision_id": "IMO-CONV-MARPOL-73-78-ANVI-REG6",
+          "rule_version_id": "IMO-CONV-MARPOL-73-78-ANVI-REG6-R001-v1",
+          "advisory": false,
+          "reason": "IMO-CONV-MARPOL-73-78-ANVI-REG6-R001 [MANDATORY] over IMO-CONV-MARPOL-73-78-ANVI-REG6 @ 2026-10-06: condition=TRUE => GREEN | unknowns: missing expiry_date",
+          "requirement": "Ships of 400 GT and above must hold a valid IAPP Certificate (MARPOL Annex VI).",
+          "why_applicable": "flag=BD, ship_type=TANKER, GT=31200.0, operation=SEA_VOYAGE on 2026-10-06 matches applicability predicate",
+          "source_law": "IMO-CONV-MARPOL-73-78-ANVI-REG6",
+          "legal_version": "lv-MARPOL-73-78-ANVI-current",
+          "amended": true,
+          "in_force_on_date": true,
+          "evidence": [
+            "IAPP_CERTIFICATE"
+          ],
+          "rule_executed": "IMO-CONV-MARPOL-73-78-ANVI-REG6-R001@IMO-CONV-MARPOL-73-78-ANVI-REG6-R001-v1",
+          "facts_used": {
+            "flag": "BD",
+            "operation": "SEA_VOYAGE",
+            "ship_type": "TANKER",
+            "zone_type": "TERRITORIAL",
+            "coastal_state": "BD",
+            "port": "CHITTAGONG",
+            "gross_tonnage": 31200.0,
+            "annex_ratified_for_flag": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI"
+            ]
+          },
+          "result": "GREEN",
+          "missing": [
+            "missing expiry_date"
+          ],
+          "required_action": null,
+          "deadline": null,
+          "consequence": "none",
+          "lawyer_review_needed": false
+        }
+      ],
+      "lawyer_review_queue": []
+    },
+    "9445678": {
+      "company_id": "co-demo-003",
+      "entity_type": "VESSEL",
+      "entity_id": "v-demo-003",
+      "as_of_date": "2026-10-06",
+      "overall_status": "YELLOW",
+      "law_versions_used": {
+        "BD-ORD-MERCHANT-SHIPPING-1983-S066": "lv-BD-ORD-MERCHANT-SHIPPING-1983-v2",
+        "BD-ORD-MERCHANT-SHIPPING-1983-S082": "lv-BD-ORD-MERCHANT-SHIPPING-1983-v2",
+        "BD-ORD-MERCHANT-SHIPPING-1983-S335": "lv-BD-ORD-MERCHANT-SHIPPING-1983-v2",
+        "BD-ORD-MERCHANT-SHIPPING-1983-S350": "lv-BD-ORD-MERCHANT-SHIPPING-1983-v2",
+        "IMO-CONV-MARPOL-73-78-ANI-REG36": "lv-MARPOL-73-78-ANI-current",
+        "IMO-CONV-MARPOL-73-78-ANV-REG10": "lv-MARPOL-73-78-ANV-current",
+        "IMO-CONV-MARPOL-73-78-ANVI-REG6": "lv-MARPOL-73-78-ANVI-current"
+      },
+      "rule_versions_used": {
+        "BD-ORD-MERCHANT-SHIPPING-1983-S066-R001": "v1",
+        "BD-ORD-MERCHANT-SHIPPING-1983-S082-R001": "v1",
+        "BD-ORD-MERCHANT-SHIPPING-1983-S335-R001": "v1",
+        "BD-ORD-MERCHANT-SHIPPING-1983-S350-R001": "v1",
+        "IMO-CONV-MARPOL-73-78-ANI-REG36-R001": "v1",
+        "IMO-CONV-MARPOL-73-78-ANV-REG10-R001": "v1",
+        "IMO-CONV-MARPOL-73-78-ANVI-REG6-R001": "v1"
+      },
+      "computed_at": "2026-10-05T22:02:09.814893+00:00",
+      "items": [
+        {
+          "obligation_id": "BD-ORD-MERCHANT-SHIPPING-1983-S066-R001:BD-ORD-MERCHANT-SHIPPING-1983-S066",
+          "status": "GREEN",
+          "layer": "L2_FLAG",
+          "provision": "BD-ORD-MERCHANT-SHIPPING-1983-S066",
+          "provision_id": "BD-ORD-MERCHANT-SHIPPING-1983-S066",
+          "rule_version_id": "BD-ORD-MERCHANT-SHIPPING-1983-S066-R001-v1",
+          "advisory": false,
+          "reason": "BD-ORD-MERCHANT-SHIPPING-1983-S066-R001 [MANDATORY] over BD-ORD-MERCHANT-SHIPPING-1983-S066 @ 2026-10-06: condition=TRUE => GREEN | unknowns: missing expiry_date",
+          "requirement": "Ship must hold a valid licence for taking the ship to sea (Section 66).",
+          "why_applicable": "flag=BD, ship_type=CARGO, GT=18900.0, operation=SEA_VOYAGE on 2026-10-06 matches applicability predicate",
+          "source_law": "BD-ORD-MERCHANT-SHIPPING-1983-S066",
+          "legal_version": "lv-BD-ORD-MERCHANT-SHIPPING-1983-v2",
+          "amended": true,
+          "in_force_on_date": true,
+          "evidence": [
+            "LICENSE_TO_SAIL"
+          ],
+          "rule_executed": "BD-ORD-MERCHANT-SHIPPING-1983-S066-R001@BD-ORD-MERCHANT-SHIPPING-1983-S066-R001-v1",
+          "facts_used": {
+            "flag": "BD",
+            "operation": "SEA_VOYAGE",
+            "ship_type": "CARGO",
+            "zone_type": "TERRITORIAL",
+            "coastal_state": "BD",
+            "port": "CHITTAGONG",
+            "gross_tonnage": 18900.0,
+            "annex_ratified_for_flag": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI"
+            ]
+          },
+          "result": "GREEN",
+          "missing": [
+            "missing expiry_date"
+          ],
+          "required_action": null,
+          "deadline": null,
+          "consequence": "none",
+          "lawyer_review_needed": false
+        },
+        {
+          "obligation_id": "BD-ORD-MERCHANT-SHIPPING-1983-S082-R001:BD-ORD-MERCHANT-SHIPPING-1983-S082",
+          "status": "YELLOW",
+          "layer": "L2_FLAG",
+          "provision": "BD-ORD-MERCHANT-SHIPPING-1983-S082",
+          "provision_id": "BD-ORD-MERCHANT-SHIPPING-1983-S082",
+          "rule_version_id": "BD-ORD-MERCHANT-SHIPPING-1983-S082-R001-v1",
+          "advisory": false,
+          "reason": "BD-ORD-MERCHANT-SHIPPING-1983-S082-R001 [MANDATORY] over BD-ORD-MERCHANT-SHIPPING-1983-S082 @ 2026-10-06: condition=TRUE => YELLOW",
+          "requirement": "Ship must carry the safe manning document and every crew member must hold a valid Certificate of Competency for their rank.",
+          "why_applicable": "flag=BD, ship_type=CARGO, GT=18900.0, operation=SEA_VOYAGE on 2026-10-06 matches applicability predicate",
+          "source_law": "Bangladesh Merchant Shipping Ordinance, 1983 (Ord. XXVI of 1983), Section 82",
+          "legal_version": "lv-BD-ORD-MERCHANT-SHIPPING-1983-v2",
+          "amended": true,
+          "in_force_on_date": true,
+          "evidence": [
+            "SAFE_MANNING_DOCUMENT",
+            "CREW_LIST",
+            "COC_PER_CREW_MEMBER"
+          ],
+          "rule_executed": "BD-ORD-MERCHANT-SHIPPING-1983-S082-R001@BD-ORD-MERCHANT-SHIPPING-1983-S082-R001-v1",
+          "facts_used": {
+            "flag": "BD",
+            "operation": "SEA_VOYAGE",
+            "ship_type": "CARGO",
+            "zone_type": "TERRITORIAL",
+            "coastal_state": "BD",
+            "port": "CHITTAGONG",
+            "gross_tonnage": 18900.0,
+            "annex_ratified_for_flag": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI"
+            ]
+          },
+          "result": "YELLOW",
+          "missing": [],
+          "required_action": "resolve YELLOW item",
+          "deadline": null,
+          "consequence": "monitoring; scheduled action may be required",
+          "lawyer_review_needed": false
+        },
+        {
+          "obligation_id": "BD-ORD-MERCHANT-SHIPPING-1983-S335-R001:BD-ORD-MERCHANT-SHIPPING-1983-S335",
+          "status": "YELLOW",
+          "layer": "L2_FLAG",
+          "provision": "BD-ORD-MERCHANT-SHIPPING-1983-S335",
+          "provision_id": "BD-ORD-MERCHANT-SHIPPING-1983-S335",
+          "rule_version_id": "BD-ORD-MERCHANT-SHIPPING-1983-S335-R001-v1",
+          "advisory": false,
+          "reason": "BD-ORD-MERCHANT-SHIPPING-1983-S335-R001 [MANDATORY] over BD-ORD-MERCHANT-SHIPPING-1983-S335 @ 2026-10-06: condition=TRUE => YELLOW | unknowns: missing expiry_date",
+          "requirement": "Ship must hold a valid Load Line Certificate on board at all times while at sea or in port.",
+          "why_applicable": "flag=BD, ship_type=CARGO, GT=18900.0, operation=SEA_VOYAGE on 2026-10-06 matches applicability predicate",
+          "source_law": "Bangladesh Merchant Shipping Ordinance, 1983 (Ord. XXVI of 1983), Section 335",
+          "legal_version": "lv-BD-ORD-MERCHANT-SHIPPING-1983-v2",
+          "amended": true,
+          "in_force_on_date": true,
+          "evidence": [
+            "LOAD_LINE_CERTIFICATE"
+          ],
+          "rule_executed": "BD-ORD-MERCHANT-SHIPPING-1983-S335-R001@BD-ORD-MERCHANT-SHIPPING-1983-S335-R001-v1",
+          "facts_used": {
+            "flag": "BD",
+            "operation": "SEA_VOYAGE",
+            "ship_type": "CARGO",
+            "zone_type": "TERRITORIAL",
+            "coastal_state": "BD",
+            "port": "CHITTAGONG",
+            "gross_tonnage": 18900.0,
+            "annex_ratified_for_flag": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI"
+            ]
+          },
+          "result": "YELLOW",
+          "missing": [
+            "missing expiry_date"
+          ],
+          "required_action": "resolve YELLOW item",
+          "deadline": null,
+          "consequence": "monitoring; scheduled action may be required",
+          "lawyer_review_needed": false
+        },
+        {
+          "obligation_id": "BD-ORD-MERCHANT-SHIPPING-1983-S350-R001:BD-ORD-MERCHANT-SHIPPING-1983-S350",
+          "status": "GREEN",
+          "layer": "L2_FLAG",
+          "provision": "BD-ORD-MERCHANT-SHIPPING-1983-S350",
+          "provision_id": "BD-ORD-MERCHANT-SHIPPING-1983-S350",
+          "rule_version_id": "BD-ORD-MERCHANT-SHIPPING-1983-S350-R001-v1",
+          "advisory": false,
+          "reason": "BD-ORD-MERCHANT-SHIPPING-1983-S350-R001 [MANDATORY] over BD-ORD-MERCHANT-SHIPPING-1983-S350 @ 2026-10-06: condition=TRUE => GREEN | unknowns: missing expiry_date",
+          "requirement": "Ship must be seaworthy: valid class certificate and safety equipment certificate must be on board and not expired.",
+          "why_applicable": "flag=BD, ship_type=CARGO, GT=18900.0, operation=SEA_VOYAGE on 2026-10-06 matches applicability predicate",
+          "source_law": "Bangladesh Merchant Shipping Ordinance, 1983 (Ord. XXVI of 1983), Section 350",
+          "legal_version": "lv-BD-ORD-MERCHANT-SHIPPING-1983-v2",
+          "amended": true,
+          "in_force_on_date": true,
+          "evidence": [
+            "CLASS_CERTIFICATE",
+            "SAFETY_EQUIPMENT_CERTIFICATE"
+          ],
+          "rule_executed": "BD-ORD-MERCHANT-SHIPPING-1983-S350-R001@BD-ORD-MERCHANT-SHIPPING-1983-S350-R001-v1",
+          "facts_used": {
+            "flag": "BD",
+            "operation": "SEA_VOYAGE",
+            "ship_type": "CARGO",
+            "zone_type": "TERRITORIAL",
+            "coastal_state": "BD",
+            "port": "CHITTAGONG",
+            "gross_tonnage": 18900.0,
+            "annex_ratified_for_flag": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI"
+            ]
+          },
+          "result": "GREEN",
+          "missing": [
+            "missing expiry_date"
+          ],
+          "required_action": null,
+          "deadline": null,
+          "consequence": "none",
+          "lawyer_review_needed": false
+        },
+        {
+          "obligation_id": "IMO-CONV-MARPOL-73-78-ANI-REG36-R001:IMO-CONV-MARPOL-73-78-ANI-REG36",
+          "status": "GREEN",
+          "layer": "L2_FLAG",
+          "provision": "IMO-CONV-MARPOL-73-78-ANI-REG36",
+          "provision_id": "IMO-CONV-MARPOL-73-78-ANI-REG36",
+          "rule_version_id": "IMO-CONV-MARPOL-73-78-ANI-REG36-R001-v1",
+          "advisory": false,
+          "reason": "IMO-CONV-MARPOL-73-78-ANI-REG36-R001 [MANDATORY] over IMO-CONV-MARPOL-73-78-ANI-REG36 @ 2026-10-06: condition=TRUE => GREEN | unknowns: missing expiry_date",
+          "requirement": "Ships of 400 GT and above must carry a valid Oil Record Book (MARPOL Annex I).",
+          "why_applicable": "flag=BD, ship_type=CARGO, GT=18900.0, operation=SEA_VOYAGE on 2026-10-06 matches applicability predicate",
+          "source_law": "IMO-CONV-MARPOL-73-78-ANI-REG36",
+          "legal_version": "lv-MARPOL-73-78-ANI-current",
+          "amended": true,
+          "in_force_on_date": true,
+          "evidence": [
+            "OIL_RECORD_BOOK"
+          ],
+          "rule_executed": "IMO-CONV-MARPOL-73-78-ANI-REG36-R001@IMO-CONV-MARPOL-73-78-ANI-REG36-R001-v1",
+          "facts_used": {
+            "flag": "BD",
+            "operation": "SEA_VOYAGE",
+            "ship_type": "CARGO",
+            "zone_type": "TERRITORIAL",
+            "coastal_state": "BD",
+            "port": "CHITTAGONG",
+            "gross_tonnage": 18900.0,
+            "annex_ratified_for_flag": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI"
+            ]
+          },
+          "result": "GREEN",
+          "missing": [
+            "missing expiry_date"
+          ],
+          "required_action": null,
+          "deadline": null,
+          "consequence": "none",
+          "lawyer_review_needed": false
+        },
+        {
+          "obligation_id": "IMO-CONV-MARPOL-73-78-ANV-REG10-R001:IMO-CONV-MARPOL-73-78-ANV-REG10",
+          "status": "YELLOW",
+          "layer": "L2_FLAG",
+          "provision": "IMO-CONV-MARPOL-73-78-ANV-REG10",
+          "provision_id": "IMO-CONV-MARPOL-73-78-ANV-REG10",
+          "rule_version_id": "IMO-CONV-MARPOL-73-78-ANV-REG10-R001-v1",
+          "advisory": false,
+          "reason": "IMO-CONV-MARPOL-73-78-ANV-REG10-R001 [MANDATORY] over IMO-CONV-MARPOL-73-78-ANV-REG10 @ 2026-10-06: condition=TRUE => YELLOW | unknowns: missing expiry_date",
+          "requirement": "Ships of 100 GT and above must carry a garbage management plan and garbage record book (MARPOL Annex V).",
+          "why_applicable": "flag=BD, ship_type=CARGO, GT=18900.0, operation=SEA_VOYAGE on 2026-10-06 matches applicability predicate",
+          "source_law": "IMO-CONV-MARPOL-73-78-ANV-REG10",
+          "legal_version": "lv-MARPOL-73-78-ANV-current",
+          "amended": true,
+          "in_force_on_date": true,
+          "evidence": [
+            "GARBAGE_MANAGEMENT_PLAN",
+            "GARBAGE_RECORD_BOOK"
+          ],
+          "rule_executed": "IMO-CONV-MARPOL-73-78-ANV-REG10-R001@IMO-CONV-MARPOL-73-78-ANV-REG10-R001-v1",
+          "facts_used": {
+            "flag": "BD",
+            "operation": "SEA_VOYAGE",
+            "ship_type": "CARGO",
+            "zone_type": "TERRITORIAL",
+            "coastal_state": "BD",
+            "port": "CHITTAGONG",
+            "gross_tonnage": 18900.0,
+            "annex_ratified_for_flag": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI"
+            ]
+          },
+          "result": "YELLOW",
+          "missing": [
+            "missing expiry_date"
+          ],
+          "required_action": "resolve YELLOW item",
+          "deadline": null,
+          "consequence": "monitoring; scheduled action may be required",
+          "lawyer_review_needed": false
+        },
+        {
+          "obligation_id": "IMO-CONV-MARPOL-73-78-ANVI-REG6-R001:IMO-CONV-MARPOL-73-78-ANVI-REG6",
+          "status": "GREEN",
+          "layer": "L2_FLAG",
+          "provision": "IMO-CONV-MARPOL-73-78-ANVI-REG6",
+          "provision_id": "IMO-CONV-MARPOL-73-78-ANVI-REG6",
+          "rule_version_id": "IMO-CONV-MARPOL-73-78-ANVI-REG6-R001-v1",
+          "advisory": false,
+          "reason": "IMO-CONV-MARPOL-73-78-ANVI-REG6-R001 [MANDATORY] over IMO-CONV-MARPOL-73-78-ANVI-REG6 @ 2026-10-06: condition=TRUE => GREEN | unknowns: missing expiry_date",
+          "requirement": "Ships of 400 GT and above must hold a valid IAPP Certificate (MARPOL Annex VI).",
+          "why_applicable": "flag=BD, ship_type=CARGO, GT=18900.0, operation=SEA_VOYAGE on 2026-10-06 matches applicability predicate",
+          "source_law": "IMO-CONV-MARPOL-73-78-ANVI-REG6",
+          "legal_version": "lv-MARPOL-73-78-ANVI-current",
+          "amended": true,
+          "in_force_on_date": true,
+          "evidence": [
+            "IAPP_CERTIFICATE"
+          ],
+          "rule_executed": "IMO-CONV-MARPOL-73-78-ANVI-REG6-R001@IMO-CONV-MARPOL-73-78-ANVI-REG6-R001-v1",
+          "facts_used": {
+            "flag": "BD",
+            "operation": "SEA_VOYAGE",
+            "ship_type": "CARGO",
+            "zone_type": "TERRITORIAL",
+            "coastal_state": "BD",
+            "port": "CHITTAGONG",
+            "gross_tonnage": 18900.0,
+            "annex_ratified_for_flag": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI"
+            ]
+          },
+          "result": "GREEN",
+          "missing": [
+            "missing expiry_date"
+          ],
+          "required_action": null,
+          "deadline": null,
+          "consequence": "none",
+          "lawyer_review_needed": false
+        }
+      ],
+      "lawyer_review_queue": []
+    },
+    "9337890": {
+      "company_id": "co-demo-004",
+      "entity_type": "VESSEL",
+      "entity_id": "v-demo-004",
+      "as_of_date": "2026-10-06",
+      "overall_status": "BLACK",
+      "law_versions_used": {
+        "BD-ORD-MERCHANT-SHIPPING-1983-S066": "lv-BD-ORD-MERCHANT-SHIPPING-1983-v2",
+        "BD-ORD-MERCHANT-SHIPPING-1983-S082": "lv-BD-ORD-MERCHANT-SHIPPING-1983-v2",
+        "BD-ORD-MERCHANT-SHIPPING-1983-S335": "lv-BD-ORD-MERCHANT-SHIPPING-1983-v2",
+        "BD-ORD-MERCHANT-SHIPPING-1983-S350": "lv-BD-ORD-MERCHANT-SHIPPING-1983-v2",
+        "IMO-CONV-MARPOL-73-78-ANI-REG36": "lv-MARPOL-73-78-ANI-current",
+        "IMO-CONV-MARPOL-73-78-ANV-REG10": "lv-MARPOL-73-78-ANV-current",
+        "IMO-CONV-MARPOL-73-78-ANVI-REG6": "lv-MARPOL-73-78-ANVI-current"
+      },
+      "rule_versions_used": {
+        "BD-ORD-MERCHANT-SHIPPING-1983-S066-R001": "v1",
+        "BD-ORD-MERCHANT-SHIPPING-1983-S082-R001": "v1",
+        "BD-ORD-MERCHANT-SHIPPING-1983-S335-R001": "v1",
+        "BD-ORD-MERCHANT-SHIPPING-1983-S350-R001": "v1",
+        "IMO-CONV-MARPOL-73-78-ANI-REG36-R001": "v1",
+        "IMO-CONV-MARPOL-73-78-ANV-REG10-R001": "v1",
+        "IMO-CONV-MARPOL-73-78-ANVI-REG6-R001": "v1"
+      },
+      "computed_at": "2026-10-05T22:02:09.838291+00:00",
+      "items": [
+        {
+          "obligation_id": "BD-ORD-MERCHANT-SHIPPING-1983-S066-R001:BD-ORD-MERCHANT-SHIPPING-1983-S066",
+          "status": "GREEN",
+          "layer": "L2_FLAG",
+          "provision": "BD-ORD-MERCHANT-SHIPPING-1983-S066",
+          "provision_id": "BD-ORD-MERCHANT-SHIPPING-1983-S066",
+          "rule_version_id": "BD-ORD-MERCHANT-SHIPPING-1983-S066-R001-v1",
+          "advisory": false,
+          "reason": "BD-ORD-MERCHANT-SHIPPING-1983-S066-R001 [MANDATORY] over BD-ORD-MERCHANT-SHIPPING-1983-S066 @ 2026-10-06: condition=TRUE => GREEN | unknowns: missing expiry_date",
+          "requirement": "Ship must hold a valid licence for taking the ship to sea (Section 66).",
+          "why_applicable": "flag=BD, ship_type=CARGO, GT=12800.0, operation=SEA_VOYAGE on 2026-10-06 matches applicability predicate",
+          "source_law": "BD-ORD-MERCHANT-SHIPPING-1983-S066",
+          "legal_version": "lv-BD-ORD-MERCHANT-SHIPPING-1983-v2",
+          "amended": true,
+          "in_force_on_date": true,
+          "evidence": [
+            "LICENSE_TO_SAIL"
+          ],
+          "rule_executed": "BD-ORD-MERCHANT-SHIPPING-1983-S066-R001@BD-ORD-MERCHANT-SHIPPING-1983-S066-R001-v1",
+          "facts_used": {
+            "flag": "BD",
+            "operation": "SEA_VOYAGE",
+            "ship_type": "CARGO",
+            "zone_type": "TERRITORIAL",
+            "coastal_state": "BD",
+            "port": "CHITTAGONG",
+            "gross_tonnage": 12800.0,
+            "annex_ratified_for_flag": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI"
+            ]
+          },
+          "result": "GREEN",
+          "missing": [
+            "missing expiry_date"
+          ],
+          "required_action": null,
+          "deadline": null,
+          "consequence": "none",
+          "lawyer_review_needed": false
+        },
+        {
+          "obligation_id": "BD-ORD-MERCHANT-SHIPPING-1983-S082-R001:BD-ORD-MERCHANT-SHIPPING-1983-S082",
+          "status": "BLACK",
+          "layer": "L2_FLAG",
+          "provision": "BD-ORD-MERCHANT-SHIPPING-1983-S082",
+          "provision_id": "BD-ORD-MERCHANT-SHIPPING-1983-S082",
+          "rule_version_id": "BD-ORD-MERCHANT-SHIPPING-1983-S082-R001-v1",
+          "advisory": false,
+          "reason": "BD-ORD-MERCHANT-SHIPPING-1983-S082-R001 [MANDATORY] over BD-ORD-MERCHANT-SHIPPING-1983-S082 @ 2026-10-06: condition=FALSE => BLACK",
+          "requirement": "Ship must carry the safe manning document and every crew member must hold a valid Certificate of Competency for their rank.",
+          "why_applicable": "flag=BD, ship_type=CARGO, GT=12800.0, operation=SEA_VOYAGE on 2026-10-06 matches applicability predicate",
+          "source_law": "Bangladesh Merchant Shipping Ordinance, 1983 (Ord. XXVI of 1983), Section 82",
+          "legal_version": "lv-BD-ORD-MERCHANT-SHIPPING-1983-v2",
+          "amended": true,
+          "in_force_on_date": true,
+          "evidence": [
+            "SAFE_MANNING_DOCUMENT",
+            "CREW_LIST",
+            "COC_PER_CREW_MEMBER"
+          ],
+          "rule_executed": "BD-ORD-MERCHANT-SHIPPING-1983-S082-R001@BD-ORD-MERCHANT-SHIPPING-1983-S082-R001-v1",
+          "facts_used": {
+            "flag": "BD",
+            "operation": "SEA_VOYAGE",
+            "ship_type": "CARGO",
+            "zone_type": "TERRITORIAL",
+            "coastal_state": "BD",
+            "port": "CHITTAGONG",
+            "gross_tonnage": 12800.0,
+            "annex_ratified_for_flag": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI"
+            ]
+          },
+          "result": "BLACK",
+          "missing": [],
+          "required_action": "resolve BLACK item",
+          "deadline": null,
+          "consequence": "undetermined — must be resolved by legal review before relying on this result",
+          "lawyer_review_needed": true
+        },
+        {
+          "obligation_id": "BD-ORD-MERCHANT-SHIPPING-1983-S335-R001:BD-ORD-MERCHANT-SHIPPING-1983-S335",
+          "status": "GREEN",
+          "layer": "L2_FLAG",
+          "provision": "BD-ORD-MERCHANT-SHIPPING-1983-S335",
+          "provision_id": "BD-ORD-MERCHANT-SHIPPING-1983-S335",
+          "rule_version_id": "BD-ORD-MERCHANT-SHIPPING-1983-S335-R001-v1",
+          "advisory": false,
+          "reason": "BD-ORD-MERCHANT-SHIPPING-1983-S335-R001 [MANDATORY] over BD-ORD-MERCHANT-SHIPPING-1983-S335 @ 2026-10-06: condition=TRUE => GREEN | unknowns: missing expiry_date",
+          "requirement": "Ship must hold a valid Load Line Certificate on board at all times while at sea or in port.",
+          "why_applicable": "flag=BD, ship_type=CARGO, GT=12800.0, operation=SEA_VOYAGE on 2026-10-06 matches applicability predicate",
+          "source_law": "Bangladesh Merchant Shipping Ordinance, 1983 (Ord. XXVI of 1983), Section 335",
+          "legal_version": "lv-BD-ORD-MERCHANT-SHIPPING-1983-v2",
+          "amended": true,
+          "in_force_on_date": true,
+          "evidence": [
+            "LOAD_LINE_CERTIFICATE"
+          ],
+          "rule_executed": "BD-ORD-MERCHANT-SHIPPING-1983-S335-R001@BD-ORD-MERCHANT-SHIPPING-1983-S335-R001-v1",
+          "facts_used": {
+            "flag": "BD",
+            "operation": "SEA_VOYAGE",
+            "ship_type": "CARGO",
+            "zone_type": "TERRITORIAL",
+            "coastal_state": "BD",
+            "port": "CHITTAGONG",
+            "gross_tonnage": 12800.0,
+            "annex_ratified_for_flag": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI"
+            ]
+          },
+          "result": "GREEN",
+          "missing": [
+            "missing expiry_date"
+          ],
+          "required_action": null,
+          "deadline": null,
+          "consequence": "none",
+          "lawyer_review_needed": false
+        },
+        {
+          "obligation_id": "BD-ORD-MERCHANT-SHIPPING-1983-S350-R001:BD-ORD-MERCHANT-SHIPPING-1983-S350",
+          "status": "GREEN",
+          "layer": "L2_FLAG",
+          "provision": "BD-ORD-MERCHANT-SHIPPING-1983-S350",
+          "provision_id": "BD-ORD-MERCHANT-SHIPPING-1983-S350",
+          "rule_version_id": "BD-ORD-MERCHANT-SHIPPING-1983-S350-R001-v1",
+          "advisory": false,
+          "reason": "BD-ORD-MERCHANT-SHIPPING-1983-S350-R001 [MANDATORY] over BD-ORD-MERCHANT-SHIPPING-1983-S350 @ 2026-10-06: condition=TRUE => GREEN | unknowns: missing expiry_date",
+          "requirement": "Ship must be seaworthy: valid class certificate and safety equipment certificate must be on board and not expired.",
+          "why_applicable": "flag=BD, ship_type=CARGO, GT=12800.0, operation=SEA_VOYAGE on 2026-10-06 matches applicability predicate",
+          "source_law": "Bangladesh Merchant Shipping Ordinance, 1983 (Ord. XXVI of 1983), Section 350",
+          "legal_version": "lv-BD-ORD-MERCHANT-SHIPPING-1983-v2",
+          "amended": true,
+          "in_force_on_date": true,
+          "evidence": [
+            "CLASS_CERTIFICATE",
+            "SAFETY_EQUIPMENT_CERTIFICATE"
+          ],
+          "rule_executed": "BD-ORD-MERCHANT-SHIPPING-1983-S350-R001@BD-ORD-MERCHANT-SHIPPING-1983-S350-R001-v1",
+          "facts_used": {
+            "flag": "BD",
+            "operation": "SEA_VOYAGE",
+            "ship_type": "CARGO",
+            "zone_type": "TERRITORIAL",
+            "coastal_state": "BD",
+            "port": "CHITTAGONG",
+            "gross_tonnage": 12800.0,
+            "annex_ratified_for_flag": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI"
+            ]
+          },
+          "result": "GREEN",
+          "missing": [
+            "missing expiry_date"
+          ],
+          "required_action": null,
+          "deadline": null,
+          "consequence": "none",
+          "lawyer_review_needed": false
+        },
+        {
+          "obligation_id": "IMO-CONV-MARPOL-73-78-ANI-REG36-R001:IMO-CONV-MARPOL-73-78-ANI-REG36",
+          "status": "BLACK",
+          "layer": "L2_FLAG",
+          "provision": "IMO-CONV-MARPOL-73-78-ANI-REG36",
+          "provision_id": "IMO-CONV-MARPOL-73-78-ANI-REG36",
+          "rule_version_id": "IMO-CONV-MARPOL-73-78-ANI-REG36-R001-v1",
+          "advisory": false,
+          "reason": "IMO-CONV-MARPOL-73-78-ANI-REG36-R001 [MANDATORY] over IMO-CONV-MARPOL-73-78-ANI-REG36 @ 2026-10-06: condition=FALSE => BLACK | unknowns: missing expiry_date",
+          "requirement": "Ships of 400 GT and above must carry a valid Oil Record Book (MARPOL Annex I).",
+          "why_applicable": "flag=BD, ship_type=CARGO, GT=12800.0, operation=SEA_VOYAGE on 2026-10-06 matches applicability predicate",
+          "source_law": "IMO-CONV-MARPOL-73-78-ANI-REG36",
+          "legal_version": "lv-MARPOL-73-78-ANI-current",
+          "amended": true,
+          "in_force_on_date": true,
+          "evidence": [
+            "OIL_RECORD_BOOK"
+          ],
+          "rule_executed": "IMO-CONV-MARPOL-73-78-ANI-REG36-R001@IMO-CONV-MARPOL-73-78-ANI-REG36-R001-v1",
+          "facts_used": {
+            "flag": "BD",
+            "operation": "SEA_VOYAGE",
+            "ship_type": "CARGO",
+            "zone_type": "TERRITORIAL",
+            "coastal_state": "BD",
+            "port": "CHITTAGONG",
+            "gross_tonnage": 12800.0,
+            "annex_ratified_for_flag": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI"
+            ]
+          },
+          "result": "BLACK",
+          "missing": [
+            "missing expiry_date"
+          ],
+          "required_action": "resolve BLACK item",
+          "deadline": null,
+          "consequence": "undetermined — must be resolved by legal review before relying on this result",
+          "lawyer_review_needed": true
+        },
+        {
+          "obligation_id": "IMO-CONV-MARPOL-73-78-ANV-REG10-R001:IMO-CONV-MARPOL-73-78-ANV-REG10",
+          "status": "GREEN",
+          "layer": "L2_FLAG",
+          "provision": "IMO-CONV-MARPOL-73-78-ANV-REG10",
+          "provision_id": "IMO-CONV-MARPOL-73-78-ANV-REG10",
+          "rule_version_id": "IMO-CONV-MARPOL-73-78-ANV-REG10-R001-v1",
+          "advisory": false,
+          "reason": "IMO-CONV-MARPOL-73-78-ANV-REG10-R001 [MANDATORY] over IMO-CONV-MARPOL-73-78-ANV-REG10 @ 2026-10-06: condition=TRUE => GREEN | unknowns: missing expiry_date",
+          "requirement": "Ships of 100 GT and above must carry a garbage management plan and garbage record book (MARPOL Annex V).",
+          "why_applicable": "flag=BD, ship_type=CARGO, GT=12800.0, operation=SEA_VOYAGE on 2026-10-06 matches applicability predicate",
+          "source_law": "IMO-CONV-MARPOL-73-78-ANV-REG10",
+          "legal_version": "lv-MARPOL-73-78-ANV-current",
+          "amended": true,
+          "in_force_on_date": true,
+          "evidence": [
+            "GARBAGE_MANAGEMENT_PLAN",
+            "GARBAGE_RECORD_BOOK"
+          ],
+          "rule_executed": "IMO-CONV-MARPOL-73-78-ANV-REG10-R001@IMO-CONV-MARPOL-73-78-ANV-REG10-R001-v1",
+          "facts_used": {
+            "flag": "BD",
+            "operation": "SEA_VOYAGE",
+            "ship_type": "CARGO",
+            "zone_type": "TERRITORIAL",
+            "coastal_state": "BD",
+            "port": "CHITTAGONG",
+            "gross_tonnage": 12800.0,
+            "annex_ratified_for_flag": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI"
+            ]
+          },
+          "result": "GREEN",
+          "missing": [
+            "missing expiry_date"
+          ],
+          "required_action": null,
+          "deadline": null,
+          "consequence": "none",
+          "lawyer_review_needed": false
+        },
+        {
+          "obligation_id": "IMO-CONV-MARPOL-73-78-ANVI-REG6-R001:IMO-CONV-MARPOL-73-78-ANVI-REG6",
+          "status": "GREEN",
+          "layer": "L2_FLAG",
+          "provision": "IMO-CONV-MARPOL-73-78-ANVI-REG6",
+          "provision_id": "IMO-CONV-MARPOL-73-78-ANVI-REG6",
+          "rule_version_id": "IMO-CONV-MARPOL-73-78-ANVI-REG6-R001-v1",
+          "advisory": false,
+          "reason": "IMO-CONV-MARPOL-73-78-ANVI-REG6-R001 [MANDATORY] over IMO-CONV-MARPOL-73-78-ANVI-REG6 @ 2026-10-06: condition=TRUE => GREEN | unknowns: missing expiry_date",
+          "requirement": "Ships of 400 GT and above must hold a valid IAPP Certificate (MARPOL Annex VI).",
+          "why_applicable": "flag=BD, ship_type=CARGO, GT=12800.0, operation=SEA_VOYAGE on 2026-10-06 matches applicability predicate",
+          "source_law": "IMO-CONV-MARPOL-73-78-ANVI-REG6",
+          "legal_version": "lv-MARPOL-73-78-ANVI-current",
+          "amended": true,
+          "in_force_on_date": true,
+          "evidence": [
+            "IAPP_CERTIFICATE"
+          ],
+          "rule_executed": "IMO-CONV-MARPOL-73-78-ANVI-REG6-R001@IMO-CONV-MARPOL-73-78-ANVI-REG6-R001-v1",
+          "facts_used": {
+            "flag": "BD",
+            "operation": "SEA_VOYAGE",
+            "ship_type": "CARGO",
+            "zone_type": "TERRITORIAL",
+            "coastal_state": "BD",
+            "port": "CHITTAGONG",
+            "gross_tonnage": 12800.0,
+            "annex_ratified_for_flag": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI"
+            ]
+          },
+          "result": "GREEN",
+          "missing": [
+            "missing expiry_date"
+          ],
+          "required_action": null,
+          "deadline": null,
+          "consequence": "none",
+          "lawyer_review_needed": false
+        }
+      ],
+      "lawyer_review_queue": [
+        "BD-ORD-MERCHANT-SHIPPING-1983-S082-R001:BD-ORD-MERCHANT-SHIPPING-1983-S082",
+        "IMO-CONV-MARPOL-73-78-ANI-REG36-R001:IMO-CONV-MARPOL-73-78-ANI-REG36"
+      ]
+    }
+  },
+  "instruments": {
+    "bangladesh": [
+      {
+        "id": "BD-ORD-MERCHANT-SHIPPING-1983",
+        "jurisdiction_id": "BD",
+        "authority_id": "BD-DOS",
+        "instrument_type": "ORD",
+        "title": "The Bangladesh Merchant Shipping Ordinance, 1983",
+        "citation": "Ordinance No. XXVI of 1983",
+        "enacted_date": "1983-12-31",
+        "status": "AMENDED",
+        "verification_status": "VERIFIED_AGAINST_GAZETTE",
+        "verified_note": "Audit: Ord. XXVI of 1983 confirmed against bdlaws.minlaw.gov.bd structure; manning chapter numbering accurate post-1988 amendment.",
+        "provisions": [
+          {
+            "locator": "Section 1",
+            "title": "Short title, commencement, application",
+            "priority": "P1"
+          },
+          {
+            "locator": "Section 2",
+            "title": "Definitions",
+            "priority": "P1"
+          },
+          {
+            "locator": "Section 4",
+            "title": "Department of Shipping",
+            "priority": "P2"
+          },
+          {
+            "locator": "Section 65",
+            "title": "Chartering",
+            "priority": "P2"
+          },
+          {
+            "locator": "Section 66",
+            "title": "Licence for taking ship to sea",
+            "priority": "P1"
+          },
+          {
+            "locator": "Section 80",
+            "title": "Certificates of competency",
+            "priority": "P1"
+          },
+          {
+            "locator": "Section 82",
+            "title": "Manning of ships",
+            "priority": "P1"
+          },
+          {
+            "locator": "Section 335",
+            "title": "Load line certificates",
+            "priority": "P1"
+          },
+          {
+            "locator": "Section 350",
+            "title": "Unseaworthy ships",
+            "priority": "P1"
+          },
+          {
+            "locator": "Section 351",
+            "title": "Sending ship to sea when unseaworthy",
+            "priority": "P1"
+          },
+          {
+            "locator": "Section 471",
+            "title": "Limitation of liability",
+            "priority": "P3",
+            "note": "Elevate to P2 when module 15 (Liability) is built (open-items register Part 16)"
+          }
+        ]
+      },
+      {
+        "id": "BD-RULES-STCW-2011",
+        "jurisdiction_id": "BD",
+        "authority_id": "BD-DOS",
+        "instrument_type": "RULES",
+        "title": "Bangladesh Merchant Shipping Officers and Ratings Training, Certification, Recruitment, Work Hours and Watchkeeping Rules, 2011",
+        "citation": "S.R.O. No. 26-Law/2011",
+        "enacted_date": "2011-01-01",
+        "status": "IN_FORCE",
+        "verification_status": "VERIFIED_AGAINST_GAZETTE",
+        "verify_open": "2020 amendment regulations exist — confirm titles (Part 16)"
+      },
+      {
+        "id": "BD-ACT-TERRITORIAL-WATERS-MARITIME-ZONES-1974",
+        "jurisdiction_id": "BD",
+        "authority_id": "BD-DOS",
+        "instrument_type": "ACT",
+        "title": "The Territorial Waters and Maritime Zones Act, 1974",
+        "enacted_date": "1974-01-01",
+        "status": "AMENDED",
+        "verification_status": "REVIEWED",
+        "key_nodes": [
+          "S001",
+          "S002",
+          "S002A",
+          "S005",
+          "S005A",
+          "S007",
+          "S009",
+          "S010",
+          "S013",
+          "S022"
+        ],
+        "verify_open": "section numbering vs amended text (2A, 5A, 9, 10, 13, 22)"
+      },
+      {
+        "id": "BD-AMEND-TERRITORIAL-WATERS-MARITIME-ZONES-2021",
+        "jurisdiction_id": "BD",
+        "authority_id": "BD-DOS",
+        "instrument_type": "AMEND",
+        "title": "Territorial Waters and Maritime Zones (Amendment) Act, 2021",
+        "citation": "Act No. XXIX of 2021",
+        "enacted_date": "2021-01-01",
+        "status": "IN_FORCE",
+        "verification_status": "VERIFIED_AGAINST_GAZETTE",
+        "targets": "BD-ACT-TERRITORIAL-WATERS-MARITIME-ZONES-1974",
+        "note": "1974 original + 2021 amendment + current consolidated retained as three distinct versioned objects."
+      },
+      {
+        "id": "BD-ORD-INLAND-SHIPPING-1976",
+        "jurisdiction_id": "BD",
+        "instrument_type": "ORD",
+        "title": "The Bangladesh Inland Shipping Ordinance, 1976",
+        "citation": "Ordinance No. LXXII of 1976",
+        "status": "IN_FORCE",
+        "verification_status": "VERIFIED_AGAINST_GAZETTE"
+      },
+      {
+        "id": "BD-ORD-BIWT-AUTHORITY-1958",
+        "jurisdiction_id": "BD",
+        "instrument_type": "ORD",
+        "title": "BIWTA Ordinance",
+        "status": "IN_FORCE",
+        "verification_status": "EXTRACTED_BY_AI",
+        "verify_open": "exact title to verify (Part 16)"
+      },
+      {
+        "id": "BD-ORD-PILOTAGE-1969",
+        "jurisdiction_id": "BD",
+        "instrument_type": "ORD",
+        "title": "Pilotage Ordinance 1969",
+        "status": "IN_FORCE",
+        "verification_status": "EXTRACTED_BY_AI",
+        "verify_open": "verify (Part 16)"
+      },
+      {
+        "id": "BD-ACT-CHITTAGONG-PORT-AUTHORITY-2022",
+        "jurisdiction_id": "BD",
+        "authority_id": "BD-CPA",
+        "instrument_type": "ACT",
+        "title": "Chittagong Port Authority Act, 2022",
+        "status": "IN_FORCE",
+        "verification_status": "VERIFIED_AGAINST_GAZETTE",
+        "repeals": [
+          {
+            "instrument_id": "BD-ORD-CPA-1976",
+            "note": "Gazette repeal schedule to capture as repeal object with replacement_instrument_id (Part 5.5)"
+          }
+        ]
+      },
+      {
+        "id": "BD-ACT-MONGLA-PORT-AUTHORITY-2022",
+        "jurisdiction_id": "BD",
+        "authority_id": "BD-MPA",
+        "instrument_type": "ACT",
+        "title": "Mongla Port Authority Act, 2022",
+        "status": "IN_FORCE",
+        "verification_status": "VERIFIED_AGAINST_GAZETTE",
+        "repeals": [
+          {
+            "instrument_id": "BD-ORD-MPA-1976"
+          }
+        ]
+      },
+      {
+        "id": "BD-ACT-PAYRA-PORT-AUTHORITY-2013",
+        "jurisdiction_id": "BD",
+        "authority_id": "BD-PPA",
+        "instrument_type": "ACT",
+        "title": "Payra Port Authority Act, 2013",
+        "status": "IN_FORCE",
+        "verification_status": "VERIFIED_AGAINST_GAZETTE"
+      },
+      {
+        "id": "BD-ACT-SHIP-RECYCLING-2018",
+        "jurisdiction_id": "BD",
+        "instrument_type": "ACT",
+        "title": "Bangladesh Ship Recycling Act, 2018",
+        "citation": "Act No. VIII of 2018",
+        "status": "IN_FORCE",
+        "verification_status": "VERIFIED_AGAINST_GAZETTE",
+        "verify_open": "subordinate rules status (Part 16)"
+      },
+      {
+        "id": "BD-ACT-ENVIRONMENT-CONSERVATION-1995",
+        "jurisdiction_id": "BD",
+        "authority_id": "BD-DOE",
+        "instrument_type": "ACT",
+        "title": "Bangladesh Environment Conservation Act, 1995",
+        "status": "AMENDED",
+        "verification_status": "REVIEWED"
+      },
+      {
+        "id": "BD-RULES-ENVIRONMENT-CONSERVATION-2023",
+        "jurisdiction_id": "BD",
+        "authority_id": "BD-DOE",
+        "instrument_type": "RULES",
+        "title": "Environment Conservation Rules, 2023",
+        "status": "IN_FORCE",
+        "verification_status": "REVIEWED"
+      },
+      {
+        "id": "BD-RULES-AIR-POLLUTION-CONTROL-2022",
+        "jurisdiction_id": "BD",
+        "authority_id": "BD-DOE",
+        "instrument_type": "RULES",
+        "title": "Air Pollution (Control) Rules, 2022",
+        "status": "IN_FORCE",
+        "verification_status": "EXTRACTED_BY_AI"
+      },
+      {
+        "id": "BD-RULES-SOLID-WASTE-MANAGEMENT-2021",
+        "jurisdiction_id": "BD",
+        "authority_id": "BD-DOE",
+        "instrument_type": "RULES",
+        "title": "Solid Waste Management Rules, 2021",
+        "status": "IN_FORCE",
+        "verification_status": "EXTRACTED_BY_AI"
+      },
+      {
+        "id": "BD-RULES-E-WASTE-MANAGEMENT-2021",
+        "jurisdiction_id": "BD",
+        "authority_id": "BD-DOE",
+        "instrument_type": "RULES",
+        "title": "E-waste Management Rules, 2021",
+        "status": "IN_FORCE",
+        "verification_status": "EXTRACTED_BY_AI"
+      },
+      {
+        "id": "BD-RULES-HAZARDOUS-WASTE-SHIP-BREAKING-2011",
+        "jurisdiction_id": "BD",
+        "authority_id": "BD-DOE",
+        "instrument_type": "RULES",
+        "title": "Hazardous Waste (Ship Breaking) Rules, 2011",
+        "status": "IN_FORCE",
+        "verification_status": "EXTRACTED_BY_AI"
+      },
+      {
+        "id": "BD-RULES-NOISE-POLLUTION-2025",
+        "jurisdiction_id": "BD",
+        "authority_id": "BD-DOE",
+        "instrument_type": "RULES",
+        "title": "Noise Pollution (Control) Rules, 2025",
+        "status": "DRAFT",
+        "verification_status": "EXTRACTED_BY_AI",
+        "verify_open": "confirm status/date (Part 16) — DRAFT quarantined from live calculations (Principle 5)"
+      },
+      {
+        "id": "BD-RULES-SEAMEN-RECRUITMENT-2001",
+        "jurisdiction_id": "BD",
+        "instrument_type": "RULES",
+        "title": "Seamen Recruitment Rules, 2001",
+        "status": "IN_FORCE",
+        "verification_status": "EXTRACTED_BY_AI"
+      },
+      {
+        "id": "BD-RULES-SEAMEN-RECRUITING-AGENT-LICENSE-2005",
+        "jurisdiction_id": "BD",
+        "instrument_type": "RULES",
+        "title": "Seamen Recruiting Agent Licence Rules, 2005",
+        "status": "IN_FORCE",
+        "verification_status": "EXTRACTED_BY_AI"
+      },
+      {
+        "id": "BD-REG-MERCHANT-SHIPPING-RADIO-2002",
+        "jurisdiction_id": "BD",
+        "instrument_type": "REG",
+        "title": "Merchant Shipping Radio Regulations, 2002",
+        "status": "IN_FORCE",
+        "verification_status": "EXTRACTED_BY_AI",
+        "verify_open": "confirm title/number (Part 16)"
+      }
+    ],
+    "international": [
+      {
+        "id": "IMO-CONV-SOLAS-1974",
+        "instrument_type": "CONV",
+        "title": "International Convention for the Safety of Life at Sea, 1974",
+        "status": "IN_FORCE",
+        "children": [
+          "PROTOCOL-1978",
+          "PROTOCOL-1988",
+          "AMENDMENTS/"
+        ],
+        "verify_open": "per-flag amendment entry-into-force (tacit acceptance) — continuous"
+      },
+      {
+        "id": "IMO-CONV-COLREG-1972",
+        "instrument_type": "CONV",
+        "title": "Convention on the International Regulations for Preventing Collisions at Sea, 1972",
+        "status": "IN_FORCE"
+      },
+      {
+        "id": "IMO-CONV-LOAD-LINES-1966",
+        "instrument_type": "CONV",
+        "title": "International Convention on Load Lines, 1966",
+        "status": "IN_FORCE",
+        "children": [
+          "PROTOCOL-1988"
+        ]
+      },
+      {
+        "id": "IMO-CONV-TONNAGE-1969",
+        "instrument_type": "CONV",
+        "title": "International Convention on Tonnage Measurement of Ships, 1969",
+        "status": "IN_FORCE"
+      },
+      {
+        "id": "IMO-CONV-STCW-1978",
+        "instrument_type": "CONV",
+        "title": "International Convention on Standards of Training, Certification and Watchkeeping for Seafarers, 1978",
+        "status": "IN_FORCE",
+        "children": [
+          "AMENDMENT-1995",
+          "AMENDMENT-2010-MANILA"
+        ]
+      },
+      {
+        "id": "IMO-CONV-CSC-1972",
+        "instrument_type": "CONV",
+        "title": "International Convention for Safe Containers, 1972",
+        "status": "IN_FORCE"
+      },
+      {
+        "id": "IMO-CONV-MARPOL-73-78",
+        "instrument_type": "CONV",
+        "title": "International Convention for the Prevention of Pollution from Ships, 1973 as modified by the 1978 Protocol",
+        "status": "IN_FORCE",
+        "annexes": [
+          "ANNEX-I oil",
+          "ANNEX-II NLS",
+          "ANNEX-III packaged",
+          "ANNEX-IV sewage",
+          "ANNEX-V garbage",
+          "ANNEX-VI air"
+        ],
+        "note": "each annex versions independently"
+      },
+      {
+        "id": "IMO-CONV-BWM-2004",
+        "instrument_type": "CONV",
+        "title": "International Convention for the Control and Management of Ships' Ballast Water and Sediments, 2004",
+        "status": "IN_FORCE",
+        "verify_open": "2024 amendments status & dates (Part 16)"
+      },
+      {
+        "id": "IMO-CONV-AFS-2001",
+        "instrument_type": "CONV",
+        "title": "International Convention on the Control of Harmful Anti-fouling Systems on Ships, 2001",
+        "status": "IN_FORCE"
+      },
+      {
+        "id": "IMO-CONV-BUNKER-2001",
+        "instrument_type": "CONV",
+        "title": "International Convention on Civil Liability for Bunker Oil Pollution Damage, 2001",
+        "status": "IN_FORCE"
+      },
+      {
+        "id": "IMO-CONV-WRECK-REMOVAL-2007",
+        "instrument_type": "CONV",
+        "title": "Nairobi International Convention on the Removal of Wrecks, 2007",
+        "status": "IN_FORCE"
+      },
+      {
+        "id": "IMO-CONV-HNS-1996",
+        "instrument_type": "CONV",
+        "title": "International Convention on Liability and Compensation for Damage in Connection with the Carriage of Hazardous and Noxious Substances by Sea, 1996",
+        "status": "DRAFT",
+        "verify_open": "entry-into-force status (Part 16)"
+      },
+      {
+        "id": "IMO-CONV-SALVAGE-1989",
+        "instrument_type": "CONV",
+        "title": "International Convention on Salvage, 1989",
+        "status": "IN_FORCE"
+      },
+      {
+        "id": "IMO-CONV-ATHENS-PAL-1974",
+        "instrument_type": "CONV",
+        "title": "Athens Convention relating to the Carriage of Passengers and their Luggage by Sea, 1974",
+        "status": "IN_FORCE"
+      },
+      {
+        "id": "IMO-CONV-INTERVENTION-1969",
+        "instrument_type": "CONV",
+        "title": "International Convention relating to Intervention on the High Seas in Cases of Oil Pollution Casualties, 1969",
+        "status": "IN_FORCE"
+      },
+      {
+        "id": "IMO-CONV-FACILITATION-1965",
+        "instrument_type": "CONV",
+        "title": "Convention on Facilitation of International Maritime Traffic, 1965",
+        "status": "IN_FORCE"
+      },
+      {
+        "id": "IMO-CONV-SAR-1979",
+        "instrument_type": "CONV",
+        "title": "International Convention on Maritime Search and Rescue, 1979",
+        "status": "IN_FORCE"
+      },
+      {
+        "id": "IMO-CONV-TORREMOLINOS-1993",
+        "instrument_type": "CONV",
+        "title": "Torremolinos International Convention for the Safety of Fishing Vessels, 1993",
+        "status": "DRAFT",
+        "verify_open": "+ 2012 Cape Town protocol (Part 6.1)"
+      },
+      {
+        "id": "ILO-CONV-MLC-2006",
+        "instrument_type": "CONV",
+        "title": "Maritime Labour Convention, 2006",
+        "status": "IN_FORCE",
+        "amendments": [
+          "2014",
+          "2016",
+          "2018",
+          "2022"
+        ],
+        "future": {
+          "id": "ILO-CONV-MLC-2006-AMEND-2025",
+          "status": "FUTURE_EFFECTIVE",
+          "entry_into_force": "2027-12-23",
+          "note": "confirmed vs ILO official — stored but inactive until effective (Principle 6)"
+        }
+      },
+      {
+        "id": "UNCLOS-1982",
+        "instrument_type": "CONV",
+        "title": "United Nations Convention on the Law of the Sea, 1982",
+        "status": "IN_FORCE",
+        "high_traffic_nodes": [
+          "Art. 25",
+          "Art. 91",
+          "Art. 94",
+          "Art. 211",
+          "Art. 217",
+          "Art. 218",
+          "Art. 220",
+          "Art. 226"
+        ]
+      }
+    ]
+  },
+  "impacts": {
+    "open_verification_items": [
+      {
+        "item": "BWM 2024 amendments status & dates",
+        "status": "open",
+        "verify_against": "IMO"
+      },
+      {
+        "item": "Noise Pollution Rules 2025 status",
+        "status": "open",
+        "verify_against": "DoE"
+      },
+      {
+        "item": "Every IMO amendment entry-into-force date per flag (tacit acceptance)",
+        "status": "open",
+        "verify_against": "IMO Status Books 2026"
+      },
+      {
+        "item": "BD subordinate rules titles/numbers (survey/certification, safe manning)",
+        "status": "open",
+        "verify_against": "DOS / Gazette"
+      },
+      {
+        "item": "Cyber: BD ICT Act 2006 / Cyber Security Act 2023 mapping to MSC.428 controls",
+        "status": "open",
+        "verify_against": "official texts"
+      },
+      {
+        "item": "STCW Rules 2011 — 2020 amendment regulation titles",
+        "status": "open",
+        "verify_against": "DOS legal materials"
+      },
+      {
+        "item": "Ship Recycling Act 2018 subordinate rules status",
+        "status": "open",
+        "verify_against": "Gazette / DoE"
+      }
+    ],
+    "sla": "official publication -> customer alert <= 72h for high-impact changes"
+  },
+  "rules": {
+    "BD-ORD-MERCHANT-SHIPPING-1983-S066-R001": "# BD-ORD-MERCHANT-SHIPPING-1983-S066-R001 — Licence for taking ship to sea\nrule_id: BD-ORD-MERCHANT-SHIPPING-1983-S066-R001\nrule_version: 1\ndomain: LICENCE\nobligation_dimension: licence_to_sail\n\nlegal_source:\n  provision_id: BD-ORD-MERCHANT-SHIPPING-1983-S066\n  legal_version_id: lv-BD-ORD-MERCHANT-SHIPPING-1983-v2\n  instrument_id: BD-ORD-MERCHANT-SHIPPING-1983\n  locator: Section 66\n\napplicability:\n  all:\n    - flag: [BD]\n    - operation: [SEA_VOYAGE]\n\ncondition:\n  type: MANDATORY\n  expression: |\n    EXISTS e IN evidence :\n      e.evidence_type = \"LICENSE_TO_SAIL\"\n      AND NOT expired(e, at: eval_date)\n\noutcome:\n  compliant_if: valid licence for taking ship to sea on file\n  non_compliant_if: licence absent or expired\n  contract_requirement: \"Ship must hold a valid licence for taking the ship to sea (Section 66).\"\n\nevidence_required:\n  - LICENSE_TO_SAIL\n\nstatus_ladder:\n  BLACK: 'NOT (EXISTS e IN evidence : e.evidence_type = \"LICENSE_TO_SAIL\")'\n  RED: 'EXISTS e IN evidence : e.evidence_type = \"LICENSE_TO_SAIL\" AND expired(e, at: eval_date)'\n  YELLOW: 'EXISTS e IN evidence : e.evidence_type = \"LICENSE_TO_SAIL\" AND expires_within(e, 60)'\n\nconsequence_of_non_correction: \"Taking a ship to sea without the licence is an offence; detention and penalty exposure.\"\n",
+    "BD-ORD-MERCHANT-SHIPPING-1983-S082-R001": "# BD-ORD-MERCHANT-SHIPPING-1983-S082-R001 — Manning of ships\n# Blueprint v2.0 Part 9.2 canonical example, executable against ILRMF-DSL.\n#\n# Verification gate: the provision backing this rule must reach\n# VERIFIED_AGAINST_GAZETTE before the rule may go ACTIVE (Principle 12).\nrule_id: BD-ORD-MERCHANT-SHIPPING-1983-S082-R001\nrule_version: 1\ndomain: MANNING\nobligation_dimension: manning_level\n\nlegal_source:\n  provision_id: BD-ORD-MERCHANT-SHIPPING-1983-S082\n  legal_version_id: lv-BD-ORD-MERCHANT-SHIPPING-1983-v2\n  instrument_id: BD-ORD-MERCHANT-SHIPPING-1983\n  locator: Section 82\n\napplicability:\n  all:\n    - flag: [BD]\n    - operation: [SEA_VOYAGE]\n    - ship_type: [CARGO, TANKER, PASSENGER]\n\ncondition:\n  type: MANDATORY\n  expression: |\n    (EXISTS e IN evidence : e.evidence_type = \"SAFE_MANNING_DOCUMENT\")\n    AND (FORALL crew_member IN current_crew :\n           crew_member.coc_valid(at: eval_date)\n           AND crew_member.rank IN required_ranks)\n\noutcome:\n  compliant_if: condition true\n  non_compliant_if: any part false\n  contract_requirement: \"Ship must carry the safe manning document and every crew member must hold a valid Certificate of Competency for their rank.\"\n\nevidence_required:\n  - SAFE_MANNING_DOCUMENT\n  - CREW_LIST\n  - COC_PER_CREW_MEMBER\n\nstatus_ladder:\n  BLACK: 'NOT (EXISTS e IN evidence : e.evidence_type = \"SAFE_MANNING_DOCUMENT\")'\n  RED: 'EXISTS c IN current_crew : NOT c.coc_valid(at: eval_date)'\n  YELLOW: 'EXISTS e IN evidence : expires_within(e, 60)'\n\nconsequence_of_non_correction: \"Detention risk under port-State control; licence-to-sail exposure (S66).\"\n",
+    "BD-ORD-MERCHANT-SHIPPING-1983-S335-R001": "# BD-ORD-MERCHANT-SHIPPING-1983-S335-R001 — Load line certificate\nrule_id: BD-ORD-MERCHANT-SHIPPING-1983-S335-R001\nrule_version: 1\ndomain: LOADLINE\nobligation_dimension: load_line_certification\n\nlegal_source:\n  provision_id: BD-ORD-MERCHANT-SHIPPING-1983-S335\n  legal_version_id: lv-BD-ORD-MERCHANT-SHIPPING-1983-v2\n  instrument_id: BD-ORD-MERCHANT-SHIPPING-1983\n  locator: Section 335\n\napplicability:\n  all:\n    - flag: [BD]\n    - operation: [SEA_VOYAGE, PORT_CALL]\n\ncondition:\n  type: MANDATORY\n  expression: |\n    EXISTS e IN evidence :\n      e.evidence_type = \"LOAD_LINE_CERTIFICATE\"\n      AND NOT expired(e, at: eval_date)\n\noutcome:\n  compliant_if: valid load line certificate on file\n  non_compliant_if: certificate absent or expired\n  contract_requirement: \"Ship must hold a valid Load Line Certificate on board at all times while at sea or in port.\"\n\nevidence_required:\n  - LOAD_LINE_CERTIFICATE\n\nstatus_ladder:\n  BLACK: 'NOT (EXISTS e IN evidence : e.evidence_type = \"LOAD_LINE_CERTIFICATE\")'\n  RED: 'EXISTS e IN evidence : e.evidence_type = \"LOAD_LINE_CERTIFICATE\" AND expired(e, at: eval_date)'\n  YELLOW: 'EXISTS e IN evidence : e.evidence_type = \"LOAD_LINE_CERTIFICATE\" AND expires_within(e, 60)'\n\nconsequence_of_non_correction: \"Vessel may be detained; load-line offences carry penalty exposure.\"\n",
+    "BD-ORD-MERCHANT-SHIPPING-1983-S350-R001": "# BD-ORD-MERCHANT-SHIPPING-1983-S350-R001 — Unseaworthy ships\nrule_id: BD-ORD-MERCHANT-SHIPPING-1983-S350-R001\nrule_version: 1\ndomain: UNSEAWORTHY\nobligation_dimension: seaworthiness\n\nlegal_source:\n  provision_id: BD-ORD-MERCHANT-SHIPPING-1983-S350\n  legal_version_id: lv-BD-ORD-MERCHANT-SHIPPING-1983-v2\n  instrument_id: BD-ORD-MERCHANT-SHIPPING-1983\n  locator: Section 350\n\napplicability:\n  all:\n    - flag: [BD]\n    - operation: [SEA_VOYAGE, PORT_CALL]\n\ncondition:\n  type: MANDATORY\n  expression: |\n    (EXISTS e IN evidence : e.evidence_type = \"CLASS_CERTIFICATE\" AND verified(e))\n    AND (EXISTS e IN evidence : e.evidence_type = \"SAFETY_EQUIPMENT_CERTIFICATE\" AND NOT expired(e, at: eval_date))\n\noutcome:\n  compliant_if: valid class + safety equipment certificates verified on file\n  non_compliant_if: any missing/expired/unverified\n  contract_requirement: \"Ship must be seaworthy: valid class certificate and safety equipment certificate must be on board and not expired.\"\n\nevidence_required:\n  - CLASS_CERTIFICATE\n  - SAFETY_EQUIPMENT_CERTIFICATE\n\nstatus_ladder:\n  BLACK: 'NOT (EXISTS e IN evidence : e.evidence_type = \"CLASS_CERTIFICATE\")'\n  RED: 'EXISTS e IN evidence : e.evidence_type = \"SAFETY_EQUIPMENT_CERTIFICATE\" AND expired(e, at: eval_date)'\n  YELLOW: 'EXISTS e IN evidence : e.evidence_type = \"CLASS_CERTIFICATE\" AND NOT verified(e)'\n\nconsequence_of_non_correction: \"Detention and liability exposure; sending an unseaworthy ship to sea is an offence (S351).\"\n",
+    "IMO-CONV-MARPOL-73-78-ANI-REG36-R001": "# IMO-CONV-MARPOL-73-78-ANI-REG36-R001 — Oil Record Book (Annex I)\nrule_id: IMO-CONV-MARPOL-73-78-ANI-REG36-R001\nrule_version: 1\ndomain: MARPOL\nobligation_dimension: marpol_annex_i_records\n\nlegal_source:\n  provision_id: IMO-CONV-MARPOL-73-78-ANI-REG36\n  legal_version_id: lv-MARPOL-73-78-ANI-current\n  instrument_id: IMO-CONV-MARPOL-73-78\n  locator: Annex I Regulation 36\n\napplicability:\n  all:\n    - annex_ratified_for_flag: [I]\n    - operation: [SEA_VOYAGE, PORT_CALL]\n    - gt_min: 400\n\ncondition:\n  type: MANDATORY\n  expression: |\n    EXISTS e IN evidence :\n      e.evidence_type = \"OIL_RECORD_BOOK\"\n      AND verified(e)\n      AND NOT expired(e, at: eval_date)\n\noutcome:\n  compliant_if: valid Oil Record Book on board (MARPOL Annex I Reg 36)\n  non_compliant_if: record book missing, unverified or expired\n  contract_requirement: \"Ships of 400 GT and above must carry a valid Oil Record Book (MARPOL Annex I).\"\n\nevidence_required:\n  - OIL_RECORD_BOOK\n\nstatus_ladder:\n  BLACK: 'NOT (EXISTS e IN evidence : e.evidence_type = \"OIL_RECORD_BOOK\")'\n  RED: 'EXISTS e IN evidence : e.evidence_type = \"OIL_RECORD_BOOK\" AND expired(e, at: eval_date)'\n  YELLOW: 'EXISTS e IN evidence : e.evidence_type = \"OIL_RECORD_BOOK\" AND NOT verified(e)'\n\nconsequence_of_non_correction: \"PSC detention risk; MARPOL offences carry penalty exposure for the company and the master.\"\n",
+    "IMO-CONV-MARPOL-73-78-ANV-REG10-R001": "# IMO-CONV-MARPOL-73-78-ANV-REG10-R001 — Garbage management plan + record book (Annex V)\nrule_id: IMO-CONV-MARPOL-73-78-ANV-REG10-R001\nrule_version: 1\ndomain: MARPOL\nobligation_dimension: marpol_annex_v_garbage\n\nlegal_source:\n  provision_id: IMO-CONV-MARPOL-73-78-ANV-REG10\n  legal_version_id: lv-MARPOL-73-78-ANV-current\n  instrument_id: IMO-CONV-MARPOL-73-78\n  locator: Annex V Regulation 10\n\napplicability:\n  all:\n    - annex_ratified_for_flag: [V]\n    - operation: [SEA_VOYAGE, PORT_CALL]\n    - gt_min: 100\n\ncondition:\n  type: MANDATORY\n  expression: |\n    (EXISTS e IN evidence : e.evidence_type = \"GARBAGE_MANAGEMENT_PLAN\" AND verified(e))\n    AND (EXISTS e IN evidence :\n           e.evidence_type = \"GARBAGE_RECORD_BOOK\"\n           AND NOT expired(e, at: eval_date))\n\noutcome:\n  compliant_if: garbage management plan + garbage record book on board\n  non_compliant_if: either document missing or record book expired\n  contract_requirement: \"Ships of 100 GT and above must carry a garbage management plan and garbage record book (MARPOL Annex V).\"\n\nevidence_required:\n  - GARBAGE_MANAGEMENT_PLAN\n  - GARBAGE_RECORD_BOOK\n\nstatus_ladder:\n  BLACK: 'NOT (EXISTS e IN evidence : e.evidence_type = \"GARBAGE_MANAGEMENT_PLAN\")'\n  RED: 'EXISTS e IN evidence : e.evidence_type = \"GARBAGE_RECORD_BOOK\" AND expired(e, at: eval_date)'\n  YELLOW: 'EXISTS e IN evidence : expires_within(e, 60)'\n\nconsequence_of_non_correction: \"PSC deficiency and detention risk; garbage-record offences attract penalties.\"\n",
+    "IMO-CONV-MARPOL-73-78-ANVI-REG6-R001": "# IMO-CONV-MARPOL-73-78-ANVI-REG6-R001 — IAPP certificate (Annex VI)\nrule_id: IMO-CONV-MARPOL-73-78-ANVI-REG6-R001\nrule_version: 1\ndomain: MARPOL\nobligation_dimension: marpol_annex_vi_air\n\nlegal_source:\n  provision_id: IMO-CONV-MARPOL-73-78-ANVI-REG6\n  legal_version_id: lv-MARPOL-73-78-ANVI-current\n  instrument_id: IMO-CONV-MARPOL-73-78\n  locator: Annex VI Regulation 6\n\napplicability:\n  all:\n    - annex_ratified_for_flag: [VI]\n    - operation: [SEA_VOYAGE, PORT_CALL]\n    - gt_min: 400\n\ncondition:\n  type: MANDATORY\n  expression: |\n    EXISTS e IN evidence :\n      e.evidence_type = \"IAPP_CERTIFICATE\"\n      AND verified(e)\n      AND NOT expired(e, at: eval_date)\n\noutcome:\n  compliant_if: valid International Air Pollution Prevention Certificate on board\n  non_compliant_if: IAPP missing, unverified or expired\n  contract_requirement: \"Ships of 400 GT and above must hold a valid IAPP Certificate (MARPOL Annex VI).\"\n\nevidence_required:\n  - IAPP_CERTIFICATE\n\nstatus_ladder:\n  BLACK: 'NOT (EXISTS e IN evidence : e.evidence_type = \"IAPP_CERTIFICATE\")'\n  RED: 'EXISTS e IN evidence : e.evidence_type = \"IAPP_CERTIFICATE\" AND expired(e, at: eval_date)'\n  YELLOW: 'EXISTS e IN evidence : e.evidence_type = \"IAPP_CERTIFICATE\" AND expires_within(e, 60)'\n\nconsequence_of_non_correction: \"Detention risk; air-pollution offences carry company and master penalty exposure.\"\n"
+  },
+  "review": {
+    "pending": 3,
+    "items": [
+      {
+        "id": "q-demo-001",
+        "object_type": "PROVISION",
+        "object_id": "BD-ORD-MERCHANT-SHIPPING-1983-S066",
+        "title": "Section 66 — Licence for taking ship to sea",
+        "tier": "EXTRACTED_BY_AI",
+        "confidence": 0.92,
+        "source_url": "https://www.bdlaws.minlaw.gov.bd",
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "review_notes": null,
+        "verified_by": null,
+        "verified_at": null,
+        "verification_source_url": null,
+        "history": [
+          {
+            "at": "2026-10-05T22:02:09.840867+00:00",
+            "action": "SUBMITTED",
+            "tier": "EXTRACTED_BY_AI"
+          }
+        ]
+      },
+      {
+        "id": "q-demo-002",
+        "object_type": "PROVISION",
+        "object_id": "BD-ORD-MERCHANT-SHIPPING-1983-S471",
+        "title": "Section 471 — Limitation of liability",
+        "tier": "EXTRACTED_BY_AI",
+        "confidence": 0.71,
+        "source_url": "https://www.bdlaws.minlaw.gov.bd",
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "review_notes": null,
+        "verified_by": null,
+        "verified_at": null,
+        "verification_source_url": null,
+        "history": [
+          {
+            "at": "2026-10-05T22:02:09.840883+00:00",
+            "action": "SUBMITTED",
+            "tier": "EXTRACTED_BY_AI"
+          }
+        ]
+      },
+      {
+        "id": "q-demo-003",
+        "object_type": "PROVISION",
+        "object_id": "BD-ACT-TERRITORIAL-WATERS-MARITIME-ZONES-1974-S022",
+        "title": "Section 22 — penalty for pollution (post-2021 numbering)",
+        "tier": "REVIEWED",
+        "confidence": 0.64,
+        "source_url": "https://www.bdlaws.minlaw.gov.bd",
+        "reviewed_by": "reviewer-1",
+        "reviewed_at": "2026-10-05T22:02:09.840946+00:00",
+        "review_notes": "numbering cross-checked against 2021 amendment; needs Gazette confirmation",
+        "verified_by": null,
+        "verified_at": null,
+        "verification_source_url": null,
+        "history": [
+          {
+            "at": "2026-10-05T22:02:09.840894+00:00",
+            "action": "SUBMITTED",
+            "tier": "EXTRACTED_BY_AI"
+          },
+          {
+            "at": "2026-10-05T22:02:09.840947+00:00",
+            "action": "REVIEWED",
+            "actor": "reviewer-1",
+            "notes": "numbering cross-checked against 2021 amendment; needs Gazette confirmation"
+          }
+        ]
+      },
+      {
+        "id": "q-demo-004",
+        "object_type": "PROVISION",
+        "object_id": "BD-ORD-MERCHANT-SHIPPING-1983-S082",
+        "title": "Section 82 — Manning of ships",
+        "tier": "VERIFIED_AGAINST_GAZETTE",
+        "confidence": 0.98,
+        "source_url": "https://www.bdlaws.minlaw.gov.bd",
+        "reviewed_by": "reviewer-1",
+        "reviewed_at": "2026-10-05T22:02:09.840917+00:00",
+        "review_notes": "cross-checked against bdlaws consolidated text",
+        "verified_by": "reviewer-2",
+        "verified_at": "2026-10-05T22:02:09.840933+00:00",
+        "verification_source_url": "https://www.bdlaws.minlaw.gov.bd/act-81.html",
+        "history": [
+          {
+            "at": "2026-10-05T22:02:09.840906+00:00",
+            "action": "SUBMITTED",
+            "tier": "EXTRACTED_BY_AI"
+          },
+          {
+            "at": "2026-10-05T22:02:09.840918+00:00",
+            "action": "REVIEWED",
+            "actor": "reviewer-1",
+            "notes": "cross-checked against bdlaws consolidated text"
+          },
+          {
+            "at": "2026-10-05T22:02:09.840934+00:00",
+            "action": "VERIFIED",
+            "actor": "reviewer-2",
+            "source_url": "https://www.bdlaws.minlaw.gov.bd/act-81.html"
+          }
+        ]
+      }
+    ],
+    "gates": [
+      "EXTRACTED_BY_AI -> REVIEWED -> VERIFIED_AGAINST_GAZETTE",
+      "two-person: verifier must differ from reviewer",
+      "only VERIFIED provisions feed live compliance (fail-closed)"
+    ],
+    "two_person_rule": true
+  },
+  "audit": {
+    "chain_valid": true,
+    "broken_at_entry": null,
+    "entries": [
+      {
+        "at": "2026-10-05T22:02:09.840764+00:00",
+        "action": "SOURCE_REGISTERED",
+        "actor": null,
+        "company_id": null,
+        "object_type": "source_feed",
+        "object_id": "bd-gazette",
+        "before": null,
+        "after": {
+          "url": "https://www.bdlaws.minlaw.gov.bd",
+          "publisher": "Ministry of Law, Justice and Parliamentary Affairs"
+        },
+        "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "entry_hash": "24bf5648c0bb735cbd9a7dc6db39fbc7c3145630364dea948b80d7ee4f152bd9"
+      },
+      {
+        "at": "2026-10-05T22:02:09.840839+00:00",
+        "action": "SOURCE_REGISTERED",
+        "actor": null,
+        "company_id": null,
+        "object_type": "source_feed",
+        "object_id": "bd-dos",
+        "before": null,
+        "after": {
+          "url": "https://www.dos.gov.bd",
+          "publisher": "Department of Shipping"
+        },
+        "prev_hash": "24bf5648c0bb735cbd9a7dc6db39fbc7c3145630364dea948b80d7ee4f152bd9",
+        "entry_hash": "20444e93d011ee01fbd1d7cb8ab3d5cc82f6e5b5e4ce0c72a20204d83927512b"
+      },
+      {
+        "at": "2026-10-05T22:02:09.840872+00:00",
+        "action": "REVIEW_SUBMITTED",
+        "actor": null,
+        "company_id": null,
+        "object_type": "queue_item",
+        "object_id": "q-demo-001",
+        "before": null,
+        "after": {
+          "object_id": "BD-ORD-MERCHANT-SHIPPING-1983-S066",
+          "tier": "EXTRACTED_BY_AI"
+        },
+        "prev_hash": "20444e93d011ee01fbd1d7cb8ab3d5cc82f6e5b5e4ce0c72a20204d83927512b",
+        "entry_hash": "e1b5281365ba8d47d6cb8102dbd10a48ae818db528f1df66c6e2c47e7f56be61"
+      },
+      {
+        "at": "2026-10-05T22:02:09.840886+00:00",
+        "action": "REVIEW_SUBMITTED",
+        "actor": null,
+        "company_id": null,
+        "object_type": "queue_item",
+        "object_id": "q-demo-002",
+        "before": null,
+        "after": {
+          "object_id": "BD-ORD-MERCHANT-SHIPPING-1983-S471",
+          "tier": "EXTRACTED_BY_AI"
+        },
+        "prev_hash": "e1b5281365ba8d47d6cb8102dbd10a48ae818db528f1df66c6e2c47e7f56be61",
+        "entry_hash": "e65270b38a335c05bd98c1604db986ee04a2d7ed6a41e5bfa840d478d141a613"
+      },
+      {
+        "at": "2026-10-05T22:02:09.840897+00:00",
+        "action": "REVIEW_SUBMITTED",
+        "actor": null,
+        "company_id": null,
+        "object_type": "queue_item",
+        "object_id": "q-demo-003",
+        "before": null,
+        "after": {
+          "object_id": "BD-ACT-TERRITORIAL-WATERS-MARITIME-ZONES-1974-S022",
+          "tier": "EXTRACTED_BY_AI"
+        },
+        "prev_hash": "e65270b38a335c05bd98c1604db986ee04a2d7ed6a41e5bfa840d478d141a613",
+        "entry_hash": "e7b4cd622872259f92c93d3c882ce00ded62e9bf7425597524b0ec1a53c5dfc6"
+      },
+      {
+        "at": "2026-10-05T22:02:09.840908+00:00",
+        "action": "REVIEW_SUBMITTED",
+        "actor": null,
+        "company_id": null,
+        "object_type": "queue_item",
+        "object_id": "q-demo-004",
+        "before": null,
+        "after": {
+          "object_id": "BD-ORD-MERCHANT-SHIPPING-1983-S082",
+          "tier": "EXTRACTED_BY_AI"
+        },
+        "prev_hash": "e7b4cd622872259f92c93d3c882ce00ded62e9bf7425597524b0ec1a53c5dfc6",
+        "entry_hash": "4e2cfa935e6c0fe5fa4891774f487422b1f54fa05113da438e0587c2a583c01d"
+      },
+      {
+        "at": "2026-10-05T22:02:09.840921+00:00",
+        "action": "REVIEW_APPROVED",
+        "actor": "reviewer-1",
+        "company_id": null,
+        "object_type": "queue_item",
+        "object_id": "q-demo-004",
+        "before": {
+          "tier": "EXTRACTED_BY_AI"
+        },
+        "after": {
+          "tier": "REVIEWED",
+          "notes": "cross-checked against bdlaws consolidated text"
+        },
+        "prev_hash": "4e2cfa935e6c0fe5fa4891774f487422b1f54fa05113da438e0587c2a583c01d",
+        "entry_hash": "d8e47149f88e1400b7aea07c96b7600023a37f35ab5a3e3c18bc060f9baf764a"
+      },
+      {
+        "at": "2026-10-05T22:02:09.840936+00:00",
+        "action": "VERIFIED_AGAINST_GAZETTE",
+        "actor": "reviewer-2",
+        "company_id": null,
+        "object_type": "queue_item",
+        "object_id": "q-demo-004",
+        "before": {
+          "tier": "REVIEWED"
+        },
+        "after": {
+          "tier": "VERIFIED_AGAINST_GAZETTE",
+          "source_url": "https://www.bdlaws.minlaw.gov.bd/act-81.html"
+        },
+        "prev_hash": "d8e47149f88e1400b7aea07c96b7600023a37f35ab5a3e3c18bc060f9baf764a",
+        "entry_hash": "ce642146a24e6d79a1b41a1c4428320c909c9787e39960c16cdec8b4fe373658"
+      },
+      {
+        "at": "2026-10-05T22:02:09.840949+00:00",
+        "action": "REVIEW_APPROVED",
+        "actor": "reviewer-1",
+        "company_id": null,
+        "object_type": "queue_item",
+        "object_id": "q-demo-003",
+        "before": {
+          "tier": "EXTRACTED_BY_AI"
+        },
+        "after": {
+          "tier": "REVIEWED",
+          "notes": "numbering cross-checked against 2021 amendment; needs Gazette confirmation"
+        },
+        "prev_hash": "ce642146a24e6d79a1b41a1c4428320c909c9787e39960c16cdec8b4fe373658",
+        "entry_hash": "4396d4c43dd9d85458391f775865265c22f6e3f3d263b8b7ae46cad2159c7c23"
+      }
+    ]
+  },
+  "ingestion": {
+    "sources": [
+      {
+        "id": "bd-gazette",
+        "url": "https://www.bdlaws.minlaw.gov.bd",
+        "publisher": "Ministry of Law, Justice and Parliamentary Affairs",
+        "source_type": "GAZETTE",
+        "jurisdiction_id": "BD",
+        "last_sha256": null,
+        "last_checked_at": null
+      },
+      {
+        "id": "bd-dos",
+        "url": "https://www.dos.gov.bd",
+        "publisher": "Department of Shipping",
+        "source_type": "OFFICIAL_DB",
+        "jurisdiction_id": "BD",
+        "last_sha256": null,
+        "last_checked_at": null
+      }
+    ],
+    "recent_ingestions": [],
+    "queue_pending": 3,
+    "high_impact_sla_hours": 72,
+    "stages": [
+      "source monitor",
+      "hash compare",
+      "classify",
+      "provision extraction",
+      "legal diff",
+      "rule impact",
+      "human legal review",
+      "two-person approval",
+      "customer alerts"
+    ]
+  },
+  "treaty": {
+    "flag": "BD",
+    "as_of": "2026-10-06",
+    "rows": [
+      {
+        "instrument_id": "ILO-CONV-MLC-2006",
+        "jurisdiction_id": "BD",
+        "in_force": true,
+        "acceptance_date": "2013-01-01",
+        "entry_into_force_for_state": "2013-08-20",
+        "date_precision": "YEAR",
+        "verification_status": "EXTRACTED_BY_AI",
+        "source_url": "https://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:11300:0",
+        "annexes": null
+      },
+      {
+        "instrument_id": "ILO-CONV-MLC-2006",
+        "amendment_id": "ILO-CONV-MLC-2006-AMEND-2025",
+        "in_force": false,
+        "entry_into_force": "2027-12-23",
+        "status": "FUTURE_EFFECTIVE",
+        "note": "future amendment stored but inactive until effective (Principle 6)"
+      },
+      {
+        "instrument_id": "IMO-CONV-MARPOL-73-78",
+        "jurisdiction_id": "BD",
+        "in_force": true,
+        "acceptance_date": "1994-01-01",
+        "entry_into_force_for_state": "1994-01-01",
+        "date_precision": "YEAR",
+        "verification_status": "EXTRACTED_BY_AI",
+        "source_url": "https://www.imo.org/en/about/conventions/pages/statusofconventions.aspx",
+        "annexes": {
+          "I": {
+            "eif": "1994-01-01",
+            "ratified_at": true
+          },
+          "II": {
+            "eif": "1994-01-01",
+            "ratified_at": true
+          },
+          "III": {
+            "eif": "1994-01-01",
+            "ratified_at": true
+          },
+          "IV": {
+            "eif": "2010-01-01",
+            "ratified_at": true
+          },
+          "V": {
+            "eif": "1994-01-01",
+            "ratified_at": true
+          },
+          "VI": {
+            "eif": "2005-05-19",
+            "ratified_at": true
+          }
+        }
+      },
+      {
+        "instrument_id": "IMO-CONV-SOLAS-1974",
+        "jurisdiction_id": "BD",
+        "in_force": true,
+        "acceptance_date": "1982-01-01",
+        "entry_into_force_for_state": "1982-01-01",
+        "date_precision": "YEAR",
+        "verification_status": "EXTRACTED_BY_AI",
+        "source_url": "https://www.imo.org/en/about/conventions/pages/statusofconventions.aspx",
+        "annexes": null
+      },
+      {
+        "instrument_id": "IMO-CONV-STCW-1978",
+        "jurisdiction_id": "BD",
+        "in_force": true,
+        "acceptance_date": "1998-01-01",
+        "entry_into_force_for_state": "1998-01-01",
+        "date_precision": "YEAR",
+        "verification_status": "EXTRACTED_BY_AI",
+        "source_url": "https://www.imo.org/en/about/conventions/pages/statusofconventions.aspx",
+        "annexes": null
+      }
+    ]
+  },
+  "ops": {
+    "incidents": {
+      "incidents": [
+        {
+          "id": "INC-2026-003",
+          "company_id": "co-demo-003",
+          "vessel_id": "v-demo-003",
+          "incident_type": "COLLISION",
+          "occurred_at": "2026-10-05T20:02:09.841621+00:00",
+          "location": {
+            "zone_type": "INTERNAL_WATERS",
+            "coastal_state": "BD"
+          },
+          "severity": "LOW",
+          "description": "Minor contact with berth fender during berthing; no damage beyond paintwork.",
+          "status": "OPEN",
+          "notifications": [
+            {
+              "id": "INC-2026-003-N1",
+              "authority_id": "BD-DOS",
+              "requirement_provision_id": "MSO casualty inquiry provisions",
+              "basis": "casualty report to flag administration",
+              "status": "PENDING",
+              "sent_at": null,
+              "deadline": "2026-10-06T20:02:09.841621+00:00",
+              "hours_remaining": 22.0
+            },
+            {
+              "id": "INC-2026-003-N2",
+              "authority_id": "PSC-PORT",
+              "requirement_provision_id": "port authority casualty notice",
+              "basis": "notice to port authority at next port",
+              "status": "PENDING",
+              "sent_at": null,
+              "deadline": "2026-10-06T08:02:09.841621+00:00",
+              "hours_remaining": 10.0
+            }
+          ],
+          "corrective_actions": [
+            {
+              "id": "INC-2026-003-CA1",
+              "action": "root-cause analysis + corrective plan",
+              "status": "OPEN",
+              "due_date": "2026-10-19"
+            }
+          ],
+          "compliance_posture": "YELLOW"
+        },
+        {
+          "id": "INC-2026-001",
+          "company_id": "co-demo-001",
+          "vessel_id": "v-demo-001",
+          "incident_type": "POLLUTION",
+          "occurred_at": "2026-10-05T19:02:09.841582+00:00",
+          "location": {
+            "zone_type": "TERRITORIAL",
+            "coastal_state": "BD",
+            "lat": 22.15,
+            "lon": 91.42
+          },
+          "severity": "HIGH",
+          "description": "Bilge discharge during bunkering ops, contained, no shoreline impact.",
+          "status": "OPEN",
+          "notifications": [
+            {
+              "id": "INC-2026-001-N1",
+              "authority_id": "BD-DOS",
+              "requirement_provision_id": "MARPOL Annex I Reg 11 / MSO pollution reporting",
+              "basis": "initial report without delay",
+              "status": "PENDING",
+              "sent_at": null,
+              "deadline": "2026-10-05T20:02:09.841582+00:00",
+              "hours_remaining": -2.0
+            },
+            {
+              "id": "INC-2026-001-N2",
+              "authority_id": "BD-DOE",
+              "requirement_provision_id": "Environment Conservation Act 1995 (spill notification)",
+              "basis": "formal notification to environment authority",
+              "status": "PENDING",
+              "sent_at": null,
+              "deadline": "2026-10-06T19:02:09.841582+00:00",
+              "hours_remaining": 21.0
+            },
+            {
+              "id": "INC-2026-001-N3",
+              "authority_id": "FLAG-STATE",
+              "requirement_provision_id": "MARPOL Annex I Reg 11(3)",
+              "basis": "written report within 30 days",
+              "status": "PENDING",
+              "sent_at": null,
+              "deadline": "2026-11-04T19:02:09.841582+00:00",
+              "hours_remaining": 717.0
+            }
+          ],
+          "corrective_actions": [
+            {
+              "id": "INC-2026-001-CA1",
+              "action": "root-cause analysis + corrective plan",
+              "status": "OPEN",
+              "due_date": "2026-10-19"
+            }
+          ],
+          "compliance_posture": "RED"
+        },
+        {
+          "id": "INC-2026-002",
+          "company_id": "co-demo-002",
+          "vessel_id": "v-demo-002",
+          "incident_type": "CYBER",
+          "occurred_at": "2026-09-25T22:02:09.841608+00:00",
+          "location": {
+            "zone_type": "HIGH_SEAS"
+          },
+          "severity": "MEDIUM",
+          "description": "Ransomware attempt on crew-welfare network segment; contained by segmentation.",
+          "status": "NOTIFIED",
+          "notifications": [
+            {
+              "id": "INC-2026-002-N1",
+              "authority_id": "BD-DOS",
+              "requirement_provision_id": "IMO MSC.428(98) / MSC-FAL.1/Circ.3 cyber incident reporting",
+              "basis": "cyber incident report to flag administration",
+              "status": "SENT",
+              "sent_at": "2026-10-05 22:02:09.841617+00:00",
+              "deadline": "2026-09-28T22:02:09.841608+00:00",
+              "hours_remaining": -168.0
+            }
+          ],
+          "corrective_actions": [
+            {
+              "id": "INC-2026-002-CA1",
+              "action": "root-cause analysis + corrective plan",
+              "status": "OPEN",
+              "due_date": "2026-10-09"
+            }
+          ],
+          "compliance_posture": "GREEN"
+        }
+      ],
+      "overdue": [
+        {
+          "incident_id": "INC-2026-001",
+          "notification_id": "INC-2026-001-N1",
+          "authority_id": "BD-DOS",
+          "basis": "initial report without delay",
+          "deadline": "2026-10-05T20:02:09.841683+00:00"
+        }
+      ]
+    },
+    "cyber": {
+      "postures": [
+        {
+          "entity_type": "COMPANY",
+          "entity_id": "co-demo-001",
+          "overall": "YELLOW",
+          "framework": "IMO MSC.428(98) + MSC-FAL.1/Circ.3 five-step model",
+          "assessments": [
+            {
+              "control_ref": "ID-1",
+              "title": "Identify cyber risk management systems",
+              "status": "GREEN",
+              "note": "implemented and evidenced",
+              "assessed_by": null,
+              "evidence_id": null
+            },
+            {
+              "control_ref": "PR-2",
+              "title": "Protect — access control & segmentation",
+              "status": "GREEN",
+              "note": "implemented and evidenced",
+              "assessed_by": null,
+              "evidence_id": null
+            },
+            {
+              "control_ref": "PR-3",
+              "title": "Protect — patches, backups & encryption",
+              "status": "YELLOW",
+              "note": "partially implemented / evidence pending",
+              "assessed_by": null,
+              "evidence_id": null
+            },
+            {
+              "control_ref": "DE-4",
+              "title": "Detect — monitoring & anomaly detection",
+              "status": "YELLOW",
+              "note": "partially implemented / evidence pending",
+              "assessed_by": null,
+              "evidence_id": null
+            },
+            {
+              "control_ref": "RS-5",
+              "title": "Respond — cyber incident response plan",
+              "status": "GREEN",
+              "note": "implemented and evidenced",
+              "assessed_by": null,
+              "evidence_id": null
+            },
+            {
+              "control_ref": "RC-6",
+              "title": "Recover — restoration & lessons learned",
+              "status": "YELLOW",
+              "note": "partially implemented / evidence pending",
+              "assessed_by": null,
+              "evidence_id": null
+            },
+            {
+              "control_ref": "GV-7",
+              "title": "Governance — company accountability",
+              "status": "GREEN",
+              "note": "implemented and evidenced",
+              "assessed_by": null,
+              "evidence_id": null
+            },
+            {
+              "control_ref": "NAT-8",
+              "title": "National cyber-statute mapping",
+              "status": "YELLOW",
+              "note": "partially implemented / evidence pending",
+              "assessed_by": null,
+              "evidence_id": null
+            }
+          ],
+          "name": "Bay Bengal Shipping Ltd."
+        },
+        {
+          "entity_type": "COMPANY",
+          "entity_id": "co-demo-002",
+          "overall": "YELLOW",
+          "framework": "IMO MSC.428(98) + MSC-FAL.1/Circ.3 five-step model",
+          "assessments": [
+            {
+              "control_ref": "ID-1",
+              "title": "Identify cyber risk management systems",
+              "status": "GREEN",
+              "note": "implemented and evidenced",
+              "assessed_by": null,
+              "evidence_id": null
+            },
+            {
+              "control_ref": "PR-2",
+              "title": "Protect — access control & segmentation",
+              "status": "GREEN",
+              "note": "implemented and evidenced",
+              "assessed_by": null,
+              "evidence_id": null
+            },
+            {
+              "control_ref": "PR-3",
+              "title": "Protect — patches, backups & encryption",
+              "status": "GREEN",
+              "note": "implemented and evidenced",
+              "assessed_by": null,
+              "evidence_id": null
+            },
+            {
+              "control_ref": "DE-4",
+              "title": "Detect — monitoring & anomaly detection",
+              "status": "GREEN",
+              "note": "implemented and evidenced",
+              "assessed_by": null,
+              "evidence_id": null
+            },
+            {
+              "control_ref": "RS-5",
+              "title": "Respond — cyber incident response plan",
+              "status": "GREEN",
+              "note": "implemented and evidenced",
+              "assessed_by": null,
+              "evidence_id": null
+            },
+            {
+              "control_ref": "RC-6",
+              "title": "Recover — restoration & lessons learned",
+              "status": "GREEN",
+              "note": "implemented and evidenced",
+              "assessed_by": null,
+              "evidence_id": null
+            },
+            {
+              "control_ref": "GV-7",
+              "title": "Governance — company accountability",
+              "status": "GREEN",
+              "note": "implemented and evidenced",
+              "assessed_by": null,
+              "evidence_id": null
+            },
+            {
+              "control_ref": "NAT-8",
+              "title": "National cyber-statute mapping",
+              "status": "YELLOW",
+              "note": "partially implemented / evidence pending",
+              "assessed_by": null,
+              "evidence_id": null
+            }
+          ],
+          "name": "Meghna Marine Ltd."
+        },
+        {
+          "entity_type": "COMPANY",
+          "entity_id": "co-demo-003",
+          "overall": "BLACK",
+          "framework": "IMO MSC.428(98) + MSC-FAL.1/Circ.3 five-step model",
+          "assessments": [
+            {
+              "control_ref": "ID-1",
+              "title": "Identify cyber risk management systems",
+              "status": "GREEN",
+              "note": "implemented and evidenced",
+              "assessed_by": null,
+              "evidence_id": null
+            },
+            {
+              "control_ref": "PR-2",
+              "title": "Protect — access control & segmentation",
+              "status": "YELLOW",
+              "note": "partially implemented / evidence pending",
+              "assessed_by": null,
+              "evidence_id": null
+            },
+            {
+              "control_ref": "PR-3",
+              "title": "Protect — patches, backups & encryption",
+              "status": "YELLOW",
+              "note": "partially implemented / evidence pending",
+              "assessed_by": null,
+              "evidence_id": null
+            },
+            {
+              "control_ref": "DE-4",
+              "title": "Detect — monitoring & anomaly detection",
+              "status": "YELLOW",
+              "note": "partially implemented / evidence pending",
+              "assessed_by": null,
+              "evidence_id": null
+            },
+            {
+              "control_ref": "RS-5",
+              "title": "Respond — cyber incident response plan",
+              "status": "YELLOW",
+              "note": "partially implemented / evidence pending",
+              "assessed_by": null,
+              "evidence_id": null
+            },
+            {
+              "control_ref": "RC-6",
+              "title": "Recover — restoration & lessons learned",
+              "status": "BLACK",
+              "note": "assessment missing or uncertain — fail-closed",
+              "assessed_by": null,
+              "evidence_id": null
+            },
+            {
+              "control_ref": "GV-7",
+              "title": "Governance — company accountability",
+              "status": "YELLOW",
+              "note": "partially implemented / evidence pending",
+              "assessed_by": null,
+              "evidence_id": null
+            },
+            {
+              "control_ref": "NAT-8",
+              "title": "National cyber-statute mapping",
+              "status": "YELLOW",
+              "note": "partially implemented / evidence pending",
+              "assessed_by": null,
+              "evidence_id": null
+            }
+          ],
+          "name": "Karnaphuli Carriers Ltd."
+        },
+        {
+          "entity_type": "COMPANY",
+          "entity_id": "co-demo-004",
+          "overall": "BLACK",
+          "framework": "IMO MSC.428(98) + MSC-FAL.1/Circ.3 five-step model",
+          "assessments": [
+            {
+              "control_ref": "ID-1",
+              "title": "Identify cyber risk management systems",
+              "status": "YELLOW",
+              "note": "partially implemented / evidence pending",
+              "assessed_by": null,
+              "evidence_id": null
+            },
+            {
+              "control_ref": "PR-2",
+              "title": "Protect — access control & segmentation",
+              "status": "RED",
+              "note": "not implemented — gap against control",
+              "assessed_by": null,
+              "evidence_id": null
+            },
+            {
+              "control_ref": "PR-3",
+              "title": "Protect — patches, backups & encryption",
+              "status": "RED",
+              "note": "not implemented — gap against control",
+              "assessed_by": null,
+              "evidence_id": null
+            },
+            {
+              "control_ref": "DE-4",
+              "title": "Detect — monitoring & anomaly detection",
+              "status": "RED",
+              "note": "not implemented — gap against control",
+              "assessed_by": null,
+              "evidence_id": null
+            },
+            {
+              "control_ref": "RS-5",
+              "title": "Respond — cyber incident response plan",
+              "status": "YELLOW",
+              "note": "partially implemented / evidence pending",
+              "assessed_by": null,
+              "evidence_id": null
+            },
+            {
+              "control_ref": "RC-6",
+              "title": "Recover — restoration & lessons learned",
+              "status": "BLACK",
+              "note": "assessment missing or uncertain — fail-closed",
+              "assessed_by": null,
+              "evidence_id": null
+            },
+            {
+              "control_ref": "GV-7",
+              "title": "Governance — company accountability",
+              "status": "YELLOW",
+              "note": "partially implemented / evidence pending",
+              "assessed_by": null,
+              "evidence_id": null
+            },
+            {
+              "control_ref": "NAT-8",
+              "title": "National cyber-statute mapping",
+              "status": "YELLOW",
+              "note": "partially implemented / evidence pending",
+              "assessed_by": null,
+              "evidence_id": null
+            }
+          ],
+          "name": "Shitalakkhya Shipping Ltd."
+        }
+      ],
+      "national_note": "BD ICT Act 2006 / Cyber Security Act 2023 mapping is an open verification item"
+    },
+    "yard": {
+      "project": {
+        "project_id": "SP-2026-01",
+        "hull_no": "BKI-1180",
+        "project_name": "52k DWT Bulk Carrier",
+        "phase": "CONSTRUCTION",
+        "intended_flag": "BD",
+        "readiness": {
+          "status": "RED",
+          "reason": "plan approvals outstanding: RADIO"
+        },
+        "design_approvals": [
+          {
+            "plan_type": "HULL",
+            "status": "APPROVED"
+          },
+          {
+            "plan_type": "STABILITY",
+            "status": "APPROVED"
+          },
+          {
+            "plan_type": "MACHINERY",
+            "status": "APPROVED"
+          },
+          {
+            "plan_type": "ELECTRICAL",
+            "status": "APPROVED"
+          },
+          {
+            "plan_type": "FIRE",
+            "status": "APPROVED"
+          },
+          {
+            "plan_type": "LIFESAVING",
+            "status": "APPROVED"
+          },
+          {
+            "plan_type": "NAVIGATION",
+            "status": "APPROVED"
+          },
+          {
+            "plan_type": "RADIO",
+            "status": "CONDITIONAL"
+          }
+        ],
+        "surveys": [
+          {
+            "survey_type": "KEEL_LAYING",
+            "result": "SATISFACTORY",
+            "survey_date": "2025-11-02"
+          },
+          {
+            "survey_type": "HULL",
+            "result": "SATISFACTORY",
+            "survey_date": "2026-03-18"
+          },
+          {
+            "survey_type": "WELDING",
+            "result": "SATISFACTORY",
+            "survey_date": "2026-04-02"
+          },
+          {
+            "survey_type": "MACHINERY",
+            "result": "DEFICIENCY",
+            "survey_date": "2026-08-21"
+          }
+        ]
+      },
+      "permits": {
+        "risk": "ELEVATED",
+        "active": [
+          "wp-001",
+          "wp-002"
+        ],
+        "expired_but_open": [
+          {
+            "id": "wp-003",
+            "permit_type": "HOT_WORK",
+            "expiry_at": "2026-10-05T16:02:09.841807+00:00",
+            "vessel_id": "v-demo-004",
+            "flag": "ELEVATED",
+            "rationale": "HOT_WORK permit expired 2026-10-05T16:02:09.841807+00:00 but still ACTIVE — close or reissue"
+          }
+        ],
+        "suspended": [],
+        "policy": "hot-work and confined-space permits are hard gates — work without a valid permit is a stop-work condition (Obj K)"
+      },
+      "disclaimer": "shipyard hot-work / confined-space permits are hard gates — work without a valid permit is a stop-work condition"
+    },
+    "liability": [
+      {
+        "name": "MV PADMA STAR",
+        "imo": "9521457",
+        "vessel_id": "v-demo-001",
+        "as_of": "2026-10-06",
+        "risk_level": "WATCH",
+        "disclaimer": "risk-flag advisory layer — never legal advice; never downgrades statutory compliance (Principle 15)",
+        "policies": [
+          {
+            "id": "ip-001",
+            "policy_type": "P&I",
+            "insurer": "Bangladesh P&I Club",
+            "policy_no": "PIC-2025-0441",
+            "expiry_date": "2028-12-14",
+            "limit_amount": 500000000,
+            "limit_currency": "USD",
+            "status": "ACTIVE"
+          },
+          {
+            "id": "ip-002",
+            "policy_type": "H&M",
+            "insurer": "Sadharan Bima",
+            "policy_no": "HM-2024-118",
+            "expiry_date": "2026-10-31",
+            "limit_amount": 25000000,
+            "limit_currency": "USD",
+            "status": "EXPIRING"
+          }
+        ],
+        "flags": [
+          {
+            "flag": "WATCH",
+            "exposure_type": "H&M",
+            "vessel_id": "v-demo-001",
+            "rationale": "H&M cover expires 2026-10-31 (within 30 days) — renewal window open",
+            "advisory": true
+          }
+        ]
+      },
+      {
+        "name": "MV MEGHNA TRADER",
+        "imo": "9612345",
+        "vessel_id": "v-demo-002",
+        "as_of": "2026-10-06",
+        "risk_level": "INFO",
+        "disclaimer": "risk-flag advisory layer — never legal advice; never downgrades statutory compliance (Principle 15)",
+        "policies": [
+          {
+            "id": "ip-101",
+            "policy_type": "P&I",
+            "insurer": "Bangladesh P&I Club",
+            "policy_no": "PIC-2025-0871",
+            "expiry_date": "2029-03-24",
+            "limit_amount": 750000000,
+            "limit_currency": "USD",
+            "status": "ACTIVE"
+          },
+          {
+            "id": "ip-102",
+            "policy_type": "H&M",
+            "insurer": "Sadharan Bima",
+            "policy_no": "HM-2025-331",
+            "expiry_date": "2029-07-02",
+            "limit_amount": 40000000,
+            "limit_currency": "USD",
+            "status": "ACTIVE"
+          }
+        ],
+        "flags": [
+          {
+            "flag": "INFO",
+            "exposure_type": "GENERAL",
+            "vessel_id": "v-demo-002",
+            "rationale": "covers complete and current; no exposure signals",
+            "advisory": true
+          }
+        ]
+      },
+      {
+        "name": "MV KARNAPHULI",
+        "imo": "9445678",
+        "vessel_id": "v-demo-003",
+        "as_of": "2026-10-06",
+        "risk_level": "WATCH",
+        "disclaimer": "risk-flag advisory layer — never legal advice; never downgrades statutory compliance (Principle 15)",
+        "policies": [
+          {
+            "id": "ip-201",
+            "policy_type": "P&I",
+            "insurer": "Bangladesh P&I Club",
+            "policy_no": "PIC-2024-219",
+            "expiry_date": "2026-10-31",
+            "limit_amount": 300000000,
+            "limit_currency": "USD",
+            "status": "EXPIRING"
+          },
+          {
+            "id": "ip-202",
+            "policy_type": "H&M",
+            "insurer": "Sadharan Bima",
+            "policy_no": "HM-2024-220",
+            "expiry_date": "2028-12-14",
+            "limit_amount": 18000000,
+            "limit_currency": "USD",
+            "status": "ACTIVE"
+          }
+        ],
+        "flags": [
+          {
+            "flag": "WATCH",
+            "exposure_type": "P&I",
+            "vessel_id": "v-demo-003",
+            "rationale": "P&I cover expires 2026-10-31 (within 30 days) — renewal window open",
+            "advisory": true
+          }
+        ]
+      },
+      {
+        "name": "MV SHITALAKSHYA",
+        "imo": "9337890",
+        "vessel_id": "v-demo-004",
+        "as_of": "2026-10-06",
+        "risk_level": "ELEVATED",
+        "disclaimer": "risk-flag advisory layer — never legal advice; never downgrades statutory compliance (Principle 15)",
+        "policies": [
+          {
+            "id": "ip-301",
+            "policy_type": "H&M",
+            "insurer": "Sadharan Bima",
+            "policy_no": "HM-2022-771",
+            "expiry_date": "2026-08-07",
+            "limit_amount": 12000000,
+            "limit_currency": "USD",
+            "status": "EXPIRED"
+          }
+        ],
+        "flags": [
+          {
+            "flag": "ELEVATED",
+            "exposure_type": "H&M",
+            "vessel_id": "v-demo-004",
+            "rationale": "H&M cover expired 2026-08-07 (policy HM-2022-771, Sadharan Bima) — uninsured exposure",
+            "advisory": true
+          },
+          {
+            "flag": "ELEVATED",
+            "exposure_type": "P&I",
+            "vessel_id": "v-demo-004",
+            "rationale": "no valid P&I cover on file — financial security exposure (check MLC Title 4 / pollution conventions)",
+            "advisory": true
+          }
+        ]
+      }
+    ]
+  },
+  "voyageSample": {
+    "overall_status": "BLACK",
+    "conflict_items": [],
+    "drill_down": {
+      "1": {
+        "zone_type": "INTERNAL_WATERS",
+        "status": "BLACK",
+        "dimensions": {
+          "manning_level": {
+            "status": "GREEN",
+            "merged_requirement": "STCW-safe manning floor",
+            "constraint": {
+              "kind": "MIN",
+              "value": 3.0
+            },
+            "binding": [
+              "IMO-CONV-SOLAS-1974-MANNING-FLOOR"
+            ],
+            "advisory": [],
+            "conflict": false
+          },
+          "licence": {
+            "status": "BLACK",
+            "merged_requirement": "Ship must hold a valid licence for taking the ship to sea (Section 66).",
+            "constraint": null,
+            "binding": [
+              "BD-ORD-MERCHANT-SHIPPING-1983-S066-R001"
+            ],
+            "advisory": [],
+            "conflict": false
+          },
+          "manning": {
+            "status": "BLACK",
+            "merged_requirement": "Ship must carry the safe manning document and every crew member must hold a valid Certificate of Competency for their rank.",
+            "constraint": null,
+            "binding": [
+              "BD-ORD-MERCHANT-SHIPPING-1983-S082-R001"
+            ],
+            "advisory": [],
+            "conflict": false
+          },
+          "loadline": {
+            "status": "BLACK",
+            "merged_requirement": "Ship must hold a valid Load Line Certificate on board at all times while at sea or in port.",
+            "constraint": null,
+            "binding": [
+              "BD-ORD-MERCHANT-SHIPPING-1983-S335-R001"
+            ],
+            "advisory": [],
+            "conflict": false
+          },
+          "unseaworthy": {
+            "status": "BLACK",
+            "merged_requirement": "Ship must be seaworthy: valid class certificate and safety equipment certificate must be on board and not expired.",
+            "constraint": null,
+            "binding": [
+              "BD-ORD-MERCHANT-SHIPPING-1983-S350-R001"
+            ],
+            "advisory": [],
+            "conflict": false
+          },
+          "marpol": {
+            "status": "BLACK",
+            "merged_requirement": "Ships of 400 GT and above must carry a valid Oil Record Book (MARPOL Annex I).; Ships of 100 GT and above must carry a garbage management plan and garbage record book (MARPOL Annex V).; Ships of 400 GT and above must hold a valid IAPP Certificate (MARPOL Annex VI).",
+            "constraint": null,
+            "binding": [
+              "IMO-CONV-MARPOL-73-78-ANI-REG36-R001",
+              "IMO-CONV-MARPOL-73-78-ANV-REG10-R001",
+              "IMO-CONV-MARPOL-73-78-ANVI-REG6-R001"
+            ],
+            "advisory": [],
+            "conflict": false
+          }
+        }
+      },
+      "2": {
+        "zone_type": "TERRITORIAL",
+        "status": "BLACK",
+        "dimensions": {
+          "manning_level": {
+            "status": "GREEN",
+            "merged_requirement": "STCW-safe manning floor",
+            "constraint": {
+              "kind": "MIN",
+              "value": 3.0
+            },
+            "binding": [
+              "IMO-CONV-SOLAS-1974-MANNING-FLOOR"
+            ],
+            "advisory": [],
+            "conflict": false
+          },
+          "licence": {
+            "status": "BLACK",
+            "merged_requirement": "Ship must hold a valid licence for taking the ship to sea (Section 66).",
+            "constraint": null,
+            "binding": [
+              "BD-ORD-MERCHANT-SHIPPING-1983-S066-R001"
+            ],
+            "advisory": [],
+            "conflict": false
+          },
+          "manning": {
+            "status": "BLACK",
+            "merged_requirement": "Ship must carry the safe manning document and every crew member must hold a valid Certificate of Competency for their rank.",
+            "constraint": null,
+            "binding": [
+              "BD-ORD-MERCHANT-SHIPPING-1983-S082-R001"
+            ],
+            "advisory": [],
+            "conflict": false
+          },
+          "loadline": {
+            "status": "BLACK",
+            "merged_requirement": "Ship must hold a valid Load Line Certificate on board at all times while at sea or in port.",
+            "constraint": null,
+            "binding": [
+              "BD-ORD-MERCHANT-SHIPPING-1983-S335-R001"
+            ],
+            "advisory": [],
+            "conflict": false
+          },
+          "unseaworthy": {
+            "status": "BLACK",
+            "merged_requirement": "Ship must be seaworthy: valid class certificate and safety equipment certificate must be on board and not expired.",
+            "constraint": null,
+            "binding": [
+              "BD-ORD-MERCHANT-SHIPPING-1983-S350-R001"
+            ],
+            "advisory": [],
+            "conflict": false
+          },
+          "marpol": {
+            "status": "BLACK",
+            "merged_requirement": "Ships of 400 GT and above must carry a valid Oil Record Book (MARPOL Annex I).; Ships of 100 GT and above must carry a garbage management plan and garbage record book (MARPOL Annex V).; Ships of 400 GT and above must hold a valid IAPP Certificate (MARPOL Annex VI).",
+            "constraint": null,
+            "binding": [
+              "IMO-CONV-MARPOL-73-78-ANI-REG36-R001",
+              "IMO-CONV-MARPOL-73-78-ANV-REG10-R001",
+              "IMO-CONV-MARPOL-73-78-ANVI-REG6-R001"
+            ],
+            "advisory": [],
+            "conflict": false
+          }
+        }
+      }
+    },
+    "algorithm": "LCA-1",
+    "legal_review_sla_hours": 48
+  }
+}

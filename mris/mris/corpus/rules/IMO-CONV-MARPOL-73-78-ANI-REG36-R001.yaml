@@ -1,0 +1,40 @@
+# IMO-CONV-MARPOL-73-78-ANI-REG36-R001 — Oil Record Book (Annex I)
+rule_id: IMO-CONV-MARPOL-73-78-ANI-REG36-R001
+rule_version: 1
+domain: MARPOL
+obligation_dimension: marpol_annex_i_records
+
+legal_source:
+  provision_id: IMO-CONV-MARPOL-73-78-ANI-REG36
+  legal_version_id: lv-MARPOL-73-78-ANI-current
+  instrument_id: IMO-CONV-MARPOL-73-78
+  locator: Annex I Regulation 36
+
+applicability:
+  all:
+    - annex_ratified_for_flag: [I]
+    - operation: [SEA_VOYAGE, PORT_CALL]
+    - gt_min: 400
+
+condition:
+  type: MANDATORY
+  expression: |
+    EXISTS e IN evidence :
+      e.evidence_type = "OIL_RECORD_BOOK"
+      AND verified(e)
+      AND NOT expired(e, at: eval_date)
+
+outcome:
+  compliant_if: valid Oil Record Book on board (MARPOL Annex I Reg 36)
+  non_compliant_if: record book missing, unverified or expired
+  contract_requirement: "Ships of 400 GT and above must carry a valid Oil Record Book (MARPOL Annex I)."
+
+evidence_required:
+  - OIL_RECORD_BOOK
+
+status_ladder:
+  BLACK: 'NOT (EXISTS e IN evidence : e.evidence_type = "OIL_RECORD_BOOK")'
+  RED: 'EXISTS e IN evidence : e.evidence_type = "OIL_RECORD_BOOK" AND expired(e, at: eval_date)'
+  YELLOW: 'EXISTS e IN evidence : e.evidence_type = "OIL_RECORD_BOOK" AND NOT verified(e)'
+
+consequence_of_non_correction: "PSC detention risk; MARPOL offences carry penalty exposure for the company and the master."

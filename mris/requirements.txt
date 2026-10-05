@@ -1,0 +1,6 @@
+# Render / generic Python host install (repo root)
+fastapi>=0.110
+uvicorn>=0.29
+pydantic>=2.6
+sqlalchemy>=2.0
+pyyaml>=6.0

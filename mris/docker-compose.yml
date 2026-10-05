@@ -1,0 +1,46 @@
+# MRIS deployment — Blueprint v2.0 Part 13.
+# Single-node MVP profile; scale-out path in Part 19.
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: mris
+      POSTGRES_USER: mris
+      POSTGRES_PASSWORD: ${MRIS_DB_PASSWORD:-mris-dev-only}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./infra/db/migrations:/docker-entrypoint-initdb.d:ro   # 001_initial_schema.sql
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U mris"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  api:
+    build: .
+    environment:
+      MRIS_DATABASE_URL: postgresql+psycopg://mris:${MRIS_DB_PASSWORD:-mris-dev-only}@db:5432/mris
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+
+  # Object storage for source PDFs + evidence, tenant-keyed paths (Part 8.8/18)
+  minio:
+    image: minio/minio:latest
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: mris
+      MINIO_ROOT_PASSWORD: ${MRIS_MINIO_PASSWORD:-mris-dev-only}
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    volumes:
+      - miniodata:/data
+
+volumes:
+  pgdata:
+  miniodata:
