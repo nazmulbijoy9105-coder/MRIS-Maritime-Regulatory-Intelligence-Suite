@@ -42,6 +42,11 @@ app = FastAPI(
 _RULES = load_rules()
 _MANIFEST = load_manifest()
 
+def _by_jurisdiction(code: str) -> list:
+    """v2.0 manifest is a flat registry; split it by instrument jurisdiction."""
+    return [i for i in _MANIFEST["instruments"] if i.get("jurisdiction") == code]
+
+
 
 # ---------------------------------------------------------------------------
 # request bodies
@@ -94,8 +99,8 @@ def health() -> dict:
 @app.get("/v1/legal/instruments")
 def list_instruments() -> dict:
     return {
-        "bangladesh": _MANIFEST["instruments"],
-        "international": _MANIFEST["international_instruments"],
+        "bangladesh": _by_jurisdiction("BD"),
+        "international": _by_jurisdiction("INTL"),
     }
 
 
@@ -294,7 +299,7 @@ def _demo_candidates() -> list[RuleCandidate]:
 
 
 def _find_instrument(instrument_id: str) -> dict:
-    for inst in _MANIFEST["instruments"] + _MANIFEST["international_instruments"]:
+    for inst in _MANIFEST["instruments"]:
         if inst["id"] == instrument_id:
             return inst
     raise HTTPException(404, f"instrument {instrument_id} not found")
