@@ -81,7 +81,7 @@ def test_build_demo_data_executes():
     expected_open = sum(
         1
         for item in load_manifest()["instruments"]
-        if item.get("verification_status") != "VERIFIED"
+        if item.get("verification_status") != "VERIFIED_AGAINST_GAZETTE"
     )
 
     assert len(data["impacts"]["open_verification_items"]) == expected_open

@@ -121,7 +121,7 @@
         "IMO-CONV-MARPOL-73-78-ANV-REG10-R001": "v1",
         "IMO-CONV-MARPOL-73-78-ANVI-REG6-R001": "v1"
       },
-      "computed_at": "2026-10-06T03:45:26.729333+00:00",
+      "computed_at": "2026-10-06T05:04:27.589415+00:00",
       "items": [
         {
           "obligation_id": "BD-ORD-MERCHANT-SHIPPING-1983-S066-R001:BD-ORD-MERCHANT-SHIPPING-1983-S066",
@@ -467,7 +467,7 @@
         "IMO-CONV-MARPOL-73-78-ANV-REG10-R001": "v1",
         "IMO-CONV-MARPOL-73-78-ANVI-REG6-R001": "v1"
       },
-      "computed_at": "2026-10-06T03:45:26.775910+00:00",
+      "computed_at": "2026-10-06T05:04:27.650937+00:00",
       "items": [
         {
           "obligation_id": "BD-ORD-MERCHANT-SHIPPING-1983-S066-R001:BD-ORD-MERCHANT-SHIPPING-1983-S066",
@@ -813,7 +813,7 @@
         "IMO-CONV-MARPOL-73-78-ANV-REG10-R001": "v1",
         "IMO-CONV-MARPOL-73-78-ANVI-REG6-R001": "v1"
       },
-      "computed_at": "2026-10-06T03:45:26.820905+00:00",
+      "computed_at": "2026-10-06T05:04:27.711936+00:00",
       "items": [
         {
           "obligation_id": "BD-ORD-MERCHANT-SHIPPING-1983-S066-R001:BD-ORD-MERCHANT-SHIPPING-1983-S066",
@@ -1159,7 +1159,7 @@
         "IMO-CONV-MARPOL-73-78-ANV-REG10-R001": "v1",
         "IMO-CONV-MARPOL-73-78-ANVI-REG6-R001": "v1"
       },
-      "computed_at": "2026-10-06T03:45:26.860910+00:00",
+      "computed_at": "2026-10-06T05:04:27.768543+00:00",
       "items": [
         {
           "obligation_id": "BD-ORD-MERCHANT-SHIPPING-1983-S066-R001:BD-ORD-MERCHANT-SHIPPING-1983-S066",
@@ -2355,107 +2355,6 @@
         "notes": "Provisionally party based on 2026 draft. Requires government instrument verification."
       },
       {
-        "instrument_id": "BD-M01",
-        "jurisdiction": "BD",
-        "instrument_type": "ORDINANCE",
-        "official_title": "The Bangladesh Merchant Shipping Ordinance, 1983 (Ordinance No. XXVI of 1983)",
-        "short_name": "MSO 1983",
-        "status": "CURRENT",
-        "implements": [
-          "INT-M01",
-          "INT-M06",
-          "INT-M03"
-        ],
-        "verification_status": "VERIFIED_AGAINST_GAZETTE",
-        "verification_date": "2026-10-06",
-        "authoritative_sources": [
-          "Bangladesh Laws Database"
-        ],
-        "notes": "Subject to proposed replacement by Draft MSA 2026.",
-        "bd_treaty_status": "NOT_APPLICABLE"
-      },
-      {
-        "instrument_id": "BD-M02",
-        "jurisdiction": "BD",
-        "instrument_type": "ORDINANCE",
-        "official_title": "The Inland Shipping Ordinance, 1976 (Ordinance No. LXXII of 1976)",
-        "short_name": "ISO 1976",
-        "status": "CURRENT",
-        "verification_status": "VERIFIED_AGAINST_GAZETTE",
-        "authoritative_sources": [
-          "Bangladesh Laws Database"
-        ],
-        "bd_treaty_status": "NOT_APPLICABLE"
-      },
-      {
-        "instrument_id": "BD-M03",
-        "jurisdiction": "BD",
-        "instrument_type": "ACT",
-        "official_title": "Chattogram Port Authority Act, 2022 (Act No. 08 of 2022)",
-        "short_name": "Chattogram Port Act 2022",
-        "status": "CURRENT",
-        "verification_status": "VERIFIED_AGAINST_GAZETTE",
-        "authoritative_sources": [
-          "Bangladesh Laws Database"
-        ],
-        "notes": "Repealed Chittagong Port Authority Ordinance 1976.",
-        "bd_treaty_status": "NOT_APPLICABLE"
-      },
-      {
-        "instrument_id": "BD-M04",
-        "jurisdiction": "BD",
-        "instrument_type": "ACT",
-        "official_title": "Mongla Port Authority Act, 2022 (Act No. 07 of 2022)",
-        "short_name": "Mongla Port Act 2022",
-        "status": "CURRENT",
-        "verification_status": "VERIFIED_AGAINST_GAZETTE",
-        "authoritative_sources": [
-          "Bangladesh Laws Database"
-        ],
-        "notes": "Repealed Mongla Port Authority Ordinance 1976.",
-        "bd_treaty_status": "NOT_APPLICABLE"
-      },
-      {
-        "instrument_id": "BD-M05",
-        "jurisdiction": "BD",
-        "instrument_type": "ACT",
-        "official_title": "Payra Port Authority Act, 2013",
-        "short_name": "Payra Port Act 2013",
-        "status": "CURRENT",
-        "verification_status": "VERIFIED_AGAINST_GAZETTE",
-        "authoritative_sources": [
-          "Payra Port Authority"
-        ],
-        "bd_treaty_status": "NOT_APPLICABLE"
-      },
-      {
-        "instrument_id": "BD-M06",
-        "jurisdiction": "BD",
-        "instrument_type": "ORDINANCE",
-        "official_title": "The Pilotage Ordinance, 1969 (East Pakistan Ordinance No. V of 1969)",
-        "short_name": "Pilotage Ord 1969",
-        "status": "CURRENT",
-        "scope": "INLAND_WATERS",
-        "verification_status": "VERIFIED_AGAINST_GAZETTE",
-        "authoritative_sources": [
-          "Bangladesh Laws Database"
-        ],
-        "bd_treaty_status": "NOT_APPLICABLE"
-      },
-      {
-        "instrument_id": "BD-M07",
-        "jurisdiction": "BD",
-        "instrument_type": "ACT",
-        "official_title": "Bangladesh Environment Conservation Act, 1995 (Act No. 1 of 1995)",
-        "short_name": "BECA 1995",
-        "status": "CURRENT",
-        "verification_status": "VERIFIED_AGAINST_GAZETTE",
-        "authoritative_sources": [
-          "Bangladesh Laws Database"
-        ],
-        "bd_treaty_status": "NOT_APPLICABLE"
-      },
-      {
         "instrument_id": "BD-M08",
         "jurisdiction": "BD",
         "instrument_type": "RULES",
@@ -2642,7 +2541,7 @@
         "verification_source_url": null,
         "history": [
           {
-            "at": "2026-10-06T03:45:26.871995+00:00",
+            "at": "2026-10-06T05:04:27.780538+00:00",
             "action": "SUBMITTED",
             "tier": "EXTRACTED_BY_AI"
           }
@@ -2664,7 +2563,7 @@
         "verification_source_url": null,
         "history": [
           {
-            "at": "2026-10-06T03:45:26.871995+00:00",
+            "at": "2026-10-06T05:04:27.780538+00:00",
             "action": "SUBMITTED",
             "tier": "EXTRACTED_BY_AI"
           }
@@ -2679,19 +2578,19 @@
         "confidence": 0.64,
         "source_url": "https://www.bdlaws.minlaw.gov.bd",
         "reviewed_by": "reviewer-1",
-        "reviewed_at": "2026-10-06T03:45:26.871995+00:00",
+        "reviewed_at": "2026-10-06T05:04:27.780538+00:00",
         "review_notes": "numbering cross-checked against 2021 amendment; needs Gazette confirmation",
         "verified_by": null,
         "verified_at": null,
         "verification_source_url": null,
         "history": [
           {
-            "at": "2026-10-06T03:45:26.871995+00:00",
+            "at": "2026-10-06T05:04:27.780538+00:00",
             "action": "SUBMITTED",
             "tier": "EXTRACTED_BY_AI"
           },
           {
-            "at": "2026-10-06T03:45:26.871995+00:00",
+            "at": "2026-10-06T05:04:27.780538+00:00",
             "action": "REVIEWED",
             "actor": "reviewer-1",
             "notes": "numbering cross-checked against 2021 amendment; needs Gazette confirmation"
@@ -2707,25 +2606,25 @@
         "confidence": 0.98,
         "source_url": "https://www.bdlaws.minlaw.gov.bd",
         "reviewed_by": "reviewer-1",
-        "reviewed_at": "2026-10-06T03:45:26.871995+00:00",
+        "reviewed_at": "2026-10-06T05:04:27.780538+00:00",
         "review_notes": "cross-checked against bdlaws consolidated text",
         "verified_by": "reviewer-2",
-        "verified_at": "2026-10-06T03:45:26.871995+00:00",
+        "verified_at": "2026-10-06T05:04:27.780538+00:00",
         "verification_source_url": "https://www.bdlaws.minlaw.gov.bd/act-81.html",
         "history": [
           {
-            "at": "2026-10-06T03:45:26.871995+00:00",
+            "at": "2026-10-06T05:04:27.780538+00:00",
             "action": "SUBMITTED",
             "tier": "EXTRACTED_BY_AI"
           },
           {
-            "at": "2026-10-06T03:45:26.871995+00:00",
+            "at": "2026-10-06T05:04:27.780538+00:00",
             "action": "REVIEWED",
             "actor": "reviewer-1",
             "notes": "cross-checked against bdlaws consolidated text"
           },
           {
-            "at": "2026-10-06T03:45:26.871995+00:00",
+            "at": "2026-10-06T05:04:27.780538+00:00",
             "action": "VERIFIED",
             "actor": "reviewer-2",
             "source_url": "https://www.bdlaws.minlaw.gov.bd/act-81.html"
@@ -2745,7 +2644,7 @@
     "broken_at_entry": null,
     "entries": [
       {
-        "at": "2026-10-06T03:45:26.869867+00:00",
+        "at": "2026-10-06T05:04:27.779538+00:00",
         "action": "SOURCE_REGISTERED",
         "actor": null,
         "company_id": null,
@@ -2757,10 +2656,10 @@
           "publisher": "Ministry of Law, Justice and Parliamentary Affairs"
         },
         "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
-        "entry_hash": "471a934501d080cf06d469693a7b79013a6e8d23fc18ab3eead4fe5d9dc28979"
+        "entry_hash": "b57a50c11eb7a871022f4fc7588af4c0984e1e18e0f211fee132c18c7b3d22c0"
       },
       {
-        "at": "2026-10-06T03:45:26.871995+00:00",
+        "at": "2026-10-06T05:04:27.779538+00:00",
         "action": "SOURCE_REGISTERED",
         "actor": null,
         "company_id": null,
@@ -2771,11 +2670,11 @@
           "url": "https://www.dos.gov.bd",
           "publisher": "Department of Shipping"
         },
-        "prev_hash": "471a934501d080cf06d469693a7b79013a6e8d23fc18ab3eead4fe5d9dc28979",
-        "entry_hash": "81bf96bdc5b7a7669ca98cfd76bd74ca63fb9a144cf654912de55b42c334ceff"
+        "prev_hash": "b57a50c11eb7a871022f4fc7588af4c0984e1e18e0f211fee132c18c7b3d22c0",
+        "entry_hash": "4e456e505194bcd3100d54f8228eee106c6c6670217715fb211784edda35e30f"
       },
       {
-        "at": "2026-10-06T03:45:26.871995+00:00",
+        "at": "2026-10-06T05:04:27.780538+00:00",
         "action": "REVIEW_SUBMITTED",
         "actor": null,
         "company_id": null,
@@ -2786,11 +2685,11 @@
           "object_id": "BD-ORD-MERCHANT-SHIPPING-1983-S066",
           "tier": "EXTRACTED_BY_AI"
         },
-        "prev_hash": "81bf96bdc5b7a7669ca98cfd76bd74ca63fb9a144cf654912de55b42c334ceff",
-        "entry_hash": "c1c7fff72f73ca277219393c336bed661e9f159cf1da3c9a58251d11da1ea3fd"
+        "prev_hash": "4e456e505194bcd3100d54f8228eee106c6c6670217715fb211784edda35e30f",
+        "entry_hash": "b863b6f52d3c7bbcde55984b956b411a9cdb68bf0c3fbe2e0267c2a1f1051e80"
       },
       {
-        "at": "2026-10-06T03:45:26.871995+00:00",
+        "at": "2026-10-06T05:04:27.780538+00:00",
         "action": "REVIEW_SUBMITTED",
         "actor": null,
         "company_id": null,
@@ -2801,11 +2700,11 @@
           "object_id": "BD-ORD-MERCHANT-SHIPPING-1983-S471",
           "tier": "EXTRACTED_BY_AI"
         },
-        "prev_hash": "c1c7fff72f73ca277219393c336bed661e9f159cf1da3c9a58251d11da1ea3fd",
-        "entry_hash": "442440d6cf93a2b4a2f782bab1b88909f95117339dd8dd84a4595834b03f452c"
+        "prev_hash": "b863b6f52d3c7bbcde55984b956b411a9cdb68bf0c3fbe2e0267c2a1f1051e80",
+        "entry_hash": "132cf53ec398f078ec7155cdb37152b441233da4e3d36801f7a49700fa448e44"
       },
       {
-        "at": "2026-10-06T03:45:26.871995+00:00",
+        "at": "2026-10-06T05:04:27.780538+00:00",
         "action": "REVIEW_SUBMITTED",
         "actor": null,
         "company_id": null,
@@ -2816,11 +2715,11 @@
           "object_id": "BD-ACT-TERRITORIAL-WATERS-MARITIME-ZONES-1974-S022",
           "tier": "EXTRACTED_BY_AI"
         },
-        "prev_hash": "442440d6cf93a2b4a2f782bab1b88909f95117339dd8dd84a4595834b03f452c",
-        "entry_hash": "e88760263ed79f3818bcfcc65251ca957c8a60977d192bc3d44217b6b92024e9"
+        "prev_hash": "132cf53ec398f078ec7155cdb37152b441233da4e3d36801f7a49700fa448e44",
+        "entry_hash": "46f8a53269612deeccd5aa6a0839420f11b2b4aea321baa95705ff40e6b06bfa"
       },
       {
-        "at": "2026-10-06T03:45:26.871995+00:00",
+        "at": "2026-10-06T05:04:27.780538+00:00",
         "action": "REVIEW_SUBMITTED",
         "actor": null,
         "company_id": null,
@@ -2831,11 +2730,11 @@
           "object_id": "BD-ORD-MERCHANT-SHIPPING-1983-S082",
           "tier": "EXTRACTED_BY_AI"
         },
-        "prev_hash": "e88760263ed79f3818bcfcc65251ca957c8a60977d192bc3d44217b6b92024e9",
-        "entry_hash": "a9a3f57d3b7701bee78ec55d162092de2ac05e782305049ea9b04d3c8f8d748d"
+        "prev_hash": "46f8a53269612deeccd5aa6a0839420f11b2b4aea321baa95705ff40e6b06bfa",
+        "entry_hash": "d8eff9116578bf58bdd4c9f43e099aded6b55008a3f446f8b378835b481429e0"
       },
       {
-        "at": "2026-10-06T03:45:26.871995+00:00",
+        "at": "2026-10-06T05:04:27.780538+00:00",
         "action": "REVIEW_APPROVED",
         "actor": "reviewer-1",
         "company_id": null,
@@ -2848,11 +2747,11 @@
           "tier": "REVIEWED",
           "notes": "cross-checked against bdlaws consolidated text"
         },
-        "prev_hash": "a9a3f57d3b7701bee78ec55d162092de2ac05e782305049ea9b04d3c8f8d748d",
-        "entry_hash": "e2bb09db23adebd284ccbc688b7a3bce3b967b0dbfc9eee2f2c38c428ff77aab"
+        "prev_hash": "d8eff9116578bf58bdd4c9f43e099aded6b55008a3f446f8b378835b481429e0",
+        "entry_hash": "cb6016d3a4332114d888affe6392bd843cb7a4e6c4d7e0295459ac779fc5c9bd"
       },
       {
-        "at": "2026-10-06T03:45:26.871995+00:00",
+        "at": "2026-10-06T05:04:27.780538+00:00",
         "action": "VERIFIED_AGAINST_GAZETTE",
         "actor": "reviewer-2",
         "company_id": null,
@@ -2865,11 +2764,11 @@
           "tier": "VERIFIED_AGAINST_GAZETTE",
           "source_url": "https://www.bdlaws.minlaw.gov.bd/act-81.html"
         },
-        "prev_hash": "e2bb09db23adebd284ccbc688b7a3bce3b967b0dbfc9eee2f2c38c428ff77aab",
-        "entry_hash": "c2e597e5dda86fa4382b2ded8a9ce73113a7e9b179c8f42b777e58476b16f9b9"
+        "prev_hash": "cb6016d3a4332114d888affe6392bd843cb7a4e6c4d7e0295459ac779fc5c9bd",
+        "entry_hash": "84f16cf6e3e5ea67752a5514b415580c97015ff53ccc0d7f2f131870e702270a"
       },
       {
-        "at": "2026-10-06T03:45:26.871995+00:00",
+        "at": "2026-10-06T05:04:27.780538+00:00",
         "action": "REVIEW_APPROVED",
         "actor": "reviewer-1",
         "company_id": null,
@@ -2882,8 +2781,8 @@
           "tier": "REVIEWED",
           "notes": "numbering cross-checked against 2021 amendment; needs Gazette confirmation"
         },
-        "prev_hash": "c2e597e5dda86fa4382b2ded8a9ce73113a7e9b179c8f42b777e58476b16f9b9",
-        "entry_hash": "af403a1560b1c1baccb29633e5a6d8e81c4cf49ff9190447f6d56e825225b540"
+        "prev_hash": "84f16cf6e3e5ea67752a5514b415580c97015ff53ccc0d7f2f131870e702270a",
+        "entry_hash": "bd8117629ecda873f56ae3cb6dbb0c34f9565eaf635cca5a21094bf102a55c14"
       }
     ]
   },
@@ -3014,7 +2913,7 @@
           "company_id": "co-demo-003",
           "vessel_id": "v-demo-003",
           "incident_type": "COLLISION",
-          "occurred_at": "2026-10-06T01:45:26.873018+00:00",
+          "occurred_at": "2026-10-06T03:04:27.781537+00:00",
           "location": {
             "zone_type": "INTERNAL_WATERS",
             "coastal_state": "BD"
@@ -3030,7 +2929,7 @@
               "basis": "casualty report to flag administration",
               "status": "PENDING",
               "sent_at": null,
-              "deadline": "2026-10-07T01:45:26.873018+00:00",
+              "deadline": "2026-10-07T03:04:27.781537+00:00",
               "hours_remaining": 22.0
             },
             {
@@ -3040,7 +2939,7 @@
               "basis": "notice to port authority at next port",
               "status": "PENDING",
               "sent_at": null,
-              "deadline": "2026-10-06T13:45:26.873018+00:00",
+              "deadline": "2026-10-06T15:04:27.781537+00:00",
               "hours_remaining": 10.0
             }
           ],
@@ -3059,7 +2958,7 @@
           "company_id": "co-demo-001",
           "vessel_id": "v-demo-001",
           "incident_type": "POLLUTION",
-          "occurred_at": "2026-10-06T00:45:26.873018+00:00",
+          "occurred_at": "2026-10-06T02:04:27.781537+00:00",
           "location": {
             "zone_type": "TERRITORIAL",
             "coastal_state": "BD",
@@ -3077,7 +2976,7 @@
               "basis": "initial report without delay",
               "status": "PENDING",
               "sent_at": null,
-              "deadline": "2026-10-06T01:45:26.873018+00:00",
+              "deadline": "2026-10-06T03:04:27.781537+00:00",
               "hours_remaining": -2.0
             },
             {
@@ -3087,7 +2986,7 @@
               "basis": "formal notification to environment authority",
               "status": "PENDING",
               "sent_at": null,
-              "deadline": "2026-10-07T00:45:26.873018+00:00",
+              "deadline": "2026-10-07T02:04:27.781537+00:00",
               "hours_remaining": 21.0
             },
             {
@@ -3097,7 +2996,7 @@
               "basis": "written report within 30 days",
               "status": "PENDING",
               "sent_at": null,
-              "deadline": "2026-11-05T00:45:26.873018+00:00",
+              "deadline": "2026-11-05T02:04:27.781537+00:00",
               "hours_remaining": 717.0
             }
           ],
@@ -3116,7 +3015,7 @@
           "company_id": "co-demo-002",
           "vessel_id": "v-demo-002",
           "incident_type": "CYBER",
-          "occurred_at": "2026-09-26T03:45:26.873018+00:00",
+          "occurred_at": "2026-09-26T05:04:27.781537+00:00",
           "location": {
             "zone_type": "HIGH_SEAS"
           },
@@ -3130,8 +3029,8 @@
               "requirement_provision_id": "IMO MSC.428(98) / MSC-FAL.1/Circ.3 cyber incident reporting",
               "basis": "cyber incident report to flag administration",
               "status": "SENT",
-              "sent_at": "2026-10-06 03:45:26.873018+00:00",
-              "deadline": "2026-09-29T03:45:26.873018+00:00",
+              "sent_at": "2026-10-06 05:04:27.781537+00:00",
+              "deadline": "2026-09-29T05:04:27.781537+00:00",
               "hours_remaining": -168.0
             }
           ],
@@ -3152,7 +3051,7 @@
           "notification_id": "INC-2026-001-N1",
           "authority_id": "BD-DOS",
           "basis": "initial report without delay",
-          "deadline": "2026-10-06T01:45:26.873018+00:00"
+          "deadline": "2026-10-06T03:04:27.781537+00:00"
         }
       ]
     },
@@ -3531,10 +3430,10 @@
           {
             "id": "wp-003",
             "permit_type": "HOT_WORK",
-            "expiry_at": "2026-10-05T21:45:26.874013+00:00",
+            "expiry_at": "2026-10-05T23:04:27.781537+00:00",
             "vessel_id": "v-demo-004",
             "flag": "ELEVATED",
-            "rationale": "HOT_WORK permit expired 2026-10-05T21:45:26.874013+00:00 but still ACTIVE — close or reissue"
+            "rationale": "HOT_WORK permit expired 2026-10-05T23:04:27.781537+00:00 but still ACTIVE — close or reissue"
           }
         ],
         "suspended": [],

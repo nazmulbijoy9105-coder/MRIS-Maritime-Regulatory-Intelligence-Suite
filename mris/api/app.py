@@ -6,6 +6,7 @@ database is provisioned. Every compliance endpoint accepts as_of (Principle
 10: historical reconstruction).
 """
 from __future__ import annotations
+from mris.corpus.open_items import open_items
 
 import json
 from datetime import date, datetime
@@ -158,7 +159,7 @@ def list_rules() -> dict:
 
 @app.get("/v1/changes/impacts")
 def change_impacts() -> dict:
-    return {"open_verification_items": _MANIFEST["open_items_register"],
+    return {"open_verification_items": open_items(_MANIFEST["instruments"]),
             "sla": "official publication -> customer alert <= 72h for high-impact changes"}
 
 
