@@ -4,10 +4,13 @@ from sqlalchemy.orm import sessionmaker
 from .models import Base
 
 DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:////tmp/mris_dev.db")
-if DATABASE_URL.startswith("postgresql://"):
-    DATABASE_URL = DATABASE_URL.replace("postgresql://", "postgresql+psycopg2://", 1)
+
+# Fix Render's postgres:// vs postgresql:// format mismatch
+# AND force SQLAlchemy to use the psycopg2 driver we installed
 if DATABASE_URL.startswith("postgres://"):
     DATABASE_URL = DATABASE_URL.replace("postgres://", "postgresql+psycopg2://", 1)
+elif DATABASE_URL.startswith("postgresql://"):
+    DATABASE_URL = DATABASE_URL.replace("postgresql://", "postgresql+psycopg2://", 1)
 
 engine = create_engine(DATABASE_URL, pool_pre_ping=True)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
