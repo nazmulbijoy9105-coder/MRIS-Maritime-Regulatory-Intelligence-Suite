@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-BD-M03-S4",
+  "instrument_id": "BD-M03",
+  "version_id": "LV-BD-M03-2022",
+  "locator": "Section 4",
+  "title": "Port authority powers and duties",
+  "domain": "PORT_AUTHORITY",
+  "provision_text": "The Chattogram Port Authority shall have the power to regulate, control and manage all matters relating to the port including vessel traffic, berthing, cargo handling and port security.",
+  "source_text": "The Chattogram Port Authority shall have the power to regulate, control and manage all matters relating to the port including vessel traffic, berthing, cargo handling and port security.",
+  "source_sha256": "9820d0835a07cd6cf7f0f9784ea342dba2177a66b44b74d9b81ba353e0dd1957",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-BD-M02-S10",
+  "instrument_id": "BD-M02",
+  "version_id": "LV-BD-M02-1976",
+  "locator": "Section 10",
+  "title": "Registration of inland vessels",
+  "domain": "REGISTRATION",
+  "provision_text": "No inland vessel shall operate in inland waters unless it is registered under this Ordinance and holds a valid registration certificate.",
+  "source_text": "No inland vessel shall operate in inland waters unless it is registered under this Ordinance and holds a valid registration certificate.",
+  "source_sha256": "bce0946f7ac4c616da720a8c593d9ac1c373a00ef98350ba22e4bcba4a8aa7f4",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "BD-ORD-INLAND-SHIPPING-1976-S10-R001",
+  "domain": "REGISTRATION",
+  "canonical_id": "BD-M02",
+  "focus": "Registration of inland vessels",
+  "layer": "L2",
+  "status": "ACTIVE",
+  "provision_id": "PROV-BD-M02-S10",
+  "version_id": "LV-BD-M02-1976",
+  "source_id": "SRC-BD-M02-ISO-1976",
+  "source_sha256": "075d05d53af79cf4e7ff1e863fe1d2f7f20c4bebc85c4183a40f4250ad2ed7ab",
+  "applicability": {
+    "vessel_type": "INLAND",
+    "operation": "INLAND_WATERS"
+  },
+  "evaluation_result": "UNKNOWN"
+}

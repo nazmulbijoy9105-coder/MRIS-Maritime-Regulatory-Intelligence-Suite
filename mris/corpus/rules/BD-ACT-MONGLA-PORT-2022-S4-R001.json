@@ -1,0 +1,17 @@
+{
+  "rule_id": "BD-ACT-MONGLA-PORT-2022-S4-R001",
+  "domain": "PORT_AUTHORITY",
+  "canonical_id": "BD-M04",
+  "focus": "Port authority powers and duties",
+  "layer": "L2",
+  "status": "ACTIVE",
+  "provision_id": "PROV-BD-M04-S4",
+  "version_id": "LV-BD-M04-2022",
+  "source_id": "SRC-BD-M04-MPA-2022",
+  "source_sha256": "3bd87bc213b30281c6b825b449ec4deedfe1f213a1695c110bd2a0213db3426c",
+  "applicability": {
+    "port": "MONGLA",
+    "operation": "PORT_OPERATIONS"
+  },
+  "evaluation_result": "UNKNOWN"
+}

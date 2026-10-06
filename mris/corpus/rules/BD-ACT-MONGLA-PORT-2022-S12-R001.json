@@ -1,0 +1,16 @@
+{
+  "rule_id": "BD-ACT-MONGLA-PORT-2022-S12-R001",
+  "domain": "PORT_DUES",
+  "canonical_id": "BD-M04",
+  "focus": "Port dues and charges",
+  "layer": "L2",
+  "status": "ACTIVE",
+  "provision_id": "PROV-BD-M04-S12",
+  "version_id": "LV-BD-M04-2022",
+  "source_id": "SRC-BD-M04-MPA-2022",
+  "source_sha256": "3bd87bc213b30281c6b825b449ec4deedfe1f213a1695c110bd2a0213db3426c",
+  "applicability": {
+    "port": "MONGLA"
+  },
+  "evaluation_result": "UNKNOWN"
+}

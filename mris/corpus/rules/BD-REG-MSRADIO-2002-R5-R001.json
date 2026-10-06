@@ -1,0 +1,17 @@
+{
+  "rule_id": "BD-REG-MSRADIO-2002-R5-R001",
+  "domain": "RADIO_EQUIPMENT",
+  "canonical_id": "BD-M13",
+  "focus": "Radio equipment requirements",
+  "layer": "L2",
+  "status": "ACTIVE",
+  "provision_id": "PROV-BD-M13-R5",
+  "version_id": "LV-BD-M13-2002",
+  "source_id": "SRC-BD-M13-MSRR-2002",
+  "source_sha256": "4f6f4bf2f05450b824b3a57d883e24d6df90c6f346bb9f03defd7ca0cd180972",
+  "applicability": {
+    "flag": "BD",
+    "vessel_gt": 300
+  },
+  "evaluation_result": "UNKNOWN"
+}

@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-BD-M05-S4",
+  "instrument_id": "BD-M05",
+  "version_id": "LV-BD-M05-2013",
+  "locator": "Section 4",
+  "title": "Port authority establishment",
+  "domain": "PORT_AUTHORITY",
+  "provision_text": "The Payra Port Authority is established to manage, operate and develop the Payra Port and regulate all maritime activities within its jurisdiction.",
+  "source_text": "The Payra Port Authority is established to manage, operate and develop the Payra Port and regulate all maritime activities within its jurisdiction.",
+  "source_sha256": "ccccd13edcb80972260e437884bc876544529f67bfc2a3927de93479bd6d5a87",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

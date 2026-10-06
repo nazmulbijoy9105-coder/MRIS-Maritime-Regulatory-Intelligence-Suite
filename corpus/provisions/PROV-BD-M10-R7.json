@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-BD-M10-R7",
+  "instrument_id": "BD-M10",
+  "version_id": "LV-BD-M10-2011",
+  "locator": "Rule 7",
+  "title": "Hazardous materials management",
+  "domain": "HAZARDOUS_MATERIALS",
+  "provision_text": "Ship recycling facilities must prepare an Inventory of Hazardous Materials for each vessel and ensure safe removal and disposal of all hazardous waste.",
+  "source_text": "Ship recycling facilities must prepare an Inventory of Hazardous Materials for each vessel and ensure safe removal and disposal of all hazardous waste.",
+  "source_sha256": "8097e80a33b7a515b16d980716c742d74752eb086f3f0e793503c8c5ec6ded07",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

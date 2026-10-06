@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-BD-M19-S6",
+  "instrument_id": "BD-M19",
+  "version_id": "LV-BD-M19-1974",
+  "locator": "Section 6",
+  "title": "Economic zone",
+  "domain": "EEZ",
+  "provision_text": "Bangladesh has sovereign rights over the exploration and exploitation of natural resources in the economic zone up to two hundred nautical miles.",
+  "source_text": "Bangladesh has sovereign rights over the exploration and exploitation of natural resources in the economic zone up to two hundred nautical miles.",
+  "source_sha256": "512441916399a9f4fa142f07330e69b0a19f24474a69a1ff292f7722f6cb4a6f",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

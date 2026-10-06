@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-BD-M12-2005",
+  "instrument_id": "BD-M12",
+  "version_name": "Seamen Recruiting Agent (License) Rules 2005 (Original)",
+  "effective_from": "2005-03-15",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-BD-M12-SRALR-2005",
+  "source_sha256": "5a30137f4871fdcc9ee28d4f3cd87b0ff00b1fe421ba69db24da1a3582e876e6",
+  "parent_instrument": null,
+  "implements": null
+}

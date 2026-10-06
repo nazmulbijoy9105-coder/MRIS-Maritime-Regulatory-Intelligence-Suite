@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-BD-M09-2022",
+  "instrument_id": "BD-M09",
+  "version_name": "Air Pollution (Control) Rules 2022 (Original)",
+  "effective_from": "2022-06-13",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-BD-M09-APCR-2022",
+  "source_sha256": "9ebb1626e195ba8fd6cd684853a0d9db9f1b124e812ac7c7f8b41edc44baa3d2",
+  "parent_instrument": null,
+  "implements": null
+}

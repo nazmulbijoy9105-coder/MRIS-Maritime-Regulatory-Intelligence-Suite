@@ -1,0 +1,17 @@
+{
+  "rule_id": "BD-ACT-PAYRA-PORT-2013-S4-R001",
+  "domain": "PORT_AUTHORITY",
+  "canonical_id": "BD-M05",
+  "focus": "Port authority establishment",
+  "layer": "L2",
+  "status": "ACTIVE",
+  "provision_id": "PROV-BD-M05-S4",
+  "version_id": "LV-BD-M05-2013",
+  "source_id": "SRC-BD-M05-PPA-2013",
+  "source_sha256": "dcd346aa1907b79f033378052e65f1815f98f20ececf66ed6897fc82cf60dcd8",
+  "applicability": {
+    "port": "PAYRA",
+    "operation": "PORT_OPERATIONS"
+  },
+  "evaluation_result": "UNKNOWN"
+}

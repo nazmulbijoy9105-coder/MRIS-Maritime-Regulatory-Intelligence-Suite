@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-BD-M03-2022",
+  "instrument_id": "BD-M03",
+  "version_name": "Chattogram Port Authority Act 2022 (Original)",
+  "effective_from": "2022-04-28",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-BD-M03-CPA-2022",
+  "source_sha256": "7ef28cc988a6ea02ecad4c6668c9033c158374fc2a10b81b515cc9d15720b330",
+  "parent_instrument": null,
+  "implements": null
+}

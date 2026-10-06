@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-BD-M08-2023",
+  "instrument_id": "BD-M08",
+  "version_name": "Environment Conservation Rules 2023 (Original)",
+  "effective_from": "2023-06-05",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-BD-M08-ECR-2023",
+  "source_sha256": "4c276f2aab2aa9aea62cde3267237586271cca22ea2180eb816f6193a8a49513",
+  "parent_instrument": "BD-M07",
+  "implements": null
+}

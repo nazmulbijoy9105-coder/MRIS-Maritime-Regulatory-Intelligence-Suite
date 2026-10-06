@@ -1,0 +1,16 @@
+{
+  "rule_id": "BD-ORD-PILOTAGE-1969-S8-R001",
+  "domain": "PILOT_LICENSING",
+  "canonical_id": "BD-M06",
+  "focus": "Pilot licensing",
+  "layer": "L2",
+  "status": "ACTIVE",
+  "provision_id": "PROV-BD-M06-S8",
+  "version_id": "LV-BD-M06-1969",
+  "source_id": "SRC-BD-M06-PILOT-1969",
+  "source_sha256": "7ca63243a98ccbe84bdffec50781c687dcc37ab4fc95b01da17928bb20f86da2",
+  "applicability": {
+    "operation": "PILOTAGE"
+  },
+  "evaluation_result": "UNKNOWN"
+}

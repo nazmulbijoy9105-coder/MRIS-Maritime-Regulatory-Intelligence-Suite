@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-BD-M17-2023",
+  "instrument_id": "BD-M17",
+  "version_name": "Bangladesh Flag Vessels (Protection) Rules 2023 (Original)",
+  "effective_from": "2023-03-13",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-BD-M17-BFVPR-2023",
+  "source_sha256": "a0d4a3a6e08f572005a0bd09950eedba43984c2f66b02e76d998e688c5a7551f",
+  "parent_instrument": "BD-M16",
+  "implements": null
+}

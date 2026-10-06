@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-BD-M03-S12",
+  "instrument_id": "BD-M03",
+  "version_id": "LV-BD-M03-2022",
+  "locator": "Section 12",
+  "title": "Port dues and charges",
+  "domain": "PORT_DUES",
+  "provision_text": "The Authority may levy and collect port dues, berthing charges, wharfage and other fees as prescribed from vessels using the port facilities.",
+  "source_text": "The Authority may levy and collect port dues, berthing charges, wharfage and other fees as prescribed from vessels using the port facilities.",
+  "source_sha256": "72729fcc16664f0fcac953ae6e7cbe5ec4e6800354562d840d270ffc41fa4c52",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

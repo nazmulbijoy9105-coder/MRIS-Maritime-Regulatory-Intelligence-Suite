@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-BD-M17-R4",
+  "instrument_id": "BD-M17",
+  "version_id": "LV-BD-M17-2023",
+  "locator": "Rule 4",
+  "title": "Licensing of flag vessels",
+  "domain": "FLAG_LICENSING",
+  "provision_text": "No vessel shall operate under the Bangladesh flag for commercial purposes without a valid license issued under these rules.",
+  "source_text": "No vessel shall operate under the Bangladesh flag for commercial purposes without a valid license issued under these rules.",
+  "source_sha256": "89aaf8c1da72dca1469ecd83fda660bdb87140c68c62346e17a9f5974741ccec",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

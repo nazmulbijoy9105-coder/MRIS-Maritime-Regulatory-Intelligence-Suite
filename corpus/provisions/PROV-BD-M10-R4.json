@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-BD-M10-R4",
+  "instrument_id": "BD-M10",
+  "version_id": "LV-BD-M10-2011",
+  "locator": "Rule 4",
+  "title": "Ship recycling facility authorization",
+  "domain": "SHIP_RECYCLING",
+  "provision_text": "No facility shall engage in ship breaking or ship recycling without obtaining authorization from the Department of Environment and the Department of Shipping.",
+  "source_text": "No facility shall engage in ship breaking or ship recycling without obtaining authorization from the Department of Environment and the Department of Shipping.",
+  "source_sha256": "b7e8e876866efa12aa11b9d115856eeb162a75d0217dc2af76b1301a40b8738c",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

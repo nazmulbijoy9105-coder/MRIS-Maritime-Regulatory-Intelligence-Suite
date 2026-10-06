@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-BD-M12-R4",
+  "instrument_id": "BD-M12",
+  "version_id": "LV-BD-M12-2005",
+  "locator": "Rule 4",
+  "title": "Recruiting agent licensing",
+  "domain": "AGENT_LICENSING",
+  "provision_text": "No person or entity shall act as a seamen recruiting agent without a valid license issued by the Director General of Shipping.",
+  "source_text": "No person or entity shall act as a seamen recruiting agent without a valid license issued by the Director General of Shipping.",
+  "source_sha256": "11a06ddee9b65adaf6c060d902136e44c2055cef4fee52d22b4ac44ed883a0df",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

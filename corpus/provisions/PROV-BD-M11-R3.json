@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-BD-M11-R3",
+  "instrument_id": "BD-M11",
+  "version_id": "LV-BD-M11-2001",
+  "locator": "Rule 3",
+  "title": "Seafarer recruitment requirements",
+  "domain": "SEAFARER_RECRUITMENT",
+  "provision_text": "No person shall be recruited as a seaman on a Bangladesh-flag vessel unless they meet the minimum age, medical fitness and qualification requirements prescribed in these rules.",
+  "source_text": "No person shall be recruited as a seaman on a Bangladesh-flag vessel unless they meet the minimum age, medical fitness and qualification requirements prescribed in these rules.",
+  "source_sha256": "6603190679d9e3211dae658bbf1fcd4198cbeec0dc48fa8dc680cdcc4c8d1d77",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

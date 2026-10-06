@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-BD-M18-S6",
+  "instrument_id": "BD-M18",
+  "version_id": "LV-BD-M18-2020",
+  "locator": "Section 6",
+  "title": "Lighthouse maintenance and operation",
+  "domain": "NAVIGATION_AIDS",
+  "provision_text": "The Government shall establish, maintain and operate lighthouses and other aids to navigation for the safety of vessels navigating in Bangladesh waters.",
+  "source_text": "The Government shall establish, maintain and operate lighthouses and other aids to navigation for the safety of vessels navigating in Bangladesh waters.",
+  "source_sha256": "3bf2398986d797e19825fb00c09a47df9b648b51a9ef8d2c7e7dc2ea36f45b34",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

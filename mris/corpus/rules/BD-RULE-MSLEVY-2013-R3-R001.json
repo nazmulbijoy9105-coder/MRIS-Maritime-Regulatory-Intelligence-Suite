@@ -1,0 +1,17 @@
+{
+  "rule_id": "BD-RULE-MSLEVY-2013-R3-R001",
+  "domain": "LEVY",
+  "canonical_id": "BD-M15",
+  "focus": "Light dues and levy collection",
+  "layer": "L2",
+  "status": "ACTIVE",
+  "provision_id": "PROV-BD-M15-R3",
+  "version_id": "LV-BD-M15-2013",
+  "source_id": "SRC-BD-M15-MSLV-2013",
+  "source_sha256": "9bd2a6e79b4fc3b89dad2929a8e25d8749c98f1b29770eeac4d599a6500d008a",
+  "applicability": {
+    "port": "ALL_BD",
+    "vessel_type": "ALL"
+  },
+  "evaluation_result": "UNKNOWN"
+}

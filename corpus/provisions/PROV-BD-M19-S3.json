@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-BD-M19-S3",
+  "instrument_id": "BD-M19",
+  "version_id": "LV-BD-M19-1974",
+  "locator": "Section 3",
+  "title": "Territorial waters jurisdiction",
+  "domain": "JURISDICTION",
+  "provision_text": "The sovereignty of Bangladesh extends to the territorial waters up to twelve nautical miles measured from the baseline.",
+  "source_text": "The sovereignty of Bangladesh extends to the territorial waters up to twelve nautical miles measured from the baseline.",
+  "source_sha256": "3892f53bb344e7c056ae5a8592027a8a34c062934993637dd63229e9bad84272",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-BD-M14-R4",
+  "instrument_id": "BD-M14",
+  "version_id": "LV-BD-M14-2011",
+  "locator": "Rule 4",
+  "title": "Certificate of competency requirements",
+  "domain": "CERTIFICATION",
+  "provision_text": "No person shall serve as master, chief mate, chief engineer or second engineer on a Bangladesh-flag vessel without holding a valid Certificate of Competency issued under these rules.",
+  "source_text": "No person shall serve as master, chief mate, chief engineer or second engineer on a Bangladesh-flag vessel without holding a valid Certificate of Competency issued under these rules.",
+  "source_sha256": "a85aa9c5625fb9d525d07f81714e5e8b74ca2b9f91764f6d892c93e9b1be6b8e",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

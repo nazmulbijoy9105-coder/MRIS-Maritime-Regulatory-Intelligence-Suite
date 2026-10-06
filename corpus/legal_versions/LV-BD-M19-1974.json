@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-BD-M19-1974",
+  "instrument_id": "BD-M19",
+  "version_name": "Territorial Waters and Maritime Zones Act 1974 (Original)",
+  "effective_from": "1974-04-09",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-BD-M19-TWMZA-1974",
+  "source_sha256": "b5a96944fc49d3cf3c71acb9d1a78e0f264ef5cffc4d327059f170e0eb0de63d",
+  "parent_instrument": null,
+  "implements": "INT-M18"
+}

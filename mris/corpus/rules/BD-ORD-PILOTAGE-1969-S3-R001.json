@@ -1,0 +1,17 @@
+{
+  "rule_id": "BD-ORD-PILOTAGE-1969-S3-R001",
+  "domain": "PILOTAGE",
+  "canonical_id": "BD-M06",
+  "focus": "Compulsory pilotage",
+  "layer": "L2",
+  "status": "ACTIVE",
+  "provision_id": "PROV-BD-M06-S3",
+  "version_id": "LV-BD-M06-1969",
+  "source_id": "SRC-BD-M06-PILOT-1969",
+  "source_sha256": "7ca63243a98ccbe84bdffec50781c687dcc37ab4fc95b01da17928bb20f86da2",
+  "applicability": {
+    "operation": "INLAND_WATERS",
+    "vessel_gt": 200
+  },
+  "evaluation_result": "UNKNOWN"
+}

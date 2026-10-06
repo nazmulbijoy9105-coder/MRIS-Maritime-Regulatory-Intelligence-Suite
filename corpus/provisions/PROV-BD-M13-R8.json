@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-BD-M13-R8",
+  "instrument_id": "BD-M13",
+  "version_id": "LV-BD-M13-2002",
+  "locator": "Regulation 8",
+  "title": "Radio operator certification",
+  "domain": "RADIO_OPERATOR",
+  "provision_text": "Every ship required to carry radio equipment shall carry at least one certified radio operator holding a GMDSS certificate.",
+  "source_text": "Every ship required to carry radio equipment shall carry at least one certified radio operator holding a GMDSS certificate.",
+  "source_sha256": "188bb977920c8612b9096cd85b0720a99bbe553b4b0b1703ccf2eaadd827823d",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-BD-M14-2011",
+  "instrument_id": "BD-M14",
+  "version_name": "Officers & Ratings Training, Certification, Watchkeeping Rules 2011 (Original)",
+  "effective_from": "2011-06-01",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-BD-M14-ORTCW-2011",
+  "source_sha256": "d8aa0e95156ffdfc1393afa67fef8b5ec84542851c07042c0dc5f3c8c9a4ca45",
+  "parent_instrument": null,
+  "implements": "INT-M06"
+}

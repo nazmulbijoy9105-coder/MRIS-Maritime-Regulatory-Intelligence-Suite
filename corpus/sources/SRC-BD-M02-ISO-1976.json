@@ -1,0 +1,16 @@
+{
+  "source_id": "SRC-BD-M02-ISO-1976",
+  "source_type": "GAZETTE",
+  "publisher": "Bangladesh Gazette",
+  "official_title": "Inland Shipping Ordinance 1976",
+  "jurisdiction": "BD",
+  "language": "en",
+  "publication_date": "1976-09-28",
+  "effective_date": "1976-09-28",
+  "official_url": null,
+  "retrieved_at": null,
+  "sha256": "075d05d53af79cf4e7ff1e863fe1d2f7f20c4bebc85c4183a40f4250ad2ed7ab",
+  "mime_type": "application/pdf",
+  "provenance": "Placeholder source record. Primary source document must be retrieved and hashed before verification.",
+  "verification_status": "REQUIRES_PRIMARY_VERIFICATION"
+}

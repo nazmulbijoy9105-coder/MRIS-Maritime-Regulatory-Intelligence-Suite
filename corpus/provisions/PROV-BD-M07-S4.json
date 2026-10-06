@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-BD-M07-S4",
+  "instrument_id": "BD-M07",
+  "version_id": "LV-BD-M07-1995",
+  "locator": "Section 4",
+  "title": "Environmental clearance",
+  "domain": "ENV_CLEARANCE",
+  "provision_text": "No industrial unit or project shall be established or undertaken without obtaining an Environmental Clearance Certificate from the Department of Environment.",
+  "source_text": "No industrial unit or project shall be established or undertaken without obtaining an Environmental Clearance Certificate from the Department of Environment.",
+  "source_sha256": "bc28649ed92256fcccb1d0f17a5ea6771fa8e5923463e2894f1d2908b6de5875",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}
