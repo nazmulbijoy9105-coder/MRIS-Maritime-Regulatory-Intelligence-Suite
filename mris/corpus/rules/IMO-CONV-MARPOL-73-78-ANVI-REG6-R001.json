@@ -1,0 +1,9 @@
+{
+  "rule_id": "IMO-CONV-MARPOL-73-78-ANVI-REG6-R001",
+  "domain": "MARPOL",
+  "formal_instrument_id": "IMO-CONV-MARPOL-73-78",
+  "canonical_id": "INT-M07",
+  "focus": "Annex VI Reg 6 IAPP",
+  "layer": "L1/L2",
+  "status": "ACTIVE"
+}

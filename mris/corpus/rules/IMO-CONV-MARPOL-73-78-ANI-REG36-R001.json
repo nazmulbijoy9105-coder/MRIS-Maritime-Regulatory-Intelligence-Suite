@@ -1,0 +1,9 @@
+{
+  "rule_id": "IMO-CONV-MARPOL-73-78-ANI-REG36-R001",
+  "domain": "MARPOL",
+  "formal_instrument_id": "IMO-CONV-MARPOL-73-78",
+  "canonical_id": "INT-M07",
+  "focus": "Annex I Reg 36 Oil Record Book",
+  "layer": "L1/L2",
+  "status": "ACTIVE"
+}

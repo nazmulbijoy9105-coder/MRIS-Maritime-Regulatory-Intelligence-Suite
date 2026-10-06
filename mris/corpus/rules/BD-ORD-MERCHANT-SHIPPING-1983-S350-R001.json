@@ -1,0 +1,9 @@
+{
+  "rule_id": "BD-ORD-MERCHANT-SHIPPING-1983-S350-R001",
+  "domain": "UNSEAWORTHY",
+  "formal_instrument_id": "BD-ORD-MERCHANT-SHIPPING-1983",
+  "canonical_id": "BD-M01",
+  "focus": "S350 Unseaworthy",
+  "layer": "L2",
+  "status": "ACTIVE"
+}

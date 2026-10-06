@@ -1,0 +1,9 @@
+{
+  "rule_id": "IMO-CONV-MARPOL-73-78-ANV-REG10-R001",
+  "domain": "MARPOL",
+  "formal_instrument_id": "IMO-CONV-MARPOL-73-78",
+  "canonical_id": "INT-M07",
+  "focus": "Annex V Reg 10 Garbage",
+  "layer": "L1/L2",
+  "status": "ACTIVE"
+}

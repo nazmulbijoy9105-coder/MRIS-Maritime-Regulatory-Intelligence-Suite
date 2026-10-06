@@ -1,0 +1,9 @@
+{
+  "rule_id": "IMO-GMDSS-SOLAS-CHIV-REG01-R001",
+  "domain": "GMDSS",
+  "formal_instrument_id": "IMO-GMDSS-SOLAS-CHIV",
+  "canonical_id": "INT-M51",
+  "focus": "Ch IV Radio installations",
+  "layer": "L2",
+  "status": "PLANNED"
+}

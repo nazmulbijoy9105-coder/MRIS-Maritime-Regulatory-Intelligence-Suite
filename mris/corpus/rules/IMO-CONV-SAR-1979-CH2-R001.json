@@ -1,0 +1,9 @@
+{
+  "rule_id": "IMO-CONV-SAR-1979-CH2-R001",
+  "domain": "SAR",
+  "formal_instrument_id": "IMO-CONV-SAR-1979",
+  "canonical_id": "INT-M50",
+  "focus": "Ch 2 Organisation of SAR",
+  "layer": "L1/L2/L3",
+  "status": "PLANNED"
+}

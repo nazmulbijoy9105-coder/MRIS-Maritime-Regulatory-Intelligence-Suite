@@ -1,0 +1,9 @@
+{
+  "rule_id": "IMO-CONV-TONNAGE-1969-ART06-R001",
+  "domain": "TONNAGE",
+  "formal_instrument_id": "IMO-CONV-TONNAGE-1969",
+  "canonical_id": "INT-M36",
+  "focus": "Art 6 ITC",
+  "layer": "L2",
+  "status": "PLANNED"
+}
