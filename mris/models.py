@@ -394,3 +394,42 @@ class User(Base):
     username = Column(String, unique=True, index=True)
     hashed_password = Column(String)
     company_name = Column(String)
+
+
+# --- M01-M06 DOMAIN & ONTOLOGY MODELS ---
+from sqlalchemy import Enum, JSON, ForeignKey
+from sqlalchemy.orm import relationship
+
+# 1. Canonical Vessel Ontology
+class VesselType(Base):
+    __tablename__ = "vessel_ontology"
+    id = Column(String, primary_key=True) # e.g., "TANKER_OIL"
+    parent_id = Column(String, ForeignKey("vessel_ontology.id"))
+    name = Column(String, nullable=False)
+
+# 2. First-Class Legal Certificate Object
+class LegalCertificate(Base):
+    __tablename__ = "legal_certificates"
+    id = Column(Integer, primary_key=True)
+    vessel_id = Column(String, ForeignKey("vessels.vessel_id"))
+    cert_type = Column(String, nullable=False) # e.g., IOPP, ISSC, MLC
+    issuer = Column(String)
+    issue_date = Column(Date)
+    expiry_date = Column(Date)
+    statutory_basis = Column(String) # e.g., MARPOL 73/78 Annex I
+    survey_basis = Column(String)
+    conditions = Column(JSON)
+    verification_status = Column(String, default="UNVERIFIED") # VERIFIED, EXPIRED, UNKNOWN
+
+# 3. Legal Provenance Chain (Immutable Audit)
+class LegalProvenance(Base):
+    __tablename__ = "legal_provenance_chain"
+    id = Column(Integer, primary_key=True)
+    rule_id = Column(String, nullable=False)
+    instrument_id = Column(String, nullable=False)
+    provision_id = Column(String, nullable=False)
+    amendment_id = Column(String)
+    national_implementation = Column(String) # e.g., BD-ORD-MERCHANT-SHIPPING-1983
+    authority = Column(String) # e.g., BD-DOS
+    source_hash = Column(String) # sha256 of the raw legal text
+    audit_conclusion = Column(String)
