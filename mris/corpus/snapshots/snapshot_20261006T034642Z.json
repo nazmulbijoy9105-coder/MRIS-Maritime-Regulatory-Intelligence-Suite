@@ -1,0 +1,47 @@
+{
+    "corpus_hash": "eb0cd36f67bafb193b76987f161217b9a55cf73f3ef2643cc2ca1cfc52f54133",
+    "file_count": 9,
+    "files": {
+        "rules/BD-ORD-MERCHANT-SHIPPING-1983-S066-R001.yaml": {
+            "bytes": 1276,
+            "sha256": "0bc7fc4fc9f84ed434e6367c771ac810866ae94a87d86f1cf90fb93700e84a61"
+        },
+        "rules/BD-ORD-MERCHANT-SHIPPING-1983-S082-R001.yaml": {
+            "bytes": 1600,
+            "sha256": "f0a5b15d6076f08dd519aec620ec2b754f7be24f4b1c39f8a7f409ee66765614"
+        },
+        "rules/BD-ORD-MERCHANT-SHIPPING-1983-S335-R001.yaml": {
+            "bytes": 1312,
+            "sha256": "cf575736e6b0f8b0cc9823afba0997b45d35110c5799a66cdd1f6b98bcec5ee1"
+        },
+        "rules/BD-ORD-MERCHANT-SHIPPING-1983-S350-R001.yaml": {
+            "bytes": 1480,
+            "sha256": "d5f6b7b32e5d52f0c5f5e91ac6d6b4a60a6d7e73cbcf201a256fa970c5fbaa58"
+        },
+        "rules/IMO-CONV-MARPOL-73-78-ANI-REG36-R001.yaml": {
+            "bytes": 1363,
+            "sha256": "0a57ce9c4b74d548648c73b5754f2f49d08caad291e3117e1313f1c2792fe719"
+        },
+        "rules/IMO-CONV-MARPOL-73-78-ANV-REG10-R001.yaml": {
+            "bytes": 1499,
+            "sha256": "c43bd13fe7ef9f9efbc23b9c47860b811668f50d0fa9ebf1c197a889c93e0a7f"
+        },
+        "rules/IMO-CONV-MARPOL-73-78-ANVI-REG6-R001.yaml": {
+            "bytes": 1371,
+            "sha256": "b214f84104024d3974c9e001ff97b2068737adba31612b3e09223eff1ac81e8e"
+        },
+        "seed/manifest.json": {
+            "bytes": 24388,
+            "sha256": "2d258721d9625de08676bfc3409e81ed5e5f88d3fe7971ebf76050a48f8cbc61"
+        },
+        "seed/state_participation.json": {
+            "bytes": 8642,
+            "sha256": "4f6166ba6c82ee45859a4709ce2d5e62c64e91c488ddbf8cfb4f9ee0536a60cb"
+        }
+    },
+    "prev_snapshot_hash": "65bd9a20be1d44958ea74ea27ec04a328137065dfef1603c6cc165ad1b560731",
+    "schema_version": "1.0",
+    "snapshot_hash": "02a5f1f9cd288b0451eb0a5892fedcc8c15fa1fe17a33f7993d3f7f6a6a06110",
+    "snapshot_id": "snap_20261006T034642Z",
+    "timestamp": "20261006T034642Z"
+}
