@@ -1,0 +1,43 @@
+rule_id: "MARPOL-I-001"
+domain: "M02_ENVIRONMENT"
+source: "MARPOL 73/78"
+instrument: "Annex I"
+provision: "Reg 14 - Oil Tanker Ballast Water"
+legal_text: "..."
+jurisdiction:
+  flag_state: true
+  port_state: true
+  coastal_state: true
+
+applicability:
+  vessel_types: ["TANKER_OIL", "TANKER_CHEMICAL"]
+  voyage_types: ["international_voyage", "port_call"]
+  cargo_types: ["CRUDE_OIL", "CHEMICALS"]
+  gross_tonnage_min: 150
+  special_conditions: []
+
+facts_required:
+  - "vessel.has segregated_ballast_tanks"
+  - "vessel.operating_in_special_area"
+
+evidence_required:
+  - cert_type: "IOPP"
+    statutory_basis: "MARPOL 73/78 Annex I"
+    verification_required: true
+
+exceptions: []
+
+evaluation: "deterministic"
+outcomes:
+  - "COMPLIANT"
+  - "NON_COMPLIANT"
+  - "UNKNOWN"
+  - "NOT_APPLICABLE"
+
+consequence: "Vessel may not discharge ballast water in special areas; PSC detention likely."
+remediation: "Retrofit segregated ballast tanks or route to approved reception facility."
+authority: ["BD-DOS", "IMO"]
+
+effective_from: "1983-10-02"
+effective_to: null
+source_version: "MARPOL-Annex-I-2023-Amendments"

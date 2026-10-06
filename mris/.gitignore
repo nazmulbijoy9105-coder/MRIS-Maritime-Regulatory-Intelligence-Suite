@@ -18,4 +18,3 @@ node_modules/
 
 # Generated corpus tree (rebuild: python3 scripts/build_corpus_tree.py)
 # NOTE: anchored to repo root — must NOT ignore the mris/corpus/ package!
-/corpus/

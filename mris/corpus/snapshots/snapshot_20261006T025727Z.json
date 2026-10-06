@@ -1,0 +1,11 @@
+{
+    "snapshot_id": "snap_20261006T025727Z",
+    "timestamp": "20261006T025727Z",
+    "corpus_hash": "cf868db572f3dd79791704630e37f8364137bf5eeb7ca7d85ef42152d838a2d2",
+    "prev_snapshot_hash": "GENESIS",
+    "file_count": 2,
+    "files": {
+        "seed\\manifest.json": "2d258721d9625de08676bfc3409e81ed5e5f88d3fe7971ebf76050a48f8cbc61",
+        "seed\\state_participation.json": "4f6166ba6c82ee45859a4709ce2d5e62c64e91c488ddbf8cfb4f9ee0536a60cb"
+    }
+}
