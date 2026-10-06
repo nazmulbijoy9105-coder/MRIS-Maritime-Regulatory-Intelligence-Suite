@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-INT-M43-1993",
+  "instrument_id": "INT-M43",
+  "version_name": "Maritime Liens & Mortgages 1993 (Original)",
+  "effective_from": "2004-09-14",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-INT-M43-LIENS-1993",
+  "source_sha256": "2c9cc36dfb8d9837069c340e38996a14d625d919517029a8286ac6c23f05957e",
+  "parent_instrument": null,
+  "implements": null
+}

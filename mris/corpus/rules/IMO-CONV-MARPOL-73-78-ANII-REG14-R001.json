@@ -1,0 +1,17 @@
+{
+  "rule_id": "IMO-CONV-MARPOL-73-78-ANII-REG14-R001",
+  "domain": "RECORD_BOOK",
+  "canonical_id": "INT-M09",
+  "focus": "Cargo Record Book",
+  "layer": "L2",
+  "status": "ACTIVE",
+  "provision_id": "PROV-INT-M07-ANII-REG14",
+  "version_id": "LV-INT-M07-MARPOL-ANNEX-II",
+  "source_id": "SRC-INT-M07-MARPOL-ANII",
+  "source_sha256": "8ec7e06e0444f258026dc7c4c803a1fa0e439f1600df466c9d7c172dfd39a5c5",
+  "applicability": {
+    "flag": "ALL",
+    "cargo": "NLS"
+  },
+  "evaluation_result": "UNKNOWN"
+}

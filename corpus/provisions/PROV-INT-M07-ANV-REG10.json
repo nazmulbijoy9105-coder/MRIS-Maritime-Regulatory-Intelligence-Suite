@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M07-ANV-REG10",
+  "instrument_id": "INT-M07",
+  "version_id": "LV-INT-M07-MARPOL-ANNEX-V",
+  "locator": "Annex V, Regulation 10",
+  "title": "Garbage management",
+  "domain": "MARPOL",
+  "provision_text": "Ships \u226512m LOA must display garbage discharge placards.",
+  "source_text": "Every ship of 12 metres or more in length overall shall display placists.",
+  "source_sha256": "8a7af420fae42367674be88d205d0e253494a365175a5b4c34a2e1b0ccb0369f",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

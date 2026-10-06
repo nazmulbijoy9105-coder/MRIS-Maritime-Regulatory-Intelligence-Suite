@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-BD-M06-S3",
+  "instrument_id": "BD-M06",
+  "version_id": "LV-BD-M06-1969",
+  "locator": "Section 3",
+  "title": "Compulsory pilotage",
+  "domain": "PILOTAGE",
+  "provision_text": "Pilotage shall be compulsory for vessels of such tonnage and class and in such waters as the Government may by notification specify.",
+  "source_text": "Pilotage shall be compulsory for vessels of such tonnage and class and in such waters as the Government may by notification specify.",
+  "source_sha256": "1cda4d6bd1981b429aa0ac8e7842659df46dec24c7965e19775ff5e61138cf30",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

@@ -1,0 +1,16 @@
+{
+  "rule_id": "IMO-CONV-HNS-2010-ART12-R001",
+  "domain": "COMPENSATION",
+  "canonical_id": "INT-M32",
+  "focus": "Compensation for damage",
+  "layer": "L3",
+  "status": "ACTIVE",
+  "provision_id": "PROV-INT-M32-ART12",
+  "version_id": "LV-INT-M32-2010",
+  "source_id": "SRC-INT-M32-HNS-2010",
+  "source_sha256": "8c66e83d54f994729bd4da643016dc3be099642cb9f271d29a79a65a36eda10c",
+  "applicability": {
+    "jurisdiction": "ALL"
+  },
+  "evaluation_result": "UNKNOWN"
+}

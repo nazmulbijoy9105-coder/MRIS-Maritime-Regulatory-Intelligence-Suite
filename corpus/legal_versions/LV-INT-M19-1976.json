@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-INT-M19-1976",
+  "instrument_id": "INT-M19",
+  "version_name": "LLMC 1976 (Original)",
+  "effective_from": "1978-12-06",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-INT-M19-LLMC-1976",
+  "source_sha256": "f0ccc5a5be7bc07ad536a5f843930b1f1e05ec15e054b1275a6e68e37e21e1f8",
+  "parent_instrument": null,
+  "implements": null
+}

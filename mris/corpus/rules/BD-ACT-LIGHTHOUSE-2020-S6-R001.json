@@ -1,0 +1,16 @@
+{
+  "rule_id": "BD-ACT-LIGHTHOUSE-2020-S6-R001",
+  "domain": "NAVIGATION_AIDS",
+  "canonical_id": "BD-M18",
+  "focus": "Lighthouse maintenance and operation",
+  "layer": "L2",
+  "status": "ACTIVE",
+  "provision_id": "PROV-BD-M18-S6",
+  "version_id": "LV-BD-M18-2020",
+  "source_id": "SRC-BD-M18-BLA-2020",
+  "source_sha256": "293bb5abb905023a7c9c915b95b22efe481d427c041b7e3002d2c15087a133be",
+  "applicability": {
+    "jurisdiction": "BD_WATERS"
+  },
+  "evaluation_result": "UNKNOWN"
+}

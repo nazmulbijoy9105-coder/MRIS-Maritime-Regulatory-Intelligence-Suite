@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M07-ART2",
+  "instrument_id": "INT-M07",
+  "version_id": "LV-INT-M07-1973",
+  "locator": "Article 2",
+  "title": "Violations and enforcement",
+  "domain": "ENFORCEMENT",
+  "provision_text": "Any violation of the requirements of the present Convention shall be an offence punishable under the law of the Administration.",
+  "source_text": "Any violation of the requirements of the present Convention shall be an offence punishable under the law of the Administration.",
+  "source_sha256": "5bec106818990185205426873aa98e33fe5973ff40a5cac7bef86957ba01e2c5",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

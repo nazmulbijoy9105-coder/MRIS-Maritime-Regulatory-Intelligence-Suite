@@ -1,0 +1,16 @@
+{
+  "rule_id": "BD-ACT-BSC-2017-S5-R001",
+  "domain": "STATE_OWNED_SHIPPING",
+  "canonical_id": "BD-M21",
+  "focus": "Corporation establishment and functions",
+  "layer": "L1",
+  "status": "ACTIVE",
+  "provision_id": "PROV-BD-M21-S5",
+  "version_id": "LV-BD-M21-2017",
+  "source_id": "SRC-BD-M21-BSCA-2017",
+  "source_sha256": "77057dd85126ba5867d481e5083cf0dd8b98c3df7897cb6c6edc925d775f9aee",
+  "applicability": {
+    "organization": "BSC"
+  },
+  "evaluation_result": "UNKNOWN"
+}

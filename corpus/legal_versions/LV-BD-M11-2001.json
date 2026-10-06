@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-BD-M11-2001",
+  "instrument_id": "BD-M11",
+  "version_name": "Seamen Recruitment Rules 2001 (Original)",
+  "effective_from": "2001-08-13",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-BD-M11-SRR-2001",
+  "source_sha256": "7ca8bbdc502169429f8aed69a1fa56708e4214161377cb130a887dfd4fca7c76",
+  "parent_instrument": null,
+  "implements": null
+}

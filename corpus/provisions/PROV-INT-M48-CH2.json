@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M48-CH2",
+  "instrument_id": "INT-M48",
+  "version_id": "LV-INT-M48-2012",
+  "locator": "Chapter 2",
+  "title": "Fishing vessel safety requirements",
+  "domain": "FISHING_VESSEL_SAFETY",
+  "provision_text": "Fishing vessels of 24 metres in length and over shall comply with the safety requirements prescribed in this Chapter.",
+  "source_text": "Fishing vessels of 24 metres in length and over shall comply with the safety requirements prescribed in this Chapter.",
+  "source_sha256": "9c336856346e4fe82772ca5f75e352abd370bcbd6e229c32e93c2c6d6eab0eee",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

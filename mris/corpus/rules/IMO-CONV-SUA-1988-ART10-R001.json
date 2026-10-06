@@ -1,0 +1,13 @@
+{
+  "rule_id": "IMO-CONV-SUA-1988-ART10-R001",
+  "domain": "EXTRADITION",
+  "formal_instrument_id": "IMO-CONV-SUA-1988",
+  "canonical_id": "INT-M24",
+  "focus": "Art 10 Extradition",
+  "layer": "L2/L4",
+  "status": "PLANNED",
+  "provision_id": "PROV-INT-M24-ART10",
+  "version_id": "LV-INT-M24-1988",
+  "source_id": "SRC-INT-M24-SUA-1988",
+  "source_sha256": "e0abb83ee3e8a20002fb741ecea33d02307b42ec9a3fd76f55f7e7bb24e0805e"
+}

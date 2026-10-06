@@ -1,0 +1,17 @@
+{
+  "rule_id": "BD-ACT-TWMZA-1974-S3-R001",
+  "domain": "JURISDICTION",
+  "canonical_id": "BD-M19",
+  "focus": "Territorial waters jurisdiction",
+  "layer": "L1",
+  "status": "ACTIVE",
+  "provision_id": "PROV-BD-M19-S3",
+  "version_id": "LV-BD-M19-1974",
+  "source_id": "SRC-BD-M19-TWMZA-1974",
+  "source_sha256": "b5a96944fc49d3cf3c71acb9d1a78e0f264ef5cffc4d327059f170e0eb0de63d",
+  "applicability": {
+    "jurisdiction": "TERRITORIAL_WATERS",
+    "nm_limit": 12
+  },
+  "evaluation_result": "UNKNOWN"
+}

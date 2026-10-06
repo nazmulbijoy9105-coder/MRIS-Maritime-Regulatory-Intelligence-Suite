@@ -1,0 +1,16 @@
+{
+  "source_id": "SRC-INT-M29-INMARSAT-1976",
+  "source_type": "TREATY_DEPOSITARY",
+  "publisher": "IMO",
+  "official_title": "INMARSAT Agreement 1976",
+  "jurisdiction": "INTL",
+  "language": "en",
+  "publication_date": "1979-07-16",
+  "effective_date": "1979-07-16",
+  "official_url": null,
+  "retrieved_at": null,
+  "sha256": "aa06f017475ea9bf4058d955ddfbf1d0e12c4d3e3801afc021489d64f362368e",
+  "mime_type": "application/pdf",
+  "provenance": "Placeholder source record. Primary source document must be retrieved from the treaty depositary before verification.",
+  "verification_status": "REQUIRES_PRIMARY_VERIFICATION"
+}

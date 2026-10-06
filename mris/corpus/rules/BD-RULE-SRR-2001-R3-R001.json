@@ -1,0 +1,17 @@
+{
+  "rule_id": "BD-RULE-SRR-2001-R3-R001",
+  "domain": "SEAFARER_RECRUITMENT",
+  "canonical_id": "BD-M11",
+  "focus": "Seafarer recruitment requirements",
+  "layer": "L2",
+  "status": "ACTIVE",
+  "provision_id": "PROV-BD-M11-R3",
+  "version_id": "LV-BD-M11-2001",
+  "source_id": "SRC-BD-M11-SRR-2001",
+  "source_sha256": "7ca8bbdc502169429f8aed69a1fa56708e4214161377cb130a887dfd4fca7c76",
+  "applicability": {
+    "flag": "BD",
+    "seafarer": "ALL"
+  },
+  "evaluation_result": "UNKNOWN"
+}

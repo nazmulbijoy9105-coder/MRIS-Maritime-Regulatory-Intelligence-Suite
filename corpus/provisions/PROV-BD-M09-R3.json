@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-BD-M09-R3",
+  "instrument_id": "BD-M09",
+  "version_id": "LV-BD-M09-2022",
+  "locator": "Rule 3",
+  "title": "Emission standards for vessels",
+  "domain": "AIR_EMISSION",
+  "provision_text": "Vessels operating in Bangladesh waters shall comply with the air emission standards prescribed in these rules, including sulphur content limits for marine fuel.",
+  "source_text": "Vessels operating in Bangladesh waters shall comply with the air emission standards prescribed in these rules, including sulphur content limits for marine fuel.",
+  "source_sha256": "8f33db7b032338abf399e4a68d4615a23b2208e8468aaf132f4afb2aa2ab519e",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

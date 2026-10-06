@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-INT-M39-1969",
+  "instrument_id": "INT-M39",
+  "version_name": "Intervention Convention 1969 (Original)",
+  "effective_from": "1975-05-06",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-INT-M39-INTERVENTION-1969",
+  "source_sha256": "183a23b6429422db18b1924e6b6b3eb75aca252406a2401e5b6efd3ff6f8f398",
+  "parent_instrument": null,
+  "implements": null
+}

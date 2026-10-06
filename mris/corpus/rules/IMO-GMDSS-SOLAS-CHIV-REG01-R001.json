@@ -1,0 +1,17 @@
+{
+  "rule_id": "IMO-GMDSS-SOLAS-CHIV-REG01-R001",
+  "domain": "GMDSS",
+  "canonical_id": "INT-M51",
+  "focus": "Radio installations",
+  "layer": "L2",
+  "status": "ACTIVE",
+  "provision_id": "PROV-INT-M51-CHIV-REG1",
+  "version_id": "LV-INT-M51-GMDSS",
+  "source_id": "SRC-INT-M51-GMDSS",
+  "source_sha256": "190867c1d94c4d455881ae16b501f7de1dfc0cc693d1c94a31cfa1b5aa377a1a",
+  "applicability": {
+    "flag": "ALL",
+    "vessel_gt": 300
+  },
+  "evaluation_result": "UNKNOWN"
+}

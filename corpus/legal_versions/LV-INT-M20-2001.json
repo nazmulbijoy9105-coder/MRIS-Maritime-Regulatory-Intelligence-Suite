@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-INT-M20-2001",
+  "instrument_id": "INT-M20",
+  "version_name": "Bunker 2001 (Original)",
+  "effective_from": "2008-11-21",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-INT-M20-BUNKER-2001",
+  "source_sha256": "4e73b7471b149251cf2fad2b5f03d606605d60597b781b739d23ad5a644663d7",
+  "parent_instrument": null,
+  "implements": null
+}

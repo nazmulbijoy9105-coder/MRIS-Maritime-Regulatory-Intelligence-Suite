@@ -183,15 +183,15 @@ def audit_corpus():
         # --------------------------------------------------
         # 7. Verification metadata consistency
         # --------------------------------------------------
-        if v_status == "VERIFIED":
+        if v_status == "VERIFIED_AGAINST_GAZETTE":
             if not inst.get("verification_date"):
                 errors.append(
-                    f"[{iid}] VERIFIED record missing verification_date."
+                    f"[{iid}] VERIFIED_AGAINST_GAZETTE record missing verification_date."
                 )
 
             if not inst.get("authoritative_sources"):
                 errors.append(
-                    f"[{iid}] VERIFIED record missing "
+                    f"[{iid}] VERIFIED_AGAINST_GAZETTE record missing "
                     f"authoritative_sources."
                 )
 

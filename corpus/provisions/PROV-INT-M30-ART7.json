@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M30-ART7",
+  "instrument_id": "INT-M30",
+  "version_id": "LV-INT-M30-1992",
+  "locator": "Article 7",
+  "title": "Compulsory insurance",
+  "domain": "INSURANCE",
+  "provision_text": "The registered owner of a ship carrying more than 2,000 tons of oil in bulk as cargo shall maintain insurance or other financial security to cover liability for oil pollution damage.",
+  "source_text": "The registered owner of a ship carrying more than 2,000 tons of oil in bulk as cargo shall maintain insurance or other financial security to cover liability for oil pollution damage.",
+  "source_sha256": "d35f6ca59126e0b8201657c2485a3e69aa15cad33d8bb1e1e58987638a5c314e",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M37-STD2",
+  "instrument_id": "INT-M37",
+  "version_id": "LV-INT-M37-1965",
+  "locator": "Standard 2.1",
+  "title": "Arrival documents",
+  "domain": "FACILITATION",
+  "provision_text": "Public authorities shall require no more than the documents specified in this Standard for the arrival of ships in ports.",
+  "source_text": "Public authorities shall require no more than the documents specified in this Standard for the arrival of ships in ports.",
+  "source_sha256": "b43dd74c92a41322aee5be39f80433c0cf7456a61b809dabe4728df821945d45",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

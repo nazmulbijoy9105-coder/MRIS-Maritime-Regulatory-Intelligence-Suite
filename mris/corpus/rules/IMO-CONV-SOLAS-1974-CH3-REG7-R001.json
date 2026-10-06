@@ -1,0 +1,17 @@
+{
+  "rule_id": "IMO-CONV-SOLAS-1974-CH3-REG7-R001",
+  "domain": "LIFE_SAVING",
+  "canonical_id": "INT-M01",
+  "focus": "Life-saving appliances",
+  "layer": "L2",
+  "status": "ACTIVE",
+  "provision_id": "PROV-INT-M01-CH3-REG7",
+  "version_id": "LV-INT-M01-1974",
+  "source_id": "SRC-INT-M01-SOLAS-1974",
+  "source_sha256": "b51524edcbe010c61c38f2f8c9b332e89f4e3573eb65de543cebc4dbcb55b0d8",
+  "applicability": {
+    "flag": "ALL",
+    "vessel_gt": 500
+  },
+  "evaluation_result": "UNKNOWN"
+}

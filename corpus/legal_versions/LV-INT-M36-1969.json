@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-INT-M36-1969",
+  "instrument_id": "INT-M36",
+  "version_name": "Tonnage Convention 1969 (Original)",
+  "effective_from": "1982-07-18",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-INT-M36-TONNAGE-1969",
+  "source_sha256": "208681b7a712463637a30f1353ead606516af127791017278ccb3976532b431a",
+  "parent_instrument": null,
+  "implements": null
+}

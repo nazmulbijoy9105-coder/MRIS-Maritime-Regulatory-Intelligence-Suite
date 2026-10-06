@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-INT-M16-2009",
+  "instrument_id": "INT-M16",
+  "version_name": "Hong Kong Convention 2009 (Original)",
+  "effective_from": "2023-06-26",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-INT-M16-HKC-2009",
+  "source_sha256": "87a71c811b4869f6a51cdd5d4e99e3f96ef17c099a1c592083f9dfae28860dba",
+  "parent_instrument": null,
+  "implements": null
+}

@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-BD-M16-S5",
+  "instrument_id": "BD-M16",
+  "version_id": "LV-BD-M16-2019",
+  "locator": "Section 5",
+  "title": "Carriage of national flag cargo",
+  "domain": "FLAG_PROTECTION",
+  "provision_text": "Subject to this Act, the Government shall have the right of first refusal for the carriage of all Bangladesh-flagged foreign trade cargo on Bangladesh-flag vessels.",
+  "source_text": "Subject to this Act, the Government shall have the right of first refusal for the carriage of all Bangladesh-flagged foreign trade cargo on Bangladesh-flag vessels.",
+  "source_sha256": "b7a7746fb4ee978a2a80dbd72ac0ae58fbcc18daa1f7ec2cda21e81969815638",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

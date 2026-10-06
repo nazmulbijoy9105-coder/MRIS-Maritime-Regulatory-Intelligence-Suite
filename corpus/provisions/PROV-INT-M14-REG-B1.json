@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M14-REG-B1",
+  "instrument_id": "INT-M14",
+  "version_id": "LV-INT-M14-2004",
+  "locator": "Regulation B-1",
+  "title": "Ballast water exchange standard",
+  "domain": "BALLAST_WATER",
+  "provision_text": "Ships performing ballast water exchange shall do so with an efficiency of at least 95 percent volumetric exchange.",
+  "source_text": "Ships performing ballast water exchange shall do so with an efficiency of at least 95 percent volumetric exchange.",
+  "source_sha256": "4afd0d77b309db5ffea18c32d294e08b6424b1c88fde3ac4fbb0fbd53fe5e16b",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

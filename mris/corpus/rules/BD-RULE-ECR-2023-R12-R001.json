@@ -1,0 +1,16 @@
+{
+  "rule_id": "BD-RULE-ECR-2023-R12-R001",
+  "domain": "EFFLUENT",
+  "canonical_id": "BD-M08",
+  "focus": "Effluent discharge standards",
+  "layer": "L2",
+  "status": "ACTIVE",
+  "provision_id": "PROV-BD-M08-R12",
+  "version_id": "LV-BD-M08-2023",
+  "source_id": "SRC-BD-M08-ECR-2023",
+  "source_sha256": "4c276f2aab2aa9aea62cde3267237586271cca22ea2180eb816f6193a8a49513",
+  "applicability": {
+    "sector": "INDUSTRIAL"
+  },
+  "evaluation_result": "UNKNOWN"
+}

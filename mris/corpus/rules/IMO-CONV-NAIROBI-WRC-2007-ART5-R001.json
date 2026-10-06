@@ -1,0 +1,17 @@
+{
+  "rule_id": "IMO-CONV-NAIROBI-WRC-2007-ART5-R001",
+  "domain": "INSURANCE",
+  "canonical_id": "INT-M21",
+  "focus": "Insurance requirement",
+  "layer": "L3",
+  "status": "ACTIVE",
+  "provision_id": "PROV-INT-M21-ART5",
+  "version_id": "LV-INT-M21-2007",
+  "source_id": "SRC-INT-M21-NAIROBI-2007",
+  "source_sha256": "b69bfb3b97175e5b2cc42c8c21fd196ae58006f369540ccf28533425ea37c6cb",
+  "applicability": {
+    "flag": "ALL",
+    "vessel_gt": 300
+  },
+  "evaluation_result": "UNKNOWN"
+}

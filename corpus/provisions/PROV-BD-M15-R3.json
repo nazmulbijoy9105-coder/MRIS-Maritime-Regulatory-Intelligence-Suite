@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-BD-M15-R3",
+  "instrument_id": "BD-M15",
+  "version_id": "LV-BD-M15-2013",
+  "locator": "Rule 3",
+  "title": "Light dues and levy collection",
+  "domain": "LEVY",
+  "provision_text": "Every ship entering or leaving a port in Bangladesh shall pay light dues and such other levies as prescribed by the Government at the rates specified in these rules.",
+  "source_text": "Every ship entering or leaving a port in Bangladesh shall pay light dues and such other levies as prescribed by the Government at the rates specified in these rules.",
+  "source_sha256": "461a620625092af5f80a84591d24852c0905ca9abd6ff202a111b3275c157095",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

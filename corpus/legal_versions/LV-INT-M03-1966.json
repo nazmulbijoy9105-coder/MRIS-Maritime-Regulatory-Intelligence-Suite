@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-INT-M03-1966",
+  "instrument_id": "INT-M03",
+  "version_name": "Load Lines 1966 (Original)",
+  "effective_from": "1968-07-21",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-INT-M03-LL-1966",
+  "source_sha256": "1d1e19937d9d838fe8b4b2651a89bd92d62e4f705057929f5ed2e64b2a2775d4",
+  "parent_instrument": null,
+  "implements": null
+}

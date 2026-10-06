@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-BD-M20-2021",
+  "instrument_id": "BD-M20",
+  "version_name": "Territorial Waters and Maritime Zones Amendment Act 2021 (Original)",
+  "effective_from": "2021-08-02",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-BD-M20-TWMZAA-2021",
+  "source_sha256": "b8e94e964fd2c3c5bfa3fd21901f209a43d3c8770a2097e710348f162c3690d4",
+  "parent_instrument": "BD-M19",
+  "implements": null
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "BD-ACT-BECA-1995-S9-R001",
+  "domain": "MARINE_POLLUTION",
+  "canonical_id": "BD-M07",
+  "focus": "Marine pollution prevention",
+  "layer": "L2",
+  "status": "ACTIVE",
+  "provision_id": "PROV-BD-M07-S9",
+  "version_id": "LV-BD-M07-1995",
+  "source_id": "SRC-BD-M07-BECA-1995",
+  "source_sha256": "778b3c94a3b19fba3e1cdb4b4493a7066c6e88e1dade44b84da1cf8d6d97eb73",
+  "applicability": {
+    "operation": "MARINE",
+    "jurisdiction": "COASTAL"
+  },
+  "evaluation_result": "UNKNOWN"
+}

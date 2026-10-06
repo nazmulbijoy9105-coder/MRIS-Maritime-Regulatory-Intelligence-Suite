@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-BD-M04-2022",
+  "instrument_id": "BD-M04",
+  "version_name": "Mongla Port Authority Act 2022 (Original)",
+  "effective_from": "2022-04-28",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-BD-M04-MPA-2022",
+  "source_sha256": "3bd87bc213b30281c6b825b449ec4deedfe1f213a1695c110bd2a0213db3426c",
+  "parent_instrument": null,
+  "implements": null
+}

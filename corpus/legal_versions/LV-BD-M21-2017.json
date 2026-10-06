@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-BD-M21-2017",
+  "instrument_id": "BD-M21",
+  "version_name": "Bangladesh Shipping Corporation Act 2017 (Original)",
+  "effective_from": "2017-02-27",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-BD-M21-BSCA-2017",
+  "source_sha256": "77057dd85126ba5867d481e5083cf0dd8b98c3df7897cb6c6edc925d775f9aee",
+  "parent_instrument": null,
+  "implements": null
+}

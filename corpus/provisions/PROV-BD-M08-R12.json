@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-BD-M08-R12",
+  "instrument_id": "BD-M08",
+  "version_id": "LV-BD-M08-2023",
+  "locator": "Rule 12",
+  "title": "Effluent discharge standards",
+  "domain": "EFFLUENT",
+  "provision_text": "Industrial effluent must meet the standards prescribed in Schedule 2 before discharge into any water body.",
+  "source_text": "Industrial effluent must meet the standards prescribed in Schedule 2 before discharge into any water body.",
+  "source_sha256": "ef3e2204a84d8304d06800c498fc85bb33989a14fb84b115043b7cec410f548c",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

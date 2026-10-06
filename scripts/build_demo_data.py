@@ -6,6 +6,7 @@ on Vercel / GitHub Pages / offline), it falls back to this file. Every value
 here is produced by the real engine — nothing is hand-written.
 """
 from __future__ import annotations
+from mris.corpus.open_items import open_items
 
 import json
 import sys
@@ -53,10 +54,7 @@ def main() -> None:
         if item.get("jurisdiction") == "INTL"
     ]
 
-    open_verification_items = [
-        item for item in instruments
-        if item.get("verification_status") != "VERIFIED"
-    ]
+    open_verification_items = open_items(instruments)
 
     rules = load_rules()
 

@@ -1,0 +1,16 @@
+{
+  "rule_id": "IMO-CONV-ARREST-1999-ART01-R001",
+  "domain": "SHIP_ARREST",
+  "canonical_id": "INT-M42",
+  "focus": "Right of arrest",
+  "layer": "L3",
+  "status": "ACTIVE",
+  "provision_id": "PROV-INT-M42-ART1",
+  "version_id": "LV-INT-M42-1999",
+  "source_id": "SRC-INT-M42-ARREST-1999",
+  "source_sha256": "d987812e531fc2be9e0d3e04ec4e7ab108a0dcd530beb80edb0e2523e4b27c79",
+  "applicability": {
+    "jurisdiction": "ALL"
+  },
+  "evaluation_result": "UNKNOWN"
+}

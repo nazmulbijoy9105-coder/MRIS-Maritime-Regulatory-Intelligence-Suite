@@ -1,0 +1,17 @@
+{
+  "rule_id": "IMO-CONV-OPRC-1990-ART03-R001",
+  "domain": "PREPAREDNESS",
+  "canonical_id": "INT-M33",
+  "focus": "Oil pollution emergency plans",
+  "layer": "L2",
+  "status": "ACTIVE",
+  "provision_id": "PROV-INT-M33-ART3",
+  "version_id": "LV-INT-M33-1990",
+  "source_id": "SRC-INT-M33-OPRC-1990",
+  "source_sha256": "36578972cc89f4002470b9ddca6a33045acb06bd248cce71de6bcc236877ac3b",
+  "applicability": {
+    "flag": "ALL",
+    "vessel_gt": 150
+  },
+  "evaluation_result": "UNKNOWN"
+}

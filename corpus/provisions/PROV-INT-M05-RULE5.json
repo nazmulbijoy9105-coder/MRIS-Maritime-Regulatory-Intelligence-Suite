@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M05-RULE5",
+  "instrument_id": "INT-M05",
+  "version_id": "LV-INT-M05-1972",
+  "locator": "Rule 5",
+  "title": "Look-out",
+  "domain": "NAVIGATION_SAFETY",
+  "provision_text": "Every vessel shall maintain a proper look-out by sight and hearing as well as by all available means appropriate in the prevailing circumstances.",
+  "source_text": "Every vessel shall maintain a proper look-out by sight and hearing as well as by all available means appropriate in the prevailing circumstances.",
+  "source_sha256": "3b57350eec5ebcf50350aed6b06cfdc0ca6055de2c253e8ebb83834a4e9a133a",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

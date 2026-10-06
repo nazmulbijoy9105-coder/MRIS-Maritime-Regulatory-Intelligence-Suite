@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-BD-M04-S4",
+  "instrument_id": "BD-M04",
+  "version_id": "LV-BD-M04-2022",
+  "locator": "Section 4",
+  "title": "Port authority powers and duties",
+  "domain": "PORT_AUTHORITY",
+  "provision_text": "The Mongla Port Authority shall have the power to regulate, control and manage all matters relating to the port including vessel traffic, berthing, cargo handling and port security.",
+  "source_text": "The Mongla Port Authority shall have the power to regulate, control and manage all matters relating to the port including vessel traffic, berthing, cargo handling and port security.",
+  "source_sha256": "33e1056f829719f014d7685ed6ff68b5caa4ddfd23dbe02de1c6f1b059f14c5c",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

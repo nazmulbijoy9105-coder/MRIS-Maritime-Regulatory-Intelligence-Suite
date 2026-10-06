@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M33-ART3",
+  "instrument_id": "INT-M33",
+  "version_id": "LV-INT-M33-1990",
+  "locator": "Article 3",
+  "title": "Oil pollution emergency plans",
+  "domain": "PREPAREDNESS",
+  "provision_text": "Each Party shall require that ships flying its flag have on board an oil pollution emergency plan approved by the Administration.",
+  "source_text": "Each Party shall require that ships flying its flag have on board an oil pollution emergency plan approved by the Administration.",
+  "source_sha256": "1a4d1bd80345ce046502b4c02badf2c2d47480e7e6e57eda6cc348fa8ef3092c",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

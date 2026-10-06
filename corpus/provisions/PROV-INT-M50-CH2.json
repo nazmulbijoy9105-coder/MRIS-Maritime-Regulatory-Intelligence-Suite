@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M50-CH2",
+  "instrument_id": "INT-M50",
+  "version_id": "LV-INT-M50-1979",
+  "locator": "Chapter 2",
+  "title": "Organization of search and rescue services",
+  "domain": "SAR",
+  "provision_text": "Each Party shall ensure that necessary arrangements are made for the provision of adequate search and rescue services in its coastal waters.",
+  "source_text": "Each Party shall ensure that necessary arrangements are made for the provision of adequate search and rescue services in its coastal waters.",
+  "source_sha256": "ec8cae26fc89265363cf8f6b0ed05dc1ead4a826ee8d2beb16d4b862f0a15267",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M01-CH1-REG12",
+  "instrument_id": "INT-M01",
+  "version_id": "LV-INT-M01-1974",
+  "locator": "Ch I Reg 12",
+  "title": "Periodical surveys",
+  "domain": "SURVEY",
+  "provision_text": "Periodical surveys of the hull, machinery and equipment of ships shall be carried out at intervals not exceeding five years.",
+  "source_text": "Periodical surveys of the hull, machinery and equipment of ships shall be carried out at intervals not exceeding five years.",
+  "source_sha256": "eb18e031929835104006c2d4ee391c3c4417a4729d6cc237df5257cf4fdbfd0c",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

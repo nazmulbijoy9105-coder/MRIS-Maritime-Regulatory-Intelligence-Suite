@@ -1,0 +1,16 @@
+{
+  "rule_id": "IMO-PROT-LLMC-1996-ART01-R001",
+  "domain": "LIABILITY",
+  "canonical_id": "INT-M45",
+  "focus": "Updated limitation amounts",
+  "layer": "L3",
+  "status": "ACTIVE",
+  "provision_id": "PROV-INT-M45-ART1",
+  "version_id": "LV-INT-M45-1996",
+  "source_id": "SRC-INT-M45-LLMC-PROT-1996",
+  "source_sha256": "a1acb368211c8cfc3cbafc606e03adc90ac270f27d6a6f5b62dd72c25f45a2a3",
+  "applicability": {
+    "flag": "ALL"
+  },
+  "evaluation_result": "UNKNOWN"
+}

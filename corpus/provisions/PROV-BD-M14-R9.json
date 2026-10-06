@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-BD-M14-R9",
+  "instrument_id": "BD-M14",
+  "version_id": "LV-BD-M14-2011",
+  "locator": "Rule 9",
+  "title": "Watchkeeping standards",
+  "domain": "WATCHKEEPING",
+  "provision_text": "Every person performing watchkeeping duties on a Bangladesh-flag vessel shall comply with the standards of training, certification and watchkeeping prescribed in these rules.",
+  "source_text": "Every person performing watchkeeping duties on a Bangladesh-flag vessel shall comply with the standards of training, certification and watchkeeping prescribed in these rules.",
+  "source_sha256": "e535ffadce4eba5867af4b179677eb784a3a5f7f3f0b6b4063424cae8f2847e2",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

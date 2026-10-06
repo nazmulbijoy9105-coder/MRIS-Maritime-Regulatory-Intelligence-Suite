@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-INT-M51-GMDSS",
+  "instrument_id": "INT-M51",
+  "version_name": "GMDSS / SOLAS Chapter IV (Original)",
+  "effective_from": "1999-02-01",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-INT-M51-GMDSS",
+  "source_sha256": "190867c1d94c4d455881ae16b501f7de1dfc0cc693d1c94a31cfa1b5aa377a1a",
+  "parent_instrument": "INT-M01",
+  "implements": null
+}

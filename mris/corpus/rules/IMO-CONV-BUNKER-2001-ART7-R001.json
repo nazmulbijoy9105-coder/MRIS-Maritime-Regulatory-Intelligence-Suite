@@ -1,0 +1,17 @@
+{
+  "rule_id": "IMO-CONV-BUNKER-2001-ART7-R001",
+  "domain": "INSURANCE",
+  "canonical_id": "INT-M20",
+  "focus": "Compulsory insurance",
+  "layer": "L3",
+  "status": "ACTIVE",
+  "provision_id": "PROV-INT-M20-ART7",
+  "version_id": "LV-INT-M20-2001",
+  "source_id": "SRC-INT-M20-BUNKER-2001",
+  "source_sha256": "4e73b7471b149251cf2fad2b5f03d606605d60597b781b739d23ad5a644663d7",
+  "applicability": {
+    "flag": "ALL",
+    "vessel_gt": 1000
+  },
+  "evaluation_result": "UNKNOWN"
+}

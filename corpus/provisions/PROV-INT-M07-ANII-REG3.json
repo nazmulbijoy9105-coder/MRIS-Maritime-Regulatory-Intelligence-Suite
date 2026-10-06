@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M07-ANII-REG3",
+  "instrument_id": "INT-M09",
+  "version_id": "LV-INT-M07-MARPOL-ANNEX-II",
+  "locator": "Annex II Reg 3",
+  "title": "Categories of noxious liquid substances",
+  "domain": "NLS",
+  "provision_text": "Noxious liquid substances are categorized into X, Y, and Z categories based on their hazard to the marine environment.",
+  "source_text": "Noxious liquid substances are categorized into X, Y, and Z categories based on their hazard to the marine environment.",
+  "source_sha256": "57b258e01229e4e3e5ef225aa56e409f91f44970466f43293e7951d567db8336",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

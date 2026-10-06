@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-INT-M31-1992",
+  "instrument_id": "INT-M31",
+  "version_name": "FUND 1992 (Original)",
+  "effective_from": "1996-05-30",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-INT-M31-FUND-1992",
+  "source_sha256": "0d01b71eba8a5bddc988c2aef25ab80f8d17b78d04a3c4c202da85c8f287fed9",
+  "parent_instrument": null,
+  "implements": null
+}

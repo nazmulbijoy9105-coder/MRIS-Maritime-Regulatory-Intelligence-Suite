@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M23-PA-SEC5",
+  "instrument_id": "INT-M23",
+  "version_id": "LV-INT-M23-ISPS",
+  "locator": "Part A Section 5",
+  "title": "Ship Security Assessment",
+  "domain": "SHIP_SECURITY",
+  "provision_text": "Each ship shall carry out a ship security assessment to identify security risks and determine the security measures to be implemented.",
+  "source_text": "Each ship shall carry out a ship security assessment to identify security risks and determine the security measures to be implemented.",
+  "source_sha256": "9ea92da603f0dcfb69116c28fce5af8d9dc4d37febfa507486972b6573f44878",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

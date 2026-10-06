@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M24-ART10",
+  "instrument_id": "INT-M24",
+  "version_id": "LV-INT-M24-1988",
+  "locator": "Article 10",
+  "title": "Extradition",
+  "domain": "EXTRADITION",
+  "provision_text": "Each Party shall, subject to its national law and applicable treaties, take such measures as may be necessary to establish its jurisdiction over the offences set forth in Article 3 when the alleged offender is present in its territory.",
+  "source_text": "Each Party shall, subject to its national law and applicable treaties, take such measures as may be necessary to establish its jurisdiction over the offences set forth in Article 3 when the alleged offender is present in its territory.",
+  "source_sha256": "e0abb83ee3e8a20002fb741ecea33d02307b42ec9a3fd76f55f7e7bb24e0805e",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

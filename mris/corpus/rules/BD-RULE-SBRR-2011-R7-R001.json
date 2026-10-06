@@ -1,0 +1,16 @@
+{
+  "rule_id": "BD-RULE-SBRR-2011-R7-R001",
+  "domain": "HAZARDOUS_MATERIALS",
+  "canonical_id": "BD-M10",
+  "focus": "Hazardous materials management",
+  "layer": "L2",
+  "status": "ACTIVE",
+  "provision_id": "PROV-BD-M10-R7",
+  "version_id": "LV-BD-M10-2011",
+  "source_id": "SRC-BD-M10-SBRR-2011",
+  "source_sha256": "a6263dc4c1e4fe04e18e9b120bf08cf3ed7b71efb60600a86df2d4e8877737d4",
+  "applicability": {
+    "sector": "SHIP_RECYCLING"
+  },
+  "evaluation_result": "UNKNOWN"
+}

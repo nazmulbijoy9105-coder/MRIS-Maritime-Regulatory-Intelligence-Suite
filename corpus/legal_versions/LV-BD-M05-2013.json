@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-BD-M05-2013",
+  "instrument_id": "BD-M05",
+  "version_name": "Payra Port Authority Act 2013 (Original)",
+  "effective_from": "2013-11-06",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-BD-M05-PPA-2013",
+  "source_sha256": "dcd346aa1907b79f033378052e65f1815f98f20ececf66ed6897fc82cf60dcd8",
+  "parent_instrument": null,
+  "implements": null
+}

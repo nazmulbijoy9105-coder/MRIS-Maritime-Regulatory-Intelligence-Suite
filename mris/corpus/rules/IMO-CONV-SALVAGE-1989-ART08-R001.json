@@ -1,0 +1,16 @@
+{
+  "rule_id": "IMO-CONV-SALVAGE-1989-ART08-R001",
+  "domain": "SALVAGE",
+  "canonical_id": "INT-M35",
+  "focus": "Salvage operations",
+  "layer": "L3",
+  "status": "ACTIVE",
+  "provision_id": "PROV-INT-M35-ART8",
+  "version_id": "LV-INT-M35-1989",
+  "source_id": "SRC-INT-M35-SALVAGE-1989",
+  "source_sha256": "9191f5f20980577d98d75d6dd58a309cff88fd906a7bc39056f3081b5f95f073",
+  "applicability": {
+    "flag": "ALL"
+  },
+  "evaluation_result": "UNKNOWN"
+}

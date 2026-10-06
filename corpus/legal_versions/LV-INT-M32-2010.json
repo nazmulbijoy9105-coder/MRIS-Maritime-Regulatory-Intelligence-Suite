@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-INT-M32-2010",
+  "instrument_id": "INT-M32",
+  "version_name": "HNS Convention 2010 (Original)",
+  "effective_from": "Not yet in force",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-INT-M32-HNS-2010",
+  "source_sha256": "8c66e83d54f994729bd4da643016dc3be099642cb9f271d29a79a65a36eda10c",
+  "parent_instrument": null,
+  "implements": null
+}

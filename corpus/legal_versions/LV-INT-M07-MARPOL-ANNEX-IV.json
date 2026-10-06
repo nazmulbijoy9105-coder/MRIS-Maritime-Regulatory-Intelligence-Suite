@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-INT-M07-MARPOL-ANNEX-IV",
+  "instrument_id": "INT-M11",
+  "version_name": "MARPOL Annex IV (Original)",
+  "effective_from": "2003-09-27",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-INT-M07-MARPOL-ANIV",
+  "source_sha256": "0f68e13158b1810f0c482ac4a64316c8f2045e2886d749149e4d4c4ca747f298",
+  "parent_instrument": "INT-M07",
+  "implements": null
+}

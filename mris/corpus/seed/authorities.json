@@ -1,0 +1,34 @@
+{
+  "authorities": [
+    {
+      "authority_id": "AUTH-IMO",
+      "name": "International Maritime Organization",
+      "jurisdiction_level": "INTL",
+      "legal_basis": "IMO Convention 1948",
+      "powers": [
+        "STANDARD_SETTING",
+        "INSPECTION_MANDATE"
+      ]
+    },
+    {
+      "authority_id": "AUTH-BD-MOFA",
+      "name": "Bangladesh Ministry of Foreign Affairs",
+      "jurisdiction_level": "L1_NATIONAL",
+      "legal_basis": "BD Constitution",
+      "powers": [
+        "TREATY_RATIFICATION"
+      ]
+    },
+    {
+      "authority_id": "AUTH-BD-MOS",
+      "name": "Bangladesh Ministry of Shipping",
+      "jurisdiction_level": "L1_NATIONAL",
+      "legal_basis": "MSO 1983",
+      "powers": [
+        "RULE_MAKING",
+        "INSPECTION",
+        "ENFORCEMENT"
+      ]
+    }
+  ]
+}

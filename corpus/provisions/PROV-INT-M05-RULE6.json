@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M05-RULE6",
+  "instrument_id": "INT-M05",
+  "version_id": "LV-INT-M05-1972",
+  "locator": "Rule 6",
+  "title": "Safe speed",
+  "domain": "NAVIGATION_SAFETY",
+  "provision_text": "Every vessel shall at all times proceed at a safe speed so that she can take proper and effective action to avoid collision.",
+  "source_text": "Every vessel shall at all times proceed at a safe speed so that she can take proper and effective action to avoid collision.",
+  "source_sha256": "429a4768884214bdc6bcfc4a06db22b1f3a98aed1b60c2a8beb78133088efe8b",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

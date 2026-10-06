@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-BD-M08-R5",
+  "instrument_id": "BD-M08",
+  "version_id": "LV-BD-M08-2023",
+  "locator": "Rule 5",
+  "title": "Environmental clearance categories",
+  "domain": "ENV_CLEARANCE",
+  "provision_text": "Projects are classified into Green, Orange-A, Orange-B, Red and Blue categories for environmental clearance purposes. Ship breaking yards fall under Red category.",
+  "source_text": "Projects are classified into Green, Orange-A, Orange-B, Red and Blue categories for environmental clearance purposes. Ship breaking yards fall under Red category.",
+  "source_sha256": "b37d39972fa47f3ad3cd86e48d6c9b4086b923e7ed76ae8c4258ba9d9e4ff26a",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

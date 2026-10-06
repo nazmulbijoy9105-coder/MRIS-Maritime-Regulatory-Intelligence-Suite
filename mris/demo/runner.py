@@ -1,5 +1,6 @@
 """Demo runner: vessel assessments — the P1 exit-criteria exercise + fleet."""
 from __future__ import annotations
+from mris.corpus.open_items import open_items
 
 from . import fleet, seed
 from ..corpus import load_rules
@@ -171,10 +172,7 @@ def demo_manifest_info() -> str:
     intl_count = sum(
         1 for item in instruments if item["jurisdiction"] == "INTL"
     )
-    open_count = sum(
-        1 for item in instruments
-        if item.get("verification_status") != "VERIFIED"
-    )
+    open_count = len(open_items(instruments))
 
     return (
         f"corpus manifest: {bd_count} BD instruments, "

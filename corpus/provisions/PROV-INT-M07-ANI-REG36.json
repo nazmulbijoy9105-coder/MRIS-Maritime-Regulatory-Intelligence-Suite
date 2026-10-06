@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M07-ANI-REG36",
+  "instrument_id": "INT-M07",
+  "version_id": "LV-INT-M07-MARPOL-ANNEX-I",
+  "locator": "Annex I, Regulation 36",
+  "title": "Oil Record Book",
+  "domain": "MARPOL",
+  "provision_text": "Oil tankers \u2265150 GT must maintain an Oil Record Book.",
+  "source_text": "Every oil tanker of 150 tons gross tonnage and above shall be provided with an Oil Record Book.",
+  "source_sha256": "f1780b8441cf7e0056bd0cf9c26d4b5ab1eb3270746b3bc82b052d9a7dbf82b8",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

@@ -1,0 +1,10 @@
+{
+  "version_id": "LV-INT-M07-MARPOL-ANNEX-VI",
+  "instrument_id": "INT-M07",
+  "version_name": "Original text of INT-M07",
+  "effective_from": "1983-10-02",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-INT-M07-MARPOL-ANVI",
+  "source_sha256": "fd358a791441b03fa5f24ed80a39946c1e8e350155ab48d77c271b6143939afe"
+}

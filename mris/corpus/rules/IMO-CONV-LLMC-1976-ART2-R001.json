@@ -1,0 +1,16 @@
+{
+  "rule_id": "IMO-CONV-LLMC-1976-ART2-R001",
+  "domain": "LIABILITY",
+  "canonical_id": "INT-M19",
+  "focus": "Limits of liability",
+  "layer": "L3",
+  "status": "ACTIVE",
+  "provision_id": "PROV-INT-M19-ART2",
+  "version_id": "LV-INT-M19-1976",
+  "source_id": "SRC-INT-M19-LLMC-1976",
+  "source_sha256": "f0ccc5a5be7bc07ad536a5f843930b1f1e05ec15e054b1275a6e68e37e21e1f8",
+  "applicability": {
+    "flag": "ALL"
+  },
+  "evaluation_result": "UNKNOWN"
+}

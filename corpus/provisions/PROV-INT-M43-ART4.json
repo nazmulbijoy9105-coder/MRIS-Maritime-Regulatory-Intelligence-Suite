@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M43-ART4",
+  "instrument_id": "INT-M43",
+  "version_id": "LV-INT-M43-1993",
+  "locator": "Article 4",
+  "title": "Maritime liens",
+  "domain": "MARITIME_LIENS",
+  "provision_text": "Each State Party shall recognize the maritime liens listed in this Article against the ship for the claims specified.",
+  "source_text": "Each State Party shall recognize the maritime liens listed in this Article against the ship for the claims specified.",
+  "source_sha256": "9fae28987c11535e03c284bae4ead0d14ccf13fdfafafefb9016349df9e6456b",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

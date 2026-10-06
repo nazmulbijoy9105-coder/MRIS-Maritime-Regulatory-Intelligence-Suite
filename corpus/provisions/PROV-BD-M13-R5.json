@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-BD-M13-R5",
+  "instrument_id": "BD-M13",
+  "version_id": "LV-BD-M13-2002",
+  "locator": "Regulation 5",
+  "title": "Radio equipment requirements",
+  "domain": "RADIO_EQUIPMENT",
+  "provision_text": "Every Bangladesh-flag ship of 300 gross tonnage and above shall be fitted with radio communication equipment complying with the Global Maritime Distress and Safety System (GMDSS) requirements.",
+  "source_text": "Every Bangladesh-flag ship of 300 gross tonnage and above shall be fitted with radio communication equipment complying with the Global Maritime Distress and Safety System (GMDSS) requirements.",
+  "source_sha256": "c538f047082df8d7d7808554299ecbf32b5ff787ce01c19f179037b70c4a18cf",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

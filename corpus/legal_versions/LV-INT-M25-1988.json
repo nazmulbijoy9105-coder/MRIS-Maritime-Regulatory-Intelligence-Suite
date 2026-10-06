@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-INT-M25-1988",
+  "instrument_id": "INT-M25",
+  "version_name": "SUA Protocol 1988 (Original)",
+  "effective_from": "1992-03-01",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-INT-M25-SUA-PROT-1988",
+  "source_sha256": "082f16b4f50759dbb082ab5b1f2dd0119db152270a996827d79a18cfa92e2a48",
+  "parent_instrument": "INT-M24",
+  "implements": null
+}

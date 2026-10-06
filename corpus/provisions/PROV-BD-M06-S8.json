@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-BD-M06-S8",
+  "instrument_id": "BD-M06",
+  "version_id": "LV-BD-M06-1969",
+  "locator": "Section 8",
+  "title": "Pilot licensing",
+  "domain": "PILOT_LICENSING",
+  "provision_text": "No person shall act as a pilot unless licensed by the competent authority under this Ordinance.",
+  "source_text": "No person shall act as a pilot unless licensed by the competent authority under this Ordinance.",
+  "source_sha256": "614c736f292fd5ee65c9f804f3c21db20d4bd5aed2eaf66bb65114d1328ea2ae",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

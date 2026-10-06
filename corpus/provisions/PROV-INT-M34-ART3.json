@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M34-ART3",
+  "instrument_id": "INT-M34",
+  "version_id": "LV-INT-M34-2000",
+  "locator": "Article 3",
+  "title": "HNS pollution preparedness",
+  "domain": "PREPAREDNESS",
+  "provision_text": "Each Party shall require that ships flying its flag and carrying hazardous and noxious substances have on board a pollution incident emergency plan.",
+  "source_text": "Each Party shall require that ships flying its flag and carrying hazardous and noxious substances have on board a pollution incident emergency plan.",
+  "source_sha256": "646c0279d032a8c7cabbbd3ab1aef4e48791680ee27373081b18cf507aa16094",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

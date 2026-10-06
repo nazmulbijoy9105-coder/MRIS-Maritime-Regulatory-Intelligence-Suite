@@ -1,0 +1,16 @@
+{
+  "rule_id": "BD-RULE-BFVPR-2023-R4-R001",
+  "domain": "FLAG_LICENSING",
+  "canonical_id": "BD-M17",
+  "focus": "Licensing of flag vessels",
+  "layer": "L2",
+  "status": "ACTIVE",
+  "provision_id": "PROV-BD-M17-R4",
+  "version_id": "LV-BD-M17-2023",
+  "source_id": "SRC-BD-M17-BFVPR-2023",
+  "source_sha256": "a0d4a3a6e08f572005a0bd09950eedba43984c2f66b02e76d998e688c5a7551f",
+  "applicability": {
+    "flag": "BD"
+  },
+  "evaluation_result": "UNKNOWN"
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "BD-RULE-SRALR-2005-R4-R001",
+  "domain": "AGENT_LICENSING",
+  "canonical_id": "BD-M12",
+  "focus": "Recruiting agent licensing",
+  "layer": "L2",
+  "status": "ACTIVE",
+  "provision_id": "PROV-BD-M12-R4",
+  "version_id": "LV-BD-M12-2005",
+  "source_id": "SRC-BD-M12-SRALR-2005",
+  "source_sha256": "5a30137f4871fdcc9ee28d4f3cd87b0ff00b1fe421ba69db24da1a3582e876e6",
+  "applicability": {
+    "operation": "CREW_RECRUITMENT",
+    "flag": "BD"
+  },
+  "evaluation_result": "UNKNOWN"
+}

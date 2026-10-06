@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-INT-M23-ISPS",
+  "instrument_id": "INT-M23",
+  "version_name": "ISPS Code (Original)",
+  "effective_from": "2004-07-01",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-INT-M23-ISPS",
+  "source_sha256": "4dda3489afef9dd4bc27d48500ca0372746f6df1f223af43536c0e90700e8003",
+  "parent_instrument": null,
+  "implements": null
+}

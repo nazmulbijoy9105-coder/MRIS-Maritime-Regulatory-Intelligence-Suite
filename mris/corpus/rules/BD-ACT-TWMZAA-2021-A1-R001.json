@@ -1,0 +1,16 @@
+{
+  "rule_id": "BD-ACT-TWMZAA-2021-A1-R001",
+  "domain": "JURISDICTION",
+  "canonical_id": "BD-M20",
+  "focus": "Extended continental shelf provisions",
+  "layer": "L1",
+  "status": "ACTIVE",
+  "provision_id": "PROV-BD-M20-A1",
+  "version_id": "LV-BD-M20-2021",
+  "source_id": "SRC-BD-M20-TWMZAA-2021",
+  "source_sha256": "b8e94e964fd2c3c5bfa3fd21901f209a43d3c8770a2097e710348f162c3690d4",
+  "applicability": {
+    "jurisdiction": "CONTINENTAL_SHELF"
+  },
+  "evaluation_result": "UNKNOWN"
+}

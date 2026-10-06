@@ -1,0 +1,16 @@
+{
+  "rule_id": "IMO-CONV-ATHENS-1974-ART04-R001",
+  "domain": "PASSENGER_LIABILITY",
+  "canonical_id": "INT-M41",
+  "focus": "Carrier liability for passengers",
+  "layer": "L3",
+  "status": "ACTIVE",
+  "provision_id": "PROV-INT-M41-ART4",
+  "version_id": "LV-INT-M41-1974",
+  "source_id": "SRC-INT-M41-ATHENS-1974",
+  "source_sha256": "6e6a0be4cd94d2b006dfb4934e40e727c178f53fce60af6e0334c16a0c3a5841",
+  "applicability": {
+    "operation": "PASSENGER"
+  },
+  "evaluation_result": "UNKNOWN"
+}

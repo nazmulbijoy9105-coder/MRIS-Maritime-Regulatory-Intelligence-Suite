@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M51-CHIV-REG1",
+  "instrument_id": "INT-M51",
+  "version_id": "LV-INT-M51-GMDSS",
+  "locator": "Ch IV Reg 1",
+  "title": "Radio installations",
+  "domain": "GMDSS",
+  "provision_text": "Every ship shall be provided with radio installations capable of transmitting and receiving distress and safety communications as prescribed in this chapter.",
+  "source_text": "Every ship shall be provided with radio installations capable of transmitting and receiving distress and safety communications as prescribed in this chapter.",
+  "source_sha256": "5e82084a477556b15ccdc60fff749948223e6e08394a995c519772298454fad7",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

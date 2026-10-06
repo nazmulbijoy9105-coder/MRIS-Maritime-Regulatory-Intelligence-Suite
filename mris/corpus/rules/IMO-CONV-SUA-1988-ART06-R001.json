@@ -1,0 +1,16 @@
+{
+  "rule_id": "IMO-CONV-SUA-1988-ART06-R001",
+  "domain": "JURISDICTION",
+  "canonical_id": "INT-M24",
+  "focus": "Jurisdiction",
+  "layer": "L3",
+  "status": "ACTIVE",
+  "provision_id": "PROV-INT-M24-ART6",
+  "version_id": "LV-INT-M24-1988",
+  "source_id": "SRC-INT-M24-SUA-1988",
+  "source_sha256": "e0abb83ee3e8a20002fb741ecea33d02307b42ec9a3fd76f55f7e7bb24e0805e",
+  "applicability": {
+    "jurisdiction": "ALL"
+  },
+  "evaluation_result": "UNKNOWN"
+}

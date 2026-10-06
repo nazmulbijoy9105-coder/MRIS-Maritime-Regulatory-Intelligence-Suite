@@ -1,0 +1,17 @@
+{
+  "rule_id": "IMO-CONV-TONNAGE-1969-ART06-R001",
+  "domain": "TONNAGE",
+  "canonical_id": "INT-M36",
+  "focus": "International Tonnage Certificate",
+  "layer": "L2",
+  "status": "ACTIVE",
+  "provision_id": "PROV-INT-M36-ART6",
+  "version_id": "LV-INT-M36-1969",
+  "source_id": "SRC-INT-M36-TONNAGE-1969",
+  "source_sha256": "208681b7a712463637a30f1353ead606516af127791017278ccb3976532b431a",
+  "applicability": {
+    "flag": "ALL",
+    "operation": "INTERNATIONAL"
+  },
+  "evaluation_result": "UNKNOWN"
+}

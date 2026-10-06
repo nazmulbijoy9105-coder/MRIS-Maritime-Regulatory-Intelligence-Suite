@@ -1,0 +1,17 @@
+{
+  "rule_id": "IMO-CONV-LOADLINES-1966-ART12-R001",
+  "domain": "LOADLINE",
+  "canonical_id": "INT-M03",
+  "focus": "Load line assignment",
+  "layer": "L2",
+  "status": "ACTIVE",
+  "provision_id": "PROV-INT-M03-ART12",
+  "version_id": "LV-INT-M03-1966",
+  "source_id": "SRC-INT-M03-LL-1966",
+  "source_sha256": "1d1e19937d9d838fe8b4b2651a89bd92d62e4f705057929f5ed2e64b2a2775d4",
+  "applicability": {
+    "flag": "ALL",
+    "vessel_gt": 24
+  },
+  "evaluation_result": "UNKNOWN"
+}

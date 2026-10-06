@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M07-ANII-REG14",
+  "instrument_id": "INT-M09",
+  "version_id": "LV-INT-M07-MARPOL-ANNEX-II",
+  "locator": "Annex II Reg 14",
+  "title": "Cargo Record Book",
+  "domain": "RECORD_BOOK",
+  "provision_text": "Every ship carrying noxious liquid substances in bulk shall maintain a Cargo Record Book for recording operations.",
+  "source_text": "Every ship carrying noxious liquid substances in bulk shall maintain a Cargo Record Book for recording operations.",
+  "source_sha256": "3f0e370927cf69a93563321acc3e40ec8c1ae73bb6e978bf91d0533daa6c0954",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

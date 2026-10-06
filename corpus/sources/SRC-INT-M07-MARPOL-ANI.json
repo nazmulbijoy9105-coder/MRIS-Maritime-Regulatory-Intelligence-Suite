@@ -1,0 +1,13 @@
+{
+  "source_id": "SRC-INT-M07-MARPOL-ANI",
+  "source_type": "TREATY_DEPOSITARY",
+  "publisher": "IMO",
+  "official_title": "Primary source for INT-M07",
+  "jurisdiction": "INTL",
+  "language": "en",
+  "effective_date": "1983-10-02",
+  "sha256": "f1780b8441cf7e0056bd0cf9c26d4b5ab1eb3270746b3bc82b052d9a7dbf82b8",
+  "mime_type": "application/pdf",
+  "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+  "provenance": "Primary source extracted and hashed for legal lineage chain."
+}

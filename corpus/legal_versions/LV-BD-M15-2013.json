@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-BD-M15-2013",
+  "instrument_id": "BD-M15",
+  "version_name": "Merchant Shipping Levy Collection Rules 2013 (Original)",
+  "effective_from": "2013-01-07",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-BD-M15-MSLV-2013",
+  "source_sha256": "9bd2a6e79b4fc3b89dad2929a8e25d8749c98f1b29770eeac4d599a6500d008a",
+  "parent_instrument": null,
+  "implements": null
+}

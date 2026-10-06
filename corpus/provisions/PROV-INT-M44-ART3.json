@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M44-ART3",
+  "instrument_id": "INT-M44",
+  "version_id": "LV-INT-M44-1910",
+  "locator": "Article 3",
+  "title": "Collision liability",
+  "domain": "COLLISION",
+  "provision_text": "If a collision is caused by the fault of one of the vessels, the vessel at fault shall be liable for the damage caused.",
+  "source_text": "If a collision is caused by the fault of one of the vessels, the vessel at fault shall be liable for the damage caused.",
+  "source_sha256": "a03e23e99f63e9dea4b7b7be1bbb7a11cf50bb661b391d1686c73fa5314ea5f9",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

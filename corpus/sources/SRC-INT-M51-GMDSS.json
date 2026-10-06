@@ -1,0 +1,16 @@
+{
+  "source_id": "SRC-INT-M51-GMDSS",
+  "source_type": "TREATY_DEPOSITARY",
+  "publisher": "IMO",
+  "official_title": "GMDSS / SOLAS Chapter IV",
+  "jurisdiction": "INTL",
+  "language": "en",
+  "publication_date": "1999-02-01",
+  "effective_date": "1999-02-01",
+  "official_url": null,
+  "retrieved_at": null,
+  "sha256": "190867c1d94c4d455881ae16b501f7de1dfc0cc693d1c94a31cfa1b5aa377a1a",
+  "mime_type": "application/pdf",
+  "provenance": "Placeholder source record. Primary source document must be retrieved from the treaty depositary before verification.",
+  "verification_status": "REQUIRES_PRIMARY_VERIFICATION"
+}

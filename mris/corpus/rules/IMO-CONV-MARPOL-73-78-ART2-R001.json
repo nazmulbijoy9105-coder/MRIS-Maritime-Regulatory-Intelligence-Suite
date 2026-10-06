@@ -1,0 +1,16 @@
+{
+  "rule_id": "IMO-CONV-MARPOL-73-78-ART2-R001",
+  "domain": "ENFORCEMENT",
+  "canonical_id": "INT-M07",
+  "focus": "Violations and enforcement",
+  "layer": "L1",
+  "status": "ACTIVE",
+  "provision_id": "PROV-INT-M07-ART2",
+  "version_id": "LV-INT-M07-1973",
+  "source_id": "SRC-INT-M07-MARPOL-1973",
+  "source_sha256": "b9b846d9552c10d356b3449f41bb6e51a8095b93297dd1fad8f43674a6870888",
+  "applicability": {
+    "flag": "ALL"
+  },
+  "evaluation_result": "UNKNOWN"
+}

@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-BD-M20-A1",
+  "instrument_id": "BD-M20",
+  "version_id": "LV-BD-M20-2021",
+  "locator": "Amendment 1",
+  "title": "Extended continental shelf provisions",
+  "domain": "JURISDICTION",
+  "provision_text": "The amendment extends Bangladesh's maritime jurisdiction to include the continental shelf beyond 200 nautical miles as per the UNCLOS provisions and the 2012 delimitation award.",
+  "source_text": "The amendment extends Bangladesh's maritime jurisdiction to include the continental shelf beyond 200 nautical miles as per the UNCLOS provisions and the 2012 delimitation award.",
+  "source_sha256": "524a47997dac5a0ea3be2e7316ae10ded87d5fa5d536d483a564ebc4809a7960",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "IMO-CONV-CLC-1992-ART07-R001",
+  "domain": "INSURANCE",
+  "canonical_id": "INT-M30",
+  "focus": "Compulsory insurance",
+  "layer": "L3",
+  "status": "ACTIVE",
+  "provision_id": "PROV-INT-M30-ART7",
+  "version_id": "LV-INT-M30-1992",
+  "source_id": "SRC-INT-M30-CLC-1992",
+  "source_sha256": "ae6a1e49125697a2a62134c550b3b34f32a43d58f10a3207200aa9701916bc3d",
+  "applicability": {
+    "flag": "ALL",
+    "cargo": "OIL_BULK"
+  },
+  "evaluation_result": "UNKNOWN"
+}

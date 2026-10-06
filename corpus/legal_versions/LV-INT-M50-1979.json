@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-INT-M50-1979",
+  "instrument_id": "INT-M50",
+  "version_name": "SAR Convention 1979 (Original)",
+  "effective_from": "1985-06-22",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-INT-M50-SAR-1979",
+  "source_sha256": "c5fab3da31dc64fcc625f624e4dd98866ca2c1d914da6f731da73efbe6c5a31e",
+  "parent_instrument": null,
+  "implements": null
+}

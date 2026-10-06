@@ -1,0 +1,16 @@
+{
+  "rule_id": "IMO-CONV-SAR-1979-CH2-R001",
+  "domain": "SAR",
+  "canonical_id": "INT-M50",
+  "focus": "Organization of search and rescue services",
+  "layer": "L2",
+  "status": "ACTIVE",
+  "provision_id": "PROV-INT-M50-CH2",
+  "version_id": "LV-INT-M50-1979",
+  "source_id": "SRC-INT-M50-SAR-1979",
+  "source_sha256": "c5fab3da31dc64fcc625f624e4dd98866ca2c1d914da6f731da73efbe6c5a31e",
+  "applicability": {
+    "jurisdiction": "COASTAL"
+  },
+  "evaluation_result": "UNKNOWN"
+}

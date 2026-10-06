@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M42-ART1",
+  "instrument_id": "INT-M42",
+  "version_id": "LV-INT-M42-1999",
+  "locator": "Article 1",
+  "title": "Right of arrest",
+  "domain": "SHIP_ARREST",
+  "provision_text": "A claimant may arrest a ship in respect of which the claim is brought to secure the claim within the jurisdiction of the courts of a State Party.",
+  "source_text": "A claimant may arrest a ship in respect of which the claim is brought to secure the claim within the jurisdiction of the courts of a State Party.",
+  "source_sha256": "41a3bbdeab366d560ade496f979e7ae60d2dfee57e95656f210e492afe2a3532",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

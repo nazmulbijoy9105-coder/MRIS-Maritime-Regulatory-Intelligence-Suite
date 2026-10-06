@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-INT-M41-1974",
+  "instrument_id": "INT-M41",
+  "version_name": "Athens Convention 1974 (Original)",
+  "effective_from": "1987-04-28",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-INT-M41-ATHENS-1974",
+  "source_sha256": "6e6a0be4cd94d2b006dfb4934e40e727c178f53fce60af6e0334c16a0c3a5841",
+  "parent_instrument": null,
+  "implements": null
+}

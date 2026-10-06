@@ -1,0 +1,17 @@
+{
+  "rule_id": "BD-ACT-BFVPA-2019-S5-R001",
+  "domain": "FLAG_PROTECTION",
+  "canonical_id": "BD-M16",
+  "focus": "Carriage of national flag cargo",
+  "layer": "L2",
+  "status": "ACTIVE",
+  "provision_id": "PROV-BD-M16-S5",
+  "version_id": "LV-BD-M16-2019",
+  "source_id": "SRC-BD-M16-BFVPA-2019",
+  "source_sha256": "bec63accbe019558316888be53e9517a0d43939e3148489aa578da8590ba83c5",
+  "applicability": {
+    "flag": "BD",
+    "cargo": "FOREIGN_TRADE"
+  },
+  "evaluation_result": "UNKNOWN"
+}

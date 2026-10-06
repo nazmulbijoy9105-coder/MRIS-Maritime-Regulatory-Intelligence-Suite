@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M06-REG-II2",
+  "instrument_id": "INT-M06",
+  "version_id": "LV-INT-M06-1978",
+  "locator": "Reg II/2",
+  "title": "Master and chief mate",
+  "domain": "CERTIFICATION",
+  "provision_text": "Every candidate for certification as master or chief mate of ships of 500 GT or more shall meet the requirements prescribed in this regulation.",
+  "source_text": "Every candidate for certification as master or chief mate of ships of 500 GT or more shall meet the requirements prescribed in this regulation.",
+  "source_sha256": "2cf9042b9a905aff00e2090ea90c44097606464bd1c8f1d7e6719d12e61703f9",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

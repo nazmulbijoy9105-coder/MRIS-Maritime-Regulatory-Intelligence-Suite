@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M06-REG-II1",
+  "instrument_id": "INT-M06",
+  "version_id": "LV-INT-M06-1978",
+  "locator": "Reg II/1",
+  "title": "Officer in charge of navigational watch",
+  "domain": "CERTIFICATION",
+  "provision_text": "Every candidate for certification as officer in charge of a navigational watch shall meet the requirements for training, service and competency prescribed in this regulation.",
+  "source_text": "Every candidate for certification as officer in charge of a navigational watch shall meet the requirements for training, service and competency prescribed in this regulation.",
+  "source_sha256": "0020f5cdfca8f3d5684bb7eefc62cb42cc19596d3340e60bec2f677314209834",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

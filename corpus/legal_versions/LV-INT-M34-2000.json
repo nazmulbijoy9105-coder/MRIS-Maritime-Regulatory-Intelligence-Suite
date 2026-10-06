@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-INT-M34-2000",
+  "instrument_id": "INT-M34",
+  "version_name": "OPRC-HNS Protocol 2000 (Original)",
+  "effective_from": "2008-06-14",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-INT-M34-OPRC-HNS-2000",
+  "source_sha256": "6e61e12c528d076d87a4491c7ba89bb9acd3773b49ffb1e590a702e215140f26",
+  "parent_instrument": "INT-M33",
+  "implements": null
+}

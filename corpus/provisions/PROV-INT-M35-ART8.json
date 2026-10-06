@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M35-ART8",
+  "instrument_id": "INT-M35",
+  "version_id": "LV-INT-M35-1989",
+  "locator": "Article 8",
+  "title": "Salvage operations",
+  "domain": "SALVAGE",
+  "provision_text": "The master and the owner of the vessel in danger shall take all necessary measures to prevent or minimize damage to the environment.",
+  "source_text": "The master and the owner of the vessel in danger shall take all necessary measures to prevent or minimize damage to the environment.",
+  "source_sha256": "7787bf454f6be562d9b9ce1016bf82c62ee181a3b5de1056151084e025506c45",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

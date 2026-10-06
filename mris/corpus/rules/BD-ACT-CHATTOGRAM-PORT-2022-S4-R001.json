@@ -1,0 +1,17 @@
+{
+  "rule_id": "BD-ACT-CHATTOGRAM-PORT-2022-S4-R001",
+  "domain": "PORT_AUTHORITY",
+  "canonical_id": "BD-M03",
+  "focus": "Port authority powers and duties",
+  "layer": "L2",
+  "status": "ACTIVE",
+  "provision_id": "PROV-BD-M03-S4",
+  "version_id": "LV-BD-M03-2022",
+  "source_id": "SRC-BD-M03-CPA-2022",
+  "source_sha256": "7ef28cc988a6ea02ecad4c6668c9033c158374fc2a10b81b515cc9d15720b330",
+  "applicability": {
+    "port": "CHATTOGRAM",
+    "operation": "PORT_OPERATIONS"
+  },
+  "evaluation_result": "UNKNOWN"
+}

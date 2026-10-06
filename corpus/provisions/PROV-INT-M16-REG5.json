@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M16-REG5",
+  "instrument_id": "INT-M16",
+  "version_id": "LV-INT-M16-2009",
+  "locator": "Regulation 5",
+  "title": "Inventory of Hazardous Materials",
+  "domain": "IHM",
+  "provision_text": "Each ship shall have on board an Inventory of Hazardous Materials verified by the Administration.",
+  "source_text": "Each ship shall have on board an Inventory of Hazardous Materials verified by the Administration.",
+  "source_sha256": "9f447571d468bf9df6ace7b814dfba8a68aee5bfcf181ce4bc6b13f54bff2840",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

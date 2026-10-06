@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-BD-M21-S5",
+  "instrument_id": "BD-M21",
+  "version_id": "LV-BD-M21-2017",
+  "locator": "Section 5",
+  "title": "Corporation establishment and functions",
+  "domain": "STATE_OWNED_SHIPPING",
+  "provision_text": "The Bangladesh Shipping Corporation is established to carry on the business of shipping, including the ownership, operation and chartering of vessels for the transport of cargo and passengers.",
+  "source_text": "The Bangladesh Shipping Corporation is established to carry on the business of shipping, including the ownership, operation and chartering of vessels for the transport of cargo and passengers.",
+  "source_sha256": "a6e14e9316f79aae74db6fe5433bc5ba1a6f6a2f3afba69ddee2089cfc1021da",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

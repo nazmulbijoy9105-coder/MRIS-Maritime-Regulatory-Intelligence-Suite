@@ -1,0 +1,13 @@
+{
+  "rule_id": "BD-ORD-MERCHANT-SHIPPING-1983-S082-R001",
+  "domain": "MANNING",
+  "formal_instrument_id": "BD-ORD-MERCHANT-SHIPPING-1983",
+  "canonical_id": "BD-M01",
+  "focus": "Manning requirements",
+  "layer": "L2",
+  "status": "ACTIVE",
+  "provision_id": "PROV-BD-M01-S082",
+  "version_id": "LV-BD-M01-1983",
+  "source_id": "SRC-BD-M01-MSO-1983",
+  "source_sha256": "0ff64bf58e2a204b133ff278ed99d6a18c6b2bc1dd9c743e7b222486511419e3"
+}

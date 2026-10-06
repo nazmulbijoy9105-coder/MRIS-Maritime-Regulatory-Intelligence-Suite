@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-BD-M02-S18",
+  "instrument_id": "BD-M02",
+  "version_id": "LV-BD-M02-1976",
+  "locator": "Section 18",
+  "title": "Inland vessel crew certification",
+  "domain": "CREW_CERTIFICATION",
+  "provision_text": "No person shall act as master or engineer of an inland vessel unless holding a certificate of competency issued under this Ordinance.",
+  "source_text": "No person shall act as master or engineer of an inland vessel unless holding a certificate of competency issued under this Ordinance.",
+  "source_sha256": "10a9bb67f02d5ef419b0d092a78ff6045b3a86894366953d863a0d1674f57bf3",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

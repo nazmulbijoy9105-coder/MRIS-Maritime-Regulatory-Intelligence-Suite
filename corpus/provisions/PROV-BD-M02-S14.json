@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-BD-M02-S14",
+  "instrument_id": "BD-M02",
+  "version_id": "LV-BD-M02-1976",
+  "locator": "Section 14",
+  "title": "Survey and certification",
+  "domain": "SURVEY",
+  "provision_text": "Every inland vessel shall be surveyed by a competent surveyor and issued a certificate of survey before being put into service.",
+  "source_text": "Every inland vessel shall be surveyed by a competent surveyor and issued a certificate of survey before being put into service.",
+  "source_sha256": "24673178ebbfdfc9de4c11b89b945c147cb44f497ef65f3892464f01fba82b55",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

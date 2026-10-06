@@ -1,0 +1,16 @@
+{
+  "rule_id": "IMO-AGREE-INMARSAT-1976-ART03-R001",
+  "domain": "SATELLITE_COMMS",
+  "canonical_id": "INT-M29",
+  "focus": "System operation",
+  "layer": "L3",
+  "status": "ACTIVE",
+  "provision_id": "PROV-INT-M29-ART3",
+  "version_id": "LV-INT-M29-1976",
+  "source_id": "SRC-INT-M29-INMARSAT-1976",
+  "source_sha256": "aa06f017475ea9bf4058d955ddfbf1d0e12c4d3e3801afc021489d64f362368e",
+  "applicability": {
+    "jurisdiction": "ALL"
+  },
+  "evaluation_result": "UNKNOWN"
+}

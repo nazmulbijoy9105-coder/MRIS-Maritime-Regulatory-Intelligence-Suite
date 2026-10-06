@@ -1,0 +1,16 @@
+{
+  "rule_id": "IMO-CONV-CSC-1972-ART04-R001",
+  "domain": "CONTAINER_SAFETY",
+  "canonical_id": "INT-M38",
+  "focus": "Container safety approval",
+  "layer": "L2",
+  "status": "ACTIVE",
+  "provision_id": "PROV-INT-M38-ART4",
+  "version_id": "LV-INT-M38-1972",
+  "source_id": "SRC-INT-M38-CSC-1972",
+  "source_sha256": "9804d74b59fe7da3d78ffe434d81c7929e2c8fb9b1cabb693e8bb28e043bc261",
+  "applicability": {
+    "equipment": "CONTAINER"
+  },
+  "evaluation_result": "UNKNOWN"
+}

@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-INT-M26-1971",
+  "instrument_id": "INT-M26",
+  "version_name": "STPS Agreement 1971 (Original)",
+  "effective_from": "1974-06-02",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-INT-M26-STPS-1971",
+  "source_sha256": "6802fc877df3b585202ea563345b69d369d5031c567d7073b2f4dd8e4bc8b790",
+  "parent_instrument": null,
+  "implements": null
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "BD-RULE-ORTCW-2011-R9-R001",
+  "domain": "WATCHKEEPING",
+  "canonical_id": "BD-M14",
+  "focus": "Watchkeeping standards",
+  "layer": "L2",
+  "status": "ACTIVE",
+  "provision_id": "PROV-BD-M14-R9",
+  "version_id": "LV-BD-M14-2011",
+  "source_id": "SRC-BD-M14-ORTCW-2011",
+  "source_sha256": "d8aa0e95156ffdfc1393afa67fef8b5ec84542851c07042c0dc5f3c8c9a4ca45",
+  "applicability": {
+    "flag": "BD",
+    "seafarer": "WATCHKEEPER"
+  },
+  "evaluation_result": "UNKNOWN"
+}

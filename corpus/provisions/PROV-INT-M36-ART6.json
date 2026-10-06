@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M36-ART6",
+  "instrument_id": "INT-M36",
+  "version_id": "LV-INT-M36-1969",
+  "locator": "Article 6",
+  "title": "International Tonnage Certificate",
+  "domain": "TONNAGE",
+  "provision_text": "Every ship engaged in international voyages shall have an International Tonnage Certificate issued under this Convention.",
+  "source_text": "Every ship engaged in international voyages shall have an International Tonnage Certificate issued under this Convention.",
+  "source_sha256": "52228e805a523be449820595c02eee031d2f45a3a9be3b6f4ed1510d971eeb42",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

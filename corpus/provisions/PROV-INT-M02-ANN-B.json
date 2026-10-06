@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M02-ANN-B",
+  "instrument_id": "INT-M02",
+  "version_id": "LV-INT-M02-1988",
+  "locator": "Annex B",
+  "title": "Harmless substances classification",
+  "domain": "CLASSIFICATION",
+  "provision_text": "The protocol introduces a harmonized system of survey and certification for ships subject to SOLAS, Load Lines and MARPOL.",
+  "source_text": "The protocol introduces a harmonized system of survey and certification for ships subject to SOLAS, Load Lines and MARPOL.",
+  "source_sha256": "aacf1d456fde078d777c90326ba42ea40e397afecbe48ff95d27e478ad7b82c9",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

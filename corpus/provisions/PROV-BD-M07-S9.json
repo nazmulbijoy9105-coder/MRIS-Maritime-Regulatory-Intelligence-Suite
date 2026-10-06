@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-BD-M07-S9",
+  "instrument_id": "BD-M07",
+  "version_id": "LV-BD-M07-1995",
+  "locator": "Section 9",
+  "title": "Marine pollution prevention",
+  "domain": "MARINE_POLLUTION",
+  "provision_text": "No person shall discharge or emit any pollutant into the marine environment in excess of the standards prescribed by the Government.",
+  "source_text": "No person shall discharge or emit any pollutant into the marine environment in excess of the standards prescribed by the Government.",
+  "source_sha256": "73857dd21208bd0eb7a365583a55a6fd495535966dba6127ba6c036e8e30fda9",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

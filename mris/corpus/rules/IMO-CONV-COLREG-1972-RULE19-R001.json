@@ -1,0 +1,16 @@
+{
+  "rule_id": "IMO-CONV-COLREG-1972-RULE19-R001",
+  "domain": "NAVIGATION_SAFETY",
+  "canonical_id": "INT-M05",
+  "focus": "Conduct in restricted visibility",
+  "layer": "L2",
+  "status": "ACTIVE",
+  "provision_id": "PROV-INT-M05-RULE19",
+  "version_id": "LV-INT-M05-1972",
+  "source_id": "SRC-INT-M05-COLREG-1972",
+  "source_sha256": "422235b0993cb414ae484599050c737cc4023469dd03e5b15469bff996eabfae",
+  "applicability": {
+    "condition": "RESTRICTED_VISIBILITY"
+  },
+  "evaluation_result": "UNKNOWN"
+}

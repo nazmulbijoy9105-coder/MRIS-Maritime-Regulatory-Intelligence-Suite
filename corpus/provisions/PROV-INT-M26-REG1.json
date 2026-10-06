@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M26-REG1",
+  "instrument_id": "INT-M26",
+  "version_id": "LV-INT-M26-1971",
+  "locator": "Regulation 1",
+  "title": "Special trade passenger ship safety",
+  "domain": "PASSENGER_SAFETY",
+  "provision_text": "Special trade passenger ships shall comply with the safety requirements prescribed in this Agreement.",
+  "source_text": "Special trade passenger ships shall comply with the safety requirements prescribed in this Agreement.",
+  "source_sha256": "08ad9258f26cb36471bd40c568d793de684fb22a8420f4de828c76a0e9c5b9cf",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-INT-M28-1976",
+  "instrument_id": "INT-M28",
+  "version_name": "IMSO Convention 1976 (Original)",
+  "effective_from": "1979-07-16",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-INT-M28-IMSO-1976",
+  "source_sha256": "4725ea662215cfeb67d4db89e9d8a1a224bb1fe795fcac98d6888ce74696ab90",
+  "parent_instrument": null,
+  "implements": null
+}

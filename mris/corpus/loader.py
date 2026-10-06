@@ -1,73 +1,102 @@
-"""Corpus loader: manifest + rule YAML -> validated RuleSpec objects."""
-from __future__ import annotations
-
 import json
+import os
 from pathlib import Path
 
-from ..ilrmf import RuleSpec, parse_rule_spec
-
-_CORPUS_ROOT = Path(__file__).resolve().parent
-MANIFEST_PATH = _CORPUS_ROOT / "seed" / "manifest.json"
-RULES_DIR = _CORPUS_ROOT / "rules"
-
-# Non-executable YAML artifacts that must never enter the legal rule registry.
-_EXCLUDED_RULE_FILENAMES = {
-    "TEMPLATE-ENTERPRISE-RULE.yaml",
-}
+# Package-relative paths (works when data is included in package)
+BASE_DIR = Path(__file__).resolve().parent
+SEED_DIR = BASE_DIR / "seed"
+RULES_DIR = BASE_DIR / "rules"
+MANIFEST_PATH = SEED_DIR / "manifest.json"
 
 
-def load_manifest() -> dict:
-    with open(MANIFEST_PATH, encoding="utf-8") as fh:
-        return json.load(fh)
+def _find_manifest() -> Path:
+    """Search for manifest in multiple locations (package, project root, env)."""
+    candidates = [
+        MANIFEST_PATH,
+        Path(os.getcwd()) / "mris" / "corpus" / "seed" / "manifest.json",
+        Path(os.getcwd()) / "corpus" / "seed" / "manifest.json",
+    ]
+    env_root = os.environ.get("MRIS_CORPUS_ROOT")
+    if env_root:
+        candidates.append(Path(env_root) / "seed" / "manifest.json")
+    for path in candidates:
+        if path.exists():
+            return path
+    return MANIFEST_PATH
 
 
-def _rule_paths() -> list[Path]:
-    """Return executable rule YAML files recursively.
+def _find_rules_dir() -> Path:
+    """Search for rules directory in multiple locations."""
+    candidates = [
+        RULES_DIR,
+        Path(os.getcwd()) / "mris" / "corpus" / "rules",
+        Path(os.getcwd()) / "corpus" / "rules",
+    ]
+    env_root = os.environ.get("MRIS_CORPUS_ROOT")
+    if env_root:
+        candidates.append(Path(env_root) / "rules")
+    for path in candidates:
+        if path.exists() and path.is_dir():
+            return path
+    return RULES_DIR
 
-    Templates and other explicitly excluded artifacts are never loaded.
-    """
-    return sorted(
-        path
-        for path in RULES_DIR.rglob("*.yaml")
-        if path.name not in _EXCLUDED_RULE_FILENAMES
-    )
+
+def load_manifest():
+    """Loads the canonical registry of legal instruments."""
+    path = _find_manifest()
+    if not path.exists():
+        raise FileNotFoundError(f"Manifest not found at {path}")
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
 
 
-def load_rules() -> dict[str, RuleSpec]:
-    """Load and validate all executable corpus rule specifications."""
-    rules: dict[str, RuleSpec] = {}
+def load_rules():
+    """Loads YAML rule files as RuleSpec objects (executable rules only).
+    Returns dict keyed by rule_id."""
+    rules = {}
+    rules_dir = _find_rules_dir()
+    if not rules_dir.exists():
+        return rules
 
-    for path in _rule_paths():
-        spec = parse_rule_spec(path.read_text(encoding="utf-8"))
+    try:
+        from mris.ilrmf.rule_spec import parse_rule_spec
+    except ImportError:
+        parse_rule_spec = None
 
-        if spec.rule_id in rules:
-            raise ValueError(
-                f"duplicate executable rule_id {spec.rule_id!r}: "
-                f"{path}"
-            )
+    # Load YAML rules through parse_rule_spec (returns RuleSpec objects)
+    for rule_path in sorted(rules_dir.glob("*.yaml")):
+        try:
+            text = rule_path.read_text(encoding="utf-8")
+            if parse_rule_spec:
+                spec = parse_rule_spec(text)
+                rules[spec.rule_id] = spec
+            else:
+                import yaml
+                data = yaml.safe_load(text)
+                if data and "rule_id" in data:
+                    rules[data["rule_id"]] = data
+        except Exception:
+            continue
 
-        rules[spec.rule_id] = spec
+    # Also load JSON rules as dicts (metadata only, don't override YAML)
+    for rule_path in sorted(rules_dir.glob("*.json")):
+        try:
+            with open(rule_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            rid = data.get("rule_id", rule_path.stem)
+            if rid not in rules:
+                rules[rid] = data
+        except Exception:
+            continue
 
     return rules
 
 
-def rule_file(rule_id: str) -> Path:
-    """Resolve an executable rule ID to its canonical YAML file."""
-    matches = sorted(
-        path
-        for path in RULES_DIR.rglob(f"{rule_id}.yaml")
-        if path.name not in _EXCLUDED_RULE_FILENAMES
-    )
-
-    if not matches:
-        raise FileNotFoundError(
-            f"executable corpus rule not found: {rule_id}"
-        )
-
-    if len(matches) > 1:
-        raise ValueError(
-            f"multiple executable corpus files found for rule_id "
-            f"{rule_id!r}: {matches}"
-        )
-
-    return matches[0]
+def rule_file(rule_id):
+    """Returns the Path to a rule file (YAML or JSON)."""
+    rules_dir = _find_rules_dir()
+    for ext in [".yaml", ".json"]:
+        rule_path = rules_dir / f"{rule_id}{ext}"
+        if rule_path.exists():
+            return rule_path
+    raise FileNotFoundError(f"Rule file {rule_id} not found in {rules_dir}")

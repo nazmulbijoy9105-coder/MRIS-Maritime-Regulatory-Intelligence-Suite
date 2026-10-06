@@ -1,0 +1,17 @@
+{
+  "rule_id": "BD-RULE-ORTCW-2011-R4-R001",
+  "domain": "CERTIFICATION",
+  "canonical_id": "BD-M14",
+  "focus": "Certificate of competency requirements",
+  "layer": "L2",
+  "status": "ACTIVE",
+  "provision_id": "PROV-BD-M14-R4",
+  "version_id": "LV-BD-M14-2011",
+  "source_id": "SRC-BD-M14-ORTCW-2011",
+  "source_sha256": "d8aa0e95156ffdfc1393afa67fef8b5ec84542851c07042c0dc5f3c8c9a4ca45",
+  "applicability": {
+    "flag": "BD",
+    "seafarer": "OFFICER"
+  },
+  "evaluation_result": "UNKNOWN"
+}

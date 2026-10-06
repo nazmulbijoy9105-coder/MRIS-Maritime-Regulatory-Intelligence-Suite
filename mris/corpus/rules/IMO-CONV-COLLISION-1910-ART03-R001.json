@@ -1,0 +1,16 @@
+{
+  "rule_id": "IMO-CONV-COLLISION-1910-ART03-R001",
+  "domain": "COLLISION",
+  "canonical_id": "INT-M44",
+  "focus": "Collision liability",
+  "layer": "L3",
+  "status": "ACTIVE",
+  "provision_id": "PROV-INT-M44-ART3",
+  "version_id": "LV-INT-M44-1910",
+  "source_id": "SRC-INT-M44-COLLISION-1910",
+  "source_sha256": "6150f449ea830d06fd66dfd5871f89c8604c4036061afac71809953b7a74fe15",
+  "applicability": {
+    "flag": "ALL"
+  },
+  "evaluation_result": "UNKNOWN"
+}

@@ -1,0 +1,13 @@
+{
+  "rule_id": "IMO-CONV-MARPOL-73-78-ANV-REG10-R001",
+  "domain": "MARPOL",
+  "formal_instrument_id": "IMO-CONV-MARPOL-73-78",
+  "canonical_id": "INT-M07",
+  "focus": "Garbage management",
+  "layer": "L2",
+  "status": "ACTIVE",
+  "provision_id": "PROV-INT-M07-ANV-REG10",
+  "version_id": "LV-INT-M07-MARPOL-ANNEX-V",
+  "source_id": "SRC-INT-M07-MARPOL-ANV",
+  "source_sha256": "8a7af420fae42367674be88d205d0e253494a365175a5b4c34a2e1b0ccb0369f"
+}
