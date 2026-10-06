@@ -27,3 +27,7 @@ include = ["mris*"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+
+
+[tool.setuptools.package-data]
+mris = ["corpus/seed/*.json", "corpus/rules/*.json", "corpus/rules/*.yaml"]

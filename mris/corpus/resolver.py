@@ -56,8 +56,24 @@ class InstrumentResolver:
     def is_canonical(self, value: str) -> bool: return value in self._canonical
     def is_alias(self, value: str) -> bool: return value in self._aliases
 
-def default_resolver(corpus_seed: Path | str = "mris/corpus/seed") -> InstrumentResolver:
-    seed = Path(corpus_seed)
+def _find_seed_dir() -> Path:
+    """Search for seed directory in multiple locations."""
+    candidates = [
+        Path("mris/corpus/seed"),
+        Path(__file__).resolve().parent / "seed",
+        Path("corpus/seed"),
+    ]
+    import os
+    env_root = os.environ.get("MRIS_CORPUS_ROOT")
+    if env_root:
+        candidates.append(Path(env_root) / "seed")
+    for path in candidates:
+        if (path / "manifest.json").exists():
+            return path
+    return Path("mris/corpus/seed")
+
+def default_resolver(corpus_seed: Path | str = None) -> InstrumentResolver:
+        seed = Path(corpus_seed) if corpus_seed else _find_seed_dir()
     return InstrumentResolver(manifest_path=seed / "manifest.json", aliases_path=seed / "instrument_aliases.json")
 
 if __name__ == "__main__":
