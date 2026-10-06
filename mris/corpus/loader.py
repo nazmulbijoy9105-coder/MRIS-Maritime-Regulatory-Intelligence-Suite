@@ -41,18 +41,6 @@ def _find_rules_dir() -> Path:
     return RULES_DIR
 
 
-def _find_aliases() -> Path:
-    """Search for instrument_aliases.json."""
-    candidates = [
-        SEED_DIR / "instrument_aliases.json",
-        Path(os.getcwd()) / "mris" / "corpus" / "seed" / "instrument_aliases.json",
-    ]
-    for path in candidates:
-        if path.exists():
-            return path
-    return SEED_DIR / "instrument_aliases.json"
-
-
 def load_manifest():
     """Loads the canonical registry of legal instruments."""
     path = _find_manifest()
@@ -63,28 +51,52 @@ def load_manifest():
 
 
 def load_rules():
-    """Loads all rule files from the rules directory as a dict keyed by rule_id."""
+    """Loads YAML rule files as RuleSpec objects (executable rules only).
+    Returns dict keyed by rule_id."""
     rules = {}
     rules_dir = _find_rules_dir()
-    if rules_dir.exists():
-        for rule_path in sorted(rules_dir.glob("*.json")):
+    if not rules_dir.exists():
+        return rules
+
+    try:
+        from mris.ilrmf.rule_spec import parse_rule_spec
+    except ImportError:
+        parse_rule_spec = None
+
+    # Load YAML rules through parse_rule_spec (returns RuleSpec objects)
+    for rule_path in sorted(rules_dir.glob("*.yaml")):
+        try:
+            text = rule_path.read_text(encoding="utf-8")
+            if parse_rule_spec:
+                spec = parse_rule_spec(text)
+                rules[spec.rule_id] = spec
+            else:
+                import yaml
+                data = yaml.safe_load(text)
+                if data and "rule_id" in data:
+                    rules[data["rule_id"]] = data
+        except Exception:
+            continue
+
+    # Also load JSON rules as dicts (metadata only, don't override YAML)
+    for rule_path in sorted(rules_dir.glob("*.json")):
+        try:
             with open(rule_path, "r", encoding="utf-8") as f:
                 data = json.load(f)
             rid = data.get("rule_id", rule_path.stem)
-            rules[rid] = data
+            if rid not in rules:
+                rules[rid] = data
+        except Exception:
+            continue
+
     return rules
 
 
 def rule_file(rule_id):
-    """Loads a specific rule file by its ID."""
+    """Returns the Path to a rule file (YAML or JSON)."""
     rules_dir = _find_rules_dir()
-    rule_path = rules_dir / f"{rule_id}.json"
-    if not rule_path.exists():
-        rule_path = rules_dir / f"{rule_id}.yaml"
-        if not rule_path.exists():
-            raise FileNotFoundError(f"Rule file {rule_id} not found at {rules_dir}")
-        import yaml
-        with open(rule_path, "r", encoding="utf-8") as f:
-            return yaml.safe_load(f)
-    with open(rule_path, "r", encoding="utf-8") as f:
-        return json.load(f)
+    for ext in [".yaml", ".json"]:
+        rule_path = rules_dir / f"{rule_id}{ext}"
+        if rule_path.exists():
+            return rule_path
+    raise FileNotFoundError(f"Rule file {rule_id} not found in {rules_dir}")

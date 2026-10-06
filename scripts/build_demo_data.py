@@ -77,7 +77,7 @@ def main() -> None:
         provision_ids=["IMO-CONV-STCW-1978-CHVIII-REG01"],
         rule_version_id="rv-imo-manning-v1", legal_version_id="lv-stcw-1978-current",
         constraint=Constraint.min(3))]
-    for rule_id, spec in (rules.items() if isinstance(rules, dict) else [(r.get('rule_id', r.get('rule_id')), r) for r in rules]):
+    for rule_id, spec in rules.items():
         candidates.append(RuleCandidate(
             rule_id=rule_id, layer=Layer.L2_FLAG, dimension=spec.domain.lower(),
             requirement=spec.outcome.get("contract_requirement", spec.domain),
@@ -90,7 +90,7 @@ def main() -> None:
 
     rule_texts = {
         rid: rule_file(rid).read_text(encoding="utf-8")
-        for rid in (rules.keys() if isinstance(rules, dict) else [r.get('rule_id') for r in rules])
+        for rid in rules
     }
 
     # legal-review world (queue + audit + ingestion) for the static console
