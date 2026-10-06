@@ -7,7 +7,7 @@
   "domain": "LOADLINE",
   "provision_text": "A ship must hold a valid load line certificate before sailing.",
   "source_text": "No ship shall proceed to sea unless it has a valid load line certificate.",
-  "source_sha256": "754ce7db6dedc12708fb72f0c51fa8a7a104c7521d4e1b74b67cf55de4a38aaf",
+  "source_sha256": "0ff64bf58e2a204b133ff278ed99d6a18c6b2bc1dd9c743e7b222486511419e3",
   "source_page": "TBD",
   "definitions": [],
   "exceptions": [],

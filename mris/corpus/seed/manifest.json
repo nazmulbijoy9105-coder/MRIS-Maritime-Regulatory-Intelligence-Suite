@@ -16,7 +16,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "Safety of life at sea",
       "primary_rule_id": null,
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "PARTY"
     },
     {
       "instrument_id": "INT-M02",
@@ -29,7 +30,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "SOLAS amendments",
       "primary_rule_id": null,
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "PARTY"
     },
     {
       "instrument_id": "INT-M03",
@@ -42,7 +44,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "Load line certification",
       "primary_rule_id": null,
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "PARTY"
     },
     {
       "instrument_id": "INT-M04",
@@ -55,7 +58,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "Load line protocol",
       "primary_rule_id": null,
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "PARTY"
     },
     {
       "instrument_id": "INT-M05",
@@ -68,7 +72,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "Collision regulations",
       "primary_rule_id": null,
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "PARTY"
     },
     {
       "instrument_id": "INT-M06",
@@ -81,7 +86,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "Training & watchkeeping",
       "primary_rule_id": null,
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "PARTY"
     },
     {
       "instrument_id": "INT-M07",
@@ -94,7 +100,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "Pollution prevention",
       "primary_rule_id": "IMO-CONV-MARPOL-73-78-ANI-REG36-R001",
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "PARTY"
     },
     {
       "instrument_id": "INT-M08",
@@ -107,7 +114,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "Oil pollution",
       "primary_rule_id": "IMO-CONV-MARPOL-73-78-ANI-REG36-R001",
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "PARTY"
     },
     {
       "instrument_id": "INT-M09",
@@ -120,7 +128,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "NLS in bulk",
       "primary_rule_id": null,
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "PARTY"
     },
     {
       "instrument_id": "INT-M10",
@@ -133,7 +142,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "Harmful substances packaged",
       "primary_rule_id": null,
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "PARTY"
     },
     {
       "instrument_id": "INT-M11",
@@ -146,7 +156,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "Sewage",
       "primary_rule_id": null,
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "PARTY"
     },
     {
       "instrument_id": "INT-M12",
@@ -159,7 +170,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "Garbage",
       "primary_rule_id": "IMO-CONV-MARPOL-73-78-ANV-REG10-R001",
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "PARTY"
     },
     {
       "instrument_id": "INT-M13",
@@ -172,7 +184,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "Air pollution",
       "primary_rule_id": "IMO-CONV-MARPOL-73-78-ANVI-REG6-R001",
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "PARTY"
     },
     {
       "instrument_id": "INT-M14",
@@ -185,7 +198,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "Ballast water management",
       "primary_rule_id": null,
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "PARTY"
     },
     {
       "instrument_id": "INT-M15",
@@ -198,7 +212,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "Anti-fouling systems",
       "primary_rule_id": null,
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "PARTY"
     },
     {
       "instrument_id": "INT-M16",
@@ -211,7 +226,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "Ship recycling",
       "primary_rule_id": null,
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "SIGNATORY"
     },
     {
       "instrument_id": "INT-M17",
@@ -224,7 +240,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "Maritime labour",
       "primary_rule_id": null,
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "PARTY"
     },
     {
       "instrument_id": "INT-M18",
@@ -237,7 +254,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "Law of the sea",
       "primary_rule_id": null,
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "PARTY"
     },
     {
       "instrument_id": "INT-M19",
@@ -250,7 +268,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "Limitation of liability (BD NON_PARTY)",
       "primary_rule_id": null,
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "NON_PARTY"
     },
     {
       "instrument_id": "INT-M20",
@@ -263,7 +282,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "Bunker oil liability",
       "primary_rule_id": "IMO-CONV-BUNKER-2001-ART07-R001",
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "PARTY"
     },
     {
       "instrument_id": "INT-M21",
@@ -276,7 +296,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "Wreck removal",
       "primary_rule_id": "IMO-CONV-NAIROBI-WRC-2007-ART05-R001",
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "PARTY"
     },
     {
       "instrument_id": "INT-M22",
@@ -289,7 +310,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "Safety management",
       "primary_rule_id": null,
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "PARTY"
     },
     {
       "instrument_id": "INT-M23",
@@ -302,7 +324,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "Ship & port facility security",
       "primary_rule_id": null,
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "PARTY"
     },
     {
       "instrument_id": "INT-M24",
@@ -315,7 +338,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "Unlawful acts",
       "primary_rule_id": "IMO-CONV-SUA-1988-ART03-R001",
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "PARTY"
     },
     {
       "instrument_id": "INT-M25",
@@ -328,7 +352,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "Offences against fixed platforms",
       "primary_rule_id": "IMO-PROT-SUA-PLATFORM-1988-ART02-R001",
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "PARTY"
     },
     {
       "instrument_id": "INT-M26",
@@ -341,7 +366,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "Special trade passenger ships",
       "primary_rule_id": "IMO-AGREE-STPS-1971-REG01-R001",
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "NON_PARTY"
     },
     {
       "instrument_id": "INT-M27",
@@ -354,7 +380,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "Space requirements for STPS",
       "primary_rule_id": "IMO-PROT-STPS-SPACE-1973-REG01-R001",
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "NON_PARTY"
     },
     {
       "instrument_id": "INT-M28",
@@ -367,7 +394,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "Mobile satellite organisation",
       "primary_rule_id": "IMO-CONV-IMSO-1976-ART03-R001",
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "PARTY"
     },
     {
       "instrument_id": "INT-M29",
@@ -380,7 +408,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "INMARSAT system operation",
       "primary_rule_id": "IMO-AGREE-INMARSAT-1976-ART03-R001",
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "PARTY"
     },
     {
       "instrument_id": "INT-M30",
@@ -393,7 +422,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "Civil liability for oil pollution",
       "primary_rule_id": "IMO-CONV-CLC-1992-ART07-R001",
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "NON_PARTY"
     },
     {
       "instrument_id": "INT-M31",
@@ -406,7 +436,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "Oil pollution compensation fund",
       "primary_rule_id": "IMO-CONV-FUND-1992-ART04-R001",
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "NON_PARTY"
     },
     {
       "instrument_id": "INT-M32",
@@ -419,7 +450,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "Hazardous & noxious substances",
       "primary_rule_id": "IMO-CONV-HNS-2010-ART12-R001",
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "NON_PARTY"
     },
     {
       "instrument_id": "INT-M33",
@@ -432,7 +464,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "Oil pollution preparedness",
       "primary_rule_id": "IMO-CONV-OPRC-1990-ART03-R001",
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "PARTY"
     },
     {
       "instrument_id": "INT-M34",
@@ -445,7 +478,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "HNS pollution preparedness",
       "primary_rule_id": "IMO-PROT-OPRC-HNS-2000-ART03-R001",
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "PARTY"
     },
     {
       "instrument_id": "INT-M35",
@@ -458,7 +492,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "Salvage operations & rewards",
       "primary_rule_id": "IMO-CONV-SALVAGE-1989-ART08-R001",
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "PARTY"
     },
     {
       "instrument_id": "INT-M36",
@@ -471,7 +506,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "Tonnage measurement",
       "primary_rule_id": "IMO-CONV-TONNAGE-1969-ART06-R001",
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "PARTY"
     },
     {
       "instrument_id": "INT-M37",
@@ -484,7 +520,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "Facilitation of maritime traffic",
       "primary_rule_id": "IMO-CONV-FAL-1965-STD2-R001",
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "PARTY"
     },
     {
       "instrument_id": "INT-M38",
@@ -497,7 +534,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "Container safety",
       "primary_rule_id": "IMO-CONV-CSC-1972-ART04-R001",
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "PARTY"
     },
     {
       "instrument_id": "INT-M39",
@@ -510,7 +548,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "Intervention on high seas",
       "primary_rule_id": "IMO-CONV-INTERVENTION-1969-ART01-R001",
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "PARTY"
     },
     {
       "instrument_id": "INT-M40",
@@ -523,7 +562,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "Prevention of marine dumping",
       "primary_rule_id": "IMO-CONV-LONDON-1972-ART04-R001",
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "PARTY"
     },
     {
       "instrument_id": "INT-M41",
@@ -536,7 +576,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "Passenger liability",
       "primary_rule_id": "IMO-CONV-ATHENS-1974-ART04-R001",
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "NON_PARTY"
     },
     {
       "instrument_id": "INT-M42",
@@ -549,7 +590,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "Arrest of ships",
       "primary_rule_id": "IMO-CONV-ARREST-1999-ART01-R001",
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "NON_PARTY"
     },
     {
       "instrument_id": "INT-M43",
@@ -562,7 +604,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "Maritime liens & mortgages",
       "primary_rule_id": "IMO-CONV-LIENS-1993-ART04-R001",
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "NON_PARTY"
     },
     {
       "instrument_id": "INT-M44",
@@ -575,7 +618,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "Collision liability",
       "primary_rule_id": "IMO-CONV-COLLISION-1910-ART03-R001",
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "PARTY"
     },
     {
       "instrument_id": "INT-M45",
@@ -588,7 +632,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "Updated limitation amounts",
       "primary_rule_id": "IMO-PROT-LLMC-1996-ART01-R001",
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "NON_PARTY"
     },
     {
       "instrument_id": "INT-M48",
@@ -601,7 +646,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "Fishing vessel safety",
       "primary_rule_id": "IMO-AGREE-CAPETOWN-2012-CH2-R001",
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "NON_PARTY"
     },
     {
       "instrument_id": "INT-M49",
@@ -614,7 +660,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "Fishing vessel safety",
       "primary_rule_id": "IMO-PROT-SFV-1993-CH3-R001",
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "NON_PARTY"
     },
     {
       "instrument_id": "INT-M50",
@@ -627,7 +674,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "Search & rescue services",
       "primary_rule_id": "IMO-CONV-SAR-1979-CH2-R001",
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "PARTY"
     },
     {
       "instrument_id": "INT-M51",
@@ -640,7 +688,8 @@
       "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
       "notes": "Global Maritime Distress & Safety System",
       "primary_rule_id": "IMO-GMDSS-SOLAS-CHIV-REG01-R001",
-      "evaluation_eligibility": false
+      "evaluation_eligibility": false,
+      "bd_treaty_status": "PARTY"
     },
     {
       "instrument_id": "BD-M01",
@@ -652,7 +701,11 @@
       "verification_status": "VERIFIED_AGAINST_GAZETTE",
       "notes": "4 live rules",
       "primary_rule_id": "BD-ORD-MERCHANT-SHIPPING-1983-S066-R001",
-      "evaluation_eligibility": true
+      "evaluation_eligibility": true,
+      "verification_date": "2026-10-06",
+      "authoritative_sources": [
+        "Bangladesh Gazette Extraordinary"
+      ]
     },
     {
       "instrument_id": "BD-M02",
