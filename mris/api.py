@@ -1,7 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from mris.database import init_db
-from mris.auth import router as auth_router
+from mris.auth import router as auth_router, get_current_user
+from mris.models import User
 import json
 from pathlib import Path
 
@@ -30,7 +31,7 @@ def health():
     return {"status": "ok", "service": "mris", "engine": "mris-engine/0.1.0"}
 
 @app.get("/v1/fleet/summary")
-def fleet_summary():
+def fleet_summary(current_user: User = Depends(get_current_user)):
     # Returns baked demo data so the frontend works while we wire up the DB
     demo_path = Path(__file__).parent.parent / "frontend" / "demo_data.json"
     if demo_path.exists():
