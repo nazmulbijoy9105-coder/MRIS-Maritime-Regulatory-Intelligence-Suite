@@ -1,0 +1,10 @@
+{
+  "version_id": "LV-BD-M01-1983",
+  "instrument_id": "BD-M01",
+  "version_name": "Original text of BD-M01",
+  "effective_from": "1983-01-01",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-BD-M01-MSO-1983",
+  "source_sha256": "0ff64bf58e2a204b133ff278ed99d6a18c6b2bc1dd9c743e7b222486511419e3"
+}

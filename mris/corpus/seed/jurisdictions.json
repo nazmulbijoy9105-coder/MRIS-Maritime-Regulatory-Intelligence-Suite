@@ -1,0 +1,24 @@
+{
+  "jurisdictions": [
+    {
+      "jurisdiction_id": "JUR-INTL",
+      "level": "L0_INTL",
+      "name": "International Waters / Global"
+    },
+    {
+      "jurisdiction_id": "JUR-BD-FLAG",
+      "level": "L1_FLAG",
+      "name": "Bangladesh Flag State"
+    },
+    {
+      "jurisdiction_id": "JUR-BD-PORT",
+      "level": "L2_PORT",
+      "name": "Bangladesh Port State"
+    },
+    {
+      "jurisdiction_id": "JUR-BD-CST",
+      "level": "L3_COASTAL",
+      "name": "Bangladesh Coastal State"
+    }
+  ]
+}

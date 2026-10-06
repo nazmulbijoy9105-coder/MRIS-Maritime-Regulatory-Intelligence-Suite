@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M07-ANVI-REG6",
+  "instrument_id": "INT-M07",
+  "version_id": "LV-INT-M07-MARPOL-ANNEX-VI",
+  "locator": "Annex VI, Regulation 6",
+  "title": "IAPP Certificate",
+  "domain": "MARPOL",
+  "provision_text": "Ships \u2265400 GT must hold a valid IAPP Certificate.",
+  "source_text": "Every ship of 400 tons gross tonnage and above shall be surveyed and issued an IAPP Certificate.",
+  "source_sha256": "fd358a791441b03fa5f24ed80a39946c1e8e350155ab48d77c271b6143939afe",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

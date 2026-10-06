@@ -3,7 +3,11 @@
   "domain": "MANNING",
   "formal_instrument_id": "BD-ORD-MERCHANT-SHIPPING-1983",
   "canonical_id": "BD-M01",
-  "focus": "S82 Manning",
+  "focus": "Manning requirements",
   "layer": "L2",
-  "status": "ACTIVE"
+  "status": "ACTIVE",
+  "provision_id": "PROV-BD-M01-S082",
+  "version_id": "LV-BD-M01-1983",
+  "source_id": "SRC-BD-M01-MSO-1983",
+  "source_sha256": "be3a5793e045f0a40c95c0ee6170ed5cdd8289b333bd3320f944515d3e987f0b"
 }

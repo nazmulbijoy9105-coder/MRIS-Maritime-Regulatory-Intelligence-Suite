@@ -1,0 +1,16 @@
+{
+  "verification_id": "VER-INT-M38",
+  "instrument_id": "INT-M38",
+  "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+  "primary_source": null,
+  "source_sha256": null,
+  "verification_date": null,
+  "verified_by": null,
+  "verification_method": null,
+  "gazette_reference": null,
+  "treaty_status_date": null,
+  "reservations_declarations": [],
+  "conflict_check": "PENDING",
+  "legal_review": "PENDING",
+  "notes": "Primary source verification record. No instrument may evaluate until this record is fully verified."
+}

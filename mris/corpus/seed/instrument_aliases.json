@@ -1,0 +1,24 @@
+{
+  "aliases": {
+    "IMO-CONV-SOLAS-1974": {
+      "instrument_id": "INT-M01",
+      "alias_type": "FORMAL_LEGAL_ID"
+    },
+    "IMO-CONV-MARPOL-73-78": {
+      "instrument_id": "INT-M07",
+      "alias_type": "FORMAL_LEGAL_ID"
+    },
+    "BD-ORD-MERCHANT-SHIPPING-1983": {
+      "instrument_id": "BD-M01",
+      "alias_type": "FORMAL_LEGAL_ID"
+    },
+    "IMO-CONV-SUA-1988": {
+      "instrument_id": "INT-M24",
+      "alias_type": "FORMAL_LEGAL_ID"
+    },
+    "IMO-CONV-SAR-1979": {
+      "instrument_id": "INT-M50",
+      "alias_type": "FORMAL_LEGAL_ID"
+    }
+  }
+}

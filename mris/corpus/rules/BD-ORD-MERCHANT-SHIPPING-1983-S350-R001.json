@@ -3,7 +3,11 @@
   "domain": "UNSEAWORTHY",
   "formal_instrument_id": "BD-ORD-MERCHANT-SHIPPING-1983",
   "canonical_id": "BD-M01",
-  "focus": "S350 Unseaworthy",
+  "focus": "Unseaworthy ship",
   "layer": "L2",
-  "status": "ACTIVE"
+  "status": "ACTIVE",
+  "provision_id": "PROV-BD-M01-S350",
+  "version_id": "LV-BD-M01-1983",
+  "source_id": "SRC-BD-M01-MSO-1983",
+  "source_sha256": "0ff64bf58e2a204b133ff278ed99d6a18c6b2bc1dd9c743e7b222486511419e3"
 }

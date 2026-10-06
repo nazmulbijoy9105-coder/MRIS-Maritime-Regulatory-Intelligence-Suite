@@ -1,0 +1,13 @@
+{
+  "source_id": "SRC-BD-M01-MSO-1983",
+  "source_type": "GAZETTE",
+  "publisher": "Bangladesh Gazette",
+  "official_title": "Primary source for BD-M01",
+  "jurisdiction": "BD",
+  "language": "en",
+  "effective_date": "1983-01-01",
+  "sha256": "0ff64bf58e2a204b133ff278ed99d6a18c6b2bc1dd9c743e7b222486511419e3",
+  "mime_type": "application/pdf",
+  "verification_status": "VERIFIED_AGAINST_GAZETTE",
+  "provenance": "Primary source extracted and hashed for legal lineage chain."
+}

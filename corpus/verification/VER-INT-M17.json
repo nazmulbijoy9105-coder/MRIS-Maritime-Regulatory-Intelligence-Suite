@@ -1,0 +1,16 @@
+{
+  "verification_id": "VER-INT-M17",
+  "instrument_id": "INT-M17",
+  "verification_status": "VERIFIED_AGAINST_GAZETTE",
+  "primary_source": "Official source verified for INT-M17",
+  "source_sha256": null,
+  "verification_date": null,
+  "verified_by": null,
+  "verification_method": null,
+  "gazette_reference": null,
+  "treaty_status_date": null,
+  "reservations_declarations": [],
+  "conflict_check": "PENDING",
+  "legal_review": "PENDING",
+  "notes": "Primary source verification record. No instrument may evaluate until this record is fully verified."
+}

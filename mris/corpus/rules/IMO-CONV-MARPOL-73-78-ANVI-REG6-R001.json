@@ -3,7 +3,11 @@
   "domain": "MARPOL",
   "formal_instrument_id": "IMO-CONV-MARPOL-73-78",
   "canonical_id": "INT-M07",
-  "focus": "Annex VI Reg 6 IAPP",
-  "layer": "L1/L2",
-  "status": "ACTIVE"
+  "focus": "IAPP Certificate",
+  "layer": "L2",
+  "status": "ACTIVE",
+  "provision_id": "PROV-INT-M07-ANVI-REG6",
+  "version_id": "LV-INT-M07-MARPOL-ANNEX-VI",
+  "source_id": "SRC-INT-M07-MARPOL-ANVI",
+  "source_sha256": "fd358a791441b03fa5f24ed80a39946c1e8e350155ab48d77c271b6143939afe"
 }
