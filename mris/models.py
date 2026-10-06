@@ -411,7 +411,7 @@ class VesselType(Base):
 class LegalCertificate(Base):
     __tablename__ = "legal_certificates"
     id = Column(Integer, primary_key=True)
-    vessel_id = Column(String, ForeignKey("vessels.vessel_id"))
+    vessel_id = Column(String, ForeignKey("vessel.id"))
     cert_type = Column(String, nullable=False) # e.g., IOPP, ISSC, MLC
     issuer = Column(String)
     issue_date = Column(Date)
