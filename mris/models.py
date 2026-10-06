@@ -383,3 +383,14 @@ def init_db(url: str = "sqlite:///mris-dev.db"):
     engine = create_engine(url, echo=False)
     Base.metadata.create_all(engine)
     return engine
+
+
+# --- Auth & User Management ---
+from sqlalchemy import Column, Integer, String
+
+class User(Base):
+    __tablename__ = "users"
+    id = Column(Integer, primary_key=True, index=True)
+    username = Column(String, unique=True, index=True)
+    hashed_password = Column(String)
+    company_name = Column(String)
