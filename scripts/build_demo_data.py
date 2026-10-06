@@ -98,8 +98,10 @@ def main() -> None:
                   "vessels": fleet,
                   "note": "demo fleet; statuses computed by ILRMF-DSL rules over demo evidence"},
         "compliance": compliance,
-        "instruments": {"bangladesh": manifest["instruments"],
-                        "international": manifest["international_instruments"]},
+        "instruments": {
+                        "bangladesh": [i for i in manifest["instruments"] if i.get("jurisdiction") == "BD"],
+                        "international": [i for i in manifest["instruments"] if i.get("jurisdiction") == "INTL"]
+                    },
         "impacts": {"open_verification_items": manifest["open_items_register"],
                     "sla": "official publication -> customer alert <= 72h for high-impact changes"},
         "rules": rule_texts,
