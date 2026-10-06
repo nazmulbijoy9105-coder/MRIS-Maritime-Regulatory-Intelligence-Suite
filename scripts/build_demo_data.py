@@ -14,7 +14,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
-from mris.corpus import RULES_DIR, load_manifest, load_rules            # noqa: E402
+from mris.corpus import load_manifest, load_rules, rule_file            # noqa: E402
 from mris.demo import fleet as fleet_seed                               # noqa: E402
 from mris.demo import seed                                              # noqa: E402
 from mris.demo.review_seed import build_review_world                   # noqa: E402
@@ -72,8 +72,10 @@ def main() -> None:
     voyage = resolve_voyage(legs, candidates, vessel_flag="BD", domestic=True,
                             as_of=seed.EVAL_DATE)
 
-    rule_texts = {rid: (RULES_DIR / f"{rid}.yaml").read_text(encoding="utf-8")
-                  for rid in rules}
+    rule_texts = {
+        rid: rule_file(rid).read_text(encoding="utf-8")
+        for rid in rules
+    }
 
     # legal-review world (queue + audit + ingestion) for the static console
     pipeline, queue, audit = build_review_world()
