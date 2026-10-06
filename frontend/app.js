@@ -1153,3 +1153,53 @@ if (API.getToken()) {
 } else {
     Auth.showModal();
 }
+
+// --- AUTHENTICATION GATE ---
+const Auth = {
+    init() {
+        document.getElementById("auth-login-btn").onclick = () => this.login();
+        document.getElementById("auth-register-btn").onclick = () => this.register();
+        document.getElementById("auth-guest-btn").onclick = () => this.guest();
+    },
+    showModal(err = "") {
+        document.getElementById("auth-error").innerText = err;
+        document.getElementById("auth-modal").style.display = "flex";
+    },
+    hideModal() {
+        document.getElementById("auth-modal").style.display = "none";
+    },
+    async login() {
+        const u = document.getElementById("auth-username").value;
+        const p = document.getElementById("auth-password").value;
+        const res = await API.post("/v1/auth/token", { username: u, password: p });
+        if (res && res.access_token) {
+            API.setToken(res.access_token);
+            this.hideModal();
+            App.boot();
+        } else {
+            this.showModal(res.__error || "Login failed");
+        }
+    },
+    async register() {
+        const u = document.getElementById("auth-username").value;
+        const p = document.getElementById("auth-password").value;
+        const res = await API.post("/v1/auth/register?username=" + encodeURIComponent(u) + "&password=" + encodeURIComponent(p) + "&company_name=Web%20User");
+        if (res && res.message) {
+            alert("Registered! Logging you in...");
+            this.login();
+        } else {
+            this.showModal(res.__error || "Registration failed");
+        }
+    },
+    guest() {
+        this.hideModal();
+        App.boot();
+    }
+};
+
+Auth.init();
+if (API.getToken()) {
+    App.boot();
+} else {
+    Auth.showModal();
+}
