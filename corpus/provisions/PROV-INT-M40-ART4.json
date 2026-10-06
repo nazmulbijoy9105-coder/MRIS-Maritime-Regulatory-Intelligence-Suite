@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M40-ART4",
+  "instrument_id": "INT-M40",
+  "version_id": "LV-INT-M40-1972",
+  "locator": "Article 4",
+  "title": "Prohibition of dumping",
+  "domain": "DUMPING",
+  "provision_text": "The dumping of wastes or other matter listed in Annex I is prohibited. Dumping of wastes listed in Annex II requires a special permit.",
+  "source_text": "The dumping of wastes or other matter listed in Annex I is prohibited. Dumping of wastes listed in Annex II requires a special permit.",
+  "source_sha256": "40041a1dffa03a48a1438892ceaf8c92d7f52799bc94ec9938740817c4aae161",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

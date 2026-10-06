@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-INT-M14-2004",
+  "instrument_id": "INT-M14",
+  "version_name": "BWM 2004 (Original)",
+  "effective_from": "2017-06-08",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-INT-M14-BWM-2004",
+  "source_sha256": "352ed80a01f195a9e64b2ea80215241dff500aab832803fc3962700d93795667",
+  "parent_instrument": null,
+  "implements": null
+}

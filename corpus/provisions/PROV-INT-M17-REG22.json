@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M17-REG22",
+  "instrument_id": "INT-M17",
+  "version_id": "LV-INT-M17-2006",
+  "locator": "Reg 2.2",
+  "title": "Wages",
+  "domain": "SEAFARER_RIGHTS",
+  "provision_text": "Each Member shall require that all seafarers on ships flying its flag are paid for their work regularly and in full.",
+  "source_text": "Each Member shall require that all seafarers on ships flying its flag are paid for their work regularly and in full.",
+  "source_sha256": "206e807cc505d91440d217aa6445c7284674f7c6d0be786d12d5e664d8ec318a",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

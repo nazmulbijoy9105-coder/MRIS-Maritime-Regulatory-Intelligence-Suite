@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M07-ANIII-REG1",
+  "instrument_id": "INT-M10",
+  "version_id": "LV-INT-M07-MARPOL-ANNEX-III",
+  "locator": "Annex III Reg 1",
+  "title": "Application",
+  "domain": "HARMFUL_SUBSTANCES",
+  "provision_text": "This Annex applies to all ships carrying harmful substances in packaged form.",
+  "source_text": "This Annex applies to all ships carrying harmful substances in packaged form.",
+  "source_sha256": "8c5a0692bd8fef562f1dd89b13083cd089ba86aac54a83d7c597bb99a2b4b713",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

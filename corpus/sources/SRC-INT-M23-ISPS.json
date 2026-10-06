@@ -1,0 +1,16 @@
+{
+  "source_id": "SRC-INT-M23-ISPS",
+  "source_type": "TREATY_DEPOSITARY",
+  "publisher": "IMO",
+  "official_title": "ISPS Code",
+  "jurisdiction": "INTL",
+  "language": "en",
+  "publication_date": "2004-07-01",
+  "effective_date": "2004-07-01",
+  "official_url": null,
+  "retrieved_at": null,
+  "sha256": "4dda3489afef9dd4bc27d48500ca0372746f6df1f223af43536c0e90700e8003",
+  "mime_type": "application/pdf",
+  "provenance": "Placeholder source record. Primary source document must be retrieved from the treaty depositary before verification.",
+  "verification_status": "REQUIRES_PRIMARY_VERIFICATION"
+}

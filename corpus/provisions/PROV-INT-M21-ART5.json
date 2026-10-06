@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M21-ART5",
+  "instrument_id": "INT-M21",
+  "version_id": "LV-INT-M21-2007",
+  "locator": "Article 5",
+  "title": "Insurance requirement",
+  "domain": "INSURANCE",
+  "provision_text": "The registered owner of a ship of 300 GT and above shall maintain insurance or other financial security to cover liability under this Convention.",
+  "source_text": "The registered owner of a ship of 300 GT and above shall maintain insurance or other financial security to cover liability under this Convention.",
+  "source_sha256": "26a4b275c3dfbc53104e4a10fd972b02f60f76490a03372be0612f926f165570",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

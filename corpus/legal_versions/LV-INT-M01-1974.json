@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-INT-M01-1974",
+  "instrument_id": "INT-M01",
+  "version_name": "SOLAS 1974 (Original)",
+  "effective_from": "1980-05-25",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-INT-M01-SOLAS-1974",
+  "source_sha256": "b51524edcbe010c61c38f2f8c9b332e89f4e3573eb65de543cebc4dbcb55b0d8",
+  "parent_instrument": null,
+  "implements": null
+}

@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M15-ART4",
+  "instrument_id": "INT-M15",
+  "version_id": "LV-INT-M15-2001",
+  "locator": "Article 4",
+  "title": "Controls on anti-fouling systems",
+  "domain": "ANTI_FOULING",
+  "provision_text": "No ship shall apply or re-apply organotin compounds which act as biocides in anti-fouing systems.",
+  "source_text": "No ship shall apply or re-apply organotin compounds which act as biocides in anti-fouing systems.",
+  "source_sha256": "093abcd77a08ab51a35daf8b12638ff85213d49e0417d81d9b89f125ae43cb9e",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

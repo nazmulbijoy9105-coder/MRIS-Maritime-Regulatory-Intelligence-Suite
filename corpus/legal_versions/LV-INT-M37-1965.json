@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-INT-M37-1965",
+  "instrument_id": "INT-M37",
+  "version_name": "FAL Convention 1965 (Original)",
+  "effective_from": "1967-03-05",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-INT-M37-FAL-1965",
+  "source_sha256": "ff24980677d8a87fe3ffdac06deb8b8214dd32b54b7748ca6ccc163ca849c3f0",
+  "parent_instrument": null,
+  "implements": null
+}

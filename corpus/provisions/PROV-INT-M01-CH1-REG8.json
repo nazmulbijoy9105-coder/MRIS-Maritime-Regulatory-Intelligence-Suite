@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M01-CH1-REG8",
+  "instrument_id": "INT-M01",
+  "version_id": "LV-INT-M01-1974",
+  "locator": "Ch I Reg 8",
+  "title": "Surveys",
+  "domain": "SURVEY",
+  "provision_text": "Every ship to which this chapter applies shall be subject to surveys by the Administration.",
+  "source_text": "Every ship to which this chapter applies shall be subject to surveys by the Administration.",
+  "source_sha256": "390abfbc9cc4983cb318e83682dbc6f74bbf2b313aa550cca9ca3905d9a8ec59",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

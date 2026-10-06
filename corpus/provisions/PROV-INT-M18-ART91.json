@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M18-ART91",
+  "instrument_id": "INT-M18",
+  "version_id": "LV-INT-M18-1982",
+  "locator": "Article 91",
+  "title": "Nationality of ships",
+  "domain": "FLAG_STATE",
+  "provision_text": "Every State shall fix the conditions for the grant of its nationality to ships, for the registration of ships in its territory, and for the right to fly its flag.",
+  "source_text": "Every State shall fix the conditions for the grant of its nationality to ships, for the registration of ships in its territory, and for the right to fly its flag.",
+  "source_sha256": "9335e2a1256014526165c1eddf1fe037be67b8635cb4348844cfc9a93c411df1",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

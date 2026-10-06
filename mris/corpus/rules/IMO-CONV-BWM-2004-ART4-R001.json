@@ -1,0 +1,16 @@
+{
+  "rule_id": "IMO-CONV-BWM-2004-ART4-R001",
+  "domain": "BALLAST_WATER",
+  "canonical_id": "INT-M14",
+  "focus": "Ballast water management requirements",
+  "layer": "L2",
+  "status": "ACTIVE",
+  "provision_id": "PROV-INT-M14-ART4",
+  "version_id": "LV-INT-M14-2004",
+  "source_id": "SRC-INT-M14-BWM-2004",
+  "source_sha256": "352ed80a01f195a9e64b2ea80215241dff500aab832803fc3962700d93795667",
+  "applicability": {
+    "flag": "ALL"
+  },
+  "evaluation_result": "UNKNOWN"
+}

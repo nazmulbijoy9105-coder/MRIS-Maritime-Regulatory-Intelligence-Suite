@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-INT-M40-1972",
+  "instrument_id": "INT-M40",
+  "version_name": "London Convention 1972 (Original)",
+  "effective_from": "1975-08-30",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-INT-M40-LONDON-1972",
+  "source_sha256": "15b10c5f614c3f96399b6304eb8de2952cc8599fd0ba6018a8ae3af26c36991d",
+  "parent_instrument": null,
+  "implements": null
+}

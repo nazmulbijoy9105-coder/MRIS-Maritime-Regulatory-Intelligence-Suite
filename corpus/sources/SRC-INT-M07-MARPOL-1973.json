@@ -1,0 +1,16 @@
+{
+  "source_id": "SRC-INT-M07-MARPOL-1973",
+  "source_type": "TREATY_DEPOSITARY",
+  "publisher": "IMO",
+  "official_title": "MARPOL 73/78",
+  "jurisdiction": "INTL",
+  "language": "en",
+  "publication_date": "1983-10-02",
+  "effective_date": "1983-10-02",
+  "official_url": null,
+  "retrieved_at": null,
+  "sha256": "b9b846d9552c10d356b3449f41bb6e51a8095b93297dd1fad8f43674a6870888",
+  "mime_type": "application/pdf",
+  "provenance": "Placeholder source record. Primary source document must be retrieved from the treaty depositary before verification.",
+  "verification_status": "REQUIRES_PRIMARY_VERIFICATION"
+}

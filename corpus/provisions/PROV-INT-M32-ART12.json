@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M32-ART12",
+  "instrument_id": "INT-M32",
+  "version_id": "LV-INT-M32-2010",
+  "locator": "Article 12",
+  "title": "Compensation for damage",
+  "domain": "COMPENSATION",
+  "provision_text": "The HNS Fund shall pay compensation to any person suffering damage in the territory of a State Party caused by hazardous and noxious substances.",
+  "source_text": "The HNS Fund shall pay compensation to any person suffering damage in the territory of a State Party caused by hazardous and noxious substances.",
+  "source_sha256": "6fbc9092c223b20a48f50e692fe8d449005775f3e5d413edd92665e75c7f5d12",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

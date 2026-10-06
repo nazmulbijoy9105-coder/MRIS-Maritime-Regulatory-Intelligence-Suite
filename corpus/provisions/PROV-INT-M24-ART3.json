@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M24-ART3",
+  "instrument_id": "INT-M24",
+  "version_id": "LV-INT-M24-1988",
+  "locator": "Article 3",
+  "title": "Offences",
+  "domain": "UNLAWFUL_ACTS",
+  "provision_text": "Any person commits an offence if that person unlawfully and intentionally seizes or exercises control over a ship by force or threat thereof.",
+  "source_text": "Any person commits an offence if that person unlawfully and intentionally seizes or exercises control over a ship by force or threat thereof.",
+  "source_sha256": "42340d3e037b3429dcf131f08617a9261245f7ee5418ba3d4d81ab7d875a47e1",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "IMO-CODE-ISM-SEC1-R001",
+  "domain": "SAFETY_MANAGEMENT",
+  "canonical_id": "INT-M22",
+  "focus": "General provisions",
+  "layer": "L2",
+  "status": "ACTIVE",
+  "provision_id": "PROV-INT-M22-SEC1",
+  "version_id": "LV-INT-M22-ISM",
+  "source_id": "SRC-INT-M22-ISM",
+  "source_sha256": "6a583caaccb8866ac1dbb3abc4539827dd980b82cc7dfe1ce6a47573ec16841a",
+  "applicability": {
+    "flag": "ALL",
+    "vessel_gt": 500
+  },
+  "evaluation_result": "UNKNOWN"
+}

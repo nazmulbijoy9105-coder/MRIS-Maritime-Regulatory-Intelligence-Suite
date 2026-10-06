@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M17-REG21",
+  "instrument_id": "INT-M17",
+  "version_id": "LV-INT-M17-2006",
+  "locator": "Reg 2.1",
+  "title": "Seafarer employment agreements",
+  "domain": "SEAFARER_RIGHTS",
+  "provision_text": "Each Member shall require that the terms and conditions of employment of seafarers are set out in a written seafarer employment agreement.",
+  "source_text": "Each Member shall require that the terms and conditions of employment of seafarers are set out in a written seafarer employment agreement.",
+  "source_sha256": "f2095456156f44906d9bdda1346bb73d5d945c9133942c9c0c6996ba9149fc5c",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

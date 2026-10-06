@@ -1,0 +1,16 @@
+{
+  "rule_id": "IMO-PROT-SOLAS-1988-ANNB-R001",
+  "domain": "CLASSIFICATION",
+  "canonical_id": "INT-M02",
+  "focus": "Harmless substances classification",
+  "layer": "L2",
+  "status": "ACTIVE",
+  "provision_id": "PROV-INT-M02-ANN-B",
+  "version_id": "LV-INT-M02-1988",
+  "source_id": "SRC-INT-M02-SOLAS-PROT-1988",
+  "source_sha256": "7d01087e6cbbfbad974c4002a726c6cd4bd717a1066679d4f7cb33cfa1a0bc0d",
+  "applicability": {
+    "flag": "ALL"
+  },
+  "evaluation_result": "UNKNOWN"
+}

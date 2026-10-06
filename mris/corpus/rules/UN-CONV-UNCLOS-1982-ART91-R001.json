@@ -1,0 +1,16 @@
+{
+  "rule_id": "UN-CONV-UNCLOS-1982-ART91-R001",
+  "domain": "FLAG_STATE",
+  "canonical_id": "INT-M18",
+  "focus": "Nationality of ships",
+  "layer": "L1",
+  "status": "ACTIVE",
+  "provision_id": "PROV-INT-M18-ART91",
+  "version_id": "LV-INT-M18-1982",
+  "source_id": "SRC-INT-M18-UNCLOS-1982",
+  "source_sha256": "b9e8cb572e83e5103c19df84dcf524ead6a5eac4b68aa4ebdff3d7062bdef473",
+  "applicability": {
+    "flag": "ALL"
+  },
+  "evaluation_result": "UNKNOWN"
+}

@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M14-ART4",
+  "instrument_id": "INT-M14",
+  "version_id": "LV-INT-M14-2004",
+  "locator": "Article 4",
+  "title": "Ballast water management requirements",
+  "domain": "BALLAST_WATER",
+  "provision_text": "Each Party shall require that ships entitled to fly its flag comply with the ballast water management requirements of this Convention.",
+  "source_text": "Each Party shall require that ships entitled to fly its flag comply with the ballast water management requirements of this Convention.",
+  "source_sha256": "3bc307c691979cd6ddedb01f55f7cc5a5b9ef9c8b6669ffd33eca4291aee7c87",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

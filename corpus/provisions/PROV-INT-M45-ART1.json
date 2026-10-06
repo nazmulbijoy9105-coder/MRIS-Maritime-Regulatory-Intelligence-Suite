@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M45-ART1",
+  "instrument_id": "INT-M45",
+  "version_id": "LV-INT-M45-1996",
+  "locator": "Article 1",
+  "title": "Updated limitation amounts",
+  "domain": "LIABILITY",
+  "provision_text": "This Protocol replaces the limits of liability set out in Article 6 of the Convention with updated amounts.",
+  "source_text": "This Protocol replaces the limits of liability set out in Article 6 of the Convention with updated amounts.",
+  "source_sha256": "65abca0e8e458fe96fe0be4b54638562ac9760646fb80540e707db96347a3856",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

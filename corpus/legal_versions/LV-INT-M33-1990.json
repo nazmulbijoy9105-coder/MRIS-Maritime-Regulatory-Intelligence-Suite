@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-INT-M33-1990",
+  "instrument_id": "INT-M33",
+  "version_name": "OPRC 1990 (Original)",
+  "effective_from": "1995-05-13",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-INT-M33-OPRC-1990",
+  "source_sha256": "36578972cc89f4002470b9ddca6a33045acb06bd248cce71de6bcc236877ac3b",
+  "parent_instrument": null,
+  "implements": null
+}

@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M04-ART3",
+  "instrument_id": "INT-M04",
+  "version_id": "LV-INT-M04-1988",
+  "locator": "Article 3",
+  "title": "Harmonized survey system",
+  "domain": "SURVEY",
+  "provision_text": "The protocol establishes a harmonized system of survey and certification to be applied in conjunction with SOLAS and MARPOL.",
+  "source_text": "The protocol establishes a harmonized system of survey and certification to be applied in conjunction with SOLAS and MARPOL.",
+  "source_sha256": "39e9244721bd2ebac6005d9c9a9ec2f9e062605552e2312b04ef9fade3124a7f",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

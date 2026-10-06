@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-INT-M30-1992",
+  "instrument_id": "INT-M30",
+  "version_name": "CLC 1992 (Original)",
+  "effective_from": "1996-05-30",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-INT-M30-CLC-1992",
+  "source_sha256": "ae6a1e49125697a2a62134c550b3b34f32a43d58f10a3207200aa9701916bc3d",
+  "parent_instrument": null,
+  "implements": null
+}

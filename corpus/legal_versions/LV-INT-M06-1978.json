@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-INT-M06-1978",
+  "instrument_id": "INT-M06",
+  "version_name": "STCW 1978 (Original)",
+  "effective_from": "1984-04-28",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-INT-M06-STCW-1978",
+  "source_sha256": "b26321fe02688d3393750eee5f2f6a2c89487377fb9b9a146b86e7c9436e8c80",
+  "parent_instrument": null,
+  "implements": null
+}

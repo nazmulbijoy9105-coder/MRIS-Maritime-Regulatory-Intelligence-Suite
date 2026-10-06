@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-INT-M42-1999",
+  "instrument_id": "INT-M42",
+  "version_name": "Arrest Convention 1999 (Original)",
+  "effective_from": "2004-09-14",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-INT-M42-ARREST-1999",
+  "source_sha256": "d987812e531fc2be9e0d3e04ec4e7ab108a0dcd530beb80edb0e2523e4b27c79",
+  "parent_instrument": null,
+  "implements": null
+}

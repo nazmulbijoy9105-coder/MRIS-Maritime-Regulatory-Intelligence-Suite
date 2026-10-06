@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M07-ANIII-REG4",
+  "instrument_id": "INT-M10",
+  "version_id": "LV-INT-M07-MARPOL-ANNEX-III",
+  "locator": "Annex III Reg 4",
+  "title": "Packaging requirements",
+  "domain": "PACKAGING",
+  "provision_text": "Harmful substances shall be properly packaged and marked to minimize hazards to the marine environment.",
+  "source_text": "Harmful substances shall be properly packaged and marked to minimize hazards to the marine environment.",
+  "source_sha256": "ff39890e1e63387110cc371f0f7a46ecc97ab3f480d5c363e78fc58bb36168ed",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

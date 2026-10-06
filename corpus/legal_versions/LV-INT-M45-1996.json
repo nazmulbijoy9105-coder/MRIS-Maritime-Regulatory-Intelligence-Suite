@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-INT-M45-1996",
+  "instrument_id": "INT-M45",
+  "version_name": "LLMC Protocol 1996 (Original)",
+  "effective_from": "2004-05-13",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-INT-M45-LLMC-PROT-1996",
+  "source_sha256": "a1acb368211c8cfc3cbafc606e03adc90ac270f27d6a6f5b62dd72c25f45a2a3",
+  "parent_instrument": "INT-M19",
+  "implements": null
+}

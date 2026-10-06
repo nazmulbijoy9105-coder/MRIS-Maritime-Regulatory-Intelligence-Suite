@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M39-ART1",
+  "instrument_id": "INT-M39",
+  "version_id": "LV-INT-M39-1969",
+  "locator": "Article 1",
+  "title": "Right of intervention",
+  "domain": "INTERVENTION",
+  "provision_text": "Parties to the Convention may take such measures on the high seas as may be necessary to prevent, mitigate or eliminate grave and imminent danger to their coastline from oil pollution.",
+  "source_text": "Parties to the Convention may take such measures on the high seas as may be necessary to prevent, mitigate or eliminate grave and imminent danger to their coastline from oil pollution.",
+  "source_sha256": "f72087fa282d0760db15307ca699e3e264498692ff449b0e0fe86f7c1cf4c805",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

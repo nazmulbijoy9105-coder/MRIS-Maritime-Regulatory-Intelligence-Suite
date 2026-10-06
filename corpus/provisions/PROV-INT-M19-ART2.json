@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M19-ART2",
+  "instrument_id": "INT-M19",
+  "version_id": "LV-INT-M19-1976",
+  "locator": "Article 2",
+  "title": "Limits of liability",
+  "domain": "LIABILITY",
+  "provision_text": "The limit of liability for claims other than passenger claims shall be calculated by reference to the tonnage of the ship.",
+  "source_text": "The limit of liability for claims other than passenger claims shall be calculated by reference to the tonnage of the ship.",
+  "source_sha256": "db6b8302c5fae68eb0e6e82527df9cc55560c86598f0a2970cfe94393454affc",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

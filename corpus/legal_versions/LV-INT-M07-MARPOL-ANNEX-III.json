@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-INT-M07-MARPOL-ANNEX-III",
+  "instrument_id": "INT-M10",
+  "version_name": "MARPOL Annex III (Original)",
+  "effective_from": "1992-07-01",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-INT-M07-MARPOL-ANIII",
+  "source_sha256": "9ff1fcdb118d3e3f3f8f9d9d3c02c1ae3d4bbaeb6543ebf0b0d20e19a37b2117",
+  "parent_instrument": "INT-M07",
+  "implements": null
+}

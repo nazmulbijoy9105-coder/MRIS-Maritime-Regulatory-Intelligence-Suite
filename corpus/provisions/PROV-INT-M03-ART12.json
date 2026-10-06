@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M03-ART12",
+  "instrument_id": "INT-M03",
+  "version_id": "LV-INT-M03-1966",
+  "locator": "Article 12",
+  "title": "Load line assignment",
+  "domain": "LOADLINE",
+  "provision_text": "No ship shall sail without a valid International Load Line Certificate issued by the Administration or a recognized organization.",
+  "source_text": "No ship shall sail without a valid International Load Line Certificate issued by the Administration or a recognized organization.",
+  "source_sha256": "231e121ee852e7de14916e483cdf4c864f41f5eb9a03cb4d7ca0a33c2c0cf7c2",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

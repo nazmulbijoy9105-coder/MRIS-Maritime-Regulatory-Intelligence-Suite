@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-INT-M07-1973",
+  "instrument_id": "INT-M07",
+  "version_name": "MARPOL 73/78 (Original)",
+  "effective_from": "1983-10-02",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-INT-M07-MARPOL-1973",
+  "source_sha256": "b9b846d9552c10d356b3449f41bb6e51a8095b93297dd1fad8f43674a6870888",
+  "parent_instrument": null,
+  "implements": null
+}

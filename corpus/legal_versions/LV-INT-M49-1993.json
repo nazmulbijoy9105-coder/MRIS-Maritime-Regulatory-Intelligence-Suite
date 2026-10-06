@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-INT-M49-1993",
+  "instrument_id": "INT-M49",
+  "version_name": "SFV / Torremolinos Protocol 1993 (Original)",
+  "effective_from": "Not yet in force",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-INT-M49-SFV-1993",
+  "source_sha256": "c2ca731f167b261c12aaeba1de8d84a412849561d8b0d8c4712d631d1bdf4155",
+  "parent_instrument": null,
+  "implements": null
+}

@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M01-CH3-REG7",
+  "instrument_id": "INT-M01",
+  "version_id": "LV-INT-M01-1974",
+  "locator": "Ch III Reg 7",
+  "title": "Life-saving appliances",
+  "domain": "LIFE_SAVING",
+  "provision_text": "Every ship shall carry life-saving appliances appropriate to the ship type and voyage as prescribed in this chapter.",
+  "source_text": "Every ship shall carry life-saving appliances appropriate to the ship type and voyage as prescribed in this chapter.",
+  "source_sha256": "987440e56c49bb3f97e381cf2a059a5df5fe507ed4c24b8f0528bcf77d0e81f7",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

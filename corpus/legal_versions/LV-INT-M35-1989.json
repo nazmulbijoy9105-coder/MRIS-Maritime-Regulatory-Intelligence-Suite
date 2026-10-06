@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-INT-M35-1989",
+  "instrument_id": "INT-M35",
+  "version_name": "Salvage Convention 1989 (Original)",
+  "effective_from": "1996-07-14",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-INT-M35-SALVAGE-1989",
+  "source_sha256": "9191f5f20980577d98d75d6dd58a309cff88fd906a7bc39056f3081b5f95f073",
+  "parent_instrument": null,
+  "implements": null
+}

@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M49-CH3",
+  "instrument_id": "INT-M49",
+  "version_id": "LV-INT-M49-1993",
+  "locator": "Chapter 3",
+  "title": "Fishing vessel construction",
+  "domain": "FISHING_VESSEL_SAFETY",
+  "provision_text": "The construction, hull structure and stability of fishing vessels shall comply with the requirements prescribed in this Chapter.",
+  "source_text": "The construction, hull structure and stability of fishing vessels shall comply with the requirements prescribed in this Chapter.",
+  "source_sha256": "594bbe7ac65c74e5a4ced9d0414fd619753bc13d43a909aed32e8f0c69f1cf6c",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

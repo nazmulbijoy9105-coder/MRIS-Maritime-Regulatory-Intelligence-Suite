@@ -1,0 +1,17 @@
+{
+  "rule_id": "IMO-CODE-ISPS-SEC5-R001",
+  "domain": "SHIP_SECURITY",
+  "canonical_id": "INT-M23",
+  "focus": "Ship Security Assessment",
+  "layer": "L2",
+  "status": "ACTIVE",
+  "provision_id": "PROV-INT-M23-PA-SEC5",
+  "version_id": "LV-INT-M23-ISPS",
+  "source_id": "SRC-INT-M23-ISPS",
+  "source_sha256": "4dda3489afef9dd4bc27d48500ca0372746f6df1f223af43536c0e90700e8003",
+  "applicability": {
+    "flag": "ALL",
+    "vessel_gt": 500
+  },
+  "evaluation_result": "UNKNOWN"
+}

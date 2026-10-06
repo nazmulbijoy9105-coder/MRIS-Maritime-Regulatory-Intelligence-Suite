@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M28-ART3",
+  "instrument_id": "INT-M28",
+  "version_id": "LV-INT-M28-1976",
+  "locator": "Article 3",
+  "title": "Organization purpose",
+  "domain": "SATELLITE_COMMS",
+  "provision_text": "The Organization shall provide mobile satellite communication services for maritime purposes including distress and safety communications.",
+  "source_text": "The Organization shall provide mobile satellite communication services for maritime purposes including distress and safety communications.",
+  "source_sha256": "f7436c4f705518ba09dcb05a312f9d3709b516609051d313d7ba843c1a3f8135",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

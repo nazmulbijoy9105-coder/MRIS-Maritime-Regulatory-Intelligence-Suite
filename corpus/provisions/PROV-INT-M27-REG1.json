@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M27-REG1",
+  "instrument_id": "INT-M27",
+  "version_id": "LV-INT-M27-1973",
+  "locator": "Regulation 1",
+  "title": "Space requirements",
+  "domain": "PASSENGER_SAFETY",
+  "provision_text": "Space requirements for passengers on special trade passenger ships shall be in accordance with the provisions of this Protocol.",
+  "source_text": "Space requirements for passengers on special trade passenger ships shall be in accordance with the provisions of this Protocol.",
+  "source_sha256": "fc574afe3b033f0c189e88a755ca4085fef7a61bf62ca39bf52d7133f1d37a92",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

@@ -1,0 +1,16 @@
+{
+  "rule_id": "IMO-CONV-IMSO-1976-ART03-R001",
+  "domain": "SATELLITE_COMMS",
+  "canonical_id": "INT-M28",
+  "focus": "Organization purpose",
+  "layer": "L3",
+  "status": "ACTIVE",
+  "provision_id": "PROV-INT-M28-ART3",
+  "version_id": "LV-INT-M28-1976",
+  "source_id": "SRC-INT-M28-IMSO-1976",
+  "source_sha256": "4725ea662215cfeb67d4db89e9d8a1a224bb1fe795fcac98d6888ce74696ab90",
+  "applicability": {
+    "jurisdiction": "ALL"
+  },
+  "evaluation_result": "UNKNOWN"
+}

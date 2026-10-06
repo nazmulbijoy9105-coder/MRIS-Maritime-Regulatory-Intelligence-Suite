@@ -1,0 +1,17 @@
+{
+  "rule_id": "IMO-CONV-STCW-1978-REGII2-R001",
+  "domain": "CERTIFICATION",
+  "canonical_id": "INT-M06",
+  "focus": "Master and chief mate",
+  "layer": "L2",
+  "status": "ACTIVE",
+  "provision_id": "PROV-INT-M06-REG-II2",
+  "version_id": "LV-INT-M06-1978",
+  "source_id": "SRC-INT-M06-STCW-1978",
+  "source_sha256": "b26321fe02688d3393750eee5f2f6a2c89487377fb9b9a146b86e7c9436e8c80",
+  "applicability": {
+    "flag": "ALL",
+    "seafarer": "MASTER"
+  },
+  "evaluation_result": "UNKNOWN"
+}

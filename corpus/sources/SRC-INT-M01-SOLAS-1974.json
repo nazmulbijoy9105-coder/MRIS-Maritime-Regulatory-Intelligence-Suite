@@ -1,0 +1,16 @@
+{
+  "source_id": "SRC-INT-M01-SOLAS-1974",
+  "source_type": "TREATY_DEPOSITARY",
+  "publisher": "IMO",
+  "official_title": "SOLAS 1974",
+  "jurisdiction": "INTL",
+  "language": "en",
+  "publication_date": "1980-05-25",
+  "effective_date": "1980-05-25",
+  "official_url": null,
+  "retrieved_at": null,
+  "sha256": "b51524edcbe010c61c38f2f8c9b332e89f4e3573eb65de543cebc4dbcb55b0d8",
+  "mime_type": "application/pdf",
+  "provenance": "Placeholder source record. Primary source document must be retrieved from the treaty depositary before verification.",
+  "verification_status": "REQUIRES_PRIMARY_VERIFICATION"
+}

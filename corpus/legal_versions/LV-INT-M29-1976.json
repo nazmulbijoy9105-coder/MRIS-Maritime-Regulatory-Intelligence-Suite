@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-INT-M29-1976",
+  "instrument_id": "INT-M29",
+  "version_name": "INMARSAT Agreement 1976 (Original)",
+  "effective_from": "1979-07-16",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-INT-M29-INMARSAT-1976",
+  "source_sha256": "aa06f017475ea9bf4058d955ddfbf1d0e12c4d3e3801afc021489d64f362368e",
+  "parent_instrument": null,
+  "implements": null
+}

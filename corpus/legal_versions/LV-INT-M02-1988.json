@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-INT-M02-1988",
+  "instrument_id": "INT-M02",
+  "version_name": "SOLAS 1988 Protocol (Original)",
+  "effective_from": "2000-01-01",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-INT-M02-SOLAS-PROT-1988",
+  "source_sha256": "7d01087e6cbbfbad974c4002a726c6cd4bd717a1066679d4f7cb33cfa1a0bc0d",
+  "parent_instrument": "INT-M01",
+  "implements": null
+}

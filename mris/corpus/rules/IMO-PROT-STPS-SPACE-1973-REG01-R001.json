@@ -1,0 +1,16 @@
+{
+  "rule_id": "IMO-PROT-STPS-SPACE-1973-REG01-R001",
+  "domain": "PASSENGER_SAFETY",
+  "canonical_id": "INT-M27",
+  "focus": "Space requirements",
+  "layer": "L2",
+  "status": "ACTIVE",
+  "provision_id": "PROV-INT-M27-REG1",
+  "version_id": "LV-INT-M27-1973",
+  "source_id": "SRC-INT-M27-STPS-PROT-1973",
+  "source_sha256": "37aa01b32d1b922004af9e833d5ea590557989453eccc9b2ec75e9d7b79377c7",
+  "applicability": {
+    "vessel_type": "STPS"
+  },
+  "evaluation_result": "UNKNOWN"
+}

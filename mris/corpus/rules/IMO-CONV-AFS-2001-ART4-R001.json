@@ -1,0 +1,17 @@
+{
+  "rule_id": "IMO-CONV-AFS-2001-ART4-R001",
+  "domain": "ANTI_FOULING",
+  "canonical_id": "INT-M15",
+  "focus": "Controls on anti-fouling systems",
+  "layer": "L2",
+  "status": "ACTIVE",
+  "provision_id": "PROV-INT-M15-ART4",
+  "version_id": "LV-INT-M15-2001",
+  "source_id": "SRC-INT-M15-AFS-2001",
+  "source_sha256": "6caa91060c8ef67468e7ac6f1b2c78366a070af7f66c9b5cc65621627d460ad1",
+  "applicability": {
+    "flag": "ALL",
+    "vessel_gt": 400
+  },
+  "evaluation_result": "UNKNOWN"
+}

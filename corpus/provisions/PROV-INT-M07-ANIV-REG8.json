@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M07-ANIV-REG8",
+  "instrument_id": "INT-M11",
+  "version_id": "LV-INT-M07-MARPOL-ANNEX-IV",
+  "locator": "Annex IV Reg 8",
+  "title": "Sewage systems",
+  "domain": "SEWAGE",
+  "provision_text": "Every ship of 400 GT and above or ships certified to carry more than 15 persons shall be equipped with a sewage treatment plant or holding tank.",
+  "source_text": "Every ship of 400 GT and above or ships certified to carry more than 15 persons shall be equipped with a sewage treatment plant or holding tank.",
+  "source_sha256": "79810657ee9191292fe343310f49104487d651260a100846524c63d60539e99d",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

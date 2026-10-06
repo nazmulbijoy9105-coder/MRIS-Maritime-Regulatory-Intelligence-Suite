@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-INT-M04-1988",
+  "instrument_id": "INT-M04",
+  "version_name": "Load Lines 1988 Protocol (Original)",
+  "effective_from": "2000-01-01",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-INT-M04-LL-PROT-1988",
+  "source_sha256": "d765ca19557daa700c75df219a1f08e1dcabad95a2eef6a07036264294130b63",
+  "parent_instrument": "INT-M03",
+  "implements": null
+}

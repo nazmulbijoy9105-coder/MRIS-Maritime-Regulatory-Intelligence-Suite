@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M17-REG43",
+  "instrument_id": "INT-M17",
+  "version_id": "LV-INT-M17-2006",
+  "locator": "Reg 4.3",
+  "title": "Health and safety protection",
+  "domain": "HEALTH_SAFETY",
+  "provision_text": "Each Member shall ensure that seafarers on ships flying its flag are provided with health and safety protection and accident prevention measures.",
+  "source_text": "Each Member shall ensure that seafarers on ships flying its flag are provided with health and safety protection and accident prevention measures.",
+  "source_sha256": "b7f162dc848e43df513c1e21641c8915ca5d8fd29943a6aabd6b193c97c83863",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

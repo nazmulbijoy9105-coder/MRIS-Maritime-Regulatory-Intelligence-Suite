@@ -1,0 +1,9 @@
+{
+  "amendment_id": "AMEND-INT-M01-INT-M51",
+  "parent_instrument": "INT-M01",
+  "amending_instrument": "INT-M51",
+  "amendment_type": "MODIFIES",
+  "effective_date": "1999-02-01",
+  "version_id": "LV-INT-M51-GMDSS",
+  "notes": "GMDSS / SOLAS Chapter IV amends or supplements INT-M01"
+}

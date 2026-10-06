@@ -1,0 +1,17 @@
+{
+  "rule_id": "IMO-PROT-OPRC-HNS-2000-ART03-R001",
+  "domain": "PREPAREDNESS",
+  "canonical_id": "INT-M34",
+  "focus": "HNS pollution preparedness",
+  "layer": "L2",
+  "status": "ACTIVE",
+  "provision_id": "PROV-INT-M34-ART3",
+  "version_id": "LV-INT-M34-2000",
+  "source_id": "SRC-INT-M34-OPRC-HNS-2000",
+  "source_sha256": "6e61e12c528d076d87a4491c7ba89bb9acd3773b49ffb1e590a702e215140f26",
+  "applicability": {
+    "flag": "ALL",
+    "cargo": "HNS"
+  },
+  "evaluation_result": "UNKNOWN"
+}

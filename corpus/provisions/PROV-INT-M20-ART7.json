@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M20-ART7",
+  "instrument_id": "INT-M20",
+  "version_id": "LV-INT-M20-2001",
+  "locator": "Article 7",
+  "title": "Compulsory insurance",
+  "domain": "INSURANCE",
+  "provision_text": "The registered owner of a sea-going ship having a gross tonnage greater than 1000 shall be required to maintain insurance or other financial security to cover liability for bunker oil pollution damage.",
+  "source_text": "The registered owner of a sea-going ship having a gross tonnage greater than 1000 shall be required to maintain insurance or other financial security to cover liability for bunker oil pollution damage.",
+  "source_sha256": "c02adc7da1ed430a0250ac53870fe1f7818d2f16100b56eed714a93cb617222f",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

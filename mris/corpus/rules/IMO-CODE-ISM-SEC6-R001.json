@@ -1,0 +1,17 @@
+{
+  "rule_id": "IMO-CODE-ISM-SEC6-R001",
+  "domain": "SMS",
+  "canonical_id": "INT-M22",
+  "focus": "Safety Management System",
+  "layer": "L2",
+  "status": "ACTIVE",
+  "provision_id": "PROV-INT-M22-SEC6",
+  "version_id": "LV-INT-M22-ISM",
+  "source_id": "SRC-INT-M22-ISM",
+  "source_sha256": "6a583caaccb8866ac1dbb3abc4539827dd980b82cc7dfe1ce6a47573ec16841a",
+  "applicability": {
+    "flag": "ALL",
+    "vessel_gt": 500
+  },
+  "evaluation_result": "UNKNOWN"
+}

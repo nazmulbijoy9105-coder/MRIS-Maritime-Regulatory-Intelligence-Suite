@@ -1,0 +1,17 @@
+{
+  "rule_id": "IMO-CONV-MARPOL-73-78-ANIII-REG4-R001",
+  "domain": "PACKAGING",
+  "canonical_id": "INT-M10",
+  "focus": "Packaging requirements",
+  "layer": "L2",
+  "status": "ACTIVE",
+  "provision_id": "PROV-INT-M07-ANIII-REG4",
+  "version_id": "LV-INT-M07-MARPOL-ANNEX-III",
+  "source_id": "SRC-INT-M07-MARPOL-ANIII",
+  "source_sha256": "9ff1fcdb118d3e3f3f8f9d9d3c02c1ae3d4bbaeb6543ebf0b0d20e19a37b2117",
+  "applicability": {
+    "flag": "ALL",
+    "cargo": "HARMFUL_PACKAGED"
+  },
+  "evaluation_result": "UNKNOWN"
+}

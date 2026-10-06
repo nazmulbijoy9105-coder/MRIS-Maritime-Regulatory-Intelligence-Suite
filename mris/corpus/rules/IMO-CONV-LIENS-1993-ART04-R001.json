@@ -1,0 +1,16 @@
+{
+  "rule_id": "IMO-CONV-LIENS-1993-ART04-R001",
+  "domain": "MARITIME_LIENS",
+  "canonical_id": "INT-M43",
+  "focus": "Maritime liens",
+  "layer": "L3",
+  "status": "ACTIVE",
+  "provision_id": "PROV-INT-M43-ART4",
+  "version_id": "LV-INT-M43-1993",
+  "source_id": "SRC-INT-M43-LIENS-1993",
+  "source_sha256": "2c9cc36dfb8d9837069c340e38996a14d625d919517029a8286ac6c23f05957e",
+  "applicability": {
+    "jurisdiction": "ALL"
+  },
+  "evaluation_result": "UNKNOWN"
+}

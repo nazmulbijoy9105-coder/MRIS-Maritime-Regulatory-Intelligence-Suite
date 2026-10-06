@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M24-ART6",
+  "instrument_id": "INT-M24",
+  "version_id": "LV-INT-M24-1988",
+  "locator": "Article 6",
+  "title": "Jurisdiction",
+  "domain": "JURISDICTION",
+  "provision_text": "Each Party shall take such measures as may be necessary to establish its jurisdiction over the offences set forth in Article 3.",
+  "source_text": "Each Party shall take such measures as may be necessary to establish its jurisdiction over the offences set forth in Article 3.",
+  "source_sha256": "195adf49a93a4e2ae819dee30f4ba6a33aebf53cf0b7a75694c1645aaa43c4c5",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

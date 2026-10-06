@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-INT-M18-1982",
+  "instrument_id": "INT-M18",
+  "version_name": "UNCLOS 1982 (Original)",
+  "effective_from": "1994-11-16",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-INT-M18-UNCLOS-1982",
+  "source_sha256": "b9e8cb572e83e5103c19df84dcf524ead6a5eac4b68aa4ebdff3d7062bdef473",
+  "parent_instrument": null,
+  "implements": null
+}

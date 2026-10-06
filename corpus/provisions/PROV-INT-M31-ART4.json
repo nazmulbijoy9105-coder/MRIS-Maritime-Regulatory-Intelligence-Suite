@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M31-ART4",
+  "instrument_id": "INT-M31",
+  "version_id": "LV-INT-M31-1992",
+  "locator": "Article 4",
+  "title": "Compensation fund",
+  "domain": "COMPENSATION",
+  "provision_text": "The Fund shall pay compensation to any person suffering pollution damage if such person has been unable to obtain full compensation under the CLC.",
+  "source_text": "The Fund shall pay compensation to any person suffering pollution damage if such person has been unable to obtain full compensation under the CLC.",
+  "source_sha256": "77b4de5130b09ba9177a9d1b999160e460fbc20727b9abd0e40a800372f00589",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

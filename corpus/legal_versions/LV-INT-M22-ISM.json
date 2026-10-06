@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-INT-M22-ISM",
+  "instrument_id": "INT-M22",
+  "version_name": "ISM Code (Original)",
+  "effective_from": "1998-07-01",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-INT-M22-ISM",
+  "source_sha256": "6a583caaccb8866ac1dbb3abc4539827dd980b82cc7dfe1ce6a47573ec16841a",
+  "parent_instrument": null,
+  "implements": null
+}

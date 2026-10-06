@@ -1,0 +1,17 @@
+{
+  "rule_id": "IMO-AGREE-CAPETOWN-2012-CH2-R001",
+  "domain": "FISHING_VESSEL_SAFETY",
+  "canonical_id": "INT-M48",
+  "focus": "Fishing vessel safety requirements",
+  "layer": "L2",
+  "status": "ACTIVE",
+  "provision_id": "PROV-INT-M48-CH2",
+  "version_id": "LV-INT-M48-2012",
+  "source_id": "SRC-INT-M48-CAPETOWN-2012",
+  "source_sha256": "ef1ce7a22067efa6021f306905d2d3594eacca1b939d8dbd860ee56a2763339c",
+  "applicability": {
+    "vessel_type": "FISHING",
+    "vessel_loa": 24
+  },
+  "evaluation_result": "UNKNOWN"
+}

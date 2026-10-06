@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-INT-M15-2001",
+  "instrument_id": "INT-M15",
+  "version_name": "AFS 2001 (Original)",
+  "effective_from": "2008-09-17",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-INT-M15-AFS-2001",
+  "source_sha256": "6caa91060c8ef67468e7ac6f1b2c78366a070af7f66c9b5cc65621627d460ad1",
+  "parent_instrument": null,
+  "implements": null
+}

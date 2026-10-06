@@ -1,0 +1,16 @@
+{
+  "rule_id": "IMO-CONV-INTERVENTION-1969-ART01-R001",
+  "domain": "INTERVENTION",
+  "canonical_id": "INT-M39",
+  "focus": "Right of intervention",
+  "layer": "L3",
+  "status": "ACTIVE",
+  "provision_id": "PROV-INT-M39-ART1",
+  "version_id": "LV-INT-M39-1969",
+  "source_id": "SRC-INT-M39-INTERVENTION-1969",
+  "source_sha256": "183a23b6429422db18b1924e6b6b3eb75aca252406a2401e5b6efd3ff6f8f398",
+  "applicability": {
+    "jurisdiction": "COASTAL"
+  },
+  "evaluation_result": "UNKNOWN"
+}

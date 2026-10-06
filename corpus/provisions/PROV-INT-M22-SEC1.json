@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M22-SEC1",
+  "instrument_id": "INT-M22",
+  "version_id": "LV-INT-M22-ISM",
+  "locator": "Section 1",
+  "title": "General provisions",
+  "domain": "SAFETY_MANAGEMENT",
+  "provision_text": "The objectives of the ISM Code are to ensure safety at sea, prevention of human injury or loss of life, and avoidance of damage to the environment.",
+  "source_text": "The objectives of the ISM Code are to ensure safety at sea, prevention of human injury or loss of life, and avoidance of damage to the environment.",
+  "source_sha256": "1264a0610880c84f8ac3ff0868c3a902e8a2afb221baa15ead0439408c708474",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

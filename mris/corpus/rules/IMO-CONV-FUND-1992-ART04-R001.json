@@ -1,0 +1,16 @@
+{
+  "rule_id": "IMO-CONV-FUND-1992-ART04-R001",
+  "domain": "COMPENSATION",
+  "canonical_id": "INT-M31",
+  "focus": "Compensation fund",
+  "layer": "L3",
+  "status": "ACTIVE",
+  "provision_id": "PROV-INT-M31-ART4",
+  "version_id": "LV-INT-M31-1992",
+  "source_id": "SRC-INT-M31-FUND-1992",
+  "source_sha256": "0d01b71eba8a5bddc988c2aef25ab80f8d17b78d04a3c4c202da85c8f287fed9",
+  "applicability": {
+    "jurisdiction": "ALL"
+  },
+  "evaluation_result": "UNKNOWN"
+}

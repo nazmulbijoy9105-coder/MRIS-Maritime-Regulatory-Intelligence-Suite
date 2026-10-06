@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M29-ART3",
+  "instrument_id": "INT-M29",
+  "version_id": "LV-INT-M29-1976",
+  "locator": "Article 3",
+  "title": "System operation",
+  "domain": "SATELLITE_COMMS",
+  "provision_text": "The INMARSAT system shall provide space segment for maritime satellite communications for distress, urgency and safety communications.",
+  "source_text": "The INMARSAT system shall provide space segment for maritime satellite communications for distress, urgency and safety communications.",
+  "source_sha256": "d9613aa6e156b391ae697cedbb2443e1e8c1698d47d05ff4d47bbfea6903e9d9",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

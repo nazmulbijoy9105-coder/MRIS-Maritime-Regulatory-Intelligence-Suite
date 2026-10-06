@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M25-ART2",
+  "instrument_id": "INT-M25",
+  "version_id": "LV-INT-M25-1988",
+  "locator": "Article 2",
+  "title": "Offences against fixed platforms",
+  "domain": "UNLAWFUL_ACTS",
+  "provision_text": "Any person commits an offence if that person unlawfully and intentionally seizes or exercises control over a fixed platform by force or threat thereof.",
+  "source_text": "Any person commits an offence if that person unlawfully and intentionally seizes or exercises control over a fixed platform by force or threat thereof.",
+  "source_sha256": "31bb2c7004bc84cb5caf96920a1321338e5700fc83d542238f259cae9b8762c9",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

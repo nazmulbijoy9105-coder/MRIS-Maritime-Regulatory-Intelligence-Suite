@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M18-ART217",
+  "instrument_id": "INT-M18",
+  "version_id": "LV-INT-M18-1982",
+  "locator": "Article 217",
+  "title": "Enforcement by flag States",
+  "domain": "ENFORCEMENT",
+  "provision_text": "States shall ensure compliance by ships flying their flag with applicable international rules and standards and shall adopt laws and regulations for that purpose.",
+  "source_text": "States shall ensure compliance by ships flying their flag with applicable international rules and standards and shall adopt laws and regulations for that purpose.",
+  "source_sha256": "c3c57156783a044c4ea69ed83375dad2c69f8db2867b138c03f5731dc48660d2",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

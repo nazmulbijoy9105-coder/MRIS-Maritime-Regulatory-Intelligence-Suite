@@ -1,0 +1,16 @@
+{
+  "source_id": "SRC-INT-M07-MARPOL-ANIII",
+  "source_type": "TREATY_DEPOSITARY",
+  "publisher": "IMO",
+  "official_title": "MARPOL Annex III",
+  "jurisdiction": "INTL",
+  "language": "en",
+  "publication_date": "1992-07-01",
+  "effective_date": "1992-07-01",
+  "official_url": null,
+  "retrieved_at": null,
+  "sha256": "9ff1fcdb118d3e3f3f8f9d9d3c02c1ae3d4bbaeb6543ebf0b0d20e19a37b2117",
+  "mime_type": "application/pdf",
+  "provenance": "Placeholder source record. Primary source document must be retrieved from the treaty depositary before verification.",
+  "verification_status": "REQUIRES_PRIMARY_VERIFICATION"
+}

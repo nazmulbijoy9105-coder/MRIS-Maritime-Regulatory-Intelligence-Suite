@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-INT-M05-1972",
+  "instrument_id": "INT-M05",
+  "version_name": "COLREG 1972 (Original)",
+  "effective_from": "1977-07-15",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-INT-M05-COLREG-1972",
+  "source_sha256": "422235b0993cb414ae484599050c737cc4023469dd03e5b15469bff996eabfae",
+  "parent_instrument": null,
+  "implements": null
+}

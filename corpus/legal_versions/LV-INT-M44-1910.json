@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-INT-M44-1910",
+  "instrument_id": "INT-M44",
+  "version_name": "Collision Convention 1910 (Original)",
+  "effective_from": "1913-03-01",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-INT-M44-COLLISION-1910",
+  "source_sha256": "6150f449ea830d06fd66dfd5871f89c8604c4036061afac71809953b7a74fe15",
+  "parent_instrument": null,
+  "implements": null
+}

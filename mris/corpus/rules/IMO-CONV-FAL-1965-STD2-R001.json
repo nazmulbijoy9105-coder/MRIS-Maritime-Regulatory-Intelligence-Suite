@@ -1,9 +1,17 @@
 {
   "rule_id": "IMO-CONV-FAL-1965-STD2-R001",
   "domain": "FACILITATION",
-  "formal_instrument_id": "IMO-CONV-FAL-1965",
   "canonical_id": "INT-M37",
-  "focus": "Std 2 Arrival docs",
-  "layer": "L2/L4",
-  "status": "PLANNED"
+  "focus": "Arrival documents",
+  "layer": "L2",
+  "status": "ACTIVE",
+  "provision_id": "PROV-INT-M37-STD2",
+  "version_id": "LV-INT-M37-1965",
+  "source_id": "SRC-INT-M37-FAL-1965",
+  "source_sha256": "ff24980677d8a87fe3ffdac06deb8b8214dd32b54b7748ca6ccc163ca849c3f0",
+  "applicability": {
+    "flag": "ALL",
+    "operation": "PORT_CALL"
+  },
+  "evaluation_result": "UNKNOWN"
 }

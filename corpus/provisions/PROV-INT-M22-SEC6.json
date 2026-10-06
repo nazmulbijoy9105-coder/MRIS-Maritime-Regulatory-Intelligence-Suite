@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M22-SEC6",
+  "instrument_id": "INT-M22",
+  "version_id": "LV-INT-M22-ISM",
+  "locator": "Section 6",
+  "title": "Safety Management System",
+  "domain": "SMS",
+  "provision_text": "Every company shall develop, implement and maintain a Safety Management System which includes a safety and environmental protection policy.",
+  "source_text": "Every company shall develop, implement and maintain a Safety Management System which includes a safety and environmental protection policy.",
+  "source_sha256": "a6f4500dad70e92e07e83bac547537e6214cfe997fa6bc072c0ca16d9bfc5f59",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

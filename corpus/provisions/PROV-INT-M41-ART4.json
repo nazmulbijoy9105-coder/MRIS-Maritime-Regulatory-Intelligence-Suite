@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M41-ART4",
+  "instrument_id": "INT-M41",
+  "version_id": "LV-INT-M41-1974",
+  "locator": "Article 4",
+  "title": "Carrier liability for passengers",
+  "domain": "PASSENGER_LIABILITY",
+  "provision_text": "The carrier shall be liable for damage suffered by a passenger if the incident causing the damage occurred in the course of the carriage.",
+  "source_text": "The carrier shall be liable for damage suffered by a passenger if the incident causing the damage occurred in the course of the carriage.",
+  "source_sha256": "a4f268b38fa615a55798001fa3a3934cfe60d7d6047de9064c373a0b1db42b4c",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

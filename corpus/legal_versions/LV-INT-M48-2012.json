@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-INT-M48-2012",
+  "instrument_id": "INT-M48",
+  "version_name": "Cape Town Agreement 2012 (Original)",
+  "effective_from": "Not yet in force",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-INT-M48-CAPETOWN-2012",
+  "source_sha256": "ef1ce7a22067efa6021f306905d2d3594eacca1b939d8dbd860ee56a2763339c",
+  "parent_instrument": null,
+  "implements": null
+}

@@ -1,0 +1,16 @@
+{
+  "rule_id": "IMO-CONV-LONDON-1972-ART04-R001",
+  "domain": "DUMPING",
+  "canonical_id": "INT-M40",
+  "focus": "Prohibition of dumping",
+  "layer": "L3",
+  "status": "ACTIVE",
+  "provision_id": "PROV-INT-M40-ART4",
+  "version_id": "LV-INT-M40-1972",
+  "source_id": "SRC-INT-M40-LONDON-1972",
+  "source_sha256": "15b10c5f614c3f96399b6304eb8de2952cc8599fd0ba6018a8ae3af26c36991d",
+  "applicability": {
+    "jurisdiction": "ALL"
+  },
+  "evaluation_result": "UNKNOWN"
+}

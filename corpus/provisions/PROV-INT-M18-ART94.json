@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M18-ART94",
+  "instrument_id": "INT-M18",
+  "version_id": "LV-INT-M18-1982",
+  "locator": "Article 94",
+  "title": "Flag State duties",
+  "domain": "FLAG_STATE",
+  "provision_text": "Every State shall effectively exercise its jurisdiction and control in administrative, technical and social matters over ships flying its flag.",
+  "source_text": "Every State shall effectively exercise its jurisdiction and control in administrative, technical and social matters over ships flying its flag.",
+  "source_sha256": "5b12ba7e9991f74ae8614238bf1a2034223c52e8055e87c36fe27a338e31d5fa",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

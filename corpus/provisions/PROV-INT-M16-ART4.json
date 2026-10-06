@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M16-ART4",
+  "instrument_id": "INT-M16",
+  "version_id": "LV-INT-M16-2009",
+  "locator": "Article 4",
+  "title": "Ship recycling requirements",
+  "domain": "SHIP_RECYCLING",
+  "provision_text": "Each Party shall require that ships entitled to fly its flag comply with the requirements of this Convention including the Inventory of Hazardous Materials.",
+  "source_text": "Each Party shall require that ships entitled to fly its flag comply with the requirements of this Convention including the Inventory of Hazardous Materials.",
+  "source_sha256": "db7dba73a98a27b514e091a93f50c387ea7aaf14d708d6c51a2c4e3eea4568f6",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}

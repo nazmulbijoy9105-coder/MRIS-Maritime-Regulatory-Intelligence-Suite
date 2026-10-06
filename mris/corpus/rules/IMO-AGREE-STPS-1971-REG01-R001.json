@@ -1,0 +1,16 @@
+{
+  "rule_id": "IMO-AGREE-STPS-1971-REG01-R001",
+  "domain": "PASSENGER_SAFETY",
+  "canonical_id": "INT-M26",
+  "focus": "Special trade passenger ship safety",
+  "layer": "L2",
+  "status": "ACTIVE",
+  "provision_id": "PROV-INT-M26-REG1",
+  "version_id": "LV-INT-M26-1971",
+  "source_id": "SRC-INT-M26-STPS-1971",
+  "source_sha256": "6802fc877df3b585202ea563345b69d369d5031c567d7073b2f4dd8e4bc8b790",
+  "applicability": {
+    "vessel_type": "STPS"
+  },
+  "evaluation_result": "UNKNOWN"
+}

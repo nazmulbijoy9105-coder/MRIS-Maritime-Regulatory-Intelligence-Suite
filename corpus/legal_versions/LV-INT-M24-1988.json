@@ -1,0 +1,12 @@
+{
+  "version_id": "LV-INT-M24-1988",
+  "instrument_id": "INT-M24",
+  "version_name": "SUA Convention 1988 (Original)",
+  "effective_from": "1992-03-01",
+  "effective_to": null,
+  "is_current": true,
+  "source_id": "SRC-INT-M24-SUA-1988",
+  "source_sha256": "e0abb83ee3e8a20002fb741ecea33d02307b42ec9a3fd76f55f7e7bb24e0805e",
+  "parent_instrument": null,
+  "implements": null
+}

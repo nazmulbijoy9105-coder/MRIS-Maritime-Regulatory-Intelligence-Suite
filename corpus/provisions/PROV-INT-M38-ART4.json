@@ -1,0 +1,15 @@
+{
+  "provision_id": "PROV-INT-M38-ART4",
+  "instrument_id": "INT-M38",
+  "version_id": "LV-INT-M38-1972",
+  "locator": "Article 4",
+  "title": "Container safety approval",
+  "domain": "CONTAINER_SAFETY",
+  "provision_text": "No container shall be used for the transport of goods by sea unless it has a valid safety approval plate issued under this Convention.",
+  "source_text": "No container shall be used for the transport of goods by sea unless it has a valid safety approval plate issued under this Convention.",
+  "source_sha256": "61ea3664bac748b8d16cc32a742727bc4e327f76ce8f2f58ca7fbb8bd8df6610",
+  "source_page": "TBD",
+  "definitions": [],
+  "exceptions": [],
+  "cross_references": []
+}
