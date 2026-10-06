@@ -1,4 +1,4 @@
-from fastapi import Depends, FastAPI, Depends, HTTPException
+from fastapi import Depends, FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from mris.database import init_db
 from mris.auth import router as auth_router, get_current_user
