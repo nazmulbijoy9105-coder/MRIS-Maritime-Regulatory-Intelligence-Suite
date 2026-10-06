@@ -17,14 +17,11 @@ const App = {
    API layer
    ------------------------------------------------------------ */
 const API = {
-  getToken() { return localStorage.getItem("mris_token"); },
-  setToken(t) { localStorage.setItem("mris_token", t); },
-  logout() { localStorage.removeItem("mris_token"); location.reload(); },
   async get(path) {
     try {
       const ctrl = new AbortController();
       const t = setTimeout(() => ctrl.abort(), 3500);
-      const r = await fetch(API_BASE + path, { signal: ctrl.signal, headers: { "Authorization":  } });
+      const r = await fetch(API_BASE + path, { signal: ctrl.signal });
       clearTimeout(t);
       if (!r.ok) throw new Error(r.status);
       return await r.json();
@@ -39,7 +36,7 @@ const API = {
       const t = setTimeout(() => ctrl.abort(), 4500);
       const r = await fetch(API_BASE + path, {
         method: "POST",
-        headers: { "Content-Type": "application/json", "Authorization":  },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify(body),
         signal: ctrl.signal,
       });
@@ -1103,53 +1100,3 @@ App.route = async function () {
   window.addEventListener("hashchange", App.route);
   await App.route();
 })();
-
-// --- AUTHENTICATION GATE ---
-const Auth = {
-    init() {
-        document.getElementById("auth-login-btn").onclick = () => this.login();
-        document.getElementById("auth-register-btn").onclick = () => this.register();
-        document.getElementById("auth-guest-btn").onclick = () => this.guest();
-    },
-    showModal(err = "") {
-        document.getElementById("auth-error").innerText = err;
-        document.getElementById("auth-modal").style.display = "flex";
-    },
-    hideModal() {
-        document.getElementById("auth-modal").style.display = "none";
-    },
-    async login() {
-        const u = document.getElementById("auth-username").value;
-        const p = document.getElementById("auth-password").value;
-        const res = await API.post("/v1/auth/token", { username: u, password: p });
-        if (res && res.access_token) {
-            API.setToken(res.access_token);
-            this.hideModal();
-            App.boot();
-        } else {
-            this.showModal(res.__error || "Login failed");
-        }
-    },
-    async register() {
-        const u = document.getElementById("auth-username").value;
-        const p = document.getElementById("auth-password").value;
-        const res = await API.post();
-        if (res && res.message) {
-            alert("Registered! Logging you in...");
-            this.login();
-        } else {
-            this.showModal(res.__error || "Registration failed");
-        }
-    },
-    guest() {
-        this.hideModal();
-        App.boot();
-    }
-};
-
-Auth.init();
-if (API.getToken()) {
-    App.boot();
-} else {
-    Auth.showModal();
-}
