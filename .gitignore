@@ -16,5 +16,3 @@ node_modules/
 # OS
 .DS_Store
 
-# Generated corpus tree (rebuild: python3 scripts/build_corpus_tree.py)
-/corpus/
