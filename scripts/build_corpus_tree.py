@@ -55,8 +55,10 @@ INTL_TREE = {
 def main() -> None:
     out = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "corpus"
     manifest = load_manifest()
-    by_id = {i["id"]: i for i in manifest["instruments"] +
-             manifest["international_instruments"]}
+    by_id = {
+        item["instrument_id"]: item
+        for item in manifest["instruments"]
+    }
 
     created = 0
     for section, ids in BD_TREE.items():

@@ -161,7 +161,23 @@ def summary(result: ComplianceResult) -> str:
 
 def demo_manifest_info() -> str:
     from ..corpus import load_manifest
+
     manifest = load_manifest()
-    return (f"corpus manifest: {len(manifest['instruments'])} BD instruments, "
-            f"{len(manifest['international_instruments'])} international instruments, "
-            f"{len(manifest['open_items_register'])} open verification items")
+    instruments = manifest["instruments"]
+
+    bd_count = sum(
+        1 for item in instruments if item["jurisdiction"] == "BD"
+    )
+    intl_count = sum(
+        1 for item in instruments if item["jurisdiction"] == "INTL"
+    )
+    open_count = sum(
+        1 for item in instruments
+        if item.get("verification_status") != "VERIFIED"
+    )
+
+    return (
+        f"corpus manifest: {bd_count} BD instruments, "
+        f"{intl_count} international instruments, "
+        f"{open_count} open verification items"
+    )

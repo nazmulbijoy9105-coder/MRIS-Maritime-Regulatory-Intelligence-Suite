@@ -121,7 +121,7 @@
         "IMO-CONV-MARPOL-73-78-ANV-REG10-R001": "v1",
         "IMO-CONV-MARPOL-73-78-ANVI-REG6-R001": "v1"
       },
-      "computed_at": "2026-10-05T22:02:09.779753+00:00",
+      "computed_at": "2026-10-06T03:35:17.803159+00:00",
       "items": [
         {
           "obligation_id": "BD-ORD-MERCHANT-SHIPPING-1983-S066-R001:BD-ORD-MERCHANT-SHIPPING-1983-S066",
@@ -467,7 +467,7 @@
         "IMO-CONV-MARPOL-73-78-ANV-REG10-R001": "v1",
         "IMO-CONV-MARPOL-73-78-ANVI-REG6-R001": "v1"
       },
-      "computed_at": "2026-10-05T22:02:09.797349+00:00",
+      "computed_at": "2026-10-06T03:35:17.881159+00:00",
       "items": [
         {
           "obligation_id": "BD-ORD-MERCHANT-SHIPPING-1983-S066-R001:BD-ORD-MERCHANT-SHIPPING-1983-S066",
@@ -813,7 +813,7 @@
         "IMO-CONV-MARPOL-73-78-ANV-REG10-R001": "v1",
         "IMO-CONV-MARPOL-73-78-ANVI-REG6-R001": "v1"
       },
-      "computed_at": "2026-10-05T22:02:09.814893+00:00",
+      "computed_at": "2026-10-06T03:35:17.971674+00:00",
       "items": [
         {
           "obligation_id": "BD-ORD-MERCHANT-SHIPPING-1983-S066-R001:BD-ORD-MERCHANT-SHIPPING-1983-S066",
@@ -1159,7 +1159,7 @@
         "IMO-CONV-MARPOL-73-78-ANV-REG10-R001": "v1",
         "IMO-CONV-MARPOL-73-78-ANVI-REG6-R001": "v1"
       },
-      "computed_at": "2026-10-05T22:02:09.838291+00:00",
+      "computed_at": "2026-10-06T03:35:18.045677+00:00",
       "items": [
         {
           "obligation_id": "BD-ORD-MERCHANT-SHIPPING-1983-S066-R001:BD-ORD-MERCHANT-SHIPPING-1983-S066",
@@ -1488,494 +1488,1128 @@
   "instruments": {
     "bangladesh": [
       {
-        "id": "BD-ORD-MERCHANT-SHIPPING-1983",
-        "jurisdiction_id": "BD",
-        "authority_id": "BD-DOS",
-        "instrument_type": "ORD",
-        "title": "The Bangladesh Merchant Shipping Ordinance, 1983",
-        "citation": "Ordinance No. XXVI of 1983",
-        "enacted_date": "1983-12-31",
-        "status": "AMENDED",
-        "verification_status": "VERIFIED_AGAINST_GAZETTE",
-        "verified_note": "Audit: Ord. XXVI of 1983 confirmed against bdlaws.minlaw.gov.bd structure; manning chapter numbering accurate post-1988 amendment.",
-        "provisions": [
-          {
-            "locator": "Section 1",
-            "title": "Short title, commencement, application",
-            "priority": "P1"
-          },
-          {
-            "locator": "Section 2",
-            "title": "Definitions",
-            "priority": "P1"
-          },
-          {
-            "locator": "Section 4",
-            "title": "Department of Shipping",
-            "priority": "P2"
-          },
-          {
-            "locator": "Section 65",
-            "title": "Chartering",
-            "priority": "P2"
-          },
-          {
-            "locator": "Section 66",
-            "title": "Licence for taking ship to sea",
-            "priority": "P1"
-          },
-          {
-            "locator": "Section 80",
-            "title": "Certificates of competency",
-            "priority": "P1"
-          },
-          {
-            "locator": "Section 82",
-            "title": "Manning of ships",
-            "priority": "P1"
-          },
-          {
-            "locator": "Section 335",
-            "title": "Load line certificates",
-            "priority": "P1"
-          },
-          {
-            "locator": "Section 350",
-            "title": "Unseaworthy ships",
-            "priority": "P1"
-          },
-          {
-            "locator": "Section 351",
-            "title": "Sending ship to sea when unseaworthy",
-            "priority": "P1"
-          },
-          {
-            "locator": "Section 471",
-            "title": "Limitation of liability",
-            "priority": "P3",
-            "note": "Elevate to P2 when module 15 (Liability) is built (open-items register Part 16)"
-          }
-        ]
-      },
-      {
-        "id": "BD-RULES-STCW-2011",
-        "jurisdiction_id": "BD",
-        "authority_id": "BD-DOS",
-        "instrument_type": "RULES",
-        "title": "Bangladesh Merchant Shipping Officers and Ratings Training, Certification, Recruitment, Work Hours and Watchkeeping Rules, 2011",
-        "citation": "S.R.O. No. 26-Law/2011",
-        "enacted_date": "2011-01-01",
-        "status": "IN_FORCE",
-        "verification_status": "VERIFIED_AGAINST_GAZETTE",
-        "verify_open": "2020 amendment regulations exist — confirm titles (Part 16)"
-      },
-      {
-        "id": "BD-ACT-TERRITORIAL-WATERS-MARITIME-ZONES-1974",
-        "jurisdiction_id": "BD",
-        "authority_id": "BD-DOS",
-        "instrument_type": "ACT",
-        "title": "The Territorial Waters and Maritime Zones Act, 1974",
-        "enacted_date": "1974-01-01",
-        "status": "AMENDED",
-        "verification_status": "REVIEWED",
-        "key_nodes": [
-          "S001",
-          "S002",
-          "S002A",
-          "S005",
-          "S005A",
-          "S007",
-          "S009",
-          "S010",
-          "S013",
-          "S022"
+        "instrument_id": "BD-M01",
+        "jurisdiction": "BD",
+        "instrument_type": "ORDINANCE",
+        "official_title": "The Bangladesh Merchant Shipping Ordinance, 1983 (Ordinance No. XXVI of 1983)",
+        "short_name": "MSO 1983",
+        "status": "CURRENT",
+        "implements": [
+          "INT-M01",
+          "INT-M06",
+          "INT-M03"
         ],
-        "verify_open": "section numbering vs amended text (2A, 5A, 9, 10, 13, 22)"
-      },
-      {
-        "id": "BD-AMEND-TERRITORIAL-WATERS-MARITIME-ZONES-2021",
-        "jurisdiction_id": "BD",
-        "authority_id": "BD-DOS",
-        "instrument_type": "AMEND",
-        "title": "Territorial Waters and Maritime Zones (Amendment) Act, 2021",
-        "citation": "Act No. XXIX of 2021",
-        "enacted_date": "2021-01-01",
-        "status": "IN_FORCE",
         "verification_status": "VERIFIED_AGAINST_GAZETTE",
-        "targets": "BD-ACT-TERRITORIAL-WATERS-MARITIME-ZONES-1974",
-        "note": "1974 original + 2021 amendment + current consolidated retained as three distinct versioned objects."
+        "verification_date": "2026-10-06",
+        "authoritative_sources": [
+          "Bangladesh Laws Database"
+        ],
+        "notes": "Subject to proposed replacement by Draft MSA 2026.",
+        "bd_treaty_status": "NOT_APPLICABLE"
       },
       {
-        "id": "BD-ORD-INLAND-SHIPPING-1976",
-        "jurisdiction_id": "BD",
-        "instrument_type": "ORD",
-        "title": "The Bangladesh Inland Shipping Ordinance, 1976",
-        "citation": "Ordinance No. LXXII of 1976",
-        "status": "IN_FORCE",
-        "verification_status": "VERIFIED_AGAINST_GAZETTE"
-      },
-      {
-        "id": "BD-ORD-BIWT-AUTHORITY-1958",
-        "jurisdiction_id": "BD",
-        "instrument_type": "ORD",
-        "title": "BIWTA Ordinance",
-        "status": "IN_FORCE",
-        "verification_status": "EXTRACTED_BY_AI",
-        "verify_open": "exact title to verify (Part 16)"
-      },
-      {
-        "id": "BD-ORD-PILOTAGE-1969",
-        "jurisdiction_id": "BD",
-        "instrument_type": "ORD",
-        "title": "Pilotage Ordinance 1969",
-        "status": "IN_FORCE",
-        "verification_status": "EXTRACTED_BY_AI",
-        "verify_open": "verify (Part 16)"
-      },
-      {
-        "id": "BD-ACT-CHITTAGONG-PORT-AUTHORITY-2022",
-        "jurisdiction_id": "BD",
-        "authority_id": "BD-CPA",
-        "instrument_type": "ACT",
-        "title": "Chittagong Port Authority Act, 2022",
-        "status": "IN_FORCE",
+        "instrument_id": "BD-M02",
+        "jurisdiction": "BD",
+        "instrument_type": "ORDINANCE",
+        "official_title": "The Inland Shipping Ordinance, 1976 (Ordinance No. LXXII of 1976)",
+        "short_name": "ISO 1976",
+        "status": "CURRENT",
         "verification_status": "VERIFIED_AGAINST_GAZETTE",
-        "repeals": [
-          {
-            "instrument_id": "BD-ORD-CPA-1976",
-            "note": "Gazette repeal schedule to capture as repeal object with replacement_instrument_id (Part 5.5)"
-          }
-        ]
+        "authoritative_sources": [
+          "Bangladesh Laws Database"
+        ],
+        "bd_treaty_status": "NOT_APPLICABLE"
       },
       {
-        "id": "BD-ACT-MONGLA-PORT-AUTHORITY-2022",
-        "jurisdiction_id": "BD",
-        "authority_id": "BD-MPA",
+        "instrument_id": "BD-M03",
+        "jurisdiction": "BD",
         "instrument_type": "ACT",
-        "title": "Mongla Port Authority Act, 2022",
-        "status": "IN_FORCE",
+        "official_title": "Chattogram Port Authority Act, 2022 (Act No. 08 of 2022)",
+        "short_name": "Chattogram Port Act 2022",
+        "status": "CURRENT",
         "verification_status": "VERIFIED_AGAINST_GAZETTE",
-        "repeals": [
-          {
-            "instrument_id": "BD-ORD-MPA-1976"
-          }
-        ]
+        "authoritative_sources": [
+          "Bangladesh Laws Database"
+        ],
+        "notes": "Repealed Chittagong Port Authority Ordinance 1976.",
+        "bd_treaty_status": "NOT_APPLICABLE"
       },
       {
-        "id": "BD-ACT-PAYRA-PORT-AUTHORITY-2013",
-        "jurisdiction_id": "BD",
-        "authority_id": "BD-PPA",
+        "instrument_id": "BD-M04",
+        "jurisdiction": "BD",
         "instrument_type": "ACT",
-        "title": "Payra Port Authority Act, 2013",
-        "status": "IN_FORCE",
-        "verification_status": "VERIFIED_AGAINST_GAZETTE"
-      },
-      {
-        "id": "BD-ACT-SHIP-RECYCLING-2018",
-        "jurisdiction_id": "BD",
-        "instrument_type": "ACT",
-        "title": "Bangladesh Ship Recycling Act, 2018",
-        "citation": "Act No. VIII of 2018",
-        "status": "IN_FORCE",
+        "official_title": "Mongla Port Authority Act, 2022 (Act No. 07 of 2022)",
+        "short_name": "Mongla Port Act 2022",
+        "status": "CURRENT",
         "verification_status": "VERIFIED_AGAINST_GAZETTE",
-        "verify_open": "subordinate rules status (Part 16)"
+        "authoritative_sources": [
+          "Bangladesh Laws Database"
+        ],
+        "notes": "Repealed Mongla Port Authority Ordinance 1976.",
+        "bd_treaty_status": "NOT_APPLICABLE"
       },
       {
-        "id": "BD-ACT-ENVIRONMENT-CONSERVATION-1995",
-        "jurisdiction_id": "BD",
-        "authority_id": "BD-DOE",
+        "instrument_id": "BD-M05",
+        "jurisdiction": "BD",
         "instrument_type": "ACT",
-        "title": "Bangladesh Environment Conservation Act, 1995",
-        "status": "AMENDED",
-        "verification_status": "REVIEWED"
+        "official_title": "Payra Port Authority Act, 2013",
+        "short_name": "Payra Port Act 2013",
+        "status": "CURRENT",
+        "verification_status": "VERIFIED_AGAINST_GAZETTE",
+        "authoritative_sources": [
+          "Payra Port Authority"
+        ],
+        "bd_treaty_status": "NOT_APPLICABLE"
       },
       {
-        "id": "BD-RULES-ENVIRONMENT-CONSERVATION-2023",
-        "jurisdiction_id": "BD",
-        "authority_id": "BD-DOE",
+        "instrument_id": "BD-M06",
+        "jurisdiction": "BD",
+        "instrument_type": "ORDINANCE",
+        "official_title": "The Pilotage Ordinance, 1969 (East Pakistan Ordinance No. V of 1969)",
+        "short_name": "Pilotage Ord 1969",
+        "status": "CURRENT",
+        "scope": "INLAND_WATERS",
+        "verification_status": "VERIFIED_AGAINST_GAZETTE",
+        "authoritative_sources": [
+          "Bangladesh Laws Database"
+        ],
+        "bd_treaty_status": "NOT_APPLICABLE"
+      },
+      {
+        "instrument_id": "BD-M07",
+        "jurisdiction": "BD",
+        "instrument_type": "ACT",
+        "official_title": "Bangladesh Environment Conservation Act, 1995 (Act No. 1 of 1995)",
+        "short_name": "BECA 1995",
+        "status": "CURRENT",
+        "verification_status": "VERIFIED_AGAINST_GAZETTE",
+        "authoritative_sources": [
+          "Bangladesh Laws Database"
+        ],
+        "bd_treaty_status": "NOT_APPLICABLE"
+      },
+      {
+        "instrument_id": "BD-M08",
+        "jurisdiction": "BD",
         "instrument_type": "RULES",
-        "title": "Environment Conservation Rules, 2023",
-        "status": "IN_FORCE",
-        "verification_status": "REVIEWED"
+        "official_title": "Environment Conservation Rules, 2023",
+        "short_name": "Env Conservation Rules 2023",
+        "status": "CURRENT",
+        "parent_instrument": "BD-M07",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "bd_treaty_status": "NOT_APPLICABLE"
       },
       {
-        "id": "BD-RULES-AIR-POLLUTION-CONTROL-2022",
-        "jurisdiction_id": "BD",
-        "authority_id": "BD-DOE",
+        "instrument_id": "BD-M09",
+        "jurisdiction": "BD",
         "instrument_type": "RULES",
-        "title": "Air Pollution (Control) Rules, 2022",
-        "status": "IN_FORCE",
-        "verification_status": "EXTRACTED_BY_AI"
+        "official_title": "Air Pollution (Control) Rules, 2022",
+        "short_name": "Air Pollution Rules 2022",
+        "status": "CURRENT",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "bd_treaty_status": "NOT_APPLICABLE"
       },
       {
-        "id": "BD-RULES-SOLID-WASTE-MANAGEMENT-2021",
-        "jurisdiction_id": "BD",
-        "authority_id": "BD-DOE",
+        "instrument_id": "BD-M10",
+        "jurisdiction": "BD",
         "instrument_type": "RULES",
-        "title": "Solid Waste Management Rules, 2021",
-        "status": "IN_FORCE",
-        "verification_status": "EXTRACTED_BY_AI"
+        "official_title": "Ship Breaking and Ship Recycling Rules, 2011",
+        "short_name": "Ship Recycling Rules 2011",
+        "status": "CURRENT",
+        "implements": [
+          "INT-M16"
+        ],
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "bd_treaty_status": "NOT_APPLICABLE"
       },
       {
-        "id": "BD-RULES-E-WASTE-MANAGEMENT-2021",
-        "jurisdiction_id": "BD",
-        "authority_id": "BD-DOE",
+        "instrument_id": "BD-M11",
+        "jurisdiction": "BD",
         "instrument_type": "RULES",
-        "title": "E-waste Management Rules, 2021",
-        "status": "IN_FORCE",
-        "verification_status": "EXTRACTED_BY_AI"
+        "official_title": "Seamen Recruitment Rules, 2001",
+        "short_name": "Seamen Recruitment Rules 2001",
+        "status": "CURRENT",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "bd_treaty_status": "NOT_APPLICABLE"
       },
       {
-        "id": "BD-RULES-HAZARDOUS-WASTE-SHIP-BREAKING-2011",
-        "jurisdiction_id": "BD",
-        "authority_id": "BD-DOE",
+        "instrument_id": "BD-M12",
+        "jurisdiction": "BD",
         "instrument_type": "RULES",
-        "title": "Hazardous Waste (Ship Breaking) Rules, 2011",
-        "status": "IN_FORCE",
-        "verification_status": "EXTRACTED_BY_AI"
+        "official_title": "Seamen Recruiting Agent (License) Rules, 2005",
+        "short_name": "Agent License Rules 2005",
+        "status": "CURRENT",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "bd_treaty_status": "NOT_APPLICABLE"
       },
       {
-        "id": "BD-RULES-NOISE-POLLUTION-2025",
-        "jurisdiction_id": "BD",
-        "authority_id": "BD-DOE",
+        "instrument_id": "BD-M13",
+        "jurisdiction": "BD",
+        "instrument_type": "REGULATIONS",
+        "official_title": "Bangladesh Merchant Shipping (Radio) Regulations, 2002 (SRO No. 350-Law/2002)",
+        "short_name": "Radio Regs 2002",
+        "status": "CURRENT",
+        "implements": [
+          "INT-M01"
+        ],
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "bd_treaty_status": "NOT_APPLICABLE"
+      },
+      {
+        "instrument_id": "BD-M14",
+        "jurisdiction": "BD",
         "instrument_type": "RULES",
-        "title": "Noise Pollution (Control) Rules, 2025",
-        "status": "DRAFT",
-        "verification_status": "EXTRACTED_BY_AI",
-        "verify_open": "confirm status/date (Part 16) — DRAFT quarantined from live calculations (Principle 5)"
+        "official_title": "Bangladesh Merchant Shipping Officers and Ratings Training, Certification, Recruitment, Work Hours and Watchkeeping Rules 2011",
+        "short_name": "STCW Rules 2011",
+        "status": "CURRENT",
+        "implements": [
+          "INT-M06"
+        ],
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "bd_treaty_status": "NOT_APPLICABLE"
       },
       {
-        "id": "BD-RULES-SEAMEN-RECRUITMENT-2001",
-        "jurisdiction_id": "BD",
+        "instrument_id": "BD-M15",
+        "jurisdiction": "BD",
         "instrument_type": "RULES",
-        "title": "Seamen Recruitment Rules, 2001",
-        "status": "IN_FORCE",
-        "verification_status": "EXTRACTED_BY_AI"
+        "official_title": "Merchant Shipping Levy Collection Rules, 2013",
+        "short_name": "Levy Rules 2013",
+        "status": "CURRENT",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "bd_treaty_status": "NOT_APPLICABLE"
       },
       {
-        "id": "BD-RULES-SEAMEN-RECRUITING-AGENT-LICENSE-2005",
-        "jurisdiction_id": "BD",
+        "instrument_id": "BD-M16",
+        "jurisdiction": "BD",
+        "instrument_type": "ACT",
+        "official_title": "Bangladesh Flag Vessels (Protection) Act, 2019",
+        "short_name": "Flag Vessels Act 2019",
+        "status": "CURRENT",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "bd_treaty_status": "NOT_APPLICABLE"
+      },
+      {
+        "instrument_id": "BD-M17",
+        "jurisdiction": "BD",
         "instrument_type": "RULES",
-        "title": "Seamen Recruiting Agent Licence Rules, 2005",
-        "status": "IN_FORCE",
-        "verification_status": "EXTRACTED_BY_AI"
+        "official_title": "Bangladesh Flag Vessels (Protection) Rules, 2023",
+        "short_name": "Flag Vessels Rules 2023",
+        "status": "CURRENT",
+        "parent_instrument": "BD-M16",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "bd_treaty_status": "NOT_APPLICABLE"
       },
       {
-        "id": "BD-REG-MERCHANT-SHIPPING-RADIO-2002",
-        "jurisdiction_id": "BD",
-        "instrument_type": "REG",
-        "title": "Merchant Shipping Radio Regulations, 2002",
-        "status": "IN_FORCE",
-        "verification_status": "EXTRACTED_BY_AI",
-        "verify_open": "confirm title/number (Part 16)"
+        "instrument_id": "BD-M18",
+        "jurisdiction": "BD",
+        "instrument_type": "ACT",
+        "official_title": "Bangladesh Lighthouse Act, 2020",
+        "short_name": "Lighthouse Act 2020",
+        "status": "CURRENT",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "bd_treaty_status": "NOT_APPLICABLE"
+      },
+      {
+        "instrument_id": "BD-M19",
+        "jurisdiction": "BD",
+        "instrument_type": "ACT",
+        "official_title": "Territorial Waters and Maritime Zones Act, 1974",
+        "short_name": "Terr Waters Act 1974",
+        "status": "CURRENT",
+        "implements": [
+          "INT-M18"
+        ],
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "bd_treaty_status": "NOT_APPLICABLE"
+      },
+      {
+        "instrument_id": "BD-M20",
+        "jurisdiction": "BD",
+        "instrument_type": "ACT",
+        "official_title": "Territorial Waters and Maritime Zones Amendment Act, 2021",
+        "short_name": "Terr Waters Amend 2021",
+        "status": "CURRENT",
+        "parent_instrument": "BD-M19",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "bd_treaty_status": "NOT_APPLICABLE"
+      },
+      {
+        "instrument_id": "BD-M21",
+        "jurisdiction": "BD",
+        "instrument_type": "ACT",
+        "official_title": "Bangladesh Shipping Corporation Act, 2017 (Act No. 10 of 2017)",
+        "short_name": "BSC Act 2017",
+        "status": "CURRENT",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "notes": "Repealed Bangladesh Shipping Corporation Order, 1972 (P.O. No. 10).",
+        "bd_treaty_status": "NOT_APPLICABLE"
       }
     ],
     "international": [
       {
-        "id": "IMO-CONV-SOLAS-1974",
-        "instrument_type": "CONV",
-        "title": "International Convention for the Safety of Life at Sea, 1974",
+        "instrument_id": "INT-M01",
+        "jurisdiction": "INTL",
+        "instrument_type": "CONVENTION",
+        "official_title": "International Convention for the Safety of Life at Sea, 1974, as amended",
+        "short_name": "SOLAS 1974",
         "status": "IN_FORCE",
-        "children": [
-          "PROTOCOL-1978",
-          "PROTOCOL-1988",
-          "AMENDMENTS/"
+        "bd_treaty_status": "PARTY",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "authoritative_sources": [
+          "IMO Status of Conventions"
         ],
-        "verify_open": "per-flag amendment entry-into-force (tacit acceptance) — continuous"
+        "notes": "Bangladesh accession requires primary source verification."
       },
       {
-        "id": "IMO-CONV-COLREG-1972",
-        "instrument_type": "CONV",
-        "title": "Convention on the International Regulations for Preventing Collisions at Sea, 1972",
-        "status": "IN_FORCE"
-      },
-      {
-        "id": "IMO-CONV-LOAD-LINES-1966",
-        "instrument_type": "CONV",
-        "title": "International Convention on Load Lines, 1966",
+        "instrument_id": "INT-M02",
+        "jurisdiction": "INTL",
+        "instrument_type": "PROTOCOL",
+        "official_title": "Protocol of 1988 relating to SOLAS 1974",
+        "short_name": "SOLAS 1988 Protocol",
         "status": "IN_FORCE",
-        "children": [
-          "PROTOCOL-1988"
+        "parent_instrument": "INT-M01",
+        "bd_treaty_status": "PARTY",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "authoritative_sources": [
+          "IMO Status of Conventions"
         ]
       },
       {
-        "id": "IMO-CONV-TONNAGE-1969",
-        "instrument_type": "CONV",
-        "title": "International Convention on Tonnage Measurement of Ships, 1969",
-        "status": "IN_FORCE"
-      },
-      {
-        "id": "IMO-CONV-STCW-1978",
-        "instrument_type": "CONV",
-        "title": "International Convention on Standards of Training, Certification and Watchkeeping for Seafarers, 1978",
+        "instrument_id": "INT-M03",
+        "jurisdiction": "INTL",
+        "instrument_type": "CONVENTION",
+        "official_title": "International Convention on Load Lines, 1966",
+        "short_name": "Load Lines 1966",
         "status": "IN_FORCE",
-        "children": [
-          "AMENDMENT-1995",
-          "AMENDMENT-2010-MANILA"
+        "bd_treaty_status": "PARTY",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "authoritative_sources": [
+          "IMO Status of Conventions"
         ]
       },
       {
-        "id": "IMO-CONV-CSC-1972",
-        "instrument_type": "CONV",
-        "title": "International Convention for Safe Containers, 1972",
-        "status": "IN_FORCE"
-      },
-      {
-        "id": "IMO-CONV-MARPOL-73-78",
-        "instrument_type": "CONV",
-        "title": "International Convention for the Prevention of Pollution from Ships, 1973 as modified by the 1978 Protocol",
+        "instrument_id": "INT-M04",
+        "jurisdiction": "INTL",
+        "instrument_type": "PROTOCOL",
+        "official_title": "Protocol of 1988 relating to Load Lines 1966",
+        "short_name": "Load Lines 1988 Protocol",
         "status": "IN_FORCE",
-        "annexes": [
-          "ANNEX-I oil",
-          "ANNEX-II NLS",
-          "ANNEX-III packaged",
-          "ANNEX-IV sewage",
-          "ANNEX-V garbage",
-          "ANNEX-VI air"
-        ],
-        "note": "each annex versions independently"
-      },
-      {
-        "id": "IMO-CONV-BWM-2004",
-        "instrument_type": "CONV",
-        "title": "International Convention for the Control and Management of Ships' Ballast Water and Sediments, 2004",
-        "status": "IN_FORCE",
-        "verify_open": "2024 amendments status & dates (Part 16)"
-      },
-      {
-        "id": "IMO-CONV-AFS-2001",
-        "instrument_type": "CONV",
-        "title": "International Convention on the Control of Harmful Anti-fouling Systems on Ships, 2001",
-        "status": "IN_FORCE"
-      },
-      {
-        "id": "IMO-CONV-BUNKER-2001",
-        "instrument_type": "CONV",
-        "title": "International Convention on Civil Liability for Bunker Oil Pollution Damage, 2001",
-        "status": "IN_FORCE"
-      },
-      {
-        "id": "IMO-CONV-WRECK-REMOVAL-2007",
-        "instrument_type": "CONV",
-        "title": "Nairobi International Convention on the Removal of Wrecks, 2007",
-        "status": "IN_FORCE"
-      },
-      {
-        "id": "IMO-CONV-HNS-1996",
-        "instrument_type": "CONV",
-        "title": "International Convention on Liability and Compensation for Damage in Connection with the Carriage of Hazardous and Noxious Substances by Sea, 1996",
-        "status": "DRAFT",
-        "verify_open": "entry-into-force status (Part 16)"
-      },
-      {
-        "id": "IMO-CONV-SALVAGE-1989",
-        "instrument_type": "CONV",
-        "title": "International Convention on Salvage, 1989",
-        "status": "IN_FORCE"
-      },
-      {
-        "id": "IMO-CONV-ATHENS-PAL-1974",
-        "instrument_type": "CONV",
-        "title": "Athens Convention relating to the Carriage of Passengers and their Luggage by Sea, 1974",
-        "status": "IN_FORCE"
-      },
-      {
-        "id": "IMO-CONV-INTERVENTION-1969",
-        "instrument_type": "CONV",
-        "title": "International Convention relating to Intervention on the High Seas in Cases of Oil Pollution Casualties, 1969",
-        "status": "IN_FORCE"
-      },
-      {
-        "id": "IMO-CONV-FACILITATION-1965",
-        "instrument_type": "CONV",
-        "title": "Convention on Facilitation of International Maritime Traffic, 1965",
-        "status": "IN_FORCE"
-      },
-      {
-        "id": "IMO-CONV-SAR-1979",
-        "instrument_type": "CONV",
-        "title": "International Convention on Maritime Search and Rescue, 1979",
-        "status": "IN_FORCE"
-      },
-      {
-        "id": "IMO-CONV-TORREMOLINOS-1993",
-        "instrument_type": "CONV",
-        "title": "Torremolinos International Convention for the Safety of Fishing Vessels, 1993",
-        "status": "DRAFT",
-        "verify_open": "+ 2012 Cape Town protocol (Part 6.1)"
-      },
-      {
-        "id": "ILO-CONV-MLC-2006",
-        "instrument_type": "CONV",
-        "title": "Maritime Labour Convention, 2006",
-        "status": "IN_FORCE",
-        "amendments": [
-          "2014",
-          "2016",
-          "2018",
-          "2022"
-        ],
-        "future": {
-          "id": "ILO-CONV-MLC-2006-AMEND-2025",
-          "status": "FUTURE_EFFECTIVE",
-          "entry_into_force": "2027-12-23",
-          "note": "confirmed vs ILO official — stored but inactive until effective (Principle 6)"
-        }
-      },
-      {
-        "id": "UNCLOS-1982",
-        "instrument_type": "CONV",
-        "title": "United Nations Convention on the Law of the Sea, 1982",
-        "status": "IN_FORCE",
-        "high_traffic_nodes": [
-          "Art. 25",
-          "Art. 91",
-          "Art. 94",
-          "Art. 211",
-          "Art. 217",
-          "Art. 218",
-          "Art. 220",
-          "Art. 226"
+        "parent_instrument": "INT-M03",
+        "bd_treaty_status": "PARTY",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "authoritative_sources": [
+          "IMO Status of Conventions"
         ]
+      },
+      {
+        "instrument_id": "INT-M05",
+        "jurisdiction": "INTL",
+        "instrument_type": "CONVENTION",
+        "official_title": "Convention on the International Regulations for Preventing Collisions at Sea, 1972",
+        "short_name": "COLREG 1972",
+        "status": "IN_FORCE",
+        "bd_treaty_status": "PARTY",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "authoritative_sources": [
+          "IMO Status of Conventions"
+        ]
+      },
+      {
+        "instrument_id": "INT-M06",
+        "jurisdiction": "INTL",
+        "instrument_type": "CONVENTION",
+        "official_title": "International Convention on Standards of Training, Certification and Watchkeeping for Seafarers, 1978",
+        "short_name": "STCW 1978",
+        "status": "IN_FORCE",
+        "bd_treaty_status": "PARTY",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "authoritative_sources": [
+          "IMO Status of Conventions"
+        ]
+      },
+      {
+        "instrument_id": "INT-M22",
+        "jurisdiction": "INTL",
+        "instrument_type": "CODE",
+        "official_title": "International Safety Management (ISM) Code",
+        "short_name": "ISM Code",
+        "status": "IN_FORCE",
+        "parent_instrument": "INT-M01",
+        "implements": [
+          "INT-M01"
+        ],
+        "bd_treaty_status": "NOT_APPLICABLE",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "notes": "Mandatory through SOLAS. Not a standalone treaty."
+      },
+      {
+        "instrument_id": "INT-M23",
+        "jurisdiction": "INTL",
+        "instrument_type": "CODE",
+        "official_title": "International Ship and Port Facility Security (ISPS) Code",
+        "short_name": "ISPS Code",
+        "status": "IN_FORCE",
+        "parent_instrument": "INT-M01",
+        "implements": [
+          "INT-M01"
+        ],
+        "bd_treaty_status": "NOT_APPLICABLE",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "notes": "Mandatory through SOLAS. Not a standalone treaty."
+      },
+      {
+        "instrument_id": "INT-M07",
+        "jurisdiction": "INTL",
+        "instrument_type": "CONVENTION",
+        "official_title": "International Convention for the Prevention of Pollution from Ships, 1973 as modified by 1978 Protocol",
+        "short_name": "MARPOL 73/78",
+        "status": "IN_FORCE",
+        "bd_treaty_status": "PARTY",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "authoritative_sources": [
+          "IMO Status of Conventions"
+        ]
+      },
+      {
+        "instrument_id": "INT-M08",
+        "jurisdiction": "INTL",
+        "instrument_type": "ANNEX",
+        "official_title": "MARPOL Annex I - Oil Pollution",
+        "short_name": "MARPOL Annex I",
+        "status": "IN_FORCE",
+        "parent_instrument": "INT-M07",
+        "bd_treaty_status": "PARTY",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION"
+      },
+      {
+        "instrument_id": "INT-M09",
+        "jurisdiction": "INTL",
+        "instrument_type": "ANNEX",
+        "official_title": "MARPOL Annex II - Noxious Liquid Substances in Bulk",
+        "short_name": "MARPOL Annex II",
+        "status": "IN_FORCE",
+        "parent_instrument": "INT-M07",
+        "bd_treaty_status": "PARTY",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION"
+      },
+      {
+        "instrument_id": "INT-M10",
+        "jurisdiction": "INTL",
+        "instrument_type": "ANNEX",
+        "official_title": "MARPOL Annex III - Harmful Substances in Packaged Form",
+        "short_name": "MARPOL Annex III",
+        "status": "IN_FORCE",
+        "parent_instrument": "INT-M07",
+        "bd_treaty_status": "PARTY",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION"
+      },
+      {
+        "instrument_id": "INT-M11",
+        "jurisdiction": "INTL",
+        "instrument_type": "ANNEX",
+        "official_title": "MARPOL Annex IV - Sewage",
+        "short_name": "MARPOL Annex IV",
+        "status": "IN_FORCE",
+        "parent_instrument": "INT-M07",
+        "bd_treaty_status": "PARTY",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION"
+      },
+      {
+        "instrument_id": "INT-M12",
+        "jurisdiction": "INTL",
+        "instrument_type": "ANNEX",
+        "official_title": "MARPOL Annex V - Garbage",
+        "short_name": "MARPOL Annex V",
+        "status": "IN_FORCE",
+        "parent_instrument": "INT-M07",
+        "bd_treaty_status": "PARTY",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION"
+      },
+      {
+        "instrument_id": "INT-M13",
+        "jurisdiction": "INTL",
+        "instrument_type": "ANNEX",
+        "official_title": "MARPOL Annex VI - Air Pollution",
+        "short_name": "MARPOL Annex VI",
+        "status": "IN_FORCE",
+        "parent_instrument": "INT-M07",
+        "bd_treaty_status": "PARTY",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION"
+      },
+      {
+        "instrument_id": "INT-M14",
+        "jurisdiction": "INTL",
+        "instrument_type": "CONVENTION",
+        "official_title": "International Convention for the Control and Management of Ships Ballast Water and Sediments, 2004",
+        "short_name": "BWM 2004",
+        "status": "IN_FORCE",
+        "bd_treaty_status": "PARTY",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION"
+      },
+      {
+        "instrument_id": "INT-M15",
+        "jurisdiction": "INTL",
+        "instrument_type": "CONVENTION",
+        "official_title": "International Convention on the Control of Harmful Anti-fouling Systems on Ships, 2001",
+        "short_name": "AFS 2001",
+        "status": "IN_FORCE",
+        "bd_treaty_status": "PARTY",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION"
+      },
+      {
+        "instrument_id": "INT-M16",
+        "jurisdiction": "INTL",
+        "instrument_type": "CONVENTION",
+        "official_title": "Hong Kong International Convention for the Safe and Environmentally Sound Recycling of Ships, 2009",
+        "short_name": "Hong Kong Convention 2009",
+        "status": "IN_FORCE",
+        "effective_from": "2025-06-26",
+        "bd_treaty_status": "PARTY",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "notes": "International entry into force 2025-06-26. BD domestic effective date may vary."
+      },
+      {
+        "instrument_id": "INT-M17",
+        "jurisdiction": "INTL",
+        "instrument_type": "CONVENTION",
+        "official_title": "Maritime Labour Convention, 2006, as amended",
+        "short_name": "MLC 2006",
+        "status": "IN_FORCE",
+        "bd_treaty_status": "PARTY",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "amendment_chain": [
+          {
+            "id": "MLC-2014",
+            "status": "IN_FORCE",
+            "date": "2014-01-01"
+          },
+          {
+            "id": "MLC-2016",
+            "status": "IN_FORCE",
+            "date": "2016-01-01"
+          },
+          {
+            "id": "MLC-2018",
+            "status": "IN_FORCE",
+            "date": "2018-01-01"
+          },
+          {
+            "id": "MLC-2022",
+            "status": "IN_FORCE",
+            "date": "2022-01-01"
+          },
+          {
+            "id": "MLC-2025",
+            "status": "FUTURE",
+            "date": "2027-12-23"
+          }
+        ]
+      },
+      {
+        "instrument_id": "INT-M18",
+        "jurisdiction": "INTL",
+        "instrument_type": "CONVENTION",
+        "official_title": "United Nations Convention on the Law of the Sea, 1982",
+        "short_name": "UNCLOS 1982",
+        "status": "IN_FORCE",
+        "bd_treaty_status": "PARTY",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION"
+      },
+      {
+        "instrument_id": "INT-M19",
+        "jurisdiction": "INTL",
+        "instrument_type": "CONVENTION",
+        "official_title": "Convention on Limitation of Liability for Maritime Claims, 1976",
+        "short_name": "LLMC 1976",
+        "status": "IN_FORCE",
+        "bd_treaty_status": "NON_PARTY",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "notes": "BD is NOT a party. Applicable only to foreign flagged ships or via foreign jurisdictions."
+      },
+      {
+        "instrument_id": "INT-M20",
+        "jurisdiction": "INTL",
+        "instrument_type": "CONVENTION",
+        "official_title": "International Convention on Civil Liability for Bunker Oil Pollution Damage, 2001",
+        "short_name": "BUNKER 2001",
+        "status": "IN_FORCE",
+        "bd_treaty_status": "STATUS_REQUIRES_PRIMARY_VERIFICATION",
+        "verification_status": "UNVERIFIED",
+        "notes": "Source conflict: Draft MSA 2026 Schedule 1 (Party) vs Schedule 2 (Non-Party). Legal conclusion WITHHELD."
+      },
+      {
+        "instrument_id": "INT-M21",
+        "jurisdiction": "INTL",
+        "instrument_type": "CONVENTION",
+        "official_title": "Nairobi International Convention on the Removal of Wrecks, 2007",
+        "short_name": "Nairobi WRC 2007",
+        "status": "IN_FORCE",
+        "bd_treaty_status": "STATUS_REQUIRES_PRIMARY_VERIFICATION",
+        "verification_status": "UNVERIFIED",
+        "notes": "Provisionally party based on 2026 draft. Requires government instrument verification."
       }
     ]
   },
   "impacts": {
     "open_verification_items": [
       {
-        "item": "BWM 2024 amendments status & dates",
-        "status": "open",
-        "verify_against": "IMO"
+        "instrument_id": "INT-M01",
+        "jurisdiction": "INTL",
+        "instrument_type": "CONVENTION",
+        "official_title": "International Convention for the Safety of Life at Sea, 1974, as amended",
+        "short_name": "SOLAS 1974",
+        "status": "IN_FORCE",
+        "bd_treaty_status": "PARTY",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "authoritative_sources": [
+          "IMO Status of Conventions"
+        ],
+        "notes": "Bangladesh accession requires primary source verification."
       },
       {
-        "item": "Noise Pollution Rules 2025 status",
-        "status": "open",
-        "verify_against": "DoE"
+        "instrument_id": "INT-M02",
+        "jurisdiction": "INTL",
+        "instrument_type": "PROTOCOL",
+        "official_title": "Protocol of 1988 relating to SOLAS 1974",
+        "short_name": "SOLAS 1988 Protocol",
+        "status": "IN_FORCE",
+        "parent_instrument": "INT-M01",
+        "bd_treaty_status": "PARTY",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "authoritative_sources": [
+          "IMO Status of Conventions"
+        ]
       },
       {
-        "item": "Every IMO amendment entry-into-force date per flag (tacit acceptance)",
-        "status": "open",
-        "verify_against": "IMO Status Books 2026"
+        "instrument_id": "INT-M03",
+        "jurisdiction": "INTL",
+        "instrument_type": "CONVENTION",
+        "official_title": "International Convention on Load Lines, 1966",
+        "short_name": "Load Lines 1966",
+        "status": "IN_FORCE",
+        "bd_treaty_status": "PARTY",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "authoritative_sources": [
+          "IMO Status of Conventions"
+        ]
       },
       {
-        "item": "BD subordinate rules titles/numbers (survey/certification, safe manning)",
-        "status": "open",
-        "verify_against": "DOS / Gazette"
+        "instrument_id": "INT-M04",
+        "jurisdiction": "INTL",
+        "instrument_type": "PROTOCOL",
+        "official_title": "Protocol of 1988 relating to Load Lines 1966",
+        "short_name": "Load Lines 1988 Protocol",
+        "status": "IN_FORCE",
+        "parent_instrument": "INT-M03",
+        "bd_treaty_status": "PARTY",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "authoritative_sources": [
+          "IMO Status of Conventions"
+        ]
       },
       {
-        "item": "Cyber: BD ICT Act 2006 / Cyber Security Act 2023 mapping to MSC.428 controls",
-        "status": "open",
-        "verify_against": "official texts"
+        "instrument_id": "INT-M05",
+        "jurisdiction": "INTL",
+        "instrument_type": "CONVENTION",
+        "official_title": "Convention on the International Regulations for Preventing Collisions at Sea, 1972",
+        "short_name": "COLREG 1972",
+        "status": "IN_FORCE",
+        "bd_treaty_status": "PARTY",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "authoritative_sources": [
+          "IMO Status of Conventions"
+        ]
       },
       {
-        "item": "STCW Rules 2011 — 2020 amendment regulation titles",
-        "status": "open",
-        "verify_against": "DOS legal materials"
+        "instrument_id": "INT-M06",
+        "jurisdiction": "INTL",
+        "instrument_type": "CONVENTION",
+        "official_title": "International Convention on Standards of Training, Certification and Watchkeeping for Seafarers, 1978",
+        "short_name": "STCW 1978",
+        "status": "IN_FORCE",
+        "bd_treaty_status": "PARTY",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "authoritative_sources": [
+          "IMO Status of Conventions"
+        ]
       },
       {
-        "item": "Ship Recycling Act 2018 subordinate rules status",
-        "status": "open",
-        "verify_against": "Gazette / DoE"
+        "instrument_id": "INT-M22",
+        "jurisdiction": "INTL",
+        "instrument_type": "CODE",
+        "official_title": "International Safety Management (ISM) Code",
+        "short_name": "ISM Code",
+        "status": "IN_FORCE",
+        "parent_instrument": "INT-M01",
+        "implements": [
+          "INT-M01"
+        ],
+        "bd_treaty_status": "NOT_APPLICABLE",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "notes": "Mandatory through SOLAS. Not a standalone treaty."
+      },
+      {
+        "instrument_id": "INT-M23",
+        "jurisdiction": "INTL",
+        "instrument_type": "CODE",
+        "official_title": "International Ship and Port Facility Security (ISPS) Code",
+        "short_name": "ISPS Code",
+        "status": "IN_FORCE",
+        "parent_instrument": "INT-M01",
+        "implements": [
+          "INT-M01"
+        ],
+        "bd_treaty_status": "NOT_APPLICABLE",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "notes": "Mandatory through SOLAS. Not a standalone treaty."
+      },
+      {
+        "instrument_id": "INT-M07",
+        "jurisdiction": "INTL",
+        "instrument_type": "CONVENTION",
+        "official_title": "International Convention for the Prevention of Pollution from Ships, 1973 as modified by 1978 Protocol",
+        "short_name": "MARPOL 73/78",
+        "status": "IN_FORCE",
+        "bd_treaty_status": "PARTY",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "authoritative_sources": [
+          "IMO Status of Conventions"
+        ]
+      },
+      {
+        "instrument_id": "INT-M08",
+        "jurisdiction": "INTL",
+        "instrument_type": "ANNEX",
+        "official_title": "MARPOL Annex I - Oil Pollution",
+        "short_name": "MARPOL Annex I",
+        "status": "IN_FORCE",
+        "parent_instrument": "INT-M07",
+        "bd_treaty_status": "PARTY",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION"
+      },
+      {
+        "instrument_id": "INT-M09",
+        "jurisdiction": "INTL",
+        "instrument_type": "ANNEX",
+        "official_title": "MARPOL Annex II - Noxious Liquid Substances in Bulk",
+        "short_name": "MARPOL Annex II",
+        "status": "IN_FORCE",
+        "parent_instrument": "INT-M07",
+        "bd_treaty_status": "PARTY",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION"
+      },
+      {
+        "instrument_id": "INT-M10",
+        "jurisdiction": "INTL",
+        "instrument_type": "ANNEX",
+        "official_title": "MARPOL Annex III - Harmful Substances in Packaged Form",
+        "short_name": "MARPOL Annex III",
+        "status": "IN_FORCE",
+        "parent_instrument": "INT-M07",
+        "bd_treaty_status": "PARTY",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION"
+      },
+      {
+        "instrument_id": "INT-M11",
+        "jurisdiction": "INTL",
+        "instrument_type": "ANNEX",
+        "official_title": "MARPOL Annex IV - Sewage",
+        "short_name": "MARPOL Annex IV",
+        "status": "IN_FORCE",
+        "parent_instrument": "INT-M07",
+        "bd_treaty_status": "PARTY",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION"
+      },
+      {
+        "instrument_id": "INT-M12",
+        "jurisdiction": "INTL",
+        "instrument_type": "ANNEX",
+        "official_title": "MARPOL Annex V - Garbage",
+        "short_name": "MARPOL Annex V",
+        "status": "IN_FORCE",
+        "parent_instrument": "INT-M07",
+        "bd_treaty_status": "PARTY",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION"
+      },
+      {
+        "instrument_id": "INT-M13",
+        "jurisdiction": "INTL",
+        "instrument_type": "ANNEX",
+        "official_title": "MARPOL Annex VI - Air Pollution",
+        "short_name": "MARPOL Annex VI",
+        "status": "IN_FORCE",
+        "parent_instrument": "INT-M07",
+        "bd_treaty_status": "PARTY",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION"
+      },
+      {
+        "instrument_id": "INT-M14",
+        "jurisdiction": "INTL",
+        "instrument_type": "CONVENTION",
+        "official_title": "International Convention for the Control and Management of Ships Ballast Water and Sediments, 2004",
+        "short_name": "BWM 2004",
+        "status": "IN_FORCE",
+        "bd_treaty_status": "PARTY",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION"
+      },
+      {
+        "instrument_id": "INT-M15",
+        "jurisdiction": "INTL",
+        "instrument_type": "CONVENTION",
+        "official_title": "International Convention on the Control of Harmful Anti-fouling Systems on Ships, 2001",
+        "short_name": "AFS 2001",
+        "status": "IN_FORCE",
+        "bd_treaty_status": "PARTY",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION"
+      },
+      {
+        "instrument_id": "INT-M16",
+        "jurisdiction": "INTL",
+        "instrument_type": "CONVENTION",
+        "official_title": "Hong Kong International Convention for the Safe and Environmentally Sound Recycling of Ships, 2009",
+        "short_name": "Hong Kong Convention 2009",
+        "status": "IN_FORCE",
+        "effective_from": "2025-06-26",
+        "bd_treaty_status": "PARTY",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "notes": "International entry into force 2025-06-26. BD domestic effective date may vary."
+      },
+      {
+        "instrument_id": "INT-M17",
+        "jurisdiction": "INTL",
+        "instrument_type": "CONVENTION",
+        "official_title": "Maritime Labour Convention, 2006, as amended",
+        "short_name": "MLC 2006",
+        "status": "IN_FORCE",
+        "bd_treaty_status": "PARTY",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "amendment_chain": [
+          {
+            "id": "MLC-2014",
+            "status": "IN_FORCE",
+            "date": "2014-01-01"
+          },
+          {
+            "id": "MLC-2016",
+            "status": "IN_FORCE",
+            "date": "2016-01-01"
+          },
+          {
+            "id": "MLC-2018",
+            "status": "IN_FORCE",
+            "date": "2018-01-01"
+          },
+          {
+            "id": "MLC-2022",
+            "status": "IN_FORCE",
+            "date": "2022-01-01"
+          },
+          {
+            "id": "MLC-2025",
+            "status": "FUTURE",
+            "date": "2027-12-23"
+          }
+        ]
+      },
+      {
+        "instrument_id": "INT-M18",
+        "jurisdiction": "INTL",
+        "instrument_type": "CONVENTION",
+        "official_title": "United Nations Convention on the Law of the Sea, 1982",
+        "short_name": "UNCLOS 1982",
+        "status": "IN_FORCE",
+        "bd_treaty_status": "PARTY",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION"
+      },
+      {
+        "instrument_id": "INT-M19",
+        "jurisdiction": "INTL",
+        "instrument_type": "CONVENTION",
+        "official_title": "Convention on Limitation of Liability for Maritime Claims, 1976",
+        "short_name": "LLMC 1976",
+        "status": "IN_FORCE",
+        "bd_treaty_status": "NON_PARTY",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "notes": "BD is NOT a party. Applicable only to foreign flagged ships or via foreign jurisdictions."
+      },
+      {
+        "instrument_id": "INT-M20",
+        "jurisdiction": "INTL",
+        "instrument_type": "CONVENTION",
+        "official_title": "International Convention on Civil Liability for Bunker Oil Pollution Damage, 2001",
+        "short_name": "BUNKER 2001",
+        "status": "IN_FORCE",
+        "bd_treaty_status": "STATUS_REQUIRES_PRIMARY_VERIFICATION",
+        "verification_status": "UNVERIFIED",
+        "notes": "Source conflict: Draft MSA 2026 Schedule 1 (Party) vs Schedule 2 (Non-Party). Legal conclusion WITHHELD."
+      },
+      {
+        "instrument_id": "INT-M21",
+        "jurisdiction": "INTL",
+        "instrument_type": "CONVENTION",
+        "official_title": "Nairobi International Convention on the Removal of Wrecks, 2007",
+        "short_name": "Nairobi WRC 2007",
+        "status": "IN_FORCE",
+        "bd_treaty_status": "STATUS_REQUIRES_PRIMARY_VERIFICATION",
+        "verification_status": "UNVERIFIED",
+        "notes": "Provisionally party based on 2026 draft. Requires government instrument verification."
+      },
+      {
+        "instrument_id": "BD-M01",
+        "jurisdiction": "BD",
+        "instrument_type": "ORDINANCE",
+        "official_title": "The Bangladesh Merchant Shipping Ordinance, 1983 (Ordinance No. XXVI of 1983)",
+        "short_name": "MSO 1983",
+        "status": "CURRENT",
+        "implements": [
+          "INT-M01",
+          "INT-M06",
+          "INT-M03"
+        ],
+        "verification_status": "VERIFIED_AGAINST_GAZETTE",
+        "verification_date": "2026-10-06",
+        "authoritative_sources": [
+          "Bangladesh Laws Database"
+        ],
+        "notes": "Subject to proposed replacement by Draft MSA 2026.",
+        "bd_treaty_status": "NOT_APPLICABLE"
+      },
+      {
+        "instrument_id": "BD-M02",
+        "jurisdiction": "BD",
+        "instrument_type": "ORDINANCE",
+        "official_title": "The Inland Shipping Ordinance, 1976 (Ordinance No. LXXII of 1976)",
+        "short_name": "ISO 1976",
+        "status": "CURRENT",
+        "verification_status": "VERIFIED_AGAINST_GAZETTE",
+        "authoritative_sources": [
+          "Bangladesh Laws Database"
+        ],
+        "bd_treaty_status": "NOT_APPLICABLE"
+      },
+      {
+        "instrument_id": "BD-M03",
+        "jurisdiction": "BD",
+        "instrument_type": "ACT",
+        "official_title": "Chattogram Port Authority Act, 2022 (Act No. 08 of 2022)",
+        "short_name": "Chattogram Port Act 2022",
+        "status": "CURRENT",
+        "verification_status": "VERIFIED_AGAINST_GAZETTE",
+        "authoritative_sources": [
+          "Bangladesh Laws Database"
+        ],
+        "notes": "Repealed Chittagong Port Authority Ordinance 1976.",
+        "bd_treaty_status": "NOT_APPLICABLE"
+      },
+      {
+        "instrument_id": "BD-M04",
+        "jurisdiction": "BD",
+        "instrument_type": "ACT",
+        "official_title": "Mongla Port Authority Act, 2022 (Act No. 07 of 2022)",
+        "short_name": "Mongla Port Act 2022",
+        "status": "CURRENT",
+        "verification_status": "VERIFIED_AGAINST_GAZETTE",
+        "authoritative_sources": [
+          "Bangladesh Laws Database"
+        ],
+        "notes": "Repealed Mongla Port Authority Ordinance 1976.",
+        "bd_treaty_status": "NOT_APPLICABLE"
+      },
+      {
+        "instrument_id": "BD-M05",
+        "jurisdiction": "BD",
+        "instrument_type": "ACT",
+        "official_title": "Payra Port Authority Act, 2013",
+        "short_name": "Payra Port Act 2013",
+        "status": "CURRENT",
+        "verification_status": "VERIFIED_AGAINST_GAZETTE",
+        "authoritative_sources": [
+          "Payra Port Authority"
+        ],
+        "bd_treaty_status": "NOT_APPLICABLE"
+      },
+      {
+        "instrument_id": "BD-M06",
+        "jurisdiction": "BD",
+        "instrument_type": "ORDINANCE",
+        "official_title": "The Pilotage Ordinance, 1969 (East Pakistan Ordinance No. V of 1969)",
+        "short_name": "Pilotage Ord 1969",
+        "status": "CURRENT",
+        "scope": "INLAND_WATERS",
+        "verification_status": "VERIFIED_AGAINST_GAZETTE",
+        "authoritative_sources": [
+          "Bangladesh Laws Database"
+        ],
+        "bd_treaty_status": "NOT_APPLICABLE"
+      },
+      {
+        "instrument_id": "BD-M07",
+        "jurisdiction": "BD",
+        "instrument_type": "ACT",
+        "official_title": "Bangladesh Environment Conservation Act, 1995 (Act No. 1 of 1995)",
+        "short_name": "BECA 1995",
+        "status": "CURRENT",
+        "verification_status": "VERIFIED_AGAINST_GAZETTE",
+        "authoritative_sources": [
+          "Bangladesh Laws Database"
+        ],
+        "bd_treaty_status": "NOT_APPLICABLE"
+      },
+      {
+        "instrument_id": "BD-M08",
+        "jurisdiction": "BD",
+        "instrument_type": "RULES",
+        "official_title": "Environment Conservation Rules, 2023",
+        "short_name": "Env Conservation Rules 2023",
+        "status": "CURRENT",
+        "parent_instrument": "BD-M07",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "bd_treaty_status": "NOT_APPLICABLE"
+      },
+      {
+        "instrument_id": "BD-M09",
+        "jurisdiction": "BD",
+        "instrument_type": "RULES",
+        "official_title": "Air Pollution (Control) Rules, 2022",
+        "short_name": "Air Pollution Rules 2022",
+        "status": "CURRENT",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "bd_treaty_status": "NOT_APPLICABLE"
+      },
+      {
+        "instrument_id": "BD-M10",
+        "jurisdiction": "BD",
+        "instrument_type": "RULES",
+        "official_title": "Ship Breaking and Ship Recycling Rules, 2011",
+        "short_name": "Ship Recycling Rules 2011",
+        "status": "CURRENT",
+        "implements": [
+          "INT-M16"
+        ],
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "bd_treaty_status": "NOT_APPLICABLE"
+      },
+      {
+        "instrument_id": "BD-M11",
+        "jurisdiction": "BD",
+        "instrument_type": "RULES",
+        "official_title": "Seamen Recruitment Rules, 2001",
+        "short_name": "Seamen Recruitment Rules 2001",
+        "status": "CURRENT",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "bd_treaty_status": "NOT_APPLICABLE"
+      },
+      {
+        "instrument_id": "BD-M12",
+        "jurisdiction": "BD",
+        "instrument_type": "RULES",
+        "official_title": "Seamen Recruiting Agent (License) Rules, 2005",
+        "short_name": "Agent License Rules 2005",
+        "status": "CURRENT",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "bd_treaty_status": "NOT_APPLICABLE"
+      },
+      {
+        "instrument_id": "BD-M13",
+        "jurisdiction": "BD",
+        "instrument_type": "REGULATIONS",
+        "official_title": "Bangladesh Merchant Shipping (Radio) Regulations, 2002 (SRO No. 350-Law/2002)",
+        "short_name": "Radio Regs 2002",
+        "status": "CURRENT",
+        "implements": [
+          "INT-M01"
+        ],
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "bd_treaty_status": "NOT_APPLICABLE"
+      },
+      {
+        "instrument_id": "BD-M14",
+        "jurisdiction": "BD",
+        "instrument_type": "RULES",
+        "official_title": "Bangladesh Merchant Shipping Officers and Ratings Training, Certification, Recruitment, Work Hours and Watchkeeping Rules 2011",
+        "short_name": "STCW Rules 2011",
+        "status": "CURRENT",
+        "implements": [
+          "INT-M06"
+        ],
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "bd_treaty_status": "NOT_APPLICABLE"
+      },
+      {
+        "instrument_id": "BD-M15",
+        "jurisdiction": "BD",
+        "instrument_type": "RULES",
+        "official_title": "Merchant Shipping Levy Collection Rules, 2013",
+        "short_name": "Levy Rules 2013",
+        "status": "CURRENT",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "bd_treaty_status": "NOT_APPLICABLE"
+      },
+      {
+        "instrument_id": "BD-M16",
+        "jurisdiction": "BD",
+        "instrument_type": "ACT",
+        "official_title": "Bangladesh Flag Vessels (Protection) Act, 2019",
+        "short_name": "Flag Vessels Act 2019",
+        "status": "CURRENT",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "bd_treaty_status": "NOT_APPLICABLE"
+      },
+      {
+        "instrument_id": "BD-M17",
+        "jurisdiction": "BD",
+        "instrument_type": "RULES",
+        "official_title": "Bangladesh Flag Vessels (Protection) Rules, 2023",
+        "short_name": "Flag Vessels Rules 2023",
+        "status": "CURRENT",
+        "parent_instrument": "BD-M16",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "bd_treaty_status": "NOT_APPLICABLE"
+      },
+      {
+        "instrument_id": "BD-M18",
+        "jurisdiction": "BD",
+        "instrument_type": "ACT",
+        "official_title": "Bangladesh Lighthouse Act, 2020",
+        "short_name": "Lighthouse Act 2020",
+        "status": "CURRENT",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "bd_treaty_status": "NOT_APPLICABLE"
+      },
+      {
+        "instrument_id": "BD-M19",
+        "jurisdiction": "BD",
+        "instrument_type": "ACT",
+        "official_title": "Territorial Waters and Maritime Zones Act, 1974",
+        "short_name": "Terr Waters Act 1974",
+        "status": "CURRENT",
+        "implements": [
+          "INT-M18"
+        ],
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "bd_treaty_status": "NOT_APPLICABLE"
+      },
+      {
+        "instrument_id": "BD-M20",
+        "jurisdiction": "BD",
+        "instrument_type": "ACT",
+        "official_title": "Territorial Waters and Maritime Zones Amendment Act, 2021",
+        "short_name": "Terr Waters Amend 2021",
+        "status": "CURRENT",
+        "parent_instrument": "BD-M19",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "bd_treaty_status": "NOT_APPLICABLE"
+      },
+      {
+        "instrument_id": "BD-M21",
+        "jurisdiction": "BD",
+        "instrument_type": "ACT",
+        "official_title": "Bangladesh Shipping Corporation Act, 2017 (Act No. 10 of 2017)",
+        "short_name": "BSC Act 2017",
+        "status": "CURRENT",
+        "verification_status": "REQUIRES_PRIMARY_VERIFICATION",
+        "notes": "Repealed Bangladesh Shipping Corporation Order, 1972 (P.O. No. 10).",
+        "bd_treaty_status": "NOT_APPLICABLE"
       }
     ],
     "sla": "official publication -> customer alert <= 72h for high-impact changes"
@@ -2008,7 +2642,7 @@
         "verification_source_url": null,
         "history": [
           {
-            "at": "2026-10-05T22:02:09.840867+00:00",
+            "at": "2026-10-06T03:35:18.059677+00:00",
             "action": "SUBMITTED",
             "tier": "EXTRACTED_BY_AI"
           }
@@ -2030,7 +2664,7 @@
         "verification_source_url": null,
         "history": [
           {
-            "at": "2026-10-05T22:02:09.840883+00:00",
+            "at": "2026-10-06T03:35:18.059677+00:00",
             "action": "SUBMITTED",
             "tier": "EXTRACTED_BY_AI"
           }
@@ -2045,19 +2679,19 @@
         "confidence": 0.64,
         "source_url": "https://www.bdlaws.minlaw.gov.bd",
         "reviewed_by": "reviewer-1",
-        "reviewed_at": "2026-10-05T22:02:09.840946+00:00",
+        "reviewed_at": "2026-10-06T03:35:18.060676+00:00",
         "review_notes": "numbering cross-checked against 2021 amendment; needs Gazette confirmation",
         "verified_by": null,
         "verified_at": null,
         "verification_source_url": null,
         "history": [
           {
-            "at": "2026-10-05T22:02:09.840894+00:00",
+            "at": "2026-10-06T03:35:18.059677+00:00",
             "action": "SUBMITTED",
             "tier": "EXTRACTED_BY_AI"
           },
           {
-            "at": "2026-10-05T22:02:09.840947+00:00",
+            "at": "2026-10-06T03:35:18.060676+00:00",
             "action": "REVIEWED",
             "actor": "reviewer-1",
             "notes": "numbering cross-checked against 2021 amendment; needs Gazette confirmation"
@@ -2073,25 +2707,25 @@
         "confidence": 0.98,
         "source_url": "https://www.bdlaws.minlaw.gov.bd",
         "reviewed_by": "reviewer-1",
-        "reviewed_at": "2026-10-05T22:02:09.840917+00:00",
+        "reviewed_at": "2026-10-06T03:35:18.060676+00:00",
         "review_notes": "cross-checked against bdlaws consolidated text",
         "verified_by": "reviewer-2",
-        "verified_at": "2026-10-05T22:02:09.840933+00:00",
+        "verified_at": "2026-10-06T03:35:18.060676+00:00",
         "verification_source_url": "https://www.bdlaws.minlaw.gov.bd/act-81.html",
         "history": [
           {
-            "at": "2026-10-05T22:02:09.840906+00:00",
+            "at": "2026-10-06T03:35:18.059677+00:00",
             "action": "SUBMITTED",
             "tier": "EXTRACTED_BY_AI"
           },
           {
-            "at": "2026-10-05T22:02:09.840918+00:00",
+            "at": "2026-10-06T03:35:18.060676+00:00",
             "action": "REVIEWED",
             "actor": "reviewer-1",
             "notes": "cross-checked against bdlaws consolidated text"
           },
           {
-            "at": "2026-10-05T22:02:09.840934+00:00",
+            "at": "2026-10-06T03:35:18.060676+00:00",
             "action": "VERIFIED",
             "actor": "reviewer-2",
             "source_url": "https://www.bdlaws.minlaw.gov.bd/act-81.html"
@@ -2111,7 +2745,7 @@
     "broken_at_entry": null,
     "entries": [
       {
-        "at": "2026-10-05T22:02:09.840764+00:00",
+        "at": "2026-10-06T03:35:18.058679+00:00",
         "action": "SOURCE_REGISTERED",
         "actor": null,
         "company_id": null,
@@ -2123,10 +2757,10 @@
           "publisher": "Ministry of Law, Justice and Parliamentary Affairs"
         },
         "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
-        "entry_hash": "24bf5648c0bb735cbd9a7dc6db39fbc7c3145630364dea948b80d7ee4f152bd9"
+        "entry_hash": "e8a0a11df3c6b462424f592d47ca756090c8523b4f1c91914e1466f95c81fc94"
       },
       {
-        "at": "2026-10-05T22:02:09.840839+00:00",
+        "at": "2026-10-06T03:35:18.059677+00:00",
         "action": "SOURCE_REGISTERED",
         "actor": null,
         "company_id": null,
@@ -2137,11 +2771,11 @@
           "url": "https://www.dos.gov.bd",
           "publisher": "Department of Shipping"
         },
-        "prev_hash": "24bf5648c0bb735cbd9a7dc6db39fbc7c3145630364dea948b80d7ee4f152bd9",
-        "entry_hash": "20444e93d011ee01fbd1d7cb8ab3d5cc82f6e5b5e4ce0c72a20204d83927512b"
+        "prev_hash": "e8a0a11df3c6b462424f592d47ca756090c8523b4f1c91914e1466f95c81fc94",
+        "entry_hash": "8ab94aa694201f5777a58eb4570b25abd4206aebeaf02d8cdf0f2bf9477e13a2"
       },
       {
-        "at": "2026-10-05T22:02:09.840872+00:00",
+        "at": "2026-10-06T03:35:18.059677+00:00",
         "action": "REVIEW_SUBMITTED",
         "actor": null,
         "company_id": null,
@@ -2152,11 +2786,11 @@
           "object_id": "BD-ORD-MERCHANT-SHIPPING-1983-S066",
           "tier": "EXTRACTED_BY_AI"
         },
-        "prev_hash": "20444e93d011ee01fbd1d7cb8ab3d5cc82f6e5b5e4ce0c72a20204d83927512b",
-        "entry_hash": "e1b5281365ba8d47d6cb8102dbd10a48ae818db528f1df66c6e2c47e7f56be61"
+        "prev_hash": "8ab94aa694201f5777a58eb4570b25abd4206aebeaf02d8cdf0f2bf9477e13a2",
+        "entry_hash": "3973172dfcc7a021d3efea31d32d2abe3e63204e1c3786cb4518ef47363836dc"
       },
       {
-        "at": "2026-10-05T22:02:09.840886+00:00",
+        "at": "2026-10-06T03:35:18.059677+00:00",
         "action": "REVIEW_SUBMITTED",
         "actor": null,
         "company_id": null,
@@ -2167,11 +2801,11 @@
           "object_id": "BD-ORD-MERCHANT-SHIPPING-1983-S471",
           "tier": "EXTRACTED_BY_AI"
         },
-        "prev_hash": "e1b5281365ba8d47d6cb8102dbd10a48ae818db528f1df66c6e2c47e7f56be61",
-        "entry_hash": "e65270b38a335c05bd98c1604db986ee04a2d7ed6a41e5bfa840d478d141a613"
+        "prev_hash": "3973172dfcc7a021d3efea31d32d2abe3e63204e1c3786cb4518ef47363836dc",
+        "entry_hash": "0b75ee6b1401554d8796bc0070549de7653d5113c74dc76158b105ef39f8bf68"
       },
       {
-        "at": "2026-10-05T22:02:09.840897+00:00",
+        "at": "2026-10-06T03:35:18.059677+00:00",
         "action": "REVIEW_SUBMITTED",
         "actor": null,
         "company_id": null,
@@ -2182,11 +2816,11 @@
           "object_id": "BD-ACT-TERRITORIAL-WATERS-MARITIME-ZONES-1974-S022",
           "tier": "EXTRACTED_BY_AI"
         },
-        "prev_hash": "e65270b38a335c05bd98c1604db986ee04a2d7ed6a41e5bfa840d478d141a613",
-        "entry_hash": "e7b4cd622872259f92c93d3c882ce00ded62e9bf7425597524b0ec1a53c5dfc6"
+        "prev_hash": "0b75ee6b1401554d8796bc0070549de7653d5113c74dc76158b105ef39f8bf68",
+        "entry_hash": "0feb85145e7596e19fb65507996fb69fe0b451e6f7c21dc7cae9fb193bdc0734"
       },
       {
-        "at": "2026-10-05T22:02:09.840908+00:00",
+        "at": "2026-10-06T03:35:18.059677+00:00",
         "action": "REVIEW_SUBMITTED",
         "actor": null,
         "company_id": null,
@@ -2197,11 +2831,11 @@
           "object_id": "BD-ORD-MERCHANT-SHIPPING-1983-S082",
           "tier": "EXTRACTED_BY_AI"
         },
-        "prev_hash": "e7b4cd622872259f92c93d3c882ce00ded62e9bf7425597524b0ec1a53c5dfc6",
-        "entry_hash": "4e2cfa935e6c0fe5fa4891774f487422b1f54fa05113da438e0587c2a583c01d"
+        "prev_hash": "0feb85145e7596e19fb65507996fb69fe0b451e6f7c21dc7cae9fb193bdc0734",
+        "entry_hash": "cbfa0590b9bd776de5341dcf6850fc3ffd3335540c185436baa0fe34acf94fc5"
       },
       {
-        "at": "2026-10-05T22:02:09.840921+00:00",
+        "at": "2026-10-06T03:35:18.060676+00:00",
         "action": "REVIEW_APPROVED",
         "actor": "reviewer-1",
         "company_id": null,
@@ -2214,11 +2848,11 @@
           "tier": "REVIEWED",
           "notes": "cross-checked against bdlaws consolidated text"
         },
-        "prev_hash": "4e2cfa935e6c0fe5fa4891774f487422b1f54fa05113da438e0587c2a583c01d",
-        "entry_hash": "d8e47149f88e1400b7aea07c96b7600023a37f35ab5a3e3c18bc060f9baf764a"
+        "prev_hash": "cbfa0590b9bd776de5341dcf6850fc3ffd3335540c185436baa0fe34acf94fc5",
+        "entry_hash": "ad8a534485aea13d8944af03be2e6989459765207e01b6088c423e19bb8ad158"
       },
       {
-        "at": "2026-10-05T22:02:09.840936+00:00",
+        "at": "2026-10-06T03:35:18.060676+00:00",
         "action": "VERIFIED_AGAINST_GAZETTE",
         "actor": "reviewer-2",
         "company_id": null,
@@ -2231,11 +2865,11 @@
           "tier": "VERIFIED_AGAINST_GAZETTE",
           "source_url": "https://www.bdlaws.minlaw.gov.bd/act-81.html"
         },
-        "prev_hash": "d8e47149f88e1400b7aea07c96b7600023a37f35ab5a3e3c18bc060f9baf764a",
-        "entry_hash": "ce642146a24e6d79a1b41a1c4428320c909c9787e39960c16cdec8b4fe373658"
+        "prev_hash": "ad8a534485aea13d8944af03be2e6989459765207e01b6088c423e19bb8ad158",
+        "entry_hash": "24a6dd083f66a07d9c486651eaa0f484e381a26e04062d02e6d97493c12e9b69"
       },
       {
-        "at": "2026-10-05T22:02:09.840949+00:00",
+        "at": "2026-10-06T03:35:18.060676+00:00",
         "action": "REVIEW_APPROVED",
         "actor": "reviewer-1",
         "company_id": null,
@@ -2248,8 +2882,8 @@
           "tier": "REVIEWED",
           "notes": "numbering cross-checked against 2021 amendment; needs Gazette confirmation"
         },
-        "prev_hash": "ce642146a24e6d79a1b41a1c4428320c909c9787e39960c16cdec8b4fe373658",
-        "entry_hash": "4396d4c43dd9d85458391f775865265c22f6e3f3d263b8b7ae46cad2159c7c23"
+        "prev_hash": "24a6dd083f66a07d9c486651eaa0f484e381a26e04062d02e6d97493c12e9b69",
+        "entry_hash": "467af949d3147203486045cffa8b4a58a4da03c24d8c6b80e5db977937ddbbec"
       }
     ]
   },
@@ -2380,7 +3014,7 @@
           "company_id": "co-demo-003",
           "vessel_id": "v-demo-003",
           "incident_type": "COLLISION",
-          "occurred_at": "2026-10-05T20:02:09.841621+00:00",
+          "occurred_at": "2026-10-06T01:35:18.062676+00:00",
           "location": {
             "zone_type": "INTERNAL_WATERS",
             "coastal_state": "BD"
@@ -2396,7 +3030,7 @@
               "basis": "casualty report to flag administration",
               "status": "PENDING",
               "sent_at": null,
-              "deadline": "2026-10-06T20:02:09.841621+00:00",
+              "deadline": "2026-10-07T01:35:18.062676+00:00",
               "hours_remaining": 22.0
             },
             {
@@ -2406,7 +3040,7 @@
               "basis": "notice to port authority at next port",
               "status": "PENDING",
               "sent_at": null,
-              "deadline": "2026-10-06T08:02:09.841621+00:00",
+              "deadline": "2026-10-06T13:35:18.062676+00:00",
               "hours_remaining": 10.0
             }
           ],
@@ -2415,7 +3049,7 @@
               "id": "INC-2026-003-CA1",
               "action": "root-cause analysis + corrective plan",
               "status": "OPEN",
-              "due_date": "2026-10-19"
+              "due_date": "2026-10-20"
             }
           ],
           "compliance_posture": "YELLOW"
@@ -2425,7 +3059,7 @@
           "company_id": "co-demo-001",
           "vessel_id": "v-demo-001",
           "incident_type": "POLLUTION",
-          "occurred_at": "2026-10-05T19:02:09.841582+00:00",
+          "occurred_at": "2026-10-06T00:35:18.062676+00:00",
           "location": {
             "zone_type": "TERRITORIAL",
             "coastal_state": "BD",
@@ -2443,7 +3077,7 @@
               "basis": "initial report without delay",
               "status": "PENDING",
               "sent_at": null,
-              "deadline": "2026-10-05T20:02:09.841582+00:00",
+              "deadline": "2026-10-06T01:35:18.062676+00:00",
               "hours_remaining": -2.0
             },
             {
@@ -2453,7 +3087,7 @@
               "basis": "formal notification to environment authority",
               "status": "PENDING",
               "sent_at": null,
-              "deadline": "2026-10-06T19:02:09.841582+00:00",
+              "deadline": "2026-10-07T00:35:18.062676+00:00",
               "hours_remaining": 21.0
             },
             {
@@ -2463,7 +3097,7 @@
               "basis": "written report within 30 days",
               "status": "PENDING",
               "sent_at": null,
-              "deadline": "2026-11-04T19:02:09.841582+00:00",
+              "deadline": "2026-11-05T00:35:18.062676+00:00",
               "hours_remaining": 717.0
             }
           ],
@@ -2472,7 +3106,7 @@
               "id": "INC-2026-001-CA1",
               "action": "root-cause analysis + corrective plan",
               "status": "OPEN",
-              "due_date": "2026-10-19"
+              "due_date": "2026-10-20"
             }
           ],
           "compliance_posture": "RED"
@@ -2482,7 +3116,7 @@
           "company_id": "co-demo-002",
           "vessel_id": "v-demo-002",
           "incident_type": "CYBER",
-          "occurred_at": "2026-09-25T22:02:09.841608+00:00",
+          "occurred_at": "2026-09-26T03:35:18.062676+00:00",
           "location": {
             "zone_type": "HIGH_SEAS"
           },
@@ -2496,8 +3130,8 @@
               "requirement_provision_id": "IMO MSC.428(98) / MSC-FAL.1/Circ.3 cyber incident reporting",
               "basis": "cyber incident report to flag administration",
               "status": "SENT",
-              "sent_at": "2026-10-05 22:02:09.841617+00:00",
-              "deadline": "2026-09-28T22:02:09.841608+00:00",
+              "sent_at": "2026-10-06 03:35:18.062676+00:00",
+              "deadline": "2026-09-29T03:35:18.062676+00:00",
               "hours_remaining": -168.0
             }
           ],
@@ -2506,7 +3140,7 @@
               "id": "INC-2026-002-CA1",
               "action": "root-cause analysis + corrective plan",
               "status": "OPEN",
-              "due_date": "2026-10-09"
+              "due_date": "2026-10-10"
             }
           ],
           "compliance_posture": "GREEN"
@@ -2518,7 +3152,7 @@
           "notification_id": "INC-2026-001-N1",
           "authority_id": "BD-DOS",
           "basis": "initial report without delay",
-          "deadline": "2026-10-05T20:02:09.841683+00:00"
+          "deadline": "2026-10-06T01:35:18.062676+00:00"
         }
       ]
     },
@@ -2897,10 +3531,10 @@
           {
             "id": "wp-003",
             "permit_type": "HOT_WORK",
-            "expiry_at": "2026-10-05T16:02:09.841807+00:00",
+            "expiry_at": "2026-10-05T21:35:18.062676+00:00",
             "vessel_id": "v-demo-004",
             "flag": "ELEVATED",
-            "rationale": "HOT_WORK permit expired 2026-10-05T16:02:09.841807+00:00 but still ACTIVE — close or reissue"
+            "rationale": "HOT_WORK permit expired 2026-10-05T21:35:18.062676+00:00 but still ACTIVE — close or reissue"
           }
         ],
         "suspended": [],

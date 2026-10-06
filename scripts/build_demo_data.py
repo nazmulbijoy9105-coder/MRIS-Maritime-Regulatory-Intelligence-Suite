@@ -40,6 +40,24 @@ def compliance_payload(company, vessel, crew, evidence, app_extra=None):
 
 def main() -> None:
     manifest = load_manifest()
+
+    instruments = manifest["instruments"]
+
+    bangladesh_instruments = [
+        item for item in instruments
+        if item.get("jurisdiction") == "BD"
+    ]
+
+    international_instruments = [
+        item for item in instruments
+        if item.get("jurisdiction") == "INTL"
+    ]
+
+    open_verification_items = [
+        item for item in instruments
+        if item.get("verification_status") != "VERIFIED"
+    ]
+
     rules = load_rules()
 
     fleet = assess_fleet()
@@ -99,10 +117,10 @@ def main() -> None:
                   "note": "demo fleet; statuses computed by ILRMF-DSL rules over demo evidence"},
         "compliance": compliance,
         "instruments": {
-                        "bangladesh": [i for i in manifest["instruments"] if i.get("jurisdiction") == "BD"],
-                        "international": [i for i in manifest["instruments"] if i.get("jurisdiction") == "INTL"]
-                    },
-        "impacts": {"open_verification_items": manifest["open_items_register"],
+            "bangladesh": bangladesh_instruments,
+            "international": international_instruments,
+        },
+        "impacts": {"open_verification_items": open_verification_items,
                     "sla": "official publication -> customer alert <= 72h for high-impact changes"},
         "rules": rule_texts,
         "review": {"pending": queue.pending_count(),
