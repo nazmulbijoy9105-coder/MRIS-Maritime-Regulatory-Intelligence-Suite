@@ -17,10 +17,10 @@ const App = {
    API layer
    ------------------------------------------------------------ */
 const API = {
-  async get(path) {
+  async get(path, timeoutMs = 3500) {
     try {
       const ctrl = new AbortController();
-      const t = setTimeout(() => ctrl.abort(), 3500);
+      const t = setTimeout(() => ctrl.abort(), timeoutMs);
       const r = await fetch(API_BASE + path, { signal: ctrl.signal });
       clearTimeout(t);
       if (!r.ok) throw new Error(r.status);
@@ -50,15 +50,29 @@ const API = {
     }
   },
   async boot() {
-    // Try live API; otherwise load baked engine output.
-    const health = await this.get("/health");
+    // Live data is all-or-nothing: if any live call fails we show the baked
+    // demo data, never a half-empty mix. /health waits for a Render cold start.
+    const demo = await fetch("demo_data.json")
+      .then((r) => (r.ok ? r.json() : {}))
+      .catch(() => ({}));
+
+    App.offline = false;
+    const health = await this.get("/health", 45000);
+    let live = null;
     if (health) {
-      App.data.fleet = await this.get("/v1/fleet/summary");
-      App.data.instruments = await this.get("/v1/legal/instruments");
-      App.data.impacts = await this.get("/v1/changes/impacts");
+      const [fleet, instruments, impacts] = await Promise.all([
+        this.get("/v1/fleet/summary"),
+        this.get("/v1/legal/instruments"),
+        this.get("/v1/changes/impacts"),
+      ]);
+      if (fleet && instruments && impacts) live = { fleet, instruments, impacts };
+    }
+
+    if (live) {
+      App.data = live;
     } else {
-      const r = await fetch("demo_data.json");
-      if (r.ok) App.data = await r.json();
+      App.offline = true;
+      App.data = demo;
     }
     if (!App.data.fleet) {
       App.data.fleet = { fleet_status_counts: {}, vessels: [], as_of_date: "—" };
